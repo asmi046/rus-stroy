@@ -36,7 +36,7 @@
     </main>
 
     <div class="modal_win" id="global_app">
-        <modal-window rout="/send_consult" redirect="/thencs" hesh="showModal" title="Помощь специалиста" subtitle="Мы свяжемся с Вами в течении 15 минут"></modal-window>
+        <modal-window rout="/send_consult" redirect="/thencs" hesh="coll" title="Помощь специалиста" subtitle="Мы свяжемся с Вами в течении 15 минут"></modal-window>
 
          <cookies-warning
             privacy-policy-link="{{ route('page', 'politika-v-oblasti-obrabotki-personalnyx-dannyx') }}"
@@ -45,7 +45,7 @@
         />
 
         <empty-modal hesh="cityselect" title="Выбор города" subtitle="Выберите город в котором вы проживаете">
-            // нужное в слот
+
         </empty-modal>
     </div>
 </body>

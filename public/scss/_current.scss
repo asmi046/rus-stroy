@@ -51,6 +51,27 @@ img {
     }
 }
 
+
+.section__header {
+    text-align: center;
+    margin-bottom: 60px;
+
+    .section__title {
+        font-family: $head_fonts;
+        font-size: 48px;
+        font-weight: 700;
+        color: $black_color;
+        margin: 0 0 20px 0;
+    }
+
+    .section__subtitle {
+        font-family: $main_fonts;
+        font-size: 18px;
+        color: #666;
+        margin: 0;
+    }
+}
+
 @media (max-width: 1440px) {
     .container {
         width: 96%;

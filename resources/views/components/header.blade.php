@@ -8,7 +8,7 @@
 
                 <!-- Контактная информация и кнопка -->
                 <div class="header__contacts">
-                    <button class="button">Рассчитать стоимость</button>
+                    <a href="#coll" class="button">Рассчитать стоимость</a>
 
                     <div class="header__phone">
                         <a href="tel:+79999999999" class="header__phone-link">+ 7 (9999) 99-99-99</a>
@@ -28,7 +28,7 @@
                                 </svg>
                             </button>
                         </div>
-                        <a href="#" class="header__callback-btn">Заказать обратный звонок</a>
+                        <a href="#coll" class="header__callback-btn">Заказать обратный звонок</a>
                     </div>
 
 

@@ -8,7 +8,7 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 
 import SideMenu from './menues.js';
-let side_menue = new SideMenu('#main_side_menue', '.show_menue_button');
+// let side_menue = new SideMenu('#main_side_menue', '.show_menue_button');
 
 const global_app = createApp({
     components:{

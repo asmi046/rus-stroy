@@ -26,7 +26,7 @@
                 </label>
                 <br>
                 <div class="control_wrap">
-                    <button :disabled="showLoader" class="btn" @click.prevent="sendMsg()">Отправить</button>
+                    <button :disabled="showLoader" class="button" @click.prevent="sendMsg()">Отправить</button>
                     <div v-show="showLoader" class="loader">
                         <svg class="sprite_icon">
                             <use xlink:href="#loader_icon"></use>
@@ -112,7 +112,6 @@ const sendMsg = () => {
 
 onMounted(() => {
     window.addEventListener('hashchange', openWin);
-
     if (location.hash === '#' + props.hesh) {
         showModal.value = true;
     }
