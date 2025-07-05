@@ -9,7 +9,18 @@
 @use "form/all-form";
 @use "elements/all-elements";
 
+@use "header";
 @use "current";
+@use "banner-section";
+@use "project_section";
+@use "digit";
+@use "home-materi-section";
+@use "work-step-section";
+@use "projects";
+@use "whay-section";
+@use "payments";
+
+// @use "modal";
 
 @use "modal";
 
@@ -24,10 +35,6 @@
 
 
 @use "menues";
-@use "header";
-@use "banner-section";
-@use "project_section";
-@use "digit";
 
 @use "footer";
 @use "cookie";

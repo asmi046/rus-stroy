@@ -1,5 +1,304 @@
 @use 'vars' as *;
 
-footer {
+// Подвал сайта
+.footer {
+    background-color: $black_color;
+    border-radius: 30px 30px 0 0;
+    padding: 60px 0 40px;
+    margin-top: 80px;
+    color: #ffffff;
 
+    &__content {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+        gap: 40px;
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        &--main {
+            gap: 25px;
+        }
+    }
+
+    // Логотип
+    &__logo {
+        img {
+            max-height: 75px;
+            width: auto;
+        }
+    }
+
+    // Телефоны
+    &__phones {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__phone {
+        font-family: $head_fonts;
+        font-size: 18px;
+        font-weight: 600;
+        color: #ffffff;
+        text-decoration: none;
+        transition: $main_transition;
+
+        &:hover {
+            color: $main_color;
+        }
+    }
+
+    // Кнопка
+    &__button {
+        align-self: flex-start;
+        white-space: nowrap;
+    }
+
+    // Время работы
+    &__schedule {
+        font-family: $main_fonts;
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        opacity: 0.8;
+    }
+
+    // Email
+    &__email {
+        font-family: $main_fonts;
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        text-decoration: none;
+        transition: $main_transition;
+
+        &:hover {
+            color: $main_color;
+        }
+    }
+
+    // Социальные сети
+    &__social {
+        display: flex;
+        gap: 15px;
+    }
+
+    &__social-link {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: $main_transition;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    // Заголовки колонок
+    &__title {
+        font-family: $head_fonts;
+        font-size: 20px;
+        font-weight: 600;
+        color: #ffffff;
+        margin: 0 0 20px 0;
+    }
+
+    // Меню
+    &__menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        li {
+            margin: 0;
+        }
+
+        a {
+            font-family: $main_fonts;
+            font-size: 15px;
+            font-weight: 400;
+            color: #ffffff;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: $main_transition;
+
+            &:hover {
+                color: $main_color;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+// Адаптив
+@media (max-width: 1024px) {
+    .footer {
+        padding: 50px 0 30px;
+        margin-top: 60px;
+        border-radius: 20px 20px 0 0;
+
+        &__content {
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+        }
+
+        &__column {
+            &--main {
+                grid-column: 1 / -1;
+                margin-bottom: 20px;
+            }
+        }
+
+        &__logo img {
+            max-height: 50px;
+        }
+
+        &__phone {
+            font-size: 16px;
+        }
+
+        &__title {
+            font-size: 18px;
+        }
+
+        &__menu a {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 40px 0 25px;
+        margin-top: 50px;
+
+        &__content {
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        &__column {
+            gap: 15px;
+
+            &--main {
+                gap: 20px;
+            }
+        }
+
+        &__phones {
+            gap: 8px;
+        }
+
+        &__phone {
+            font-size: 15px;
+        }
+
+        &__schedule,
+        &__email {
+            font-size: 14px;
+        }
+
+        &__title {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        &__menu {
+            gap: 10px;
+
+            a {
+                font-size: 13px;
+            }
+        }
+
+        &__social {
+            gap: 12px;
+        }
+
+        &__social-link {
+            width: 35px;
+            height: 35px;
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 30px 0 20px;
+        margin-top: 40px;
+        border-radius: 15px 15px 0 0;
+
+        &__content {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        &__column {
+            gap: 12px;
+
+            &--main {
+                gap: 15px;
+                margin-bottom: 15px;
+            }
+        }
+
+        &__logo img {
+            max-height: 40px;
+        }
+
+        &__phone {
+            font-size: 14px;
+        }
+
+        &__schedule,
+        &__email {
+            font-size: 13px;
+        }
+
+        &__title {
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+
+        &__menu {
+            gap: 8px;
+
+            a {
+                font-size: 12px;
+            }
+        }
+
+        &__social {
+            gap: 10px;
+        }
+
+        &__social-link {
+            width: 30px;
+            height: 30px;
+
+            img {
+                width: 18px;
+                height: 18px;
+            }
+        }
+    }
 }

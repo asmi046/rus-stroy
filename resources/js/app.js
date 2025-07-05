@@ -2,6 +2,7 @@ import './bootstrap';
 import {createApp} from 'vue/dist/vue.esm-bundler'
 import ModalWindow from "./components/ModalWindow.vue"
 import EmptyModal from "./components/EmptyModal.vue"
+import Tap from "./components/Tap.vue"
 import { VMaskDirective } from 'v-slim-mask'
 
 import axios from 'axios'
@@ -21,3 +22,13 @@ const global_app = createApp({
 global_app.use(VueAxios, axios)
 global_app.directive('mask', VMaskDirective)
 global_app.mount("#global_app");
+
+const steps_app  = createApp({
+    components:{
+        Tap,
+        EmptyModal,
+    },
+    setup() {}
+})
+
+steps_app.mount("#steps_app");

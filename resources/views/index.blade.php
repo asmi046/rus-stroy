@@ -45,168 +45,70 @@
     </div>
 </section>
 
-<section class="projects-section">
-    <div class="container">
+
+<x-main.projects-section />
+<x-main.stat-section />
+<x-main.material-section />
+<x-main.steps-section />
+<x-main.cases-section />
+<x-main.whay-section />
+
+
+<section class="work-step-section">
+    <div class="container" id="steps_app">
         <div class="section__header">
-            <h2 class="section__title">Проекты и цены</h2>
-            <p class="section__subtitle">Выберите готовый дом</p>
+            <h2 class="section__title">Способы оплаты домов</h2>
+            <p class="section__subtitle">Выберите способ, удобный для Вас</p>
         </div>
 
-        <div class="projects-section__grid">
-            <div class="project-card">
-                <div class="project-card__image-wrapper">
-                    <img src="img/test_project.jpg" alt="Проект 1" class="project-card__image">
-                    <div class="project-card__overlay">
-                        <h3 class="project-card__name">ПРОЕКТ 1</h3>
-                    </div>
+        <div class="payment-methods">
+            <div class="payment-method">
+                <div class="payment-method__icon">
+                    <img src="{{ asset('img/icon/payment/pay_1.svg') }}" alt="Наличные">
                 </div>
-
-                <div class="project-card__info">
-                    <div class="project-card__params">
-                        <div class="project-card__param">
-                            <span class="project-card__param-label">Тип:</span>
-                            <span class="project-card__param-value">Дом</span>
-                        </div>
-                        <div class="project-card__param">
-                            <span class="project-card__param-label">Этажность:</span>
-                            <span class="project-card__param-value">2</span>
-                        </div>
-                    </div>
-
-                    <div class="project-card__details">
-                        <div class="project-card__detail">
-                            <span class="project-card__detail-value">0x0 м</span>
-                            <span class="project-card__detail-label">20115 м2</span>
-                        </div>
-                        <div class="project-card__detail">
-                            <span class="project-card__detail-value">Мансарда:</span>
-                            <span class="project-card__detail-label">Нет</span>
-                        </div>
-                        <div class="project-card__detail">
-                            <span class="project-card__detail-value">Материал:</span>
-                            <span class="project-card__detail-label">Керамзитоблок</span>
-                        </div>
-                    </div>
-                </div>
+                <div class="payment-method__text">НАЛИЧНЫЕ</div>
             </div>
 
-            <div class="project-card">
-                <div class="project-card__image-wrapper">
-                    <img src="img/test_project.jpg" alt="Проект 2" class="project-card__image">
-                    <div class="project-card__overlay">
-                        <h3 class="project-card__name">ПРОЕКТ 2</h3>
-                    </div>
+            <div class="payment-method">
+                <div class="payment-method__icon">
+                    <img src="{{ asset('img/icon/payment/pay_2.svg') }}" alt="Картой">
                 </div>
-
-                <div class="project-card__info">
-                    <div class="project-card__params">
-                        <div class="project-card__param">
-                            <span class="project-card__param-label">Тип:</span>
-                            <span class="project-card__param-value">Дом</span>
-                        </div>
-                        <div class="project-card__param">
-                            <span class="project-card__param-label">Этажность:</span>
-                            <span class="project-card__param-value">2</span>
-                        </div>
-                    </div>
-
-                    <div class="project-card__details">
-                        <div class="project-card__detail">
-                            <span class="project-card__detail-value">0x0 м</span>
-                            <span class="project-card__detail-label">20115 м2</span>
-                        </div>
-                        <div class="project-card__detail">
-                            <span class="project-card__detail-value">Мансарда:</span>
-                            <span class="project-card__detail-label">Нет</span>
-                        </div>
-                        <div class="project-card__detail">
-                            <span class="project-card__detail-value">Материал:</span>
-                            <span class="project-card__detail-label">Керамзитоблок</span>
-                        </div>
-                    </div>
-                </div>
+                <div class="payment-method__text">КАРТОЙ</div>
             </div>
 
-            <div class="project-card">
-                <div class="project-card__image-wrapper">
-                    <img src="img/test_project.jpg" alt="Проект 3" class="project-card__image">
-                    <div class="project-card__overlay">
-                        <h3 class="project-card__name">ПРОЕКТ 3</h3>
-                    </div>
+            <div class="payment-method">
+                <div class="payment-method__icon">
+                    <img src="{{ asset('img/icon/payment/pay_3.svg') }}" alt="Перевод">
                 </div>
+                <div class="payment-method__text">ПЕРЕВОД</div>
+            </div>
 
-                <div class="project-card__info">
-                    <div class="project-card__params">
-                        <div class="project-card__param">
-                            <span class="project-card__param-label">Тип:</span>
-                            <span class="project-card__param-value">Дом</span>
-                        </div>
-                        <div class="project-card__param">
-                            <span class="project-card__param-label">Этажность:</span>
-                            <span class="project-card__param-value">2</span>
-                        </div>
-                    </div>
-
-                    <div class="project-card__details">
-                        <div class="project-card__detail">
-                            <span class="project-card__detail-value">0x0 м</span>
-                            <span class="project-card__detail-label">20115 м2</span>
-                        </div>
-                        <div class="project-card__detail">
-                            <span class="project-card__detail-value">Мансарда:</span>
-                            <span class="project-card__detail-label">Нет</span>
-                        </div>
-                        <div class="project-card__detail">
-                            <span class="project-card__detail-value">Материал:</span>
-                            <span class="project-card__detail-label">Керамзитоблок</span>
-                        </div>
-                    </div>
+            <div class="payment-method">
+                <div class="payment-method__icon">
+                    <img src="{{ asset('img/icon/payment/pay_4.svg') }}" alt="Кредит">
                 </div>
+                <div class="payment-method__text">КРЕДИТ</div>
+            </div>
+
+            <div class="payment-method">
+                <div class="payment-method__icon">
+                    <img src="{{ asset('img/icon/payment/pay_5.svg') }}" alt="Рассрочка">
+                </div>
+                <div class="payment-method__text">РАССРОЧКА</div>
+            </div>
+
+            <div class="payment-method">
+                <div class="payment-method__icon">
+                    <img src="{{ asset('img/icon/payment/pay_6.svg') }}" alt="По счёту">
+                </div>
+                <div class="payment-method__text">ПО СЧЁТУ</div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="stats-section">
-    <div class="container">
-        <div class="stats-section__grid">
-            <div class="stats-item">
-                <div class="stats-item__number">40+</div>
-                <div class="stats-item__text">
-                    построенных<br>
-                    объектов
-                </div>
-            </div>
-            
-            <div class="stats-item">
-                <div class="stats-item__number">5</div>
-                <div class="stats-item__text">
-                    лет<br>
-                    в строительной<br>
-                    сфере
-                </div>
-            </div>
-            
-            <div class="stats-item">
-                <div class="stats-item__number">5</div>
-                <div class="stats-item__text">
-                    лет<br>
-                    гарантия на<br>
-                    услуги
-                </div>
-            </div>
-            
-            <div class="stats-item">
-                <div class="stats-item__number">1700+</div>
-                <div class="stats-item__text">
-                    м2<br>
-                    введено<br>
-                    жилья
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+
 
 @endsection
 

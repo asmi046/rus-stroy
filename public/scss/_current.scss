@@ -79,3 +79,18 @@ img {
         margin-right: auto;
     }
 }
+
+@media (max-width: 480px) {
+.section__header {
+
+    .section__title {
+        font-size: 28px;
+
+    }
+
+    .section__subtitle {
+        font-size: 14px;
+
+    }
+}
+}

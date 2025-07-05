@@ -33,6 +33,7 @@
     <main id="main">
         <x-header/>
         @yield('main')
+        <x-footer/>
     </main>
 
     <div class="modal_win" id="global_app">
