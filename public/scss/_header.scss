@@ -126,7 +126,7 @@
             background-color: $sub_color;
 
             &:hover {
-                background-color: darken($sub_color, 10%);
+                background-color: $hover_color;
                 transform: scale(1.05);
             }
         }
