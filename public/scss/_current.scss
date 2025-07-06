@@ -72,6 +72,20 @@ img {
     }
 }
 
+
+.city_list_modal .city_list_element {
+    color:$main_color;
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &.active{
+        color: $sub_color;
+        font-weight: bold;
+    }
+}
+
+
 @media (max-width: 1440px) {
     .container {
         width: 96%;

@@ -46,7 +46,7 @@
         />
 
         <empty-modal hesh="cityselect" title="Выбор города" subtitle="Выберите город в котором вы проживаете">
-
+            <x-city-list-link/>
         </empty-modal>
     </div>
 </body>

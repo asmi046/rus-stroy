@@ -8,6 +8,13 @@
 
                 <!-- Контактная информация и кнопка -->
                 <div class="header__contacts">
+                    <a href="#cityselect" class="text_icon">
+                        <svg class="sprite_icon">
+                            <use xlink:href="#ti_map"></use>
+                        </svg>
+                        <span class="text">{{ app()->make('current_city_name') }}</span>
+                    </a>
+
                     <a href="#coll" class="button">Рассчитать стоимость</a>
 
                     <div class="header__phone">
@@ -28,7 +35,7 @@
                                 </svg>
                             </button>
                         </div>
-                        <a href="#coll" class="header__callback-btn">Заказать обратный звонок</a>
+                        <a href="#coll" class="header__callback-btn">Обратный звонок</a>
                     </div>
 
 
