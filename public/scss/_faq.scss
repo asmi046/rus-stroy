@@ -1,0 +1,54 @@
+@use 'vars' as *;
+
+.faq {
+    width:100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    details {
+        width:100%;
+        box-shadow: $box_shadow;
+    flex-direction: column;
+        border-radius: $border_rad;
+        border: 1px solid $gray_border_color;
+
+        summary {
+            user-select: none;
+            background-color: unset;
+            font-family: $head_fonts;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            border: none;
+            border-radius: unset;
+            cursor:pointer;
+
+
+            &::before {
+                content: "";
+                background-image:  url('../img/icon/plus.svg');
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+
+        &[open] summary:before {
+            background-image:  url('../img/icon/minus.svg');
+        }
+
+
+
+        .response {
+            padding: 10px 30px 20px 30px;
+        }
+    }
+
+    &_in_page {
+        max-width: unset;
+    }
+}

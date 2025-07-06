@@ -3,7 +3,7 @@
             <div class="header__content">
                 <!-- Логотип -->
                 <div class="header__logo">
-                    <img src="img/logo.svg" alt="РусСтрой" class="header__logo-img">
+                    <img src="{{ asset('img/logo.svg') }}" alt="РусСтрой" class="header__logo-img">
                 </div>
 
                 <!-- Контактная информация и кнопка -->

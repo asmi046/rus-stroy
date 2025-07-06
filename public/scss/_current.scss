@@ -62,6 +62,10 @@ img {
         font-weight: 700;
         color: $black_color;
         margin: 0 0 20px 0;
+
+        &.__left {
+            text-align: left;
+        }
     }
 
     .section__subtitle {
@@ -69,6 +73,29 @@ img {
         font-size: 18px;
         color: #666;
         margin: 0;
+    }
+}
+
+.map_in_page {
+    width:98%;
+    min-height: 300px;
+    border: 1px solid $main_color;
+    border-radius: $border_rad;
+    overflow: hidden;
+}
+
+.breadcrumbs {
+    margin-bottom: 20px;
+    font-size: 14px;
+    a {
+        color: $main_color;
+        text-decoration: none;
+        font-family: $main_fonts;
+        transition: $main_transition;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 

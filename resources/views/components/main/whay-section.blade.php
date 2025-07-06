@@ -14,7 +14,11 @@
 
             <div class="whay-section__right">
                 <div class="whay-section__advantages">
-                    <div class="advantage-item">
+                    @foreach ($adv as $item)
+                        <x-cards.adv :item="$item" :index="$loop->iteration"/>
+                    @endforeach
+
+                    {{-- <div class="advantage-item">
                         <div class="advantage-item__number">01</div>
                         <div class="advantage-item__content">
                             <h3 class="advantage-item__title">Честная и фиксированная цена.</h3>
@@ -60,7 +64,7 @@
                             <h3 class="advantage-item__title">Квалифицированные кадры</h3>
                             <p class="advantage-item__text">Наша команда состоит из высококвалифицированных специалистов с глубокими знаниями и богатым опытом в сфере строительства.</p>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

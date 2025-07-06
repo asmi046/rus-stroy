@@ -55,7 +55,7 @@
 
 
 <section class="work-step-section">
-    <div class="container" id="steps_app">
+    <div class="container">
         <div class="section__header">
             <h2 class="section__title">Способы оплаты домов</h2>
             <p class="section__subtitle">Выберите способ, удобный для Вас</p>
@@ -107,7 +107,18 @@
     </div>
 </section>
 
+<section class="work-step-section">
+    <div class="container" id="review_app">
+        <div class="section__header">
+            <h2 class="section__title">Отзывы наших клиентов</h2>
+            <p class="section__subtitle">Ознакомьтесь с отзывами клиентов которые уже воспользовались нашими услугами</p>
+        </div>
+        <review></review>
+    </div>
+</section>
 
+
+<x-main.faq-section />
 
 
 @endsection

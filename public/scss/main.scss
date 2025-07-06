@@ -10,6 +10,7 @@
 @use "form/all-form";
 @use "elements/all-elements";
 
+@use "cols";
 @use "header";
 @use "current";
 @use "banner-section";
@@ -20,6 +21,9 @@
 @use "projects";
 @use "whay-section";
 @use "payments";
+@use "review";
+@use "faq";
+@use "contacts";
 
 // @use "modal";
 
