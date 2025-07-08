@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
             ParametrSeeder::class,
             QuestionSeeder::class,
             ReviewSeeder::class,
+            PriceSeeder::class,
 
             CitySeeder::class,
             UserSeeder::class,
