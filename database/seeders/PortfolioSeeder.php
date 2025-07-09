@@ -2,10 +2,11 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use DB;
 use Illuminate\Database\Seeder;
 
-use DB;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class PortfolioSeeder extends Seeder
 {
@@ -15,26 +16,6 @@ class PortfolioSeeder extends Seeder
     public function run(): void
     {
         $data = [
-            [
-                'title' => "Строительство дома из газобетона",
-                'img' => "https://example.com/images/portfolio1.jpg",
-                'slug' => "construction-gasobeton",
-                'description' => "Построен дом из газобетона с отделкой.",
-                'type' => "Строительство",
-                'floors' => 2,
-                'location' => "Москва",
-                'coordinates' => "55.7558, 37.6173",
-                'wall_material' => "Газобетон",
-                'cladding' => "Штукатурка",
-                'foundation' => "Ленточный",
-                'roofing' => "Металлочерепица",
-                'flooring' => "Бетонные плиты",
-                'gallery' => json_encode([
-                    "https://example.com/images/portfolio1_1.jpg",
-                    "https://example.com/images/portfolio1_2.jpg"
-                ]),
-            ],
-
             [
                 'title' => "Одноэтажный дом на ленточном фундаменте",
                 'img' => "/tmp_data/portfolio/house_single_floor_1.jpg",
@@ -49,7 +30,7 @@ class PortfolioSeeder extends Seeder
                 'foundation' => "Лента",
                 'roofing' => "Металлочерепица",
                 'flooring' => "Плиты",
-                'gallery' => json_encode([
+                'gallery' => [
                     "/tmp_data/portfolio/house_single_floor_1.jpg",
                     "/tmp_data/portfolio/house_single_floor_2.jpg",
                     "/tmp_data/portfolio/house_single_floor_3.jpg",
@@ -57,7 +38,7 @@ class PortfolioSeeder extends Seeder
                     "/tmp_data/portfolio/house_single_floor_5.jpg",
                     "/tmp_data/portfolio/house_single_floor_6.jpg",
                     "/tmp_data/portfolio/house_single_floor_7.jpg"
-                ]),
+                ],
             ],
             [
                 'title' => "Дом с тёплым гаражом",
@@ -73,19 +54,32 @@ class PortfolioSeeder extends Seeder
                 'foundation' => "Монолитная плита",
                 'roofing' => "Металлочерепица",
                 'flooring' => "Плиты",
-                'gallery' => json_encode([
+                'gallery' => [
                     "/tmp_data/portfolio/house_warm_garage_1.jpg",
                     "/tmp_data/portfolio/house_warm_garage_2.jpg",
                     "/tmp_data/portfolio/house_warm_garage_3.jpg",
                     "/tmp_data/portfolio/house_warm_garage_4.jpg",
                     "/tmp_data/portfolio/house_warm_garage_5.jpg",
                     "/tmp_data/portfolio/house_warm_garage_6.jpg"
-                ]),
+                ],
             ],
         ];
 
 
         foreach ($data as $item) {
+
+            $img_name = basename($item['img']);
+            Storage::disk('public')->put("portfolio/".$img_name, file_get_contents(public_path($item['img'])), 'public');
+            $item['img'] = "portfolio/".$img_name;
+
+            foreach($item['gallery'] as $key => $image) {
+                $img_name = basename($image);
+                Storage::disk('public')->put("portfolio/".$img_name, file_get_contents(public_path($image)), 'public');
+                $item['gallery'][$key] = "portfolio/".$img_name;
+            }
+
+            $item['gallery'] = json_encode($item['gallery']);
+
             DB::table("portfolios")->insert($item);
         }
     }

@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
             QuestionSeeder::class,
             ReviewSeeder::class,
             PriceSeeder::class,
+            PortfolioSeeder::class,
 
             CitySeeder::class,
             UserSeeder::class,
