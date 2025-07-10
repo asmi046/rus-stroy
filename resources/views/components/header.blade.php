@@ -42,7 +42,7 @@
                 </div>
 
                 <!-- Мобильное меню -->
-                <button class="header__burger" aria-label="Открыть меню">
+                <button class="header__burger show_menue_button_do" aria-label="Открыть меню">
                     <span class="header__burger-line"></span>
                     <span class="header__burger-line"></span>
                     <span class="header__burger-line"></span>

@@ -19,19 +19,19 @@ class MenuSeeder extends Seeder
                 'menu_name' => 'Главное меню',
                 'title' => 'О компании',
                 'order' => 1,
-                'lnk' => "/page/o-nasei-kompanii",
+                'lnk' => "/page/o-kompanii-russtroi",
+            ],
+            [
+                'menu_name' => 'Главное меню',
+                'title' => 'Оплата и доставка',
+                'order' => 2,
+                'lnk' => "/page/sposoby-oplaty",
             ],
             [
                 'menu_name' => 'Главное меню',
                 'title' => 'Цены',
-                'order' => 2,
-                'lnk' => "/price",
-            ],
-            [
-                'menu_name' => 'Главное меню',
-                'title' => 'Сваи',
                 'order' => 3,
-                'lnk' => "/products",
+                'lnk' => "/price",
             ],
             [
                 'menu_name' => 'Главное меню',
@@ -41,52 +41,27 @@ class MenuSeeder extends Seeder
             ],
             [
                 'menu_name' => 'Главное меню',
-                'title' => 'Фундаменты',
+                'title' => 'Портфолио',
                 'order' => 5,
-                'lnk' => "/fondations",
+                'lnk' => "/portfolio",
             ],
             [
                 'menu_name' => 'Главное меню',
-                'title' => 'Галерея',
+                'title' => 'Цены',
                 'order' => 6,
-                'lnk' => "/galery",
-            ],
-            [
-                'menu_name' => 'Главное меню',
-                'title' => 'Акции',
-                'order' => 7,
                 'lnk' => "/sales",
             ],
             [
                 'menu_name' => 'Главное меню',
-                'title' => 'Отзывы',
-                'order' => 8,
-                'lnk' => "/review",
+                'title' => 'Ипотека',
+                'order' => 7,
+                'lnk' => "/page/ipoteka-na-stroitelstvo-domov",
             ],
-            [
-                'menu_name' => 'Главное меню',
-                'title' => 'FAQ',
-                'order' => 9,
-                'lnk' => "/faq",
-            ],
-            [
-                'menu_name' => 'Главное меню',
-                'title' => 'Оплата и доставка',
-                'order' => 10,
-                'lnk' => "/page/oplata-i-dostavka",
-            ],
-
-            // [
-            //     'menu_name' => 'Главное меню',
-            //     'title' => 'Сертификаты',
-            //     'order' => 11,
-            //     'lnk' => "/certificat",
-            // ],
 
             [
                 'menu_name' => 'Главное меню',
                 'title' => 'Контакты',
-                'order' => 12,
+                'order' => 8,
                 'lnk' => "/contacts",
             ],
         ];

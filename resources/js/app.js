@@ -14,7 +14,7 @@ register();
 
 
 import SideMenu from './menues.js';
-// let side_menue = new SideMenu('#main_side_menue', '.show_menue_button');
+let side_menue = new SideMenu('#main_side_menue', '.show_menue_button_do');
 
 const global_app = createApp({
     components:{

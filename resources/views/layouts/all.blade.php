@@ -33,8 +33,12 @@
     <main id="main">
         <x-header/>
         @yield('main')
-        <x-footer/>
+
     </main>
+
+    <x-footer/>
+
+    <x-menues.side-menu></x-menues.side-menu>
 
     <div class="modal_win" id="global_app">
         <modal-window rout="/send_consult" redirect="/thencs" hesh="coll" title="Помощь специалиста" subtitle="Мы свяжемся с Вами в течении 15 минут"></modal-window>
