@@ -18,7 +18,7 @@
                     <a href="#coll" class="button">Рассчитать стоимость</a>
 
                     <div class="header__phone">
-                        <a href="tel:+79999999999" class="header__phone-link">+ 7 (9999) 99-99-99</a>
+                        <a href="tel:+7{{ phone_format($contacts['phone']->value) }}" class="header__phone-link">{{ $contacts['phone']->value }}</a>
                         <span class="header__phone-subtitle">работаем без выходных</span>
                     </div>
 

@@ -4,29 +4,22 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Portfolio extends Model
+class Service extends Model
 {
     protected $fillable = [
         'title',
+        'template',
         'img',
         'slug',
-        'order',
+        'short_description',
         'description',
-        'type',
-        'floors',
-        'location',
-        'coordinates',
-        'wall_material',
-        'cladding',
-        'foundation',
-        'roofing',
-        'flooring',
-        'gallery'
+        'gallery',
+        'sections',
     ];
 
     protected $casts = [
         'gallery' => 'array',
-        'floors' => 'integer'
+        'sections' => 'array',
     ];
 
 

@@ -27,12 +27,7 @@ class MenuSeeder extends Seeder
                 'order' => 2,
                 'lnk' => "/page/sposoby-oplaty",
             ],
-            [
-                'menu_name' => 'Главное меню',
-                'title' => 'Цены',
-                'order' => 3,
-                'lnk' => "/price",
-            ],
+
             [
                 'menu_name' => 'Главное меню',
                 'title' => 'Услуги',
@@ -49,7 +44,7 @@ class MenuSeeder extends Seeder
                 'menu_name' => 'Главное меню',
                 'title' => 'Цены',
                 'order' => 6,
-                'lnk' => "/sales",
+                'lnk' => "/prices",
             ],
             [
                 'menu_name' => 'Главное меню',

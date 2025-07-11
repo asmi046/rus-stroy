@@ -3,26 +3,26 @@
         <div class="footer__content">
             <!-- Первая колонка - основная информация -->
             <div class="footer__column footer__column--main">
-                <div class="footer__logo">
+                <a href="{{ route('home') }}" class="footer__logo">
                     <img src="{{ asset('img/logo_footer.svg') }}" alt="СтройДом">
-                </div>
+                </a>
 
                 <div class="footer__phones">
-                    <a href="tel:+79999999999" class="footer__phone">+ 7 (9999) 99-99-99</a>
-                    <a href="tel:+79999999999" class="footer__phone">+ 7 (9999) 99-99-99</a>
+                    <a href="tel:+7{{ phone_format($contacts['phone']->value) }}" class="footer__phone">{{ $contacts['phone']->value }}</a>
+                    <a href="tel:+7{{ phone_format($contacts['phone_2']->value) }}" class="footer__phone">{{ $contacts['phone_2']->value }}</a>
                 </div>
 
-                <a href="#" class="footer__button button button-orange">Получить консультацию</a>
+                <a href="#coll" class="footer__button button button-orange">Получить консультацию</a>
 
-                <div class="footer__schedule">Пн-Пт, с 9:00 до 18:00</div>
+                <div class="footer__schedule">{{ $contacts['work_time']->value }}</div>
 
-                <a href="mailto:info@stroy-dom86.ru" class="footer__email">info@stroy-dom86.ru</a>
+                <a href="mailto:{{ $contacts['email']->value }}" class="footer__email">{{ $contacts['email']->value }}</a>
 
                 <div class="footer__social">
-                    <a href="#" class="footer__social-link">
+                    <a href="{{ $contacts['2gis']->value }}" class="footer__social-link">
                         <img src="{{ asset('img/icon/services/yandex.svg') }}" alt="Яндекс">
                     </a>
-                    <a href="#" class="footer__social-link">
+                    <a href="{{ $contacts['yandex']->value }}" class="footer__social-link">
                         <img src="{{ asset('img/icon/services/2gis.svg') }}" alt="2ГИС">
                     </a>
                 </div>

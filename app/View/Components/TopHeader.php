@@ -8,7 +8,7 @@ use Illuminate\View\Component;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Cache;
 
-class Footer extends Component
+class TopHeader extends Component
 {
     public $contacts;
     /**
@@ -16,7 +16,6 @@ class Footer extends Component
      */
     public function __construct()
     {
-
         $this->contacts = Cache::rememberForever('all_contacts', function () {
             return Contact::all()->keyBy('name');
         });
@@ -27,6 +26,6 @@ class Footer extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.footer');
+        return view('components.top-header');
     }
 }

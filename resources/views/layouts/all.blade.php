@@ -31,7 +31,7 @@
 <body>
     @include("allicon")
     <main id="main">
-        <x-header/>
+        <x-top-header/>
         @yield('main')
 
     </main>

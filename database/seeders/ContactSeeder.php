@@ -100,6 +100,18 @@ class ContactSeeder extends Seeder
                     'value' => '61.26667125324669,73.42057220370485',
                 ],
 
+                [
+                    'name' => '2gis',
+                    'title' => 'Ссылка на 2gis',
+                    'value' => '#',
+                ],
+
+                [
+                    'name' => 'yandex',
+                    'title' => 'Ссылка на yandex',
+                    'value' => '#',
+                ],
+
             ]
         );
     }
