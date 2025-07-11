@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
             ReviewSeeder::class,
             PriceSeeder::class,
             PortfolioSeeder::class,
+            ServiceSeeder::class,
 
             CitySeeder::class,
             UserSeeder::class,

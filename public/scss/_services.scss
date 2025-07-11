@@ -1,0 +1,134 @@
+@use 'vars' as *;
+
+// Сетка карточек услуг
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 60px;
+}
+
+// Карточка услуги
+.service-card {
+    position: relative;
+    border-radius: $border_rad;
+    overflow: hidden;
+    cursor: pointer;
+    transition: $main_transition;
+    box-shadow: $box_shadow;
+
+
+    &__image-wrapper {
+        position: relative;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: $main_transition;
+    }
+
+    &__overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 50%;
+        background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.8) 0%,
+            rgba(0, 0, 0, 0) 100%
+        );
+        pointer-events: none;
+    }
+
+    &:hover {
+        & .service-card__overlay {
+            background: linear-gradient(
+                to top,
+                rgba(0, 0, 0, 0.9) 0%,
+                rgba(0, 0, 0, 0) 100%
+            );
+        }
+    }
+
+    &__title {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        color: white;
+        font-family: $head_fonts;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+        line-height: 1.3;
+        z-index: 10;
+    }
+}
+
+// Адаптив
+@media (max-width: 1024px) {
+    .services-grid {
+        gap: 25px;
+        margin-top: 50px;
+    }
+
+    .service-card {
+        &__image-wrapper {
+            height: 250px;
+        }
+
+        &__title {
+            font-size: 16px;
+            bottom: 15px;
+            left: 15px;
+            right: 15px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    .service-card {
+        &__image-wrapper {
+            height: 200px;
+        }
+
+        &__title {
+            font-size: 15px;
+            bottom: 12px;
+            left: 12px;
+            right: 12px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .service-card {
+        &__image-wrapper {
+            height: 180px;
+        }
+
+        &__title {
+            font-size: 14px;
+            bottom: 10px;
+            left: 10px;
+            right: 10px;
+        }
+    }
+}

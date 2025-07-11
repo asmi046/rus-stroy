@@ -3,6 +3,7 @@
 use App\Http\Middleware\IssetCity;
 use App\Http\Controllers\PriceController;
 use App\Http\Controllers\ReviewController;
+use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\ContactsController;
 use App\Http\Controllers\PortfolioController;
     use Illuminate\Support\Facades\Route;
@@ -22,6 +23,9 @@ use App\Http\Controllers\PortfolioController;
         Route::get('/contacts', [ContactsController::class, "index"])->name('contacts');
 
         Route::get('/prices', [PriceController::class, "index"])->name('prices');
+
+        Route::get('/services', [ServiceController::class, "index"])->name('services');
+        Route::get('/services/{slug}', [ServiceController::class, "page"])->name('services_page');
 
         Route::get('/portfolio', [PortfolioController::class, "index"])->name('portfolio');
         Route::get('/portfolio/{slug}', [PortfolioController::class, "page"])->name('portfolio_page');
