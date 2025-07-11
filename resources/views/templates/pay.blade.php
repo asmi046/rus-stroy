@@ -1,12 +1,5 @@
 @extends('layouts.all')
 
-@php
-    $title = (empty($page->seo_title))?$page->title:$page->seo_title;
-    $description = (empty($page->seo_description))?$page->title:$page->seo_description;;
-@endphp
-
-@section('title', $title)
-@section('description', $description)
 
 @section('main')
     <section class="section section--page-header">
@@ -19,7 +12,7 @@
 
             {!! $page->description !!}
 
-            <x-pay-methods.main />
+            <x-pay-methods />
         </div>
     </section>
 @endsection

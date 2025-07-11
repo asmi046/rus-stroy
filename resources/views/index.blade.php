@@ -61,7 +61,7 @@
             <p class="section__subtitle">Выберите способ, удобный для Вас</p>
         </div>
 
-        <x-pay-methods.main />
+        <x-pay-methods />
     </div>
 </section>
 

@@ -10,6 +10,7 @@ class Portfolio extends Model
         'title',
         'img',
         'slug',
+        'order',
         'description',
         'type',
         'floors',

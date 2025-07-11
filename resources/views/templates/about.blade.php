@@ -1,13 +1,5 @@
 @extends('layouts.all')
 
-@php
-    $title = (empty($page->seo_title))?$page->title:$page->seo_title;
-    $description = (empty($page->seo_description))?$page->title:$page->seo_description;;
-@endphp
-
-@section('title', $title)
-@section('description', $description)
-
 @section('main')
     <section class="section section--page-header">
         <div class="container text_styles">
@@ -21,5 +13,21 @@
 
         </div>
     </section>
-@endsection
+
+    <x-main.whay-section />
+
+    <x-main.stat-section />
+
+    <section class="work-step-section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Способы оплаты домов</h2>
+                <p class="section__subtitle">Выберите способ, удобный для Вас</p>
+            </div>
+
+            <x-pay-methods />
+        </div>
+    </section>
+
+    @endsection
 

@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title')->comment('Заголовок');
             $table->string('img', 800)->nullable()->comment('Изображение');
+            $table->integer('order')->default(0)->comment('Порядок');
             $table->string('slug')->unique()->comment('Слаг');
             $table->text('description')->nullable()->comment('Описание');
             $table->string('type', 50)->comment('Тип');

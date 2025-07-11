@@ -66,11 +66,12 @@ img {
         color: $black_color;
         margin: 0 0 20px 0;
 
-        &.__left {
-            text-align: left;
-        }
+
     }
 
+    .__left {
+        text-align: left;
+    }
     .section__subtitle {
         font-family: $main_fonts;
         font-size: 18px;

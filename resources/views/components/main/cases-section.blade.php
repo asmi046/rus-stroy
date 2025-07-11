@@ -6,41 +6,9 @@
         </div>
 
         <div class="cases-section__grid">
-            <a href="#" class="case-card">
-                <div class="case-card__image-wrapper">
-                    <img src="{{ asset('img/projects/p1.jpg') }}" alt="Реализованный проект" class="case-card__image">
-                </div>
-                <div class="case-card__info">
-                    <p class="case-card__text">Реализованный Проекты</p>
-                </div>
-            </a>
-
-            <a href="#" class="case-card">
-                <div class="case-card__image-wrapper">
-                    <img src="{{ asset('img/projects/p1.jpg') }}" alt="Реализованный проект" class="case-card__image">
-                </div>
-                <div class="case-card__info">
-                    <p class="case-card__text">Реализованный Проекты</p>
-                </div>
-            </a>
-
-            <a href="#" class="case-card">
-                <div class="case-card__image-wrapper">
-                    <img src="{{ asset('img/projects/p1.jpg') }}" alt="Реализованный проект" class="case-card__image">
-                </div>
-                <div class="case-card__info">
-                    <p class="case-card__text">Реализованный Проекты</p>
-                </div>
-            </a>
-
-            <a href="#" class="case-card">
-                <div class="case-card__image-wrapper">
-                    <img src="{{ asset('img/projects/p1.jpg') }}" alt="Реализованный проект" class="case-card__image">
-                </div>
-                <div class="case-card__info">
-                    <p class="case-card__text">Реализованный Проекты</p>
-                </div>
-            </a>
+            @foreach ($cases as $item)
+                <x-cards.portfolio :item="$item" />
+            @endforeach
         </div>
     </div>
 </section>

@@ -23,7 +23,7 @@ class MenuSeeder extends Seeder
             ],
             [
                 'menu_name' => 'Главное меню',
-                'title' => 'Оплата и доставка',
+                'title' => 'Оплата строительства',
                 'order' => 2,
                 'lnk' => "/page/sposoby-oplaty",
             ],
