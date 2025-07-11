@@ -14,7 +14,20 @@ class ServiceSeeder extends Seeder
      */
     public function run(): void
     {
+        Storage::disk('public')->put("service/banya.webp", file_get_contents(public_path('tmp_data/serv/bany.webp')), 'public');
+
         $data = [
+
+            [
+                'title' => "Фасадные работы",
+                'template' => null,
+                'img' => 'service/banya.webp',
+                'slug'=> Str::slug("Строительство бань"),
+                'short_description' => file_get_contents(public_path('tmp_data/serv/s_1/short.html')),
+                'description' => file_get_contents(public_path('tmp_data/serv/s_1/main.html')),
+                'gallery' => null,
+                'sections' => null,
+            ],
 
             [
                 'title' => "Строительство бань",
