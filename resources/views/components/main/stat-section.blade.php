@@ -1,6 +1,8 @@
 
 <section class="stats-section">
     <div class="container">
+
+
         <div class="stats-section__grid">
             <div class="stats-item">
                 <div class="stats-item__number">40+</div>

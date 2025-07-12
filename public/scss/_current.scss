@@ -80,6 +80,17 @@ img {
     }
 }
 
+swiper-slide {
+    display: flex;
+    height: auto;
+}
+
+.section_bottom_control {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
 .map_in_page {
     width:98%;
     min-height: 300px;

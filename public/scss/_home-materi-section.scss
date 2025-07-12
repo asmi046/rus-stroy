@@ -21,7 +21,7 @@
     border-radius: $border_rad;
     overflow: hidden;
     cursor: pointer;
-    height: 280px;
+    height: 240px;
 
     &__image-wrapper {
         position: relative;
@@ -53,8 +53,8 @@
         padding: 20px;
         z-index: 2;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column;
+        align-items: start;
     }
 
     &__name {
@@ -66,9 +66,14 @@
 
     &__price {
         font-family: $main_fonts;
-        font-size: 18px;
-        font-weight: 700;
+        font-size: 14px;
         color: #fff;
+    }
+
+    &:hover {
+        & .material-card__overlay {
+            background: rgba(0, 0, 0, 0.3);
+        }
     }
 }
 

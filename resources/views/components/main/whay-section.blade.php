@@ -8,7 +8,7 @@
         <div class="whay-section__content">
             <div class="whay-section__left">
                 <div class="whay-section__image-wrapper">
-                    <img src="{{ asset('img/whay.jpg') }}" alt="Строительство домов" class="whay-section__image">
+                    <img src="{{ asset('img/whay.webp') }}" alt="Строительство домов" class="whay-section__image">
                 </div>
             </div>
 

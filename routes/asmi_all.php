@@ -25,6 +25,9 @@ use App\Http\Controllers\PortfolioController;
 
         Route::get('/prices', [PriceController::class, "index"])->name('prices');
 
+        Route::get('/materials', [MaterialController::class, "index"])->name('materials');
+        Route::get('/materials/{slug}', [MaterialController::class, "page"])->name('materials_page');
+
         Route::get('/projects', [ProjectController::class, "index"])->name('projects');
         Route::get('/projects/{slug}', [ProjectController::class, "page"])->name('projects_page');
 
