@@ -66,11 +66,10 @@
         align-items: center;
         font-family: $main_fonts;
         gap:  20px;
-        // line-height: 1.3;
     }
 
     &__param-label {
-        color: $gray_border_color;
+        color: $dark_gray_color;
         font-weight: 400;
     }
 

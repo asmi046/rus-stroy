@@ -10,6 +10,7 @@ use App\MoonShine\Resources\MenuResource;
 use App\MoonShine\Resources\PageResource;
 use App\MoonShine\Resources\ReviewResource;
 use App\MoonShine\Resources\ContactResource;
+use App\MoonShine\Resources\SeoDataResource;
 use App\MoonShine\Resources\ParametrResource;
 use App\MoonShine\Resources\QuestionResource;
 use App\MoonShine\Resources\MoonShineUserResource;

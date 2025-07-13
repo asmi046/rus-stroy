@@ -3,17 +3,22 @@
 namespace App\View\Components\Main;
 
 use Closure;
-use Illuminate\Contracts\View\View;
+use App\Models\Material;
 use Illuminate\View\Component;
+use Illuminate\Contracts\View\View;
+use Illuminate\Support\Facades\Cache;
 
 class MaterialSection extends Component
 {
+    public $materials;
     /**
      * Create a new component instance.
      */
     public function __construct()
     {
-        //
+        $this->materials = Cache::rememberForever('material_in_main', function () {
+            return Material::orderBy('order')->take(9)->get();
+        });
     }
 
     /**

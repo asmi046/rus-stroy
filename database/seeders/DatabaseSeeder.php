@@ -14,18 +14,22 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $this->call([
+            SeoDataSeeder::class,
             MenuSeeder::class,
             ParametrSeeder::class,
             QuestionSeeder::class,
             ReviewSeeder::class,
             PriceSeeder::class,
             PortfolioSeeder::class,
+            ServiceSeeder::class,
+            MaterialSeeder::class,
+            WorkStepsSeeder::class,
 
             CitySeeder::class,
             UserSeeder::class,
             ContactSeeder::class,
             PageSeeder::class,
-            SeoDataSeeder::class,
+
         ]);
         // User::factory(10)->create();
 

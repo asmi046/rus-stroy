@@ -22,8 +22,10 @@
     &__image-wrapper {
         width: 100%;
         max-width: 500px;
+        max-height: 650px;
         border-radius: $border_rad;
         overflow: hidden;
+        display: flex;
     }
 
     &__image {

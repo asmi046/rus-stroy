@@ -24,7 +24,7 @@
                     <li class="main-section__list-item">Качественные дома под ключ от 1,5 млн руб.</li>
                     <li class="main-section__list-item">Строительство домов с гарантией<br>и с оплатой по факту завершения</li>
                 </ul>
-                <a href="#" class="main-section__button button">Посмотреть проекты</a>
+                <a href="{{ route('projects') }}" class="main-section__button button">Посмотреть проекты</a>
             </div>
         </div>
         <div class="main-section__right">
@@ -32,7 +32,7 @@
                 <div class="main-section__offer-title">
                     Строительство домов <br><b>в кредит и ипотеку<br>от 6% годовых</b>
                 </div>
-                <a href="#" class="main-section__offer-button button button-orange">Узнать условия</a>
+                <a href="/page/ipoteka-na-stroitelstvo-domov" class="main-section__offer-button button button-orange">Узнать условия</a>
             </div>
             <div class="main-section__offer main-section__offer--gift">
                 <div class="main-section__offer-title">

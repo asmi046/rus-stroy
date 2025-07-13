@@ -117,5 +117,10 @@
                 </div>
             </div>
         </div>
+
+        <div class="section_bottom_control">
+            <a href="{{ route('projects') }}" class="button">Смотреть все проекты</a>
+        </div>
+
     </div>
 </section>
