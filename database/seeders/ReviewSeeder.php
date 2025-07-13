@@ -18,39 +18,39 @@ class ReviewSeeder extends Seeder
 
         // 25 отзывов
 
-        Storage::disk('public')->put("rew/1.jpg", file_get_contents(public_path('tmp_data/rew/1.jpg')), 'public');
-        Storage::disk('public')->put("rew/2.jpg", file_get_contents(public_path('tmp_data/rew/2.jpg')), 'public');
-        Storage::disk('public')->put("rew/3.jpg", file_get_contents(public_path('tmp_data/rew/3.jpg')), 'public');
-        Storage::disk('public')->put("rew/4.jpg", file_get_contents(public_path('tmp_data/rew/4.jpg')), 'public');
-        Storage::disk('public')->put("rew/5.jpg", file_get_contents(public_path('tmp_data/rew/5.jpg')), 'public');
-        Storage::disk('public')->put("rew/6.jpg", file_get_contents(public_path('tmp_data/rew/6.jpg')), 'public');
-        Storage::disk('public')->put("rew/7.jpg", file_get_contents(public_path('tmp_data/rew/7.jpg')), 'public');
-        Storage::disk('public')->put("rew/8.jpg", file_get_contents(public_path('tmp_data/rew/8.jpg')), 'public');
-        Storage::disk('public')->put("rew/9.jpg", file_get_contents(public_path('tmp_data/rew/9.jpg')), 'public');
-        Storage::disk('public')->put("rew/10.jpg", file_get_contents(public_path('tmp_data/rew/10.jpg')), 'public');
-        Storage::disk('public')->put("rew/11.jpg", file_get_contents(public_path('tmp_data/rew/11.jpg')), 'public');
-        Storage::disk('public')->put("rew/12.jpg", file_get_contents(public_path('tmp_data/rew/12.jpg')), 'public');
-        Storage::disk('public')->put("rew/13.jpg", file_get_contents(public_path('tmp_data/rew/13.jpg')), 'public');
-        Storage::disk('public')->put("rew/14.jpg", file_get_contents(public_path('tmp_data/rew/14.jpg')), 'public');
-        Storage::disk('public')->put("rew/15.jpg", file_get_contents(public_path('tmp_data/rew/15.jpg')), 'public');
-        Storage::disk('public')->put("rew/16.jpg", file_get_contents(public_path('tmp_data/rew/16.jpg')), 'public');
-        Storage::disk('public')->put("rew/17.jpg", file_get_contents(public_path('tmp_data/rew/17.jpg')), 'public');
-        Storage::disk('public')->put("rew/18.jpg", file_get_contents(public_path('tmp_data/rew/18.jpg')), 'public');
-        Storage::disk('public')->put("rew/19.jpg", file_get_contents(public_path('tmp_data/rew/19.jpg')), 'public');
-        Storage::disk('public')->put("rew/20.jpg", file_get_contents(public_path('tmp_data/rew/20.jpg')), 'public');
-        Storage::disk('public')->put("rew/21.jpg", file_get_contents(public_path('tmp_data/rew/21.jpg')), 'public');
-        Storage::disk('public')->put("rew/22.jpg", file_get_contents(public_path('tmp_data/rew/22.jpg')), 'public');
-        Storage::disk('public')->put("rew/23.jpg", file_get_contents(public_path('tmp_data/rew/23.jpg')), 'public');
-        Storage::disk('public')->put("rew/24.jpg", file_get_contents(public_path('tmp_data/rew/24.jpg')), 'public');
-        Storage::disk('public')->put("rew/25.jpg", file_get_contents(public_path('tmp_data/rew/25.jpg')), 'public');
-        Storage::disk('public')->put("rew/26.jpg", file_get_contents(public_path('tmp_data/rew/26.jpg')), 'public');
-        Storage::disk('public')->put("rew/27.jpg", file_get_contents(public_path('tmp_data/rew/27.jpg')), 'public');
+        Storage::disk('public')->put("rew/1.jpeg", file_get_contents(public_path('tmp_data/rew/1.jpeg')), 'public');
+        Storage::disk('public')->put("rew/2.jpeg", file_get_contents(public_path('tmp_data/rew/2.jpeg')), 'public');
+        Storage::disk('public')->put("rew/3.jpeg", file_get_contents(public_path('tmp_data/rew/3.jpeg')), 'public');
+        Storage::disk('public')->put("rew/4.jpeg", file_get_contents(public_path('tmp_data/rew/4.jpeg')), 'public');
+        Storage::disk('public')->put("rew/5.jpeg", file_get_contents(public_path('tmp_data/rew/5.jpeg')), 'public');
+        Storage::disk('public')->put("rew/6.jpeg", file_get_contents(public_path('tmp_data/rew/6.jpeg')), 'public');
+        Storage::disk('public')->put("rew/7.jpeg", file_get_contents(public_path('tmp_data/rew/7.jpeg')), 'public');
+        Storage::disk('public')->put("rew/8.jpeg", file_get_contents(public_path('tmp_data/rew/8.jpeg')), 'public');
+        Storage::disk('public')->put("rew/9.jpeg", file_get_contents(public_path('tmp_data/rew/9.jpeg')), 'public');
+        Storage::disk('public')->put("rew/10.jpeg", file_get_contents(public_path('tmp_data/rew/10.jpeg')), 'public');
+        Storage::disk('public')->put("rew/11.jpeg", file_get_contents(public_path('tmp_data/rew/11.jpeg')), 'public');
+        Storage::disk('public')->put("rew/12.jpeg", file_get_contents(public_path('tmp_data/rew/12.jpeg')), 'public');
+        Storage::disk('public')->put("rew/13.jpeg", file_get_contents(public_path('tmp_data/rew/13.jpeg')), 'public');
+        Storage::disk('public')->put("rew/14.jpeg", file_get_contents(public_path('tmp_data/rew/14.jpeg')), 'public');
+        Storage::disk('public')->put("rew/15.jpeg", file_get_contents(public_path('tmp_data/rew/15.jpeg')), 'public');
+        Storage::disk('public')->put("rew/16.jpeg", file_get_contents(public_path('tmp_data/rew/16.jpeg')), 'public');
+        Storage::disk('public')->put("rew/17.jpeg", file_get_contents(public_path('tmp_data/rew/17.jpeg')), 'public');
+        Storage::disk('public')->put("rew/18.jpeg", file_get_contents(public_path('tmp_data/rew/18.jpeg')), 'public');
+        Storage::disk('public')->put("rew/19.jpeg", file_get_contents(public_path('tmp_data/rew/19.jpeg')), 'public');
+        Storage::disk('public')->put("rew/20.jpeg", file_get_contents(public_path('tmp_data/rew/20.jpeg')), 'public');
+        Storage::disk('public')->put("rew/21.jpeg", file_get_contents(public_path('tmp_data/rew/21.jpeg')), 'public');
+        Storage::disk('public')->put("rew/22.jpeg", file_get_contents(public_path('tmp_data/rew/22.jpeg')), 'public');
+        Storage::disk('public')->put("rew/23.jpeg", file_get_contents(public_path('tmp_data/rew/23.jpeg')), 'public');
+        Storage::disk('public')->put("rew/24.jpeg", file_get_contents(public_path('tmp_data/rew/24.jpeg')), 'public');
+        Storage::disk('public')->put("rew/25.jpeg", file_get_contents(public_path('tmp_data/rew/25.jpeg')), 'public');
+        Storage::disk('public')->put("rew/26.jpeg", file_get_contents(public_path('tmp_data/rew/26.jpeg')), 'public');
+        Storage::disk('public')->put("rew/27.jpeg", file_get_contents(public_path('tmp_data/rew/27.jpeg')), 'public');
         $data = [
             [
                 'name' => "Александр Петрович",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "2gis",
-                'img' => "rew/1.jpg",
+                'img' => "rew/1.jpeg",
                 'score' => 5,
                 'description' => "Решил обновить фасад старого дома – результат превзошел ожидания! Бригада работала очень аккуратно, подобрали идеальный цвет. Теперь дом выглядит как новенький, соседи постоянно делают комплименты. Качество штукатурки и покраски на высоте.",
                 'platform_lnk' => "https://2gis.ru"
@@ -59,7 +59,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Дмитрий",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "2gis",
-                'img' => "rew/2.jpg",
+                'img' => "rew/2.jpeg",
                 'score' => 5,
                 'description' => "Заказал баню под ключ из профилированного бруса. От проекта до сдачи – все четко по договору. Мастера настоящие профессионалы, видно, что любят свое дело. Парюсь уже полгода – ни единой щели, ни скрипа. Очень доволен выбором компании.",
                 'platform_lnk' => "https://2gis.ru"
@@ -68,7 +68,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Игорь С.",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "Yandex",
-                'img' => "rew/3.jpg",
+                'img' => "rew/3.jpeg",
                 'score' => 5,
                 'description' => "Шлифовали новую баню после усадки. Работали мощными шлифмашинами, но пылесосы справлялись отлично – внутри было относительно чисто. Поверхность бревен получилась идеально гладкой, без задиров. Теперь лак лег ровно, подчеркнул красоту дерева. Отличная подготовка под финиш!",
                 'platform_lnk' => "https://yandex.ru"
@@ -77,7 +77,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Ольга Николаевна",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "Yandex",
-                'img' => "rew/4.jpg",
+                'img' => "rew/4.jpeg",
                 'score' => 5,
                 'description' => "Дом у нас старый, фасад выглядел уныло. После утепления и отделки штукатуркой с декоративной покраской – просто не узнать! Подобрали чудесный теплый оттенок, фактура получилась интересная. Рабочие были внимательны к деталям, убрали после себя идеально. Теперь каждый раз любуюсь, подъезжая к дому. Соседки завидуют!",
                 'platform_lnk' => "https://yandex.ru"
@@ -86,7 +86,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Артем",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "Yandex",
-                'img' => "rew/5.jpg",
+                'img' => "rew/5.jpeg",
                 'score' => 5,
                 'description' => "Перекрывал крышу дома металлочерепицей. Приятно удивила скорость работы и дисциплина бригады. Материал привезли вовремя, без брака. Монтаж сделали очень качественно, все стыки и примыкания герметично обработали. Прошла первая зима с обильным снегом – ни одной протечки.",
                 'platform_lnk' => "https://yandex.ru"
@@ -95,7 +95,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Сергей Валерьевич",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "Yandex",
-                'img' => "rew/6.jpg",
+                'img' => "rew/6.jpeg",
                 'score' => 5,
                 'description' => "Делали черновую и чистовую отделку в квартире после покупки. Особенно порадовала работа с гипсокартоном – все стены и потолки ровные, как струна. Маляры – золотые руки, покраска безупречная. Учтены все пожелания по расположению розеток и светильников. Сдали объект точно в срок.",
                 'platform_lnk' => "https://yandex.ru"
@@ -104,7 +104,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Игорь Петров",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "Yandex",
-                'img' => "rew/7.jpg",
+                'img' => "rew/7.jpeg",
                 'score' => 5,
                 'description' => "Пристроил к дому большую закрытую веранду. Залили крепкий фундамент, каркас собрали из сухой строганной доски. Окна поставили качественные, монтаж утеплителя проверил лично – все на совесть. Теперь это любимое место для семейных завтраков, даже зимой тепло. Очень доволен надежностью конструкции.",
                 'platform_lnk' => "https://yandex.ru"
@@ -113,7 +113,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Анна Семёнова",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "2gis",
-                'img' => "rew/8.jpg",
+                'img' => "rew/8.jpeg",
                 'score' => 5,
                 'description' => "Моя мечта о собственной бане сбылась! Строили из оцилиндрованного бревна, получилось очень уютно и аутентично. Внутри все продумано: удобные полоки, хорошая печь-каменка, раздевалка с окном. Особенно радует качество сборки – теплый угол, аккуратные стыки. Теперь это наше семейное место силы, паримся с удовольствием.",
                 'platform_lnk' => "https://2gis.ru"
@@ -122,7 +122,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Анна Семёнова",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "2gis",
-                'img' => "rew/9.jpg",
+                'img' => "rew/9.jpeg",
                 'score' => 5,
                 'description' => "Делали шлифовку внутри новой бани. Очень боялась пыли, но бригада привезла мощные промышленные пылесосы, так что удивительно, но было чисто! Стены и потолок после шлифовки стали такими гладкими и светлыми, запах свежего дерева чудесный. Мастера работали аккуратно, ничего не повредили. Теперь не терпится покрыть лаком и начать пользоваться!",
                 'platform_lnk' => "https://2gis.ru"
@@ -131,7 +131,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Дмитрий Волков",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "2gis",
-                'img' => "rew/10.jpg",
+                'img' => "rew/10.jpeg",
                 'score' => 5,
                 'description' => "Заказал восьмигранную беседку с барбекю-зоной. Конструкция получилась очень прочной и устойчивой, кровлю сделали из мягкой черепицы – смотрится богато. Печники выложили отличный мангал. Теперь каждые выходные – шашлыки с друзьями, всем нравится. Спасибо за воплощение идеи!",
                 'platform_lnk' => "https://2gis.ru"
@@ -140,7 +140,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Ольга Козлова",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "2gis",
-                'img' => "rew/11.jpg",
+                'img' => "rew/11.jpeg",
                 'score' => 5,
                 'description' => "Меняли старую протекающую крышу на новую из гибкой черепицы. Работали быстро, несмотря на сложную форму крыши. Мне понравился цвет черепицы – выбрали спокойный, благородный оттенок. Примыкания к трубам и стенам сделали очень тщательно, с дополнительной гидроизоляцией. Прошло уже несколько сильных дождей – сухо! И выглядит крыша теперь просто замечательно.",
                 'platform_lnk' => "https://2gis.ru"
@@ -149,7 +149,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Сергей Николаев",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "2gis",
-                'img' => "rew/12.jpg",
+                'img' => "rew/12.jpeg",
                 'score' => 5,
                 'description' => "Заливали ленточный фундамент под пристройку. Очень ответственно подошли: геодезию сделали, опалубку смонтировали крепко, арматуру вязали по проекту. Бетон заливали качественный, вибрировали тщательно. Контролировал процесс – все этапы выполнены строго по технологии. Чувствую, основание будет служить веками.",
                 'platform_lnk' => "https://2gis.ru"
@@ -158,7 +158,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Екатерина Иванова",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "2gis",
-                'img' => "rew/13.jpg",
+                'img' => "rew/13.jpeg",
                 'score' => 5,
                 'description' => "Делали ремонт в детской комнате и гостиной. Мастера оказались не только профессионалами, но и очень приятными в общении людьми. Все работы выполнили аккуратно: идеально ровные стены под покраску, красивые многоуровневые потолки с подсветкой, качественно уложенный ламинат. Учли все наши пожелания по цветам и функционалу. Дети в восторге от своей новой комнаты!",
                 'platform_lnk' => "https://2gis.ru"
@@ -167,7 +167,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Алексей Морозов",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "2gis",
-                'img' => "rew/14.jpg",
+                'img' => "rew/14.jpeg",
                 'score' => 5,
                 'description' => "Для бани на склоне выбрали винтовые сваи. Приехала бригада со спецтехникой, закрутили все сваи за один день, выдержали уровень идеально. Работу провели аккуратно, газон почти не пострадал. Обвязку сделали из надежного бруса. Фундамент стоит намертво, никаких сдвигов за год. Отличное решение для сложного грунта.",
                 'platform_lnk' => "https://2gis.ru"
@@ -176,7 +176,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Наталья Соколова",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "2gis",
-                'img' => "rew/15.jpg",
+                'img' => "rew/15.jpeg",
                 'score' => 5,
                 'description' => "Пристроили к кухне просторную открытую террасу из террасной доски (ДПК). Это просто преображение дома! Теперь у нас чудесное место для завтраков, ужинов и просто отдыха. Перила сделали удобной высоты, ступеньки пологие и безопасные. Материал приятный на ощупь, не скользит. Летом живем на террасе, это стало нашим любимым уголком.",
                 'platform_lnk' => "https://2gis.ru"
@@ -185,7 +185,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Андрей Кузнецов",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "2gis",
-                'img' => "rew/16.jpg",
+                'img' => "rew/16.jpeg",
                 'score' => 5,
                 'description' => "Под новый дом заливали монолитную плиту. Оценил масштаб работ и профессионализм: песчаная подушка, гидроизоляция, мощный арматурный каркас – все на совесть. Заливали бетономешалками непрерывно, уплотнение было отличное. Плита получилась ровная, без трещин. Самая надежная основа, спокоен за дом.",
                 'platform_lnk' => "https://2gis.ru"
@@ -194,7 +194,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Виктор Павлов",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "2gis",
-                'img' => "rew/17.jpg",
+                'img' => "rew/17.jpeg",
                 'score' => 5,
                 'description' => "Ставили забор из профнастила на металлических столбах по всему периметру участка. Работали быстро и слаженно. Столбы забетонированы глубоко, лаги приварены ровно, листы смонтированы без перекосов. Забор стоит крепко, не шатается на ветру, выглядит аккуратно и солидно. Цена за работу была справедливая.",
                 'platform_lnk' => "https://2gis.ru"
@@ -203,7 +203,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Марина Белова",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "Yandex",
-                'img' => "rew/18.jpg",
+                'img' => "rew/18.jpeg",
                 'score' => 5,
                 'description' => "Заказали ажурную деревянную беседку в восточном стиле для сада. Получилось невероятно красиво! Резные элементы, изогнутая крыша – настоящий шедевр. Внутри просторно, поставили удобные скамейки и стол. Вечерами там так приятно пить чай при свете фонарей. Мастера вложили душу, видна рука художника. Беседка стала жемчужиной нашего сада.",
                 'platform_lnk' => "https://yandex.ru"
@@ -212,7 +212,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Артём Жуков",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "Yandex",
-                'img' => "rew/19.jpg",
+                'img' => "rew/19.jpeg",
                 'score' => 5,
                 'description' => "Ставил тяжелые откатные ворота на автоматике. Сначала залили мощный фундамент под привод. Сами ворота собрали и повесили точно, ходят по рельсу плавно и бесшумно. Автоматика надежная, с дистанционным управлением. Конструкция очень прочная, защита от коррозии хорошая. Удобство заезда теперь на высшем уровне.",
                 'platform_lnk' => "https://yandex.ru"
@@ -221,7 +221,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Лидия Громова",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "Yandex",
-                'img' => "rew/20.jpg",
+                'img' => "rew/20.jpeg",
                 'score' => 5,
                 'description' => "Под теплую веранду заливали ленточный фундамент. Меня порадовала серьезность подхода: сделали разметку, выкопали траншею точно по уровню, поставили крепкую опалубку. Арматуру вязали по всем правилам. Заливали хорошим бетоном, не жалели. Видно, что фундамент делали на совесть, это основательно и надежно. Теперь спокойна за свою веранду.",
                 'platform_lnk' => "https://yandex.ru"
@@ -230,7 +230,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Роман Савельев",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "Yandex",
-                'img' => "rew/21.jpg",
+                'img' => "rew/21.jpeg",
                 'score' => 5,
                 'description' => "Выбрал кованые распашные ворота. Каркас сварной, очень мощный, покраска качественная в несколько слоев. Петли поставили усиленные, ворота открываются легко, без скрипа. Автоматику установили синхронную, срабатывает четко. Получилось красиво, надежно и функционально. Отличное сочетание эстетики и практичности.",
                 'platform_lnk' => "https://yandex.ru"
@@ -239,7 +239,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Валерия Котова",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "Yandex",
-                'img' => "rew/22.jpg",
+                'img' => "rew/22.jpeg",
                 'score' => 5,
                 'description' => "Для нашего нового дома выбрали монолитную плиту. Очень впечатлил процесс: огромный котлован, слой за слоем – песок, щебень, гидроизоляция, мощная сетка арматуры. Бетон заливали целый день, но сделали это качественно. Плита получилась ровная и крепкая. Знаю, что это самый надежный вариант, особенно для нашего грунта. Чувствую себя защищенной.",
                 'platform_lnk' => "https://yandex.ru"
@@ -248,7 +248,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Геннадий Фёдоров",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "Yandex",
-                'img' => "rew/23.jpg",
+                'img' => "rew/23.jpeg",
                 'score' => 5,
                 'description' => "Строили большой навес для двух машин с боковым примыканием к дому. Каркас из металлопрофиля, кровля – поликарбонат. Сделали все очень крепко, с учетом снеговой нагрузки. Угол наклора рассчитали правильно, вода стекает хорошо. Теперь машины под надежной защитой, и место для хранения инвентаря появилось. Работа выполнена на отлично.",
                 'platform_lnk' => "https://yandex.ru"
@@ -257,7 +257,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Алёна Ветрова",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "Yandex",
-                'img' => "rew/24.jpg",
+                'img' => "rew/24.jpeg",
                 'score' => 5,
                 'description' => "Ставили красивый забор из штакетника елочкой вокруг участка. Получилось просто очаровательно! Цвет выбрали нежно-серый, смотрится очень стильно и свежо. Работали аккуратно, все дощечки прибиты ровно, без зазоров и перекосов. Теперь и уединение есть, и участок выглядит ухоженным и завершенным. Каждый день радует глаз.",
                 'platform_lnk' => "https://yandex.ru"
@@ -266,7 +266,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Станислав Новиков",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "Yandex",
-                'img' => "rew/25.jpg",
+                'img' => "rew/25.jpeg",
                 'score' => 5,
                 'description' => "Шлифовали старый сруб перед покраской. Работа трудоемкая, но ребята справились отлично. Сняли все потемневшие слои, убрали неровности, обработали труднодоступные места углошлифовальной машинкой. Дом буквально задышал, дерево снова выглядит свежим и красивым. Пылеудаление работало эффективно. Отличная подготовка под покрытие.",
                 'platform_lnk' => "https://yandex.ru"
@@ -275,7 +275,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Дарья Лебедева",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "Yandex",
-                'img' => "rew/26.jpg",
+                'img' => "rew/26.jpeg",
                 'score' => 5,
                 'description' => "Делали навес над входной группой и крыльцом из поликарбоната на кованых опорах. Это не только практично (теперь не мокнешь под дождем, встречая гостей или вынося мусор), но и невероятно красиво! Ковка изящная, поликарбонат выбрали бронзовый – создает приятную тень. Работа выполнена безупречно, все крепления надежные. Навес добавил дому шарма и комфорта.",
                 'platform_lnk' => "https://yandex.ru"
@@ -284,7 +284,7 @@ class ReviewSeeder extends Seeder
                 'name' => "Иван Широков",
                 'data' => date("Y-m-d", strtotime("01.02.2024") ),
                 'platform' => "Yandex",
-                'img' => "rew/27.jpg",
+                'img' => "rew/27.jpeg",
                 'score' => 5,
                 'description' => "Навес для машины – то, что надо! Конструкция прочная, монтаж быстрый.",
                 'platform_lnk' => "https://yandex.ru"
