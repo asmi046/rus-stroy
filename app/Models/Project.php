@@ -11,6 +11,7 @@ class Project extends Model
         'img',
         'slug',
         'description',
+        'start_price',
         'gallery',
         'layout',
         'type',

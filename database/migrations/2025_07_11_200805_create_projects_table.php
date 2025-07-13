@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('title')->comment('Заголовок');
             $table->string('img', 800)->nullable()->comment('Изображение');
             $table->string('slug')->unique()->comment('Слаг');
+            $table->decimal('start_price', 15, 2)->comment('Стартовая цена');
             $table->text('description')->nullable()->comment('Описание');
             $table->json('gallery')->nullable()->comment('Галерея');
             $table->json('layout')->nullable()->comment('Планировка');
