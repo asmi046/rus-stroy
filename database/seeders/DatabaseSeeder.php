@@ -14,6 +14,7 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $this->call([
+            SeoDataSeeder::class,
             MenuSeeder::class,
             ParametrSeeder::class,
             QuestionSeeder::class,
@@ -28,7 +29,7 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             ContactSeeder::class,
             PageSeeder::class,
-            SeoDataSeeder::class,
+
         ]);
         // User::factory(10)->create();
 

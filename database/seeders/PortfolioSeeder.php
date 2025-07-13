@@ -66,6 +66,18 @@ class PortfolioSeeder extends Seeder
         ];
 
 
+        $seo_data = [
+            [
+                'seo_title' => 'Одноэтажный дом на ленточном фундаменте в Санкт-Петербурге',
+                'seo_description' => 'Строительство одноэтажного дома из керамзитоблока с облицовкой силикатным кирпичом на ленточном фундаменте. Фото, описание, материалы и местоположение.'
+            ],
+            [
+                'seo_title' => 'Дом с тёплым гаражом из керамзитоблока в Санкт-Петербурге',
+                'seo_description' => 'Построен одноэтажный дом с тёплым гаражом, облицованный штукатуркой на монолитной плите. Галерея, характеристики и координаты объекта.'
+            ],
+        ];
+
+        $i = 0;
         foreach ($data as $item) {
 
             $img_name = basename($item['img']);
@@ -81,6 +93,17 @@ class PortfolioSeeder extends Seeder
             $item['gallery'] = json_encode($item['gallery']);
 
             DB::table("portfolios")->insert($item);
+
+
+            DB::table("seo_data")->insert(
+                [
+                    'url' => 'page/'.$item['slug'],
+                    'seo_title' => $seo_data[$i]['seo_title'],
+                    'seo_description' => $seo_data[$i]['seo_description'],
+                ]
+            );
+
+            $i++;
         }
     }
 }

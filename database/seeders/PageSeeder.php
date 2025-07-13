@@ -63,17 +63,47 @@ class PageSeeder extends Seeder
         ];
 
 
+        $seo_data = [
+            [
+                'seo_title' => 'Политика обработки персональных данных',
+                'seo_description' => 'Узнайте о политике обработки персональных данных компании РусСтрой и о защите вашей информации.'
+            ],
+            [
+                'seo_title' => 'Согласие на обработку персональных данных',
+                'seo_description' => 'Ознакомьтесь с условиями согласия на обработку персональных данных при работе с РусСтрой.'
+            ],
+            [
+                'seo_title' => 'Информация о файлах Cookie',
+                'seo_description' => 'Подробная информация о файлах Cookie, используемых на сайте РусСтрой.'
+            ],
+            [
+                'seo_title' => 'О нашей компании',
+                'seo_description' => 'История, миссия и ценности строительной компании РусСтрой.'
+            ],
+            [
+                'seo_title' => 'Ипотека на строительство домов',
+                'seo_description' => 'Выгодные условия ипотеки на строительство домов от компании РусСтрой.'
+            ],
+            [
+                'seo_title' => 'Способы оплаты',
+                'seo_description' => 'Все доступные способы оплаты услуг и строительства в компании РусСтрой.'
+            ],
+        ];
+
+        $i = 0;
         foreach ($data as $item) {
-            // Storage::disk('public')->put("main_bnr.webp", file_get_contents(public_path('img/main_bnr.webp')), 'public');
+
             DB::table("pages")->insert($item);
 
-            // DB::table("seo_data")->insert(
-            //     [
-            //         'url' => 'page/'.$item['slug'],
-            //         'seo_title' => $item['title'],
-            //         'seo_description' => $item['title'],
-            //     ]
-            // );
+            DB::table("seo_data")->insert(
+                [
+                    'url' => 'page/'.$item['slug'],
+                    'seo_title' => $seo_data[$i]['seo_title'],
+                    'seo_description' => $seo_data[$i]['seo_description'],
+                ]
+            );
+
+            $i++;
         }
 
 

@@ -121,16 +121,15 @@ class MaterialSeeder extends Seeder
         ];
 
         foreach ($data as $item) {
-            // Storage::disk('public')->put("main_bnr.webp", file_get_contents(public_path('img/main_bnr.webp')), 'public');
             DB::table("materials")->insert($item);
 
-            // DB::table("seo_data")->insert(
-            //     [
-            //         'url' => 'page/'.$item['slug'],
-            //         'seo_title' => $item['title'],
-            //         'seo_description' => $item['title'],
-            //     ]
-            // );
+            DB::table("seo_data")->insert(
+                [
+                    'url' => 'materials/'.$item['slug'],
+                    'seo_title' => $item['title'],
+                    'seo_description' => $item['subtitle'],
+                ]
+            );
         }
     }
 }

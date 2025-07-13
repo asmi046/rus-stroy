@@ -8,6 +8,13 @@
         gap: 30px;
         margin-top: 60px;
     }
+
+    .tap_body {
+        display: none;
+        &.active {
+            display: flex;
+        }
+    }
 }
 
 // Отдельный шаг
@@ -15,6 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 
     &__text {
         width: 100%;
@@ -32,8 +40,13 @@
     // Hover эффект
     &:hover {
         .work-step__text {
-            background-color: #e8e8e8;
-            transform: translateY(-2px);
+            background-color: $gray_border_color;
+        }
+    }
+
+    &.active {
+        .work-step__text {
+            background-color: $gray_border_color;
         }
     }
 }
