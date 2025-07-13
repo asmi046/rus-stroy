@@ -16,6 +16,7 @@ return new class extends Migration
             $table->integer('step_number')->default(1)->comment('Номер шага');
             $table->string('step_name')->comment('Имя шага');
             $table->text('description')->nullable()->comment('Описание');
+            $table->text('sub_description')->nullable()->comment('Сноска');
             $table->text('additional_description')->nullable()->comment('Описание дополнительное');
             $table->timestamps();
         });

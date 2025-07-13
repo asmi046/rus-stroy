@@ -10,6 +10,7 @@ class WorkSteps extends Model
         'step_number',
         'step_name',
         'description',
+        'sub_description',
         'additional_description',
     ];
 }
