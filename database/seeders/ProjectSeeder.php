@@ -64,7 +64,7 @@ class ProjectSeeder extends Seeder
                 'type' => 'Дом',
                 'floors' => 1,
                 'total_area' => 80,
-                'wall_material' => '',
+                'wall_material' => null,
                 'foundation' => 'Плитный',
                 'ceiling_height' => 2.5,
                 'flooring' => null,
@@ -93,7 +93,7 @@ class ProjectSeeder extends Seeder
                 'type' => 'Дом',
                 'floors' => 2,
                 'total_area' => 94,
-                'wall_material' => '',
+                'wall_material' => null,
                 'foundation' => '',
                 'ceiling_height' => 2.5,
                 'flooring' => null,
@@ -354,9 +354,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Индивидуальный жилой дом из деревянного каркаса',
+                'title' => 'Индивидуальный каркасный дом KD-109',
                 'img' => '/tmp_data/projects/pr_14/p14_photo_1.JPG',
-                'slug' => 'individualnyi-ziloi-dom-iz-dereviannogo-karkasa',
+                'slug' => 'individualnyi-karkasnyi-dom-kd-109',
                 'start_price' => 3870000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_14/ds.html')),
                 'gallery' => [
@@ -397,9 +397,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Индивидуальный жилой дом из деревянного каркаса',
+                'title' => 'Индивидуальный каркасный дом KD-110',
                 'img' => '/tmp_data/projects/pr_16/p16_photo_1.JPG',
-                'slug' => 'individualnyi-ziloi-dom-iz-dereviannogo-karkasa',
+                'slug' => 'individualnyi-karkasnyi-dom-kd-110',
                 'start_price' => 8190000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_16/ds.html')),
                 'gallery' => [
@@ -420,9 +420,9 @@ class ProjectSeeder extends Seeder
                 'extension' => "Терасса",
             ],
             [
-                'title' => 'Индивидуальный жилой дом из деревянного каркаса',
+                'title' => 'Индивидуальный каркасный дом KD-111',
                 'img' => '/tmp_data/projects/pr_17/p17_photo_1.JPG',
-                'slug' => 'individualnyi-ziloi-dom-iz-dereviannogo-karkasa',
+                'slug' => 'individualnyi-karkasnyi-dom-kd-111',
                 'start_price' => 8640000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_17/ds.html')),
                 'gallery' => [
@@ -442,9 +442,9 @@ class ProjectSeeder extends Seeder
                 'extension' => "Терасса",
             ],
             [
-                'title' => 'Индивидуальный жилой дом из деревянного каркаса',
+                'title' => 'Индивидуальный каркасный дом KD-112',
                 'img' => '/tmp_data/projects/pr_18/p18_photo_1.JPG',
-                'slug' => 'individualnyi-ziloi-dom-iz-dereviannogo-karkasa',
+                'slug' => 'individualnyi-karkasnyi-dom-kd-112',
                 'start_price' => 10440000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_18/ds.html')),
                 'gallery' => [
@@ -464,9 +464,9 @@ class ProjectSeeder extends Seeder
                 'extension' => "Терасса",
             ],
             [
-                'title' => 'Индивидуальный жилой дом из деревянного каркаса',
+                'title' => 'Индивидуальный каркасный дом KD-113',
                 'img' => '/tmp_data/projects/pr_19/p19_photo_1.JPG',
-                'slug' => 'individualnyi-ziloi-dom-iz-dereviannogo-karkasa',
+                'slug' => 'individualnyi-karkasnyi-dom-kd-113',
                 'start_price' => 9540000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_19/ds.html')),
                 'gallery' => [
@@ -509,7 +509,7 @@ class ProjectSeeder extends Seeder
                 'mansard' => false,
                 'plan_dimensions' => '10,3 x 12,5 м',
                 'extension' => "Терасса",
-            ] 
+            ]
         ];
 
         $i = 0;

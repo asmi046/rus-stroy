@@ -6,6 +6,7 @@ use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\ContactsController;
+use App\Http\Controllers\MaterialController;
 use App\Http\Controllers\PortfolioController;
     use Illuminate\Support\Facades\Route;
 

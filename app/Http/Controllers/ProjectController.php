@@ -15,10 +15,10 @@ class ProjectController extends Controller
 
     public function page(string $slug)
     {
-        $projects = Project::where('slug', $slug)->first();
+        $project = Project::where('slug', $slug)->first();
 
-        if($projects == null) abort('404');
+        if($project == null) abort('404');
 
-        return view('projects.page', ['projects' => $projects]);
+        return view('projects.page', ['project' => $project]);
     }
 }

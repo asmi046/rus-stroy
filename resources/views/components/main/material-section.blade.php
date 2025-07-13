@@ -12,7 +12,7 @@
         </div>
 
         <div class="home-materi-section__button">
-            <button class="button">Все варианты</button>
+            <a href="{{ route('materials')}}" class="button">Все варианты</a>
         </div>
     </div>
 </section>

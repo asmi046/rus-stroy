@@ -39,6 +39,44 @@
         position: relative;
         height: 280px;
         overflow: hidden;
+
+        .control_icons {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            z-index: 10;
+            display: flex;
+            gap:10px;
+
+            &__icon {
+                width: 30px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: $main_transition;
+                background-color: $main_color;
+                border-radius: $border_rad;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $hover_color;
+                }
+
+                &.__compare{
+                    background-color: $sub_color;
+                    &:hover {
+                        background-color: $sub_color_hover;
+                    }
+                }
+                .sprite_icon {
+                    width: 20px;
+                    height: 20px;
+                    fill: white;
+                }
+
+            }
+        }
     }
 
     &__image {
@@ -52,17 +90,18 @@
         bottom: 0;
         left: 0;
         right: 0;
+        height: 50px;
         background: $main_color;
-        padding: 15px 20px;
+        padding: 0 20px;
+        display: flex;
     }
 
     &__name {
         font-family: $head_fonts;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 700;
         color: #fff;
-        margin: 0;
-        text-transform: uppercase;
+        margin: auto 0;
     }
 
     &__info {
@@ -112,7 +151,6 @@
             font-family: $main_fonts;
             font-size: 12px;
             color: #999;
-            text-transform: uppercase;
         }
 
         &-label {

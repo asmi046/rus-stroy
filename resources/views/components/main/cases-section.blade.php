@@ -10,5 +10,9 @@
                 <x-cards.portfolio :item="$item" />
             @endforeach
         </div>
+
+        <div class="section_bottom_control">
+            <a href="{{ route('portfolio') }}" class="button">Все портфолио</a>
+        </div>
     </div>
 </section>
