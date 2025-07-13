@@ -22,6 +22,7 @@ class DatabaseSeeder extends Seeder
             PriceSeeder::class,
             PortfolioSeeder::class,
             ServiceSeeder::class,
+            ProjectSeeder::class,
             MaterialSeeder::class,
             WorkStepsSeeder::class,
 
