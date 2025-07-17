@@ -54,15 +54,21 @@ class MenuSeeder extends Seeder
             ],
             [
                 'menu_name' => 'Главное меню',
-                'title' => 'Ипотека',
+                'title' => 'FAQ',
                 'order' => 7,
+                'lnk' => "/faq",
+            ],
+            [
+                'menu_name' => 'Главное меню',
+                'title' => 'Ипотека',
+                'order' => 8,
                 'lnk' => "/page/ipoteka-na-stroitelstvo-domov",
             ],
 
             [
                 'menu_name' => 'Главное меню',
                 'title' => 'Контакты',
-                'order' => 8,
+                'order' => 9,
                 'lnk' => "/contacts",
             ],
         ];

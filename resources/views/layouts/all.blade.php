@@ -41,6 +41,7 @@
     <x-menues.side-menu></x-menues.side-menu>
 
     <div class="modal_win" id="global_app">
+        <side-panel></side-panel>
         <modal-window rout="/send_consult" redirect="/thencs" hesh="coll" title="Помощь специалиста" subtitle="Мы свяжемся с Вами в течении 15 минут"></modal-window>
 
          <cookies-warning

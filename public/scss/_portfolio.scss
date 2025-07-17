@@ -27,6 +27,12 @@
         border-radius: $border_rad;
         border: 1px solid $gray_border_color;
     }
+
+    .dotted-grid {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 0;
+        width: 100%;
+    }
 }
 
 // Слайдер портфолио
@@ -78,49 +84,49 @@
 }
 
 // Параметры проекта
-.portfolio-params {
-    width: 100%;
+// .portfolio-params {
+//     width: 100%;
 
-    &__item {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-        font-family: $main_fonts;
-        font-size: 16px;
-        line-height: 1.4;
+//     &__item {
+//         display: flex;
+//         align-items: center;
+//         margin-bottom: 20px;
+//         font-family: $main_fonts;
+//         font-size: 16px;
+//         line-height: 1.4;
 
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
+//         &:last-child {
+//             margin-bottom: 0;
+//         }
+//     }
 
-    &__label {
-        color: $gray_border_color;
-        font-weight: 400;
-        min-width: fit-content;
-        margin-right: 10px;
-    }
+//     &__label {
+//         color: $gray_border_color;
+//         font-weight: 400;
+//         min-width: fit-content;
+//         margin-right: 10px;
+//     }
 
-    &__dots {
-        flex: 1;
-        height: 1px;
-        background-image: repeating-linear-gradient(
-            to right,
-            $gray_border_color 0,
-            $gray_border_color 3px,
-            transparent 3px,
-            transparent 8px
-        );
-        margin: 0 10px;
-    }
+//     &__dots {
+//         flex: 1;
+//         height: 1px;
+//         background-image: repeating-linear-gradient(
+//             to right,
+//             $gray_border_color 0,
+//             $gray_border_color 3px,
+//             transparent 3px,
+//             transparent 8px
+//         );
+//         margin: 0 10px;
+//     }
 
-    &__value {
-        color: $main_color;
-        font-weight: 500;
-        min-width: fit-content;
-        text-align: right;
-    }
-}
+//     &__value {
+//         color: $main_color;
+//         font-weight: 500;
+//         min-width: fit-content;
+//         text-align: right;
+//     }
+// }
 
 // Адаптив
 @media (max-width: 1024px) {

@@ -1,0 +1,106 @@
+@use 'vars' as *;
+
+// Сетка цен
+.dotted-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 70px;
+    margin-top: 60px;
+}
+
+// Элемент цены
+.dotted-item {
+    display: flex;
+    align-items: center;
+    font-family: $main_fonts;
+    font-size: 16px;
+    line-height: 1.4;
+
+    &__name {
+        color: $dark_gray_color;
+        font-weight: 400;
+        min-width: fit-content;
+        margin-right: 10px;
+    }
+
+    &__dots {
+        flex: 1;
+        height: 1px;
+        background-image: repeating-linear-gradient(
+            to right,
+            $dark_gray_color 0,
+            $dark_gray_color 3px,
+            transparent 3px,
+            transparent 8px
+        );
+        margin: auto  10px 5px 10px;
+    }
+
+    &__value {
+        color: $main_color;
+        font-weight: 400;
+        min-width: fit-content;
+        text-align: right;
+
+        strong {
+            font-weight: 600;
+        }
+    }
+}
+
+
+
+// Адаптив
+@media (max-width: 1024px) {
+    .dotted-grid {
+        gap: 10px 30px;
+        margin-top: 50px;
+    }
+
+    .dotted-item {
+        font-size: 15px;
+
+        &__dots {
+            margin: 0 8px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .dotted-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 40px;
+    }
+
+    .dotted-item {
+        font-size: 14px;
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+        &__dots {
+            margin: 0 6px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .dotted-grid {
+        margin-top: 30px;
+        gap: 10px;
+    }
+
+    .dotted-item {
+        font-size: 13px;
+
+        &__name {
+            font-size: 13px;
+        }
+
+        &__value {
+            font-size: 13px;
+        }
+    }
+}

@@ -24,16 +24,16 @@
 
                     <div class="header__actions">
                         <div class="header__icons">
-                            <button class="header__icon-btn header__icon-btn--heart" aria-label="Избранное">
+                            <a href="{{ route('like') }}" class="header__icon-btn header__icon-btn--heart" aria-label="Избранное">
                                 <svg class="sprite_icon">
                                     <use xlink:href="#like_icon"></use>
                                 </svg>
-                            </button>
-                            <button class="header__icon-btn header__icon-btn--balance" aria-label="Сравнение">
+                            </a>
+                            <a href="{{ route('compare') }}" class="header__icon-btn header__icon-btn--balance" aria-label="Сравнение">
                                 <svg class="sprite_icon">
                                     <use xlink:href="#compare_icon"></use>
                                 </svg>
-                            </button>
+                            </a>
                         </div>
                         <a href="#coll" class="header__callback-btn">Обратный звонок</a>
                     </div>

@@ -27,47 +27,47 @@
                     </div>
 
                     <div class="portfolio-content__params">
-                        <div class="portfolio-params">
-                            <div class="portfolio-params__item">
-                                <span class="portfolio-params__label">Тип</span>
-                                <span class="portfolio-params__dots"></span>
-                                <span class="portfolio-params__value">{{ $project->type ?? 'Не указано' }}</span>
+                        <div class="dotted-grid">
+                            <div class="dotted-item">
+                                <span class="dotted-item__name">Тип</span>
+                                <span class="dotted-item__dots"></span>
+                                <span class="dotted-item__value">{{ $project->type ?? 'Не указано' }}</span>
                             </div>
-                            <div class="portfolio-params__item">
-                                <span class="portfolio-params__label">Количество этажей</span>
-                                <span class="portfolio-params__dots"></span>
-                                <span class="portfolio-params__value">{{ $project->floors ?? 'Не указано' }}</span>
+                            <div class="dotted-item">
+                                <span class="dotted-item__name">Количество этажей</span>
+                                <span class="dotted-item__dots"></span>
+                                <span class="dotted-item__value">{{ $project->floors ?? 'Не указано' }}</span>
                             </div>
-                            <div class="portfolio-params__item">
-                                <span class="portfolio-params__label">Место нахождения</span>
-                                <span class="portfolio-params__dots"></span>
-                                <span class="portfolio-params__value">{{ $project->location ?? 'Не указано' }}</span>
+                            <div class="dotted-item">
+                                <span class="dotted-item__name">Место нахождения</span>
+                                <span class="dotted-item__dots"></span>
+                                <span class="dotted-item__value">{{ $project->location ?? 'Не указано' }}</span>
                             </div>
 
-                            <div class="portfolio-params__item">
-                                <span class="portfolio-params__label">Материал стен</span>
-                                <span class="portfolio-params__dots"></span>
-                                <span class="portfolio-params__value">{{ $project->wall_material ?? 'Не указано' }}</span>
+                            <div class="dotted-item">
+                                <span class="dotted-item__name">Материал стен</span>
+                                <span class="dotted-item__dots"></span>
+                                <span class="dotted-item__value">{{ $project->wall_material ?? 'Не указано' }}</span>
                             </div>
-                            <div class="portfolio-params__item">
-                                <span class="portfolio-params__label">Облицовка</span>
-                                <span class="portfolio-params__dots"></span>
-                                <span class="portfolio-params__value">{{ $project->cladding ?? 'Не указано' }}</span>
+                            <div class="dotted-item">
+                                <span class="dotted-item__name">Облицовка</span>
+                                <span class="dotted-item__dots"></span>
+                                <span class="dotted-item__value">{{ $project->cladding ?? 'Не указано' }}</span>
                             </div>
-                            <div class="portfolio-params__item">
-                                <span class="portfolio-params__label">Фундамент</span>
-                                <span class="portfolio-params__dots"></span>
-                                <span class="portfolio-params__value">{{ $project->foundation ?? 'Не указано' }}</span>
+                            <div class="dotted-item">
+                                <span class="dotted-item__name">Фундамент</span>
+                                <span class="dotted-item__dots"></span>
+                                <span class="dotted-item__value">{{ $project->foundation ?? 'Не указано' }}</span>
                             </div>
-                            <div class="portfolio-params__item">
-                                <span class="portfolio-params__label">Кровля</span>
-                                <span class="portfolio-params__dots"></span>
-                                <span class="portfolio-params__value">{{ $project->roofing ?? 'Не указано' }}</span>
+                            <div class="dotted-item">
+                                <span class="dotted-item__name">Кровля</span>
+                                <span class="dotted-item__dots"></span>
+                                <span class="dotted-item__value">{{ $project->roofing ?? 'Не указано' }}</span>
                             </div>
-                            <div class="portfolio-params__item">
-                                <span class="portfolio-params__label">Перекрытия</span>
-                                <span class="portfolio-params__dots"></span>
-                                <span class="portfolio-params__value">{{ $project->flooring ?? 'Не указано' }}</span>
+                            <div class="dotted-item">
+                                <span class="dotted-item__name">Перекрытия</span>
+                                <span class="dotted-item__dots"></span>
+                                <span class="dotted-item__value">{{ $project->flooring ?? 'Не указано' }}</span>
                             </div>
                         </div>
                     </div>

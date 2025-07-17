@@ -3,6 +3,7 @@ import {createApp} from 'vue/dist/vue.esm-bundler'
 import ModalWindow from "./components/ModalWindow.vue"
 import EmptyModal from "./components/EmptyModal.vue"
 import Tap from "./components/Tap.vue"
+import SidePanel from "./components/SidePanel.vue"
 import Review from './components/Reviews/Review.vue'
 import { VMaskDirective } from 'v-slim-mask'
 
@@ -20,6 +21,7 @@ const global_app = createApp({
     components:{
         ModalWindow,
         EmptyModal,
+        SidePanel
     },
     setup() {}
 })
@@ -32,6 +34,7 @@ const steps_app  = createApp({
     components:{
         Tap,
         EmptyModal,
+
     },
     setup() {}
 })

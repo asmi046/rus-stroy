@@ -1,8 +1,11 @@
 <?php
 
 use App\Http\Middleware\IssetCity;
+use App\Http\Controllers\FaqController;
+use App\Http\Controllers\LikeController;
 use App\Http\Controllers\PriceController;
 use App\Http\Controllers\ReviewController;
+use App\Http\Controllers\CompareController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\ContactsController;
@@ -37,4 +40,8 @@ use App\Http\Controllers\PortfolioController;
 
         Route::get('/portfolio', [PortfolioController::class, "index"])->name('portfolio');
         Route::get('/portfolio/{slug}', [PortfolioController::class, "page"])->name('portfolio_page');
+
+        Route::get('/faq', [FaqController::class, "index"])->name('faq');
+        Route::get('/like', [LikeController::class, "index"])->name('like');
+        Route::get('/compare', [CompareController::class, "index"])->name('compare');
     });

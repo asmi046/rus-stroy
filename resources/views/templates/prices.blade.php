@@ -11,12 +11,12 @@
             </div>
 
             @isset($prices['Цены на строительство'])
-                <div class="prices-grid">
+                <div class="dotted-grid">
                     @foreach ($prices['Цены на строительство'] as $item)
-                        <div class="price-item">
-                            <span class="price-item__name">{{ $item->name }}</span>
-                            <span class="price-item__dots"></span>
-                            <span class="price-item__value">
+                        <div class="dotted-item">
+                            <span class="dotted-item__name">{{ $item->name }}</span>
+                            <span class="dotted-item__dots"></span>
+                            <span class="dotted-item__value">
                                 от <strong>{{ $item->price }}</strong> ₽/{{ $item->unit }}
                             </span>
                         </div>

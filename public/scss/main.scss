@@ -11,6 +11,7 @@
 @use "elements/all-elements";
 
 @use "cols";
+@use "doted_grid";
 @use "header";
 @use "current";
 @use "banner-section";
@@ -31,6 +32,7 @@
 
 // @use "modal";
 
+@use "side-panel";
 @use "modal";
 
 // Схема с сайдбаром
