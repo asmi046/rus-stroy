@@ -1,0 +1,264 @@
+@import 'vars';
+
+.project-details {
+    padding: $section_space 0;
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        align-items: start;
+
+        @media (max-width: 1024px) {
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        min-width: 0; // Важно для правильной работы в grid
+        overflow: hidden; // Предотвращает выход за границы
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+    // Переопределение стилей dotted-grid для страницы проекта
+    .dotted-grid {
+        margin-top: 0;
+        grid-template-columns: 1fr;
+        gap: 15px;
+
+        @media (max-width: 768px) {
+            gap: 12px;
+        }
+    }
+}
+
+// Блок с ценой
+.price-block {
+    border: 2px solid $gray_border_color;
+    border-radius: $border_rad;
+    padding: $box_padding;
+
+    &__select {
+        width: 100%;
+        padding: 12px 16px;
+        border: 1px solid $gray_border_color;
+        border-radius: $box_border_rad;
+        font-family: $main_fonts;
+        font-size: 16px;
+        margin-bottom: 20px;
+        background-color: white;
+        cursor: pointer;
+
+        &:focus {
+            outline: none;
+            border-color: $main_color;
+        }
+    }
+
+    &__comment {
+        font-size: 14px;
+        color: $dark_gray_color;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    &__prices {
+        text-align: left;
+    }
+
+    &__old-price {
+        font-size: 16px;
+        color: $dark_gray_color;
+        text-decoration: line-through;
+        margin-bottom: 8px;
+    }
+
+    &__current-price {
+        font-size: 24px;
+        font-weight: bold;
+        color: $black_color;
+        font-family: $head_fonts;
+    }
+}
+
+// Блок с кнопками
+.action-buttons {
+    display: flex;
+    gap: 10px;
+
+    .button {
+        padding: 15px 20px;
+        text-align: center;
+        flex: 1;
+    }
+}
+
+// Блок про ипотеку
+.mortgage-block {
+    background-color: #3bc935cc;
+    border-radius: $border_rad;
+    padding: $box_padding;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+
+        @media (max-width: 480px) {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 15px;
+        }
+    }
+
+    &__text {
+        color: white;
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    &__rate {
+        font-size: 14px;
+    }
+
+    &__button {
+        background-color: white;
+        color: $black_color;
+        border: none;
+        padding: 10px 20px;
+        border-radius: $box_border_rad;
+        cursor: pointer;
+        font-family: $main_fonts;
+        transition: $main_transition;
+
+        &:hover {
+            background-color: #f5f5f5;
+        }
+    }
+}
+
+// Блок с описанием
+.description-block {
+    border-radius: $border_rad;
+    padding: $box_padding;
+    background-color: $gray_bg_color;
+}
+
+// Слайдер
+.project-slider {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+
+    &__image {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: $border_rad;
+        display: block;
+
+        @media (max-width: 768px) {
+            height: 300px;
+        }
+    }
+}
+
+.project-swiper {
+    width: 100%;
+    max-width: 100%;
+    height: auto; // Убираем фиксированную высоту
+    border-radius: $border_rad;
+    overflow: hidden;
+    box-shadow: $box_shadow;
+
+    &::part(bullet-active) {
+        background-color: $main_color;
+    }
+
+    &::part(bullet) {
+        background-color: $main_color;
+        opacity: 0.5;
+    }
+
+    // Дополнительные стили для корректной работы
+    swiper-slide {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+// Адаптация для мобильных устройств
+@media (max-width: 768px) {
+    .project-details {
+        &__wrapper {
+            gap: 20px;
+        }
+
+        &__left {
+            gap: 20px;
+        }
+
+        &__right {
+            gap: 20px;
+        }
+    }
+
+    .project-swiper {
+        margin: 0;
+
+        swiper-slide {
+            width: 100% !important;
+        }
+    }
+
+    .price-block {
+        padding: 20px;
+
+        &__current-price {
+            font-size: 20px;
+        }
+    }
+
+    .mortgage-block {
+        padding: 20px;
+    }
+
+    .description-block {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .action-buttons {
+        gap: 10px;
+
+        .button {
+            padding: 12px 16px;
+            font-size: 14px;
+        }
+    }
+
+    .price-block {
+        &__current-price {
+            font-size: 18px;
+        }
+    }
+}
