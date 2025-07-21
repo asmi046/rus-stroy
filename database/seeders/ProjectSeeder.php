@@ -583,9 +583,9 @@ class ProjectSeeder extends Seeder
                 'extension' => "Терасса",
             ],
             [
-                'title' => 'Дом одноэтажный',
+                'title' => 'Дом одноэтажный 103м²',
                 'img' => '/tmp_data/projects/pr_24/p24_photo_1.JPG',
-                'slug' => 'dom-odnoetaznyi',
+                'slug' => 'dom-odnoetaznyi-103m2',
                 'start_price' => 9785000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_24/ds.html')),
                 'gallery' => [
@@ -605,9 +605,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Дом одноэтажный',
+                'title' => 'Дом одноэтажный 209м²',
                 'img' => '/tmp_data/projects/pr_25/p25_photo_1.JPG',
-                'slug' => 'dom-odnoetaznyi',
+                'slug' => 'dom-odnoetaznyi-209m2',
                 'start_price' => 14475000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_25/ds.html')),
                 'gallery' => [
@@ -673,9 +673,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Дом одноэтажный',
+                'title' => 'Дом одноэтажный 149м²',
                 'img' => '/tmp_data/projects/pr_28/p28_photo_1.JPG',
-                'slug' => 'dom-odnoetaznyi',
+                'slug' => 'individualnyi-odnoetaznyi-ziloi-dom-iz-gazobetona-149m2',
                 'start_price' => 14155000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_28/ds.html')),
                 'gallery' => [
@@ -764,7 +764,7 @@ class ProjectSeeder extends Seeder
             [
                 'title' => 'Модульный дом площадью',
                 'img' => '/tmp_data/projects/pr_31/p31_photo_1.JPG',
-                'slug' => 'modulnyi-dom-ploshhadiu',
+                'slug' => 'modulnyi-dom-ploshhadiu-30м2',
                 'start_price' => 1990000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_31/ds.html')),
                 'gallery' => [
@@ -841,7 +841,7 @@ class ProjectSeeder extends Seeder
             [
                 'title' => 'Модульный дом площадью',
                 'img' => '/tmp_data/projects/pr_34/p34_photo_1.JPG',
-                'slug' => 'modulnyi-dom-ploshhadiu',
+                'slug' => 'modulnyi-dom-ploshhadiu-60m2',
                 'start_price' => 3990000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_34/ds.html')),
                 'gallery' => [
@@ -994,9 +994,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Дом одноэтажный',
+                'title' => 'Дом одноэтажный 149 м²',
                 'img' => '/tmp_data/projects/pr_40/p40_photo_1.JPG',
-                'slug' => 'dom-odnoetaznyi',
+                'slug' => 'dom-odnoetaznyi-149-m2',
                 'start_price' => 14155000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_40/ds.html')),
                 'gallery' => [
