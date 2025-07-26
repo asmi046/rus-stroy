@@ -24,10 +24,22 @@
                 {!! $service->description !!}
             </div>
 
-            <!-- Нижний блок с галереей -->
-            <div class="service-gallery-section">
+            @if ($service->gallery)
+                <div class="service-gallery-section">
+                    <h2 class="service-gallery__title">Галерея выполненных работ</h2>
+                    <div class="service-gallery">
+                        @foreach ($service->gallery as $image)
+                            <a data-fslightbox="service-gallery" href="{{ Storage::url($image) }}" class="service-gallery__item">
+                                <img src="{{ Storage::url($image) }}" alt="Работа" class="service-gallery__image">
+                            </a>
+                        @endforeach
+                    </div>
+                </div>
+            @endif
+            {{-- <div class="service-gallery-section">
                 <h2 class="service-gallery__title">Галерея выполненных работ</h2>
                 <div class="service-gallery">
+
                     <div class="service-gallery__item">
                         <img src="{{ asset('img/hometype/h2.png') }}" alt="Работа 1" class="service-gallery__image">
                     </div>
@@ -47,7 +59,7 @@
                         <img src="{{ asset('img/hometype/h2.png') }}" alt="Работа 6" class="service-gallery__image">
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
 
 

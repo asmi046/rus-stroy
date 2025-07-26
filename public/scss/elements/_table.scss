@@ -23,3 +23,10 @@ table {
         background-color: #EBEBEB;
     }
 }
+
+
+@media (max-width: 768px) {
+    .t_wrapper {
+        overflow-x: auto;
+    }
+}

@@ -30,6 +30,10 @@
                             <span class="project-card__param-label">Этажность:</span>
                             <span class="project-card__param-value">{{ $item->floors }}</span>
                         </div>
+                        <div class="project-card__param">
+                            <span class="project-card__param-label">от:</span>
+                            <span class="project-card__param-value">{{ number_format($item->start_price, 0, ',', ' ') }} ₽</span>
+                        </div>
                     </div>
 
                     <div class="project-card__details">

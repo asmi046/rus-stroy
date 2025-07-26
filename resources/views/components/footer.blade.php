@@ -31,49 +31,26 @@
             <!-- Вторая колонка -->
             <div class="footer__column">
                 <h3 class="footer__title">Услуги</h3>
-                <ul class="footer__menu">
-                    <li><a href="#">Строительство домов</a></li>
-                    <li><a href="#">Проектирование</a></li>
-                    <li><a href="#">Ремонт и отделка</a></li>
-                    <li><a href="#">Инженерные системы</a></li>
-                    <li><a href="#">Благоустройство</a></li>
-                </ul>
+                <x-menues.puncts name="Услуги в подвале"></x-menues.puncts>
             </div>
 
             <!-- Третья колонка -->
             <div class="footer__column">
                 <h3 class="footer__title">Проекты</h3>
-                <ul class="footer__menu">
-                    <li><a href="#">Дома из керамзитоблока</a></li>
-                    <li><a href="#">Дома из газобетона</a></li>
-                    <li><a href="#">Кирпичные дома</a></li>
-                    <li><a href="#">Деревянные дома</a></li>
-                    <li><a href="#">Монолитные дома</a></li>
-                </ul>
+                <x-menues.puncts name="Проекты в подвале"></x-menues.puncts>
+
             </div>
 
             <!-- Четвертая колонка -->
             <div class="footer__column">
                 <h3 class="footer__title">Компания</h3>
-                <ul class="footer__menu">
-                    <li><a href="#">О компании</a></li>
-                    <li><a href="#">Наши работы</a></li>
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Лицензии</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
+                <x-menues.puncts name="О компании в подвале"></x-menues.puncts>
             </div>
 
             <!-- Пятая колонка -->
             <div class="footer__column">
                 <h3 class="footer__title">Информация</h3>
-                <ul class="footer__menu">
-                    <li><a href="#">Политика конфиденциальности</a></li>
-                    <li><a href="#">Пользовательское соглашение</a></li>
-                    <li><a href="#">Карта сайта</a></li>
-                    <li><a href="#">Вакансии</a></li>
-                    <li><a href="#">Новости</a></li>
-                </ul>
+                <x-menues.puncts name="Информация в подвале"></x-menues.puncts>
             </div>
         </div>
     </div>

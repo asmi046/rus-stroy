@@ -30,6 +30,22 @@ class ServiceSeeder extends Seeder
         Storage::disk('public')->put("service/vorota.webp", file_get_contents(public_path('tmp_data/serv/vorota.webp')), 'public');
         Storage::disk('public')->put("service/zabor.webp", file_get_contents(public_path('tmp_data/serv/zabor.webp')), 'public');
 
+        Storage::disk('public')->put("service/s1_gal_1.jpg", file_get_contents(public_path('tmp_data/serv/s_1/s1_gal_1.jpg')), 'public');
+        Storage::disk('public')->put("service/s1_gal_2.jpg", file_get_contents(public_path('tmp_data/serv/s_1/s1_gal_2.jpg')), 'public');
+        Storage::disk('public')->put("service/s1_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_1/s1_gal_3.jpg')), 'public');
+        Storage::disk('public')->put("service/s1_gal_4.webp", file_get_contents(public_path('tmp_data/serv/s_1/s1_gal_4.webp')), 'public');
+        Storage::disk('public')->put("service/s1_gal_5.webp", file_get_contents(public_path('tmp_data/serv/s_1/s1_gal_5.webp')), 'public');
+
+        Storage::disk('public')->put("service/s2_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_2/s2_gal_2.webp')), 'public');
+        Storage::disk('public')->put("service/s2_gal_5.webp", file_get_contents(public_path('tmp_data/serv/s_2/s2_gal_5.webp')), 'public');
+        Storage::disk('public')->put("service/s2_gal_1.jpg", file_get_contents(public_path('tmp_data/serv/s_2/s2_gal_1.jpg')), 'public');
+        Storage::disk('public')->put("service/s2_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_2/s2_gal_3.jpg')), 'public');
+        Storage::disk('public')->put("service/s2_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_2/s2_gal_4.jpg')), 'public');
+
+        Storage::disk('public')->put("service/s3_gal_1.jpg", file_get_contents(public_path('tmp_data/serv/s_3/s3_gal_1.jpg')), 'public');
+        Storage::disk('public')->put("service/s3_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_3/s3_gal_2.webp')), 'public');
+        Storage::disk('public')->put("service/s3_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_3/s3_gal_3.jpg')), 'public');
+
         $data = [
 
             [
@@ -39,7 +55,13 @@ class ServiceSeeder extends Seeder
                 'slug'=> Str::slug("Фасадные работы"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_1/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_1/main.html')),
-                'gallery' => null,
+                'gallery' => json_encode([
+                    'service/s1_gal_1.jpg',
+                    'service/s1_gal_2.jpg',
+                    'service/s1_gal_3.jpg',
+                    'service/s1_gal_4.webp',
+                    'service/s1_gal_5.webp',
+                ]),
                 'sections' => null,
             ],
 
@@ -50,18 +72,28 @@ class ServiceSeeder extends Seeder
                 'slug'=> Str::slug("Строительство бань"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_2/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_2/main.html')),
-                'gallery' => null,
+                'gallery' => json_encode([
+                    'service/s2_gal_1.jpg',
+                    'service/s2_gal_2.webp',
+                    'service/s2_gal_3.jpg',
+                    'service/s2_gal_4.jpg',
+                    'service/s2_gal_5.webp',
+                ]),
                 'sections' => null,
             ],
 
             [
-                'title' => "Шлифовка бань и домов из сруба",
+                'title' => "Шлифовка бань и домов",
                 'template' => null,
                 'img' => 'service/shlifovka.webp',
-                'slug'=> Str::slug("Шлифовка бань и домов из сруба"),
+                'slug'=> Str::slug("Шлифовка бань и домов"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_3/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_3/main.html')),
-                'gallery' => null,
+                'gallery' => json_encode([
+                    'service/s3_gal_1.jpg',
+                    'service/s3_gal_2.webp',
+                    'service/s3_gal_3.jpg',
+                ]),
                 'sections' => null,
             ],
 
@@ -179,18 +211,75 @@ class ServiceSeeder extends Seeder
 
         ];
 
+        $seo_data = [
+            [
+                'seo_title' => 'Профессиональные фасадные работы, Качественная отделка и ремонт фасадов',
+                'seo_description' => 'Предлагаем полный спектр фасадных работ: утепление, облицовка, ремонт и реставрация фасадов домов. Гарантия качества и долговечности.',
+            ],
+            [
+                'seo_title' => 'Строительство бань под ключ, Надежные и современные решения',
+                'seo_description' => 'Возводим бани любой сложности с учетом ваших пожеланий. Используем экологичные материалы и современные технологии строительства.',
+            ],
+            [
+                'seo_title' => 'Шлифовка бань и домов из сруба, Идеальная гладкость и долговечность',
+                'seo_description' => 'Профессиональная шлифовка срубов для защиты древесины и улучшения внешнего вида. Качественная обработка и индивидуальный подход.',
+            ],
+            [
+                'seo_title' => 'Кровельные работы, Монтаж и ремонт крыш любой сложности',
+                'seo_description' => 'Выполняем кровельные работы с гарантией качества. Монтаж, ремонт и обслуживание крыш всех типов и материалов.',
+            ],
+            [
+                'seo_title' => 'Внутренняя отделка помещений, Современные решения для вашего дома',
+                'seo_description' => 'Комплексная внутренняя отделка: стены, потолки, полы. Используем современные материалы и технологии для создания уюта.',
+            ],
+            [
+                'seo_title' => 'Строительство веранд и террас, Комфортные пространства для отдыха',
+                'seo_description' => 'Проектируем и строим веранды и террасы под ключ. Эстетика, надежность и долговечность в каждом проекте.',
+            ],
+            [
+                'seo_title' => 'Строительство беседок, Уютные зоны отдыха на вашем участке',
+                'seo_description' => 'Создаем беседки любой формы и размера. Индивидуальный подход и качественные материалы для вашего комфорта.',
+            ],
+            [
+                'seo_title' => 'Ленточный фундамент, Прочное основание для вашего дома',
+                'seo_description' => 'Строительство ленточных фундаментов с гарантией надежности. Используем современные технологии и материалы.',
+            ],
+            [
+                'seo_title' => 'Свайный фундамент, Быстрое и надежное решение для строительства',
+                'seo_description' => 'Монтаж свайных фундаментов для различных типов зданий. Высокая скорость работ и долговечность конструкции.',
+            ],
+            [
+                'seo_title' => 'Монолитный фундамент, Максимальная прочность и долговечность',
+                'seo_description' => 'Заливаем монолитные фундаменты для любых объектов. Гарантируем качество и соблюдение всех строительных норм.',
+            ],
+            [
+                'seo_title' => 'Строительство заборов, Защита и эстетика вашего участка',
+                'seo_description' => 'Устанавливаем заборы из различных материалов. Надежность, долговечность и привлекательный внешний вид.',
+            ],
+            [
+                'seo_title' => 'Установка откатных и распашных ворот, Удобство и безопасность',
+                'seo_description' => 'Профессиональный монтаж ворот любых типов. Современные решения для вашего дома и участка.',
+            ],
+            [
+                'seo_title' => 'Строительство навесов, Практичные и стильные конструкции',
+                'seo_description' => 'Проектируем и строим навесы для автомобилей, террас и зон отдыха. Качественные материалы и индивидуальный подход.',
+            ],
+        ];
 
-        foreach ($data as $item) {
-            // Storage::disk('public')->put("main_bnr.webp", file_get_contents(public_path('img/main_bnr.webp')), 'public');
-            DB::table("services")->insert($item);
+            $i = 0;
+            foreach ($data as $item) {
+                DB::table("services")->insert($item);
 
-            // DB::table("seo_data")->insert(
-            //     [
-            //         'url' => 'page/'.$item['slug'],
-            //         'seo_title' => $item['title'],
-            //         'seo_description' => $item['title'],
-            //     ]
-            // );
-        }
+                DB::table("seo_data")->insert(
+                    [
+                        'url' => 'services/'.$item['slug'],
+                        'seo_title' => $seo_data[$i]['seo_title'],
+                        'seo_description' => $seo_data[$i]['seo_description'],
+                    ]
+                );
+
+                $i++;
+            }
+
     }
 }

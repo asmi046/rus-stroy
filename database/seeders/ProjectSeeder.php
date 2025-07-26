@@ -354,9 +354,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Индивидуальный каркасный дом',
+                'title' => 'Индивидуальный каркасный дом 43 м²',
                 'img' => '/tmp_data/projects/pr_14/p14_photo_1.JPG',
-                'slug' => 'individualnyi-karkasnyi-dom',
+                'slug' => 'individualnyi-karkasnyi-dom-43-m2',
                 'start_price' => 3870000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_14/ds.html')),
                 'gallery' => [
@@ -397,9 +397,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Индивидуальный каркасный дом',
+                'title' => 'Индивидуальный каркасный дом 91 м²',
                 'img' => '/tmp_data/projects/pr_16/p16_photo_1.JPG',
-                'slug' => 'individualnyi-karkasnyi-dom',
+                'slug' => 'individualnyi-karkasnyi-dom-91-m2',
                 'start_price' => 8190000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_16/ds.html')),
                 'gallery' => [
@@ -420,9 +420,9 @@ class ProjectSeeder extends Seeder
                 'extension' => "Терасса",
             ],
             [
-                'title' => 'Индивидуальный каркасный дом',
+                'title' => 'Индивидуальный каркасный дом 96 м²',
                 'img' => '/tmp_data/projects/pr_17/p17_photo_1.JPG',
-                'slug' => 'individualnyi-karkasnyi-dom',
+                'slug' => 'individualnyi-karkasnyi-dom-96-m2',
                 'start_price' => 8640000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_17/ds.html')),
                 'gallery' => [
@@ -432,7 +432,7 @@ class ProjectSeeder extends Seeder
                 'layout' => ['/tmp_data/projects/pr_17/p17_photo_3.JPG'],
                 'type' => 'Дом',
                 'floors' => 1,
-                'total_area' => 962,
+                'total_area' => 96,
                 'wall_material' => 'Кирпич',
                 'foundation' => 'Ленточный',
                 'ceiling_height' => 2.5,
@@ -719,7 +719,7 @@ class ProjectSeeder extends Seeder
             [
                 'title' => 'Одноэтажный дом из бруса с террасой',
                 'img' => '/tmp_data/projects/pr_29/p29_photo_1.JPG',
-                'slug' => 'odnoetaznyi-dom-iz-brusa-s-terrasoi',
+                'slug' => 'odnoetaznyi-dom-iz-brusa-s-terrasoi-73-m2',
                 'start_price' => 6570000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_29/ds.html')),
                 'gallery' => [
@@ -861,9 +861,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Компактный дачный дом в классическом стиле',
+                'title' => 'Компактный дачный дом в классическом стиле 91 м²',
                 'img' => '/tmp_data/projects/pr_35/p35_photo_1.JPG',
-                'slug' => 'kompaktnyi-dacnyi-dom-v-klassiceskom-stile',
+                'slug' => 'kompaktnyi-dacnyi-dom-v-klassiceskom-stile-91-m2',
                 'start_price' => 6825000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_35/ds.html')),
                 'gallery' => [
@@ -943,9 +943,9 @@ class ProjectSeeder extends Seeder
                 'extension' => "Терасса",
             ],
             [
-                'title' => 'Современный дачный дом с большими окнами',
+                'title' => 'Современный дачный дом с большими окнами 61 м²',
                 'img' => '/tmp_data/projects/pr_38/p38_photo_1.JPG',
-                'slug' => 'sovremennyi-dacnyi-dom-s-bolsimi-oknami',
+                'slug' => 'sovremennyi-dacnyi-dom-s-bolsimi-oknami-61-m2',
                 'start_price' => 4575000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_38/ds.html')),
                 'gallery' => [
@@ -970,9 +970,9 @@ class ProjectSeeder extends Seeder
                 'extension' => "Терасса",
             ],
             [
-                'title' => 'Двухэтажный дом из бруса',
+                'title' => 'Двухэтажный дом из бруса 122 м²',
                 'img' => '/tmp_data/projects/pr_39/p39_photo_1.JPG',
-                'slug' => 'dvuxetaznyi-dom-iz-brusa',
+                'slug' => 'dvuxetaznyi-dom-iz-brusa-122-m2',
                 'start_price' => 10980000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_39/ds.html')),
                 'gallery' => [
@@ -1044,9 +1044,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Небольшой дом квадратной формы с тремя спальнями',
+                'title' => 'Небольшой дом квадратной формы с тремя спальнями 80 м²',
                 'img' => '/tmp_data/projects/pr_42/p42_photo_1.JPG',
-                'slug' => 'nebolsoi-dom-kvadratnoi-formy-s-tremia-spalniami',
+                'slug' => 'nebolsoi-dom-kvadratnoi-formy-s-tremia-spalniami-80-m2',
                 'start_price' => 6000000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_42/ds.html')),
                 'gallery' => [
@@ -1144,9 +1144,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Одноэтажный дом для узкого участка',
+                'title' => 'Одноэтажный дом для узкого участка 140 м²',
                 'img' => '/tmp_data/projects/pr_46/p46_photo_1.JPG',
-                'slug' => 'odnoetaznyi-dom-dlia-uzkogo-ucastka',
+                'slug' => 'odnoetaznyi-dom-dlia-uzkogo-ucastka-140-m2',
                 'start_price' => 10500000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_46/ds.html')),
                 'gallery' => [
@@ -1292,9 +1292,9 @@ class ProjectSeeder extends Seeder
                 'extension' => "Терасса",
             ],
             [
-                'title' => 'Дом с двумя спальнями и террасой',
+                'title' => 'Дом с двумя спальнями и террасой 86 м²',
                 'img' => '/tmp_data/projects/pr_52/p52_photo_1.JPG',
-                'slug' => 'dom-s-dvumia-spalniami-i-terrasoi',
+                'slug' => 'dom-s-dvumia-spalniami-i-terrasoi-86-m2',
                 'start_price' => 8170000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_52/ds.html')),
                 'gallery' => [
@@ -1315,9 +1315,9 @@ class ProjectSeeder extends Seeder
                 'extension' => "Терасса",
             ],
             [
-                'title' => 'Двухэтажный дом для небольшого участка',
+                'title' => 'Двухэтажный дом для небольшого участка 61 м²',
                 'img' => '/tmp_data/projects/pr_53/p53_photo_1.JPG',
-                'slug' => 'dvuxetaznyi-dom-dlia-nebolsogo-ucastka',
+                'slug' => 'dvuxetaznyi-dom-dlia-nebolsogo-ucastka-61-m2',
                 'start_price' => 5795000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_53/ds.html')),
                 'gallery' => [
@@ -1341,7 +1341,7 @@ class ProjectSeeder extends Seeder
             [
                 'title' => 'Красивый одноэтажный дом под четырехскатной крышей',
                 'img' => '/tmp_data/projects/pr_54/p54_photo_1.JPG',
-                'slug' => 'krasivyi-odnoetaznyi-dom-pod-cetyrexskatnoi-krysei',
+                'slug' => 'krasivyi-odnoetaznyi-dom-pod-cetyrexskatnoi-krysei-73-m2',
                 'start_price' => 6935000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_54/ds.html')),
                 'gallery' => [
@@ -1362,9 +1362,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Одноэтажный коттедж',
+                'title' => 'Одноэтажный коттедж 102 м²',
                 'img' => '/tmp_data/projects/pr_55/p55_photo_1.JPG',
-                'slug' => 'odnoetaznyi-kottedz',
+                'slug' => 'odnoetaznyi-kottedz-102-m2',
                 'start_price' => 9690000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_55/ds.html')),
                 'gallery' => [
@@ -1416,9 +1416,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Уютный одноэтажный домик с двумя спальнями',
+                'title' => 'Уютный одноэтажный домик с двумя спальнями 74 м²',
                 'img' => '/tmp_data/projects/pr_57/p57_photo_1.JPG',
-                'slug' => 'uiutnyi-odnoetaznyi-domik-s-dvumia-spalniami',
+                'slug' => 'uiutnyi-odnoetaznyi-domik-s-dvumia-spalniami-74-m2',
                 'start_price' => 7030000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_57/ds.html')),
                 'gallery' => [
@@ -1521,9 +1521,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Двухэтажный коттедж для узкого участка',
+                'title' => 'Двухэтажный коттедж для узкого участка 93 м²',
                 'img' => '/tmp_data/projects/pr_61/p61_photo_1.JPG',
-                'slug' => 'dvuxetaznyi-kottedz-dlia-uzkogo-ucastka',
+                'slug' => 'dvuxetaznyi-kottedz-dlia-uzkogo-ucastka-93-m2',
                 'start_price' => 8835000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_61/ds.html')),
                 'gallery' => [
@@ -1576,9 +1576,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Одноэтажный дом с панорамными окнами для небольшого участка',
+                'title' => 'Одноэтажный дом с панорамными окнами для небольшого участка 77 м²',
                 'img' => '/tmp_data/projects/pr_63/p63_photo_1.JPG',
-                'slug' => 'odnoetaznyi-dom-s-panoramnymi-oknami-dlia-nebolsogo-ucastka',
+                'slug' => 'odnoetaznyi-dom-s-panoramnymi-oknami-dlia-nebolsogo-ucastka-77-m2',
                 'start_price' => 7315000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_63/ds.html')),
                 'gallery' => [
@@ -1782,7 +1782,7 @@ class ProjectSeeder extends Seeder
             [
                 'title' => 'Одноэтажный дом из бруса с террасой',
                 'img' => '/tmp_data/projects/pr_72/p72_photo_1.JPG',
-                'slug' => 'odnoetaznyi-dom-iz-brusa-s-terrasoi',
+                'slug' => 'odnoetaznyi-dom-iz-kleenogo-brusa-s-terrasoi',
                 'start_price' => 6570000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_72/ds.html')),
                 'gallery' => [
@@ -1825,9 +1825,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Двухэтажный дом из бруса с балконом',
+                'title' => 'Двухэтажный дом из бруса с балконом 129 м²',
                 'img' => '/tmp_data/projects/pr_74/p74_photo_1.JPG',
-                'slug' => 'dvuxetaznyi-dom-iz-brusa-s-balkonom',
+                'slug' => 'dvuxetaznyi-dom-iz-brusa-s-balkonom-129-m2',
                 'start_price' => 11610000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_74/ds.html')),
                 'gallery' => [
@@ -1916,7 +1916,7 @@ class ProjectSeeder extends Seeder
             [
                 'title' => 'Двухэтажный дом из бруса с балконом и панорамными окнами',
                 'img' => '/tmp_data/projects/pr_78/p78_photo_1.JPG',
-                'slug' => 'dvuxetaznyi-dom-iz-brusa-s-balkonom-i-panoramnymi-oknami',
+                'slug' => 'dvuxetaznyi-dom-iz-kleenogo-brusa-s-balkonom-i-panoramnymi-oknami',
                 'start_price' => 14580000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_78/ds.html')),
                 'gallery' => [
@@ -1961,9 +1961,9 @@ class ProjectSeeder extends Seeder
                 'extension' => "Терасса",
             ],
             [
-                'title' => 'Двухэтажный дом из бруса с сауной',
+                'title' => 'Двухэтажный дом из бруса с сауной 130 м²',
                 'img' => '/tmp_data/projects/pr_80/p80_photo_1.JPG',
-                'slug' => 'dvuxetaznyi-dom-iz-brusa-s-saunoi',
+                'slug' => 'dvuxetaznyi-dom-iz-brusa-s-saunoi-130-m2',
                 'start_price' => 11700000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_80/ds.html')),
                 'gallery' => [
@@ -2029,7 +2029,7 @@ class ProjectSeeder extends Seeder
             [
                 'title' => 'Двухэтажный дом из бруса с 4 спальнями',
                 'img' => '/tmp_data/projects/pr_83/p83_photo_1.JPG',
-                'slug' => 'dvuxetaznyi-dom-iz-brusa-s-4-spalniami',
+                'slug' => 'dvuxetaznyi-dom-iz-kleenogo-brusa-s-4-spalniami',
                 'start_price' => 29700000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_83/ds.html')),
                 'gallery' => [
@@ -2076,9 +2076,9 @@ class ProjectSeeder extends Seeder
                 'extension' => "Терасса",
             ],
             [
-                'title' => 'Одноэтажный дом из бруса с верандой',
+                'title' => 'Одноэтажный дом из бруса с верандой 231 м²',
                 'img' => '/tmp_data/projects/pr_85/p85_photo_1.JPG',
-                'slug' => 'odnoetaznyi-dom-iz-brusa-s-verandoi',
+                'slug' => 'odnoetaznyi-dom-iz-brusa-s-verandoi-231-m2',
                 'start_price' => 20790000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_85/ds.html')),
                 'gallery' => [
@@ -2146,9 +2146,9 @@ class ProjectSeeder extends Seeder
                 'extension' => "Терасса",
             ],
             [
-                'title' => 'Одноэтажный дом из бруса с террасой',
+                'title' => 'Одноэтажный дом из бруса с террасой 73 м²',
                 'img' => '/tmp_data/projects/pr_88/p88_photo_1.JPG',
-                'slug' => 'odnoetaznyi-dom-iz-brusa-s-terrasoi',
+                'slug' => 'odnoetaznyi-dom-iz-prof-brusa-s-terrasoi-73-m2',
                 'start_price' => 6570000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_88/ds.html')),
                 'gallery' => [
@@ -2216,9 +2216,9 @@ class ProjectSeeder extends Seeder
                 'extension' => "Терасса",
             ],
             [
-                'title' => 'Двухэтажный дом из профильного бруса ',
+                'title' => 'Двухэтажный дом из профильного бруса 122 м²',
                 'img' => '/tmp_data/projects/pr_91/p91_photo_1.JPG',
-                'slug' => 'dvuxetaznyi-dom-iz-profilnogo-brusa',
+                'slug' => 'dvuxetaznyi-dom-iz-profilnogo-brusa-122-m2',
                 'start_price' => 10980000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_91/ds.html')),
                 'gallery' => [
@@ -2240,9 +2240,9 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Двухэтажный дом из профильного бруса с балконом',
+                'title' => 'Двухэтажный дом из профильного бруса с балконом 129 м²',
                 'img' => '/tmp_data/projects/pr_92/p92_photo_1.JPG',
-                'slug' => 'dvuxetaznyi-dom-iz-profilnogo-brusa-s-balkonom',
+                'slug' => 'dvuxetaznyi-dom-iz-profilnogo-brusa-s-balkonom-129-m2',
                 'start_price' => 11610000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_92/ds.html')),
                 'gallery' => [
@@ -2262,9 +2262,9 @@ class ProjectSeeder extends Seeder
                 'extension' => "Терасса",
             ],
             [
-                'title' => 'Дом из бруса с пятью спальнями',
+                'title' => 'Дом из бруса с пятью спальнями 142 м²',
                 'img' => '/tmp_data/projects/pr_93/p93_photo_1.JPG',
-                'slug' => 'dom-iz-brusa-s-piatiu-spalniami',
+                'slug' => 'dom-iz-brusa-s-piatiu-spalniami-142-m2',
                 'start_price' => 12780000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_93/ds.html')),
                 'gallery' => [
@@ -2398,9 +2398,9 @@ class ProjectSeeder extends Seeder
                 'extension' => "Терасса",
             ],
             [
-                'title' => 'Двухэтажный дом из профильного бруса',
+                'title' => 'Двухэтажный дом из профильного бруса 265 м²',
                 'img' => '/tmp_data/projects/pr_99/p99_photo_1.JPG',
-                'slug' => 'dvuxetaznyi-dom-iz-profilnogo-brusa',
+                'slug' => 'dvuxetaznyi-dom-iz-profilnogo-brusa-265-m2',
                 'start_price' => 23850000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_99/ds.html')),
                 'gallery' => [

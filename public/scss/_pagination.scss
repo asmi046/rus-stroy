@@ -1,10 +1,14 @@
 @use 'vars' as *;
 
+.pagination {
+    margin-top: 20px;
+}
 
 .pagination_line {
     width: 100%;
     display: flex;
     justify-content: right;
+    margin-top: 20px;
 }
 
 .pagination__nav-links {
@@ -49,4 +53,11 @@
 
 .pagination__block-dot {
 	margin-right: 10px;
+}
+
+@media (max-width: 480px) {
+    .pagination__back,
+    .pagination__next {
+        display: none;
+    }
 }

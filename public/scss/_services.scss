@@ -73,7 +73,7 @@
 // Баннер услуги
 .service-banner {
     position: relative;
-    height: 450px;
+    height: 350px;
     border-radius: 60px;
     overflow: hidden;
     margin-top: 60px;
@@ -137,7 +137,13 @@
     margin-top: 80px;
 }
 
+
 .service-gallery {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
     &__title {
         font-family: $head_fonts;
         font-size: 32px;
@@ -146,10 +152,6 @@
         margin: 0 0 40px 0;
         text-align: center;
     }
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
 
     &__item {
         border-radius: $border_rad;

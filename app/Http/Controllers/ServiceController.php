@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Service;
+use Illuminate\Support\Facades\View;
 use Illuminate\Http\Request;
 
 class ServiceController extends Controller
@@ -19,6 +20,9 @@ class ServiceController extends Controller
 
         if($service == null) abort('404');
 
-        return view('services.page', ['service' => $service]);
+        $template = (View::exists($service->template))?$service->template:'services.page';
+
+        return view($template, ['service' => $service]);
     }
 }
+
