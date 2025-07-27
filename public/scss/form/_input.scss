@@ -27,6 +27,29 @@ input{
     height: 2.5em;
 }
 
+// Кастомный селект с убранной нативной стрелочкой
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 2.5em; // Место для кастомной стрелочки
+    background-image: url('../img/icon/select-arrow-gray.svg');
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    cursor: pointer;
+
+    &:hover {
+        background-image: url('../img/icon/select-arrow-up-green.svg');
+    }
+
+    &:disabled {
+        background-image: url('../img/icon/select-arrow-disabled.svg');
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+}
+
 input[type=checkbox] {
     width: 15px;
     height: 15px;

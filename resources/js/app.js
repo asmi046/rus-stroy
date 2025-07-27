@@ -5,6 +5,8 @@ import EmptyModal from "./components/EmptyModal.vue"
 import Tap from "./components/Tap.vue"
 import SidePanel from "./components/SidePanel.vue"
 import Review from './components/Reviews/Review.vue'
+
+import ProjectPrice from './components/projects/ProjectPrice.vue'
 import { VMaskDirective } from 'v-slim-mask'
 
 import axios from 'axios'
@@ -44,12 +46,24 @@ const steps_app  = createApp({
 steps_app.mount("#steps_app");
 
 
+if (document.getElementById('review_app')) {
+    const review_app = createApp({
+        components:{
+            Review,
+        },
+    })
 
-const review_app = createApp({
-    components:{
-        Review,
-    },
-})
+    review_app.use(VueAxios, axios)
+    review_app.mount("#review_app")
+}
 
-review_app.use(VueAxios, axios)
-review_app.mount("#review_app")
+if (document.getElementById('project_app')) {
+    const project_app = createApp({
+        components:{
+            ProjectPrice,
+        },
+    })
+
+    project_app.use(VueAxios, axios)
+    project_app.mount("#project_app")
+}

@@ -101,30 +101,15 @@
                 </div>
 
                 <!-- Правая колонка -->
-                <div class="project-details__right">
-                    <!-- Блок с ценой -->
-                    <div class="price-block">
-                        <select class="price-block__select">
-                            <option value="korobka">Коробка</option>
-                            <option value="tepliy-kontur">Теплый контур</option>
-                            <option value="chernovaya">Черновая отделка</option>
-                            <option value="pod-kluch">Под ключ</option>
-                        </select>
-
-                        <p class="price-block__comment">
-                            Цена указана за базовую комплектацию дома без учета фундамента и отделочных работ. Окончательная стоимость зависит от выбранных материалов.
-                        </p>
-
-                        <div class="price-block__prices">
-                            <div class="price-block__old-price">{{ number_format($project->start_price * 1.2, 0, '', ' ') }} ₽</div>
-                            <div class="price-block__current-price">от {{ number_format($project->start_price, 0, '', ' ') }} ₽</div>
-                        </div>
-                    </div>
+                <div id="project_app" class="project-details__right">
+                    <project-price
+                        :start-price="{{ $project->start_price }}"
+                    ></project-price>
 
                     <!-- Блок с кнопками -->
                     <div class="action-buttons">
-                        <button class="button">Получить смету</button>
-                        <button class="button button-orange">Получить консультацию</button>
+                        <a href="#" class="button">Получить смету</a>
+                        <a href="#coll" class="button button-orange">Получить консультацию</a>
                     </div>
 
                     <!-- Блок про ипотеку -->
@@ -134,7 +119,7 @@
                                 <div class="mortgage-block__title">Доступна Ипотека:</div>
                                 <div class="mortgage-block__rate">от 6 %</div>
                             </div>
-                            <button class="mortgage-block__button">подробнее</button>
+                            <a href="/page/ipoteka-na-stroitelstvo-domov" class="mortgage-block__button">Подробнее</a>
                         </div>
                     </div>
 

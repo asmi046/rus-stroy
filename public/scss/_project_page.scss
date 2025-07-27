@@ -34,7 +34,7 @@
     .dotted-grid {
         margin-top: 0;
         grid-template-columns: 1fr;
-        gap: 15px;
+        gap: 10px;
 
         @media (max-width: 768px) {
             gap: 12px;
@@ -44,14 +44,12 @@
 
 // Блок с ценой
 .price-block {
-    border: 2px solid $gray_border_color;
+    border: 1px solid $gray_border_color;
     border-radius: $border_rad;
     padding: $box_padding;
 
     &__select {
         margin-bottom: 20px;
-
-
     }
 
     &__comment {
@@ -133,6 +131,7 @@
         border-radius: $box_border_rad;
         cursor: pointer;
         font-family: $main_fonts;
+        font-size: 12px;
         transition: $main_transition;
 
         &:hover {
@@ -145,7 +144,11 @@
 .description-block {
     border-radius: $border_rad;
     padding: $box_padding;
-    background-color: $gray_bg_color;
+    font-size: 14px;
+    border: 1px solid $gray_bg_color;
+    & h3:first-child {
+        margin-top: 0;
+    }
 }
 
 // Слайдер
