@@ -104,7 +104,12 @@ class ServiceSeeder extends Seeder
                 'slug'=> Str::slug("Кровельные работы"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_4/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_4/main.html')),
-                'gallery' => null,
+                'gallery' => json_encode([
+                    'service/s4_gal_1.webp',
+                    'service/s4_gal_2.webp',
+                    'service/s4_gal_3.jpg',
+                    'service/s4_gal_4.jpg',
+                ]),
                 'sections' => null,
             ],
 
@@ -115,7 +120,12 @@ class ServiceSeeder extends Seeder
                 'slug'=> Str::slug("Внутренняя отделка"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_5/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_5/main.html')),
-                'gallery' => null,
+                'gallery' => json_encode([
+                    'service/s5_gal_1.jpg',
+                    'service/s5_gal_2.jpg',
+                    'service/s5_gal_3.webp',
+                    'service/s5_gal_4.jpg',
+                ]),
                 'sections' => null,
             ],
 
@@ -126,7 +136,12 @@ class ServiceSeeder extends Seeder
                 'slug'=> Str::slug("Строительство веранд и террасс"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_6/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_6/main.html')),
-                'gallery' => null,
+                'gallery' => json_encode([
+                    'service/s6_gal_1.jpg',
+                    'service/s6_gal_2.webp',
+                    'service/s6_gal_3.jpg',
+                    'service/s6_gal_4.jpg',
+                ]),
                 'sections' => null,
             ],
 
@@ -137,7 +152,12 @@ class ServiceSeeder extends Seeder
                 'slug'=> Str::slug("Строительство беседок"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_7/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_7/main.html')),
-                'gallery' => null,
+                'gallery' => json_encode([
+                    'service/s7_gal_1.webp',
+                    'service/s7_gal_2.webp',
+                    'service/s7_gal_3.webp',
+                    'service/s7_gal_4.jpg',
+                ]),
                 'sections' => null,
             ],
 
@@ -148,7 +168,12 @@ class ServiceSeeder extends Seeder
                 'slug'=> Str::slug("Ленточный фундамент"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_8/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_8/main.html')),
-                'gallery' => null,
+                'gallery' => json_encode([
+                    'service/s8_gal_1.webp',
+                    'service/s8_gal_2.webp',
+                    'service/s8_gal_3.jpg',
+                    'service/s8_gal_4.jpg',
+                ]),
                 'sections' => null,
             ],
 
@@ -159,7 +184,13 @@ class ServiceSeeder extends Seeder
                 'slug'=> Str::slug("Свайный фундамент"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_9/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_9/main.html')),
-                'gallery' => null,
+                'gallery' => json_encode([
+                    'service/s9_gal_1.webp',
+                    'service/s9_gal_2.webp',
+                    'service/s9_gal_3.webp',
+                    'service/s9_gal_4.jpg',
+                    'service/s9_gal_5.webp',
+                ]),
                 'sections' => null,
             ],
 
@@ -170,7 +201,13 @@ class ServiceSeeder extends Seeder
                 'slug'=> Str::slug("Монолитный фундамент"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_10/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_10/main.html')),
-                'gallery' => null,
+                'gallery' => json_encode([
+                    'service/s10_gal_1.webp',
+                    'service/s10_gal_2.webp',
+                    'service/s10_gal_3.webp',
+                    'service/s10_gal_4.webp',
+                    'service/s10_gal_5.jpg',
+                ]),
                 'sections' => null,
             ],
 
@@ -181,7 +218,13 @@ class ServiceSeeder extends Seeder
                 'slug'=> Str::slug("Строительство заборов"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_11/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_11/main.html')),
-                'gallery' => null,
+                'gallery' => json_encode([
+                    'service/s11_gal_1.jpg',
+                    'service/s11_gal_2.webp',
+                    'service/s11_gal_3.webp',
+                    'service/s11_gal_4.webp',
+                    'service/s11_gal_5.webp',
+                ]),
                 'sections' => null,
             ],
 
@@ -192,7 +235,12 @@ class ServiceSeeder extends Seeder
                 'slug'=> Str::slug("Установка откатных и распашных ворот"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_12/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_12/main.html')),
-                'gallery' => null,
+                'gallery' => json_encode([
+                    'service/s12_gal_1.webp',
+                    'service/s12_gal_2.webp',
+                    'service/s12_gal_3.jpg',
+                    'service/s12_gal_4.jpg',
+                ]),
                 'sections' => null,
             ],
 
@@ -203,7 +251,13 @@ class ServiceSeeder extends Seeder
                 'slug'=> Str::slug("Строительство навесов"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_13/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_13/main.html')),
-                'gallery' => null,
+                'gallery' => json_encode([
+                    'service/s13_gal_1.jpg',
+                    'service/s13_gal_2.jpg',
+                    'service/s13_gal_3.jpg',
+                    'service/s13_gal_4.jpg',
+                    'service/s13_gal_5.jpg',
+                ]),
                 'sections' => null,
             ],
 
