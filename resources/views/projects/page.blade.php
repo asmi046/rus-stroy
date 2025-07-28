@@ -108,7 +108,7 @@
 
                     <!-- Блок с кнопками -->
                     <div class="action-buttons">
-                        <a href="#" class="button">Получить смету</a>
+                        <a href="#smeta" class="button">Получить смету</a>
                         <a href="#coll" class="button button-orange">Получить консультацию</a>
                     </div>
 
@@ -131,6 +131,22 @@
             </div>
         </div>
     </section>
+
+    <section>
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title __left">Похожие проекты</h2>
+            </div>
+            <div class="projects-section__grid">
+                @foreach($dop_project as $item)
+                    <x-cards.project :item="$item"></x-cards.project>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
+    <x-main.cases-section />
+    <x-main.whay-section />
 
 @endsection
 

@@ -5,7 +5,7 @@
         <div class="container text_styles">
             <x-breadcrumbs.main :title="$page->title"></x-breadcrumbs.main>
             <div class="section__header">
-                <h2 class="section__title __left">{{$page->title}}</h2>
+                <h1 class="section__title __left">{{$page->title}}</h1>
             </div>
 
             {!! $page->description !!}

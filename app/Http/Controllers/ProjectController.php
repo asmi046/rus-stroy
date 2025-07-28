@@ -19,6 +19,12 @@ class ProjectController extends Controller
 
         if($project == null) abort('404');
 
-        return view('projects.page', ['project' => $project]);
+        $dop_project = Project::where('floors', $project->floors)
+            ->where('type', $project->type)
+            ->inRandomOrder()
+            ->take(3)
+            ->get();
+
+        return view('projects.page', ['project' => $project, 'dop_project' => $dop_project]);
     }
 }

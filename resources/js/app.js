@@ -6,6 +6,7 @@ import EmptyModal from "./components/EmptyModal.vue"
 import Tap from "./components/Tap.vue"
 import SidePanel from "./components/SidePanel.vue"
 import Review from './components/Reviews/Review.vue'
+import Quiz from './components/Quiz/Quiz.vue'
 
 import ProjectPrice from './components/projects/ProjectPrice.vue'
 import { VMaskDirective } from 'v-slim-mask'
@@ -79,4 +80,17 @@ if (document.getElementById('cta_app')) {
     cta_app.use(VueAxios, axios)
     cta_app.directive('mask', VMaskDirective)
     cta_app.mount("#cta_app")
+}
+
+if (document.getElementById('quiz_app')) {
+    const quiz_app = createApp({
+        components:{
+            Quiz,
+        },
+        setup() {}
+    })
+
+    quiz_app.use(VueAxios, axios)
+    quiz_app.directive('mask', VMaskDirective)
+    quiz_app.mount("#quiz_app");
 }

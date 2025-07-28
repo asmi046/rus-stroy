@@ -3,6 +3,7 @@
 use App\Http\Middleware\IssetCity;
 use App\Http\Controllers\FaqController;
 use App\Http\Controllers\LikeController;
+use App\Http\Controllers\QuizController;
 use App\Http\Controllers\PriceController;
 use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\CompareController;
@@ -12,6 +13,7 @@ use App\Http\Controllers\ContactsController;
 use App\Http\Controllers\MaterialController;
 use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\Consultation\SenderConsultController;
+use App\Http\Controllers\Consultation\SenderQuizController;
     use Illuminate\Support\Facades\Route;
 
     use App\Http\Controllers\IndexController;
@@ -49,4 +51,8 @@ use App\Http\Controllers\Consultation\SenderConsultController;
         Route::post('/send_consult', [SenderConsultController::class, "send_consultation"])->name('send_consultation');
         Route::post('/send_cta', [SenderConsultController::class, "send_cta"])->name('send_cta');
         Route::get('/thencs_consult', [SenderConsultController::class, "show_thencs"])->name('thencs_consult');
+
+
+        Route::get('/quiz', [QuizController::class, "index"])->name('quiz');
+        Route::post('/send_quiz', [SenderQuizController::class, "send"])->name('send_quiz');
     });
