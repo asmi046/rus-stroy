@@ -11,7 +11,7 @@ use Illuminate\Queue\SerializesModels;
 
 use Illuminate\Mail\Mailables\Address;
 
-class ConsultMail extends Mailable
+class CtaMail extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -36,7 +36,7 @@ class ConsultMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Консультация специалиста',
+            subject: 'Консультация специалиста (CTA)',
         );
     }
 
@@ -48,7 +48,7 @@ class ConsultMail extends Mailable
     public function content()
     {
         return new Content(
-            view: 'mail.consultation.consultation',
+            view: 'mail.consultation.cta',
         );
     }
 

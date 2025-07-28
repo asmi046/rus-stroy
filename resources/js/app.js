@@ -1,6 +1,7 @@
 import './bootstrap';
 import {createApp} from 'vue/dist/vue.esm-bundler'
 import ModalWindow from "./components/ModalWindow.vue"
+import SendCta from "./components/SendCta.vue"
 import EmptyModal from "./components/EmptyModal.vue"
 import Tap from "./components/Tap.vue"
 import SidePanel from "./components/SidePanel.vue"
@@ -66,4 +67,16 @@ if (document.getElementById('project_app')) {
 
     project_app.use(VueAxios, axios)
     project_app.mount("#project_app")
+}
+
+if (document.getElementById('cta_app')) {
+    const cta_app = createApp({
+        components:{
+            SendCta,
+        },
+    })
+
+    cta_app.use(VueAxios, axios)
+    cta_app.directive('mask', VMaskDirective)
+    cta_app.mount("#cta_app")
 }

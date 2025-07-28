@@ -36,6 +36,7 @@
 
     </main>
 
+    <x-cta-block />
     <x-footer/>
 
     <x-menues.side-menu></x-menues.side-menu>

@@ -11,6 +11,7 @@ use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\ContactsController;
 use App\Http\Controllers\MaterialController;
 use App\Http\Controllers\PortfolioController;
+use App\Http\Controllers\Consultation\SenderConsultController;
     use Illuminate\Support\Facades\Route;
 
     use App\Http\Controllers\IndexController;
@@ -44,4 +45,8 @@ use App\Http\Controllers\PortfolioController;
         Route::get('/faq', [FaqController::class, "index"])->name('faq');
         Route::get('/like', [LikeController::class, "index"])->name('like');
         Route::get('/compare', [CompareController::class, "index"])->name('compare');
+
+        Route::post('/send_consult', [SenderConsultController::class, "send_consultation"])->name('send_consultation');
+        Route::post('/send_cta', [SenderConsultController::class, "send_cta"])->name('send_cta');
+        Route::get('/thencs_consult', [SenderConsultController::class, "show_thencs"])->name('thencs_consult');
     });

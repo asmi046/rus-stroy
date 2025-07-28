@@ -65,7 +65,7 @@
     </div>
 </section>
 
-<section class="work-step-section">
+<section class="review-section">
     <div class="container" id="review_app">
         <div class="section__header">
             <h2 class="section__title">Отзывы наших клиентов</h2>
@@ -74,7 +74,6 @@
         <review></review>
     </div>
 </section>
-
 
 <x-main.faq-section />
 

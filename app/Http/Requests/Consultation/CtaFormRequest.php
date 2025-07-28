@@ -4,7 +4,7 @@ namespace App\Http\Requests\Consultation;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class ConsultFormRequest extends FormRequest
+class CtaFormRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -35,6 +35,7 @@ class ConsultFormRequest extends FormRequest
     public function rules(): array
     {
         return [
+            'name' => [],
             "phone" => ['required','string'],
         ];
     }
