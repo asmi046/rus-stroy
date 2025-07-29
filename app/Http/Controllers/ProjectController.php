@@ -27,4 +27,11 @@ class ProjectController extends Controller
 
         return view('projects.page', ['project' => $project, 'dop_project' => $dop_project]);
     }
+
+    public function get_list(Request $request)
+    {
+        $ids = $request->input('ids', []);
+        return Project::whereIn('id', $ids)->get();
+    }
+
 }

@@ -8,6 +8,7 @@ import Tap from "./components/Tap.vue"
 import SidePanel from "./components/SidePanel.vue"
 import Review from './components/Reviews/Review.vue'
 import Quiz from './components/Quiz/Quiz.vue'
+import Like from './components/Like.vue'
 
 import ProjectPrice from './components/projects/ProjectPrice.vue'
 import { VMaskDirective } from 'v-slim-mask'
@@ -94,4 +95,17 @@ if (document.getElementById('quiz_app')) {
     quiz_app.use(VueAxios, axios)
     quiz_app.directive('mask', VMaskDirective)
     quiz_app.mount("#quiz_app");
+}
+
+if (document.getElementById('like_app')) {
+    const like_app = createApp({
+        components:{
+            Like,
+        },
+        setup() {}
+    })
+
+    like_app.use(VueAxios, axios)
+    like_app.directive('mask', VMaskDirective)
+    like_app.mount("#like_app");
 }

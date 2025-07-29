@@ -7,6 +7,10 @@
             <div class="section__header">
                 <h2 class="section__title __left">Понравившиеся проекты</h2>
             </div>
+
+            <div id="like_app">
+                <like></like>
+            </div>
         </div>
     </section>
 
