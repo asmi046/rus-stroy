@@ -1,7 +1,7 @@
 <a href="{{ route('projects_page', $item->slug)}}" class="project-card">
                 <div class="project-card__image-wrapper">
                     <div class="control_icons">
-                        <button class="control_icons__icon __like" aria-label="Избранное">
+                        <button class="control_icons__icon __like" data-projectid="{{ $item->id }}" aria-label="Избранное">
                                 <svg class="sprite_icon">
                                     <use xlink:href="#like_icon"></use>
                                 </svg>

@@ -69,6 +69,10 @@
                         background-color: $sub_color_hover;
                     }
                 }
+
+                &.__liked {
+                    background-color: #ff4d4f;
+                }
                 .sprite_icon {
                     width: 20px;
                     height: 20px;

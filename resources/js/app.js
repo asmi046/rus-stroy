@@ -1,4 +1,5 @@
 import './bootstrap';
+import './like';
 import {createApp} from 'vue/dist/vue.esm-bundler'
 import ModalWindow from "./components/ModalWindow.vue"
 import SendCta from "./components/SendCta.vue"
