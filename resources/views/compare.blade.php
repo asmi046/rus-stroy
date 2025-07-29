@@ -7,6 +7,10 @@
             <div class="section__header">
                 <h2 class="section__title __left">Сравнение проектов домов по параметрам</h2>
             </div>
+
+            <div id="compare_app">
+                <compare></compare>
+            </div>
         </div>
     </section>
 

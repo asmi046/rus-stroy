@@ -7,7 +7,7 @@
                                 </svg>
                         </button>
 
-                        <button class="control_icons__icon __compare" aria-label="Сравнение">
+                        <button class="control_icons__icon __compare" data-projectid="{{ $item->id }}" aria-label="Сравнение">
                             <svg class="sprite_icon">
                                 <use xlink:href="#compare_icon"></use>
                             </svg>
