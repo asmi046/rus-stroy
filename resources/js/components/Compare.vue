@@ -22,7 +22,6 @@
                             <div
                                 v-for="project in compareList"
                                 :key="project.id"
-                                :project="project"
                                 class="compare-table__project">
                                 <div class="compare-table__project-header">
                                     <h3 class="compare-table__project-title">{{project.title}}</h3>
