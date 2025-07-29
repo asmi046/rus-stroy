@@ -5,6 +5,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Вешаем событие на каждый найденный элемент
     likeButtons.forEach(button => {
+        // Проверяем избранное при загрузке страницы
+        const projectId = button.dataset.projectid;
+        let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+
+        // Если проект уже в избранном, добавляем класс __liked
+        if (favorites.includes(projectId)) {
+            button.classList.add('__liked');
+        }
+
         button.addEventListener('click', function(event) {
             // Останавливаем распространение события
             event.stopPropagation();
