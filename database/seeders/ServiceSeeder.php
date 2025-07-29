@@ -98,10 +98,7 @@ class ServiceSeeder extends Seeder
         Storage::disk('public')->put("service/s13_gal_2.jpg", file_get_contents(public_path('tmp_data/serv/s_13/s13_gal_2.jpg')), 'public');
         Storage::disk('public')->put("service/s13_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_13/s13_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s13_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_13/s13_gal_4.jpg')), 'public');
-        Storage::disk('public')->put("service/s13_gal_5.jpg", file_get_contents(public_path('<tmp_data>
-        <serv>
-        <s_13>
-        <s13></s13>_gal_5.jpg')), 'public');
+        Storage::disk('public')->put("service/s13_gal_5.jpg", file_get_contents(public_path('tmp_data/serv/s_13/s13_gal_5.jpg')), 'public');
 
         $data = [
 

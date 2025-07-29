@@ -16,6 +16,9 @@ class MaterialSeeder extends Seeder
      */
     public function run(): void
     {
+        Storage::disk('public')->put('materials/sip.webp', file_get_contents(public_path('tmp_data/materials/sip.webp')), 'public');
+        Storage::disk('public')->put('materials/kirp.webp', file_get_contents(public_path('tmp_data/materials/kirp.webp')), 'public');
+        Storage::disk('public')->put('materials/ocilindrovannoe_brevno.webp', file_get_contents(public_path('tmp_data/materials/ocilindrovannoe_brevno.webp')), 'public');
         Storage::disk('public')->put('materials/gazoblok.webp', file_get_contents(public_path('tmp_data/materials/gazoblok.jpg')), 'public');
         Storage::disk('public')->put('materials/penoblok.webp', file_get_contents(public_path('tmp_data/materials/penoblok.jpg')), 'public');
         Storage::disk('public')->put('materials/arbolit.webp', file_get_contents(public_path('tmp_data/materials/arbolit.jpg')), 'public');
@@ -28,14 +31,14 @@ class MaterialSeeder extends Seeder
 
         $data = [
             [
-                'title' => "Дома из газоблоков",
-                'material_name' => "Газоблок",
-                'subtitle' => "Подборка проектов домов которые можно построить из газоблоков",
-                'img' => 'materials/gazoblok.webp',
-                'slug' => Str::slug("Дома из газоблоков"),
+                'title' => "Дома из СИП-панелей",
+                'material_name' => "СИП-панели",
+                'subtitle' => "Подборка проектов домов которые можно построить из СИП-панелей",
+                'img' => 'materials/sip.webp',
+                'slug' => Str::slug("Дома из СИП-панелей"),
                 'order' => 1,
-                'start_price' => 1584000.00,
-                'description' => "Газоблок — популярный строительный материал для возведения стен и перекрытий, обладающий хорошей теплоизоляцией.",
+                'start_price' => 1084000.00,
+                'description' => "СИП-панели — это современные строительные элементы, состоящие из двух слоев OSB и утеплителя, обеспечивающие высокую теплоизоляцию и быструю сборку.",
             ],
             [
                 'title' => "Дома из пеноблоков",
@@ -48,45 +51,26 @@ class MaterialSeeder extends Seeder
                 'description' => "Пеноблок — легкий и недорогой материал, используемый для строительства энергоэффективных домов.",
             ],
             [
-                'title' => "Дома из арболита",
-                'material_name' => "Арболит",
-                'subtitle' => "Подборка проектов домов которые можно построить из арболита",
-                'img' => 'materials/arbolit.webp',
-                'slug' => Str::slug("Дома из арболита"),
-                'order' => 3,
-                'start_price' => 5984000.00,
-                'description' => "Арболит — экологичный материал на основе древесных компонентов, хорошо сохраняет тепло и устойчив к влаге.",
+                'title' => "Дома из кирпича",
+                'material_name' => "Кирпич",
+                'subtitle' => "Подборка проектов домов которые можно построить из кирпича",
+                'img' => 'materials/kirp.webp',
+                'slug' => Str::slug("Дома из кирпича"),
+                'order' => 1,
+                'start_price' => 2284000.00,
+                'description' => "Кирпич — традиционный строительный материал, обеспечивающий прочность и долговечность зданий, а также отличную тепло- и звукоизоляцию.",
             ],
             [
-                'title' => "Дома из керамзитоблока",
-                'material_name' => "Керамзитоблок",
-                'subtitle' => "Подборка проектов домов которые можно построить из керамзитоблока",
-                'img' => 'materials/keramzitoblok.webp',
-                'slug' => Str::slug("Дома из керамзитоблока"),
-                'order' => 4,
-                'start_price' => 1000000.00,
-                'description' => "Керамзитоблок — прочный и легкий материал, обладающий хорошей тепло- и звукоизоляцией.",
+                'title' => "Дома из газоблоков",
+                'material_name' => "Газобетон",
+                'subtitle' => "Подборка проектов домов которые можно построить из газоблоков",
+                'img' => 'materials/gazoblok.webp',
+                'slug' => Str::slug("Дома из газоблоков"),
+                'order' => 1,
+                'start_price' => 1584000.00,
+                'description' => "Газоблок — популярный строительный материал для возведения стен и перекрытий, обладающий хорошей теплоизоляцией.",
             ],
-            [
-                'title' => "Дома из керамоблока",
-                'material_name' => "Керамоблок",
-                'subtitle' => "Подборка проектов домов которые можно построить из керамоблока",
-                'img' => 'materials/keramoblok.webp',
-                'slug' => Str::slug("Дома из керамоблока"),
-                'order' => 5,
-                'start_price' => 6280000.00,
-                'description' => "Керамоблок — современный материал с высокой прочностью и отличной теплоизоляцией, подходит для строительства долговечных домов.",
-            ],
-            [
-                'title' => "Дома из силикатного блока",
-                'material_name' => "Силикатный блок",
-                'subtitle' => "Подборка проектов домов которые можно построить из силикатного блока",
-                'img' => 'materials/silikatnyj_blok.webp',
-                'slug' => Str::slug("Дома из силикатного блока"),
-                'order' => 6,
-                'start_price' => 3524000.00,
-                'description' => "Силикатный блок — материал с высокой прочностью, используется для строительства надежных и долговечных зданий.",
-            ],
+
             [
                 'title' => "Дома из бруса",
                 'material_name' => "Брус",
@@ -96,6 +80,27 @@ class MaterialSeeder extends Seeder
                 'order' => 7,
                 'start_price' => 1924000.00,
                 'description' => "Брус — натуральный материал, обеспечивающий экологичность и комфорт проживания в деревянном доме.",
+            ],
+
+            [
+                'title' => "Дома из ПЩС-блоков",
+                'material_name' => "ПЩС-блоки",
+                'subtitle' => "Подборка проектов домов которые можно построить из ПЩС-блоков",
+                'img' => 'materials/silikatnyj_blok.webp',
+                'slug' => Str::slug("Дома из ПЩС-блоков"),
+                'order' => 3,
+                'start_price' => 3984000.00,
+                'description' => "ПЩС-блоки — современные строительные материалы, обладающие высокой прочностью и отличной теплоизоляцией.",
+            ],
+            [
+                'title' => "Дома из керамоблока",
+                'material_name' => "Теплокерамика",
+                'subtitle' => "Подборка проектов домов которые можно построить из керамоблока",
+                'img' => 'materials/keramoblok.webp',
+                'slug' => Str::slug("Дома из керамоблока"),
+                'order' => 5,
+                'start_price' => 6280000.00,
+                'description' => "Керамоблок — современный материал с высокой прочностью и отличной теплоизоляцией, подходит для строительства долговечных домов.",
             ],
             [
                 'title' => "Дома из профилированного бруса",
@@ -110,7 +115,7 @@ class MaterialSeeder extends Seeder
 
             [
                 'title' => "Дома из клееного бруса",
-                'material_name' => "Клеенный брус",
+                'material_name' => "Клеёный брус",
                 'subtitle' => "Подборка проектов домов которые можно построить из клеенного бруса",
                 'img' => 'materials/kl_brus.webp',
                 'slug' => Str::slug("Дома из клееного бруса"),
@@ -118,6 +123,19 @@ class MaterialSeeder extends Seeder
                 'start_price' => 6384000.00,
                 'description' => null,
             ],
+
+            [
+                'title' => "Дома из бревна",
+                'material_name' => "Оцилиндрованное бревно",
+                'subtitle' => "Подборка проектов домов которые можно построить из оцилиндрованного бревна",
+                'img' => 'materials/ocilindrovannoe_brevno.webp',
+                'slug' => Str::slug("Дома из оцилиндрованного бревна"),
+                'order' => 4,
+                'start_price' => 1000000.00,
+                'description' => "Оцилиндрованное бревно — натуральный материал, обеспечивающий экологичность и комфорт проживания в деревянном доме.",
+            ],
+
+
         ];
 
         foreach ($data as $item) {
