@@ -41,4 +41,12 @@ class Project extends Model
     {
         return $this->belongsToMany(ProjectTag::class, 'project_project_tag');
     }
+    /**
+     * Обратная связь один ко многим с моделью Material по полям material_name и wall_material
+     */
+    public function material()
+    {
+        return $this->belongsTo(Material::class, 'wall_material', 'material_name');
+    }
+
 }

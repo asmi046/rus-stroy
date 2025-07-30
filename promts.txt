@@ -579,3 +579,7 @@ const base_path = window.Laravel.storageUrl || '';
 ______
 
 в текущем файле компонента сделай метод который будет удалять из избранного с сохранением изменений в LocalStoragr и передай его в компонет ProjectCard
+
+______
+
+Свяжи эту модель связью один ко многим с моделью Project по полям material_name и wall_material

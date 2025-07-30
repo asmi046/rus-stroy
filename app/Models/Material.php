@@ -16,4 +16,14 @@ class Material extends Model
         'start_price',
         'description',
     ];
+
+    protected $with = [
+        'projects',
+    ];
+
+    public function projects()
+    {
+        return $this->hasMany(Project::class, 'wall_material', 'material_name');
+    }
+
 }
