@@ -4,12 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Models\Project;
 use Illuminate\Http\Request;
+use App\Filters\ProjectFilter;
 
 class ProjectController extends Controller
 {
-    public function index()
+    public function index(ProjectFilter $request)
     {
-        $projects = Project::paginate(15);
+        $projects = Project::select()->filter($request)->paginate(15)->withQueryString();
         return view('projects.index', ['projects' => $projects]);
     }
 

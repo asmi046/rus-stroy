@@ -4,9 +4,14 @@ namespace App\Filters;
 
 class ProjectFilter extends QueryFilter {
 
-    public function volume($volume) {
-        if  (!empty($volume) && $volume !== "%")
-            $this->builder->where("volume", ">", $volume - procent_calc($volume, config('select_range.volume_percent')) )->Where("volume", "<", $volume + procent_calc($volume, config('select_range.volume_percent')) );
+    public function wall_material($wall_material) {
+        if  (!empty($wall_material) && $wall_material !== "%")
+            $this->builder->where("wall_material", "=", $wall_material);
+    }
+
+    public function floors($floors) {
+        if  (!empty($floors) && $floors !== "%")
+            $this->builder->where("floors", "=", $floors);
     }
 
     public function amperage($amperage) {
