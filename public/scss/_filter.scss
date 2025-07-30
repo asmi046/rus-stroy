@@ -1,0 +1,203 @@
+@import 'vars';
+
+.filter-section {
+    margin: $section_space 0;
+    padding: $box_padding;
+    background: white;
+    border: 1px solid $gray_border_color;
+    border-radius: $border_rad;
+    box-shadow: $box_shadow;
+}
+
+.filter-form {
+    &__row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        align-items: end;
+    }
+
+    &__group {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    &__label {
+        font-family: $head_fonts;
+        font-weight: 600;
+        color: $black_color;
+        font-size: 14px;
+    }
+
+    &__select {
+        padding: 12px 16px;
+        border: 1px solid $gray_border_color;
+        border-radius: $box_border_rad;
+        background: white;
+        font-family: $main_fonts;
+        font-size: 14px;
+        color: $black_color;
+        transition: $main_transition;
+        appearance: none;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+        background-position: right 12px center;
+        background-repeat: no-repeat;
+        background-size: 16px;
+        cursor: pointer;
+
+        &:focus {
+            outline: none;
+            border-color: $main_color;
+            box-shadow: 0 0 0 3px rgba(15, 197, 191, 0.1);
+        }
+
+        &:hover {
+            border-color: $hover_color;
+        }
+    }
+
+    &__input {
+        padding: 12px 16px;
+        border: 1px solid $gray_border_color;
+        border-radius: $box_border_rad;
+        background: white;
+        font-family: $main_fonts;
+        font-size: 14px;
+        color: $black_color;
+        transition: $main_transition;
+        width: 100%;
+
+        &:focus {
+            outline: none;
+            border-color: $main_color;
+            box-shadow: 0 0 0 3px rgba(15, 197, 191, 0.1);
+        }
+
+        &:hover {
+            border-color: $hover_color;
+        }
+
+        &::placeholder {
+            color: $dark_gray_color;
+        }
+    }
+
+    &__range {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .filter-form__input {
+            flex: 1;
+        }
+    }
+
+    &__separator {
+        color: $dark_gray_color;
+        font-weight: 500;
+        font-size: 16px;
+        min-width: 15px;
+        text-align: center;
+    }
+
+    &__submit {
+        background: $main_color;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: $box_border_rad;
+        font-family: $head_fonts;
+        font-weight: 600;
+        font-size: 14px;
+        cursor: pointer;
+        transition: $main_transition;
+        white-space: nowrap;
+
+        &:hover {
+            background: $hover_color;
+        }
+
+        &:active {
+            transform: translateY(1px);
+        }
+    }
+}
+
+// Адаптация под планшеты
+@media (max-width: 768px) {
+    .filter-form {
+        &__row {
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+
+        &__label {
+            font-size: 13px;
+        }
+
+        &__select,
+        &__input {
+            padding: 10px 12px;
+            font-size: 13px;
+        }
+
+        &__submit {
+            padding: 10px 20px;
+            font-size: 13px;
+        }
+    }
+
+    .filter-section {
+        padding: 15px;
+        margin: 15px 0;
+    }
+}
+
+// Адаптация под мобильные устройства
+@media (max-width: 480px) {
+    .filter-form {
+        &__row {
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+
+        &__range {
+            gap: 8px;
+        }
+
+        &__separator {
+            font-size: 14px;
+        }
+
+        &__submit {
+            width: 100%;
+            margin-top: 8px;
+        }
+    }
+
+    .filter-section {
+        padding: 12px;
+        margin: 12px 0;
+    }
+}
+
+// Адаптация под очень маленькие экраны
+@media (max-width: 320px) {
+    .filter-form {
+        &__select,
+        &__input {
+            padding: 8px 10px;
+            font-size: 12px;
+        }
+
+        &__label {
+            font-size: 12px;
+        }
+
+        &__submit {
+            padding: 8px 16px;
+            font-size: 12px;
+        }
+    }
+}

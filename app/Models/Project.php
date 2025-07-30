@@ -2,7 +2,9 @@
 
 namespace App\Models;
 
+use App\Filters\QueryFilter;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Contracts\Database\Eloquent\Builder;
 
 class Project extends Model
 {
@@ -47,6 +49,10 @@ class Project extends Model
     public function material()
     {
         return $this->belongsTo(Material::class, 'wall_material', 'material_name');
+    }
+
+    public function scopeFilter(Builder $builder, QueryFilter $filter) {
+        return $filter->apply($builder);
     }
 
 }
