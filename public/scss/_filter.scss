@@ -12,7 +12,7 @@
 .filter-form {
     &__row {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 18%));
         gap: 20px;
         align-items: end;
     }
@@ -34,16 +34,11 @@
         padding: 12px 16px;
         border: 1px solid $gray_border_color;
         border-radius: $box_border_rad;
-        background: white;
         font-family: $main_fonts;
         font-size: 14px;
         color: $black_color;
         transition: $main_transition;
         appearance: none;
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
-        background-position: right 12px center;
-        background-repeat: no-repeat;
-        background-size: 16px;
         cursor: pointer;
 
         &:focus {
@@ -101,6 +96,12 @@
         text-align: center;
     }
 
+    &__buttons {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+    }
+
     &__submit {
         background: $main_color;
         color: white;
@@ -113,6 +114,10 @@
         cursor: pointer;
         transition: $main_transition;
         white-space: nowrap;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
 
         &:hover {
             background: $hover_color;
@@ -122,9 +127,46 @@
             transform: translateY(1px);
         }
     }
+
+    &__reset {
+        background: transparent;
+        color: $dark_gray_color;
+        border: 1px solid $gray_border_color;
+        padding: 12px 20px;
+        border-radius: $box_border_rad;
+        font-family: $head_fonts;
+        font-weight: 600;
+        font-size: 14px;
+        cursor: pointer;
+        transition: $main_transition;
+        white-space: nowrap;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+            background: $gray_bg_color;
+            border-color: $main_color;
+            color: $main_color;
+        }
+
+        &:active {
+            transform: translateY(1px);
+        }
+    }
+
 }
 
-// Адаптация под планшеты
+@media (max-width: 1024px) {
+.filter-form {
+        &__row {
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+    }
+}
+
 @media (max-width: 768px) {
     .filter-form {
         &__row {
@@ -142,9 +184,14 @@
             font-size: 13px;
         }
 
-        &__submit {
+        &__submit,
+        &__reset {
             padding: 10px 20px;
             font-size: 13px;
+        }
+
+        &__buttons {
+            gap: 10px;
         }
     }
 
@@ -170,9 +217,21 @@
             font-size: 14px;
         }
 
-        &__submit {
-            width: 100%;
-            margin-top: 8px;
+        &__buttons {
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        &__submit,
+        &__reset {
+            width: 80%;
+            margin-top: 0;
+        }
+
+
+        .filter-form__buttons {
+            display: flex;
+            flex-direction: column;
         }
     }
 
@@ -195,7 +254,8 @@
             font-size: 12px;
         }
 
-        &__submit {
+        &__submit,
+        &__reset {
             padding: 8px 16px;
             font-size: 12px;
         }

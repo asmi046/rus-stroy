@@ -223,7 +223,7 @@ class PortfolioSeeder extends Seeder
                     "/tmp_data/portfolio/port_9/p9_photo_3.jpg",
                     "/tmp_data/portfolio/port_9/p9_photo_4.jpg",
                 ],
-            ],   
+            ],
             [
                 'title' => "Особняк с гаражом: Простор и Технологии",
                 'img' => "/tmp_data/portfolio/port_10/p10_main.jpg",
@@ -244,7 +244,7 @@ class PortfolioSeeder extends Seeder
                     "/tmp_data/portfolio/port_10/p10_photo_3.jpg",
                     "/tmp_data/portfolio/port_10/p10_photo_4.jpg",
                 ],
-            ],    
+            ],
             [
                 'title' => "Семейная Усадьба: Простор для Поколений",
                 'img' => "/tmp_data/portfolio/port_11/p11_main.jpg",
@@ -394,7 +394,7 @@ class PortfolioSeeder extends Seeder
                     "/tmp_data/portfolio/port_16/p16_photo_17.jpg",
                     "/tmp_data/portfolio/port_16/p16_photo_18.jpg",
                 ],
-            ],    
+            ],
         ];
 
         $seo_data = [
@@ -560,7 +560,7 @@ class PortfolioSeeder extends Seeder
 
             DB::table("seo_data")->insert(
                 [
-                    'url' => 'page/'.$item['slug'],
+                    'url' => 'portfolio/'.$item['slug'],
                     'seo_title' => $seo_data[$i]['seo_title'],
                     'seo_description' => $seo_data[$i]['seo_description'],
                 ]

@@ -33,14 +33,25 @@
            <div class="filter-form__group">
                <label for="extension" class="filter-form__label">Пристройка</label>
                <select name="extension" id="extension" class="filter-form__select">
-                   <option value="">Не важно</option>
-                   <option value="yes">Есть</option>
-                   <option value="no">Нет</option>
+                   <option value="%" {{ request('extension') == '%' ? 'selected' : '' }}>Не важно</option>
+                   <option value="yes" {{ request('extension') == 'yes' ? 'selected' : '' }}>Есть</option>
+                   <option value="no" {{ request('extension') == 'no' ? 'selected' : '' }}>Нет</option>
                </select>
            </div>
 
            <div class="filter-form__group">
-               <button type="submit" class="filter-form__submit button">Применить фильтр</button>
+               <div class="filter-form__buttons">
+                   <button
+                    type="submit"
+                    class="filter-form__submit button"
+                    title="Применить фильтр"
+                    >Применить фильтр</button>
+                   <a
+                    href="{{ url()->current() }}"
+                    class="filter-form__reset button button-outline"
+                    title="Сбросить фильтр"
+                    >X</a>
+               </div>
            </div>
        </div>
    </form>

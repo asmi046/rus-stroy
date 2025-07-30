@@ -60,6 +60,18 @@ class MenuSeeder extends Seeder
             ],
             [
                 'menu_name' => 'Главное меню',
+                'title' => 'Избранные',
+                'order' => 7,
+                'lnk' => "/like",
+            ],
+            [
+                'menu_name' => 'Главное меню',
+                'title' => 'Сравнение проектов',
+                'order' => 7,
+                'lnk' => "/compare",
+            ],
+            [
+                'menu_name' => 'Главное меню',
                 'title' => 'Ипотека',
                 'order' => 8,
                 'lnk' => "/page/ipoteka-na-stroitelstvo-domov",
