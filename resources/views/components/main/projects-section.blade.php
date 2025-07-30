@@ -1,7 +1,7 @@
 <section class="projects-section">
     <div class="container">
         <div class="section__header">
-            <h2 class="section__title">Проекты и цены</h2>
+            <h2 class="section__title">Проекты домов и цены в {!! get_city_text('[city|pp]') !!}</h2>
             <p class="section__subtitle">Выберите готовый дом</p>
         </div>
 

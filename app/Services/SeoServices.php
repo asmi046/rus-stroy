@@ -16,9 +16,9 @@ class SeoServices {
 
     public function __toString() {
 
-        $seo_title = $this->seo_data?$this->seo_data->seo_title:config('asmiseo.default_seo_title');
-        $seo_title .= config('asmiseo.concat_title_postfix')?" - ".config('asmiseo.title_postfix'):"";
-        $seo_description = $this->seo_data?$this->seo_data->seo_description:config('asmiseo.default_seo_description');
+        $seo_title = get_city_text($this->seo_data?$this->seo_data->seo_title:config('asmiseo.default_seo_title'));
+        $seo_title .= get_city_text(config('asmiseo.concat_title_postfix')?" - ".config('asmiseo.title_postfix'):"");
+        $seo_description = get_city_text($this->seo_data?$this->seo_data->seo_description:config('asmiseo.default_seo_description'));
 
         $result = "<title>".$seo_title."</title>"."\n\r";
         $result .= '<meta name="description" content="'.$seo_description.'">'."\n\r";
@@ -28,7 +28,7 @@ class SeoServices {
         $result .= '<meta property="og:description" content="'.$seo_description.'" />'."\n\r";
         $result .= '<meta property="og:url" content="'.\Request::url().'" />'."\n\r";
         $result .= '<meta property="og:site_name" content="'. config('asmiseo.title_postfix') .'" />'."\n\r";
-        $result .= '<meta property="og:image" content="'.asset('img/og_img.webp').'" />'."\n\r";
+        $result .= '<meta property="og:image" content="'.asset('img/og_img.jpg').'" />'."\n\r";
         $result .= '<meta property="og:image:type" content="image/jpeg" />'."\n\r";
         $result .= '<meta name="twitter:card" content="summary_large_image" />'."\n\r";
 

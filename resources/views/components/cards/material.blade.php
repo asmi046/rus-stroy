@@ -1,4 +1,7 @@
-<a href="{{ route('materials_page', $item->slug) }}" class="material-card">
+<a href="{{ route('materials_page', $item->slug) }}"
+    class="material-card"
+    title="{{ $item->title }} в {!! get_city_text('[city|pp]') !!}"
+    >
     <div class="material-card__image-wrapper">
         <img src="{{ Storage::url($item->img) }}" alt="{{ $item->title }}" class="material-card__image">
         <div class="material-card__overlay"></div>

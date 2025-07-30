@@ -2,7 +2,7 @@
     <div class="container" id="steps_app">
         <div class="section__header">
             <h2 class="section__title">Как мы работаем</h2>
-            <p class="section__subtitle">Простые шаги которые подарят Вам дом мечты</p>
+            <p class="section__subtitle">Простой и прозрачный алгоритм работы нашей компании в {!! get_city_text('[city|pp]') !!} </p>
         </div>
 
         <tap :header="{{ json_encode($steps) }}">
