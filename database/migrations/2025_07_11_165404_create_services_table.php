@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('services', function (Blueprint $table) {
             $table->id();
             $table->string('title')->comment('Заголовок');
+            $table->string('group')->nullable()->comment('Группа');
             $table->string('template')->nullable()->comment('Шаблон');
             $table->string('img', 800)->nullable()->comment('Изображение');
             $table->string('slug')->unique()->comment('Слаг');

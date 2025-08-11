@@ -61,6 +61,11 @@ class ServiceSeeder extends Seeder
         Storage::disk('public')->put("service/s6_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_6/s6_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s6_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_6/s6_gal_4.jpg')), 'public');
 
+        Storage::disk('public')->put("service/s6_1_gal_1.webp", file_get_contents(public_path('tmp_data/serv/s_6_1/s_6_1_gal_1.webp')), 'public');
+        Storage::disk('public')->put("service/s6_1_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_6_1/s_6_1_gal_2.webp')), 'public');
+        Storage::disk('public')->put("service/s6_1_gal_3.webp", file_get_contents(public_path('tmp_data/serv/s_6_1/s_6_1_gal_3.webp')), 'public');
+        Storage::disk('public')->put("service/s6_1_gal_4.webp", file_get_contents(public_path('tmp_data/serv/s_6_1/s_6_1_gal_4.webp')), 'public');
+
         Storage::disk('public')->put("service/s7_gal_1.webp", file_get_contents(public_path('tmp_data/serv/s_7/s7_gal_1.webp')), 'public');
         Storage::disk('public')->put("service/s7_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_7/s7_gal_2.webp')), 'public');
         Storage::disk('public')->put("service/s7_gal_3.webp", file_get_contents(public_path('tmp_data/serv/s_7/s7_gal_3.webp')), 'public');
@@ -104,6 +109,7 @@ class ServiceSeeder extends Seeder
 
             [
                 'title' => "Фасадные работы в [city|pp]",
+                'group' => 'Фасадные работы',
                 'template' => null,
                 'img' => 'service/facad.webp',
                 'slug'=> Str::slug("Фасадные работы"),
@@ -121,6 +127,7 @@ class ServiceSeeder extends Seeder
 
             [
                 'title' => "Строительство бань в [city|pp]",
+                'group' => 'Строительные работы',
                 'template' => null,
                 'img' => 'service/banya.webp',
                 'slug'=> Str::slug("Строительство бань"),
@@ -138,6 +145,7 @@ class ServiceSeeder extends Seeder
 
             [
                 'title' => "Шлифовка бань и домов в [city|pp]",
+                'group' => 'Фасадные работы',
                 'template' => null,
                 'img' => 'service/shlifovka.webp',
                 'slug'=> Str::slug("Шлифовка бань и домов"),
@@ -153,6 +161,7 @@ class ServiceSeeder extends Seeder
 
             [
                 'title' => "Кровельные работы в [city|pp]",
+                'group' => 'Кровельные работы',
                 'template' => null,
                 'img' => 'service/krovla.webp',
                 'slug'=> Str::slug("Кровельные работы"),
@@ -170,6 +179,7 @@ class ServiceSeeder extends Seeder
             [
                 'title' => "Внутренняя отделка в [city|pp]",
                 'template' => null,
+                'group' => 'Отделка',
                 'img' => 'service/vnutri.webp',
                 'slug'=> Str::slug("Внутренняя отделка"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_5/short.html')),
@@ -185,6 +195,7 @@ class ServiceSeeder extends Seeder
 
             [
                 'title' => "Строительство веранд и террасс в [city|pp]",
+                'group' => 'Строительные работы',
                 'template' => null,
                 'img' => 'service/veranda.webp',
                 'slug'=> Str::slug("Строительство веранд и террасс"),
@@ -201,6 +212,7 @@ class ServiceSeeder extends Seeder
 
             [
                 'title' => "Строительство беседок в [city|pp]",
+                'group' => 'Строительные работы',
                 'template' => null,
                 'img' => 'service/besedki.webp',
                 'slug'=> Str::slug("Строительство беседок"),
@@ -217,6 +229,7 @@ class ServiceSeeder extends Seeder
 
             [
                 'title' => "Ленточный фундамент в [city|pp]",
+                'group' => 'Фундаменты',
                 'template' => null,
                 'img' => 'service/lenta-f.webp',
                 'slug'=> Str::slug("Ленточный фундамент"),
@@ -233,6 +246,7 @@ class ServiceSeeder extends Seeder
 
             [
                 'title' => "Свайный фундамент в [city|pp]",
+                'group' => 'Фундаменты',
                 'template' => null,
                 'img' => 'service/svai.webp',
                 'slug'=> Str::slug("Свайный фундамент"),
@@ -250,6 +264,7 @@ class ServiceSeeder extends Seeder
 
             [
                 'title' => "Монолитный фундамент в [city|pp]",
+                'group' => 'Фундаменты',
                 'template' => null,
                 'img' => 'service/monolit.webp',
                 'slug'=> Str::slug("Монолитный фундамент"),
@@ -267,6 +282,7 @@ class ServiceSeeder extends Seeder
 
             [
                 'title' => "Строительство заборов в [city|pp]",
+                'group' => 'Заборы',
                 'template' => null,
                 'img' => 'service/zabor.webp',
                 'slug'=> Str::slug("Строительство заборов"),
@@ -284,6 +300,7 @@ class ServiceSeeder extends Seeder
 
             [
                 'title' => "Установка откатных и распашных ворот в [city|pp]",
+                'group' => 'Ворота',
                 'template' => null,
                 'img' => 'service/vorota.webp',
                 'slug'=> Str::slug("Установка откатных и распашных ворот"),
@@ -300,6 +317,7 @@ class ServiceSeeder extends Seeder
 
             [
                 'title' => "Строительство навесов в [city|pp]",
+                'group' => 'Строительные работы',
                 'template' => null,
                 'img' => 'service/naves.webp',
                 'slug'=> Str::slug("Строительство навесов"),
@@ -315,6 +333,21 @@ class ServiceSeeder extends Seeder
                 'sections' => null,
             ],
 
+            [
+                'title' => "Пристройки к дому в [city|pp]",
+                'group' => 'Строительные работы',
+                'template' => null,
+                'img' => 'service/s6_1_gal_1.webp',
+                'slug'=> Str::slug("Пристройки к дому"),
+                'short_description' => file_get_contents(public_path('tmp_data/serv/s_6_1/short.html')),
+                'description' => file_get_contents(public_path('tmp_data/serv/s_6_1/main.html')),
+                'gallery' => json_encode([
+                    'service/s6_1_gal_2.webp',
+                    'service/s6_1_gal_3.webp',
+                    'service/s6_1_gal_4.webp',
+                ]),
+                'sections' => null,
+            ],
 
 
         ];
@@ -372,6 +405,15 @@ class ServiceSeeder extends Seeder
                 'seo_title' => 'Строительство навесов в [city|pp], Практичные и стильные конструкции',
                 'seo_description' => 'Проектируем и строим навесы для автомобилей, террас и зон отдыха. Качественные материалы и индивидуальный подход.',
             ],
+            [
+                'seo_title' => 'Строительство навесов в [city|pp], Практичные и стильные конструкции',
+                'seo_description' => 'Проектируем и строим навесы для автомобилей, террас и зон отдыха. Качественные материалы и индивидуальный подход.',
+            ],
+            [
+                'seo_title' => 'Пристройки к дому в [city|pp], Увеличьте пространство вашего жилья',
+                'seo_description' => 'Строим пристройки к домам: веранды, террасы, дополнительные комнаты. Индивидуальный подход и высокое качество работ.',
+            ],
+
         ];
 
             $i = 0;
