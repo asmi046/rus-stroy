@@ -1,4 +1,4 @@
-@import 'vars';
+@use 'vars' as *;
 
 .filter-section {
     margin: $section_space 0;

@@ -67,6 +67,7 @@ if (document.getElementById('project_app')) {
     const project_app = createApp({
         components:{
             ProjectPrice,
+            Tap,
         },
     })
 

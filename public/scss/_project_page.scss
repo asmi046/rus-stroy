@@ -30,6 +30,63 @@
 
     }
 
+    &__price {
+        .tap_body{
+            display: none;
+            flex-direction: column;
+            gap: 10px;
+            &.active {
+                display: flex;
+            }
+        }
+
+        .work-step-section__grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(1, auto);
+            gap: 10px;
+            margin-bottom: 30px;
+            margin-top: 0;
+
+            // Последняя ячейка на второй строке, остальные пустые
+            .work-step__text {
+                font-size: 16px;
+                padding: 10px 12px;
+
+            }
+            .work-step {
+                &.active .work-step__text{
+                    background-color: $main_color;
+                    color:white;
+                    font-weight: bold;
+                }
+            }
+            // Стилизация для последней ячейки
+            .work-step:last-child {
+                grid-column: 1 / -1; // занимает всю строку
+                grid-row: 2;
+            }
+        }
+    }
+
+    .material_price-item {
+        display: flex;
+        justify-content: space-between;
+        border:1px solid $gray_border_color;
+        overflow: hidden;
+        border-radius: 5px;
+
+        & > *  {
+            padding: 7px 15px;
+        }
+
+        .material_price-item__value {
+            background-color: $main_color;
+            color:white;
+            font-weight: bold;
+        }
+    }
+
     // Переопределение стилей dotted-grid для страницы проекта
     .dotted-grid {
         margin-top: 0;

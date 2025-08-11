@@ -1,0 +1,74 @@
+[04-Aug-2025 12:27:59 UTC] PHP Warning:  include(C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../nesbot/carbon/src/Carbon/Carbon.php): Failed to open stream: No such file or directory in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php on line 576
+[04-Aug-2025 12:27:59 UTC] PHP Warning:  include(): Failed opening 'C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../nesbot/carbon/src/Carbon/Carbon.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php on line 576
+[04-Aug-2025 12:27:59 UTC] PHP Fatal error:  Uncaught Error: Class "Carbon\Carbon" not found in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\laravel\framework\src\Illuminate\Support\Carbon.php:12
+Stack trace:
+#0 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php(576): include()
+#1 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\asmi\\D...')
+#2 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(188): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#3 Command line code(1): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}
+  thrown in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\laravel\framework\src\Illuminate\Support\Carbon.php on line 12
+[04-Aug-2025 12:27:59 UTC] PHP Warning:  include(C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../nesbot/carbon/src/Carbon/Carbon.php): Failed to open stream: No such file or directory in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php on line 576
+[04-Aug-2025 12:27:59 UTC] PHP Warning:  include(): Failed opening 'C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../nesbot/carbon/src/Carbon/Carbon.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php on line 576
+[04-Aug-2025 12:27:59 UTC] PHP Fatal error:  Uncaught Error: Class "Carbon\Carbon" not found in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\laravel\framework\src\Illuminate\Support\Carbon.php:12
+Stack trace:
+#0 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php(576): include()
+#1 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\asmi\\D...')
+#2 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(188): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#3 Command line code(1): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}
+  thrown in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\laravel\framework\src\Illuminate\Support\Carbon.php on line 12
+[04-Aug-2025 12:27:59 UTC] PHP Warning:  include(C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../nesbot/carbon/src/Carbon/Carbon.php): Failed to open stream: No such file or directory in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php on line 576
+[04-Aug-2025 12:27:59 UTC] PHP Warning:  include(): Failed opening 'C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../nesbot/carbon/src/Carbon/Carbon.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php on line 576
+[04-Aug-2025 12:27:59 UTC] PHP Fatal error:  Uncaught Error: Class "Carbon\Carbon" not found in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\laravel\framework\src\Illuminate\Support\Carbon.php:12
+Stack trace:
+#0 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php(576): include()
+#1 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\asmi\\D...')
+#2 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(188): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#3 Command line code(1): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}
+  thrown in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\laravel\framework\src\Illuminate\Support\Carbon.php on line 12
+[04-Aug-2025 12:27:59 UTC] PHP Warning:  include(C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../nesbot/carbon/src/Carbon/Carbon.php): Failed to open stream: No such file or directory in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php on line 576
+[04-Aug-2025 12:27:59 UTC] PHP Warning:  include(): Failed opening 'C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../nesbot/carbon/src/Carbon/Carbon.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php on line 576
+[04-Aug-2025 12:27:59 UTC] PHP Fatal error:  Uncaught Error: Class "Carbon\Carbon" not found in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\laravel\framework\src\Illuminate\Support\Carbon.php:12
+Stack trace:
+#0 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php(576): include()
+#1 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\asmi\\D...')
+#2 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(188): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#3 Command line code(1): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}
+  thrown in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\laravel\framework\src\Illuminate\Support\Carbon.php on line 12
+[04-Aug-2025 12:28:00 UTC] PHP Warning:  include(C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../nesbot/carbon/src/Carbon/Carbon.php): Failed to open stream: No such file or directory in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php on line 576
+[04-Aug-2025 12:28:00 UTC] PHP Warning:  include(): Failed opening 'C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../nesbot/carbon/src/Carbon/Carbon.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php on line 576
+[04-Aug-2025 12:28:00 UTC] PHP Fatal error:  Uncaught Error: Class "Carbon\Carbon" not found in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\laravel\framework\src\Illuminate\Support\Carbon.php:12
+Stack trace:
+#0 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php(576): include()
+#1 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\asmi\\D...')
+#2 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(188): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#3 Command line code(1): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}
+  thrown in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\laravel\framework\src\Illuminate\Support\Carbon.php on line 12
+[04-Aug-2025 12:28:17 UTC] PHP Warning:  require(C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../moonshine/moonshine/src/Laravel/src/helpers.php): Failed to open stream: No such file or directory in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\autoload_real.php on line 41
+[04-Aug-2025 12:28:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../moonshine/moonshine/src/Laravel/src/helpers.php' (include_path='.;C:\php\pear') in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\autoload_real.php:41
+Stack trace:
+#0 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\autoload_real.php(45): {closure}('c89f87fd3f4c9ac...', 'C:\\Users\\asmi\\D...')
+#1 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\autoload.php(25): ComposerAutoloaderInit88970a0117c062eed55fa8728fc43833::getLoader()
+#2 Command line code(1): require_once('C:\\Users\\asmi\\D...')
+#3 {main}
+  thrown in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\autoload_real.php on line 41
+[04-Aug-2025 12:28:18 UTC] PHP Warning:  require(C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../moonshine/moonshine/src/Laravel/src/helpers.php): Failed to open stream: No such file or directory in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\autoload_real.php on line 41
+[04-Aug-2025 12:28:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../moonshine/moonshine/src/Laravel/src/helpers.php' (include_path='.;C:\php\pear') in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\autoload_real.php:41
+Stack trace:
+#0 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\autoload_real.php(45): {closure}('c89f87fd3f4c9ac...', 'C:\\Users\\asmi\\D...')
+#1 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\autoload.php(25): ComposerAutoloaderInit88970a0117c062eed55fa8728fc43833::getLoader()
+#2 Command line code(1): require_once('C:\\Users\\asmi\\D...')
+#3 {main}
+  thrown in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\autoload_real.php on line 41
+[04-Aug-2025 12:28:19 UTC] PHP Warning:  require(C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../moonshine/moonshine/src/Laravel/src/helpers.php): Failed to open stream: No such file or directory in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\autoload_real.php on line 41
+[04-Aug-2025 12:28:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer/../moonshine/moonshine/src/Laravel/src/helpers.php' (include_path='.;C:\php\pear') in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\autoload_real.php:41
+Stack trace:
+#0 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\autoload_real.php(45): {closure}('c89f87fd3f4c9ac...', 'C:\\Users\\asmi\\D...')
+#1 C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\autoload.php(25): ComposerAutoloaderInit88970a0117c062eed55fa8728fc43833::getLoader()
+#2 Command line code(1): require_once('C:\\Users\\asmi\\D...')
+#3 {main}
+  thrown in C:\Users\asmi\Documents\GitHub\rus-stroy\vendor\composer\autoload_real.php on line 41

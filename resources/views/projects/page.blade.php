@@ -102,9 +102,13 @@
 
                 <!-- Правая колонка -->
                 <div id="project_app" class="project-details__right">
-                    <project-price
+                    <div  class="project-details__price">
+                        <x-project-price :area="$project->total_area"></x-project-price>
+                    </div>
+
+                    {{-- <project-price
                         :start-price="{{ $project->start_price }}"
-                    ></project-price>
+                    ></project-price> --}}
 
                     <!-- Блок с кнопками -->
                     <div class="action-buttons">
