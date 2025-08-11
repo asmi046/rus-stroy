@@ -159,7 +159,7 @@ class ServiceKrovlyaSeeder extends Seeder
                 'title' => "Мягкая кровля в [city|pp]",
                 'group' => 'Кровельные работы',
                 'template' => null,
-                'img' => 'service/s_4_7_gal_1.jpg',
+                'img' => 'service/s_4_7_gal_1.webp',
                 'slug'=> Str::slug("Мягкая кровля"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_4_7/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_4_7/main.html')),

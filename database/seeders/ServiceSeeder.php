@@ -42,6 +42,11 @@ class ServiceSeeder extends Seeder
         Storage::disk('public')->put("service/s2_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_2/s2_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s2_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_2/s2_gal_4.jpg')), 'public');
 
+        Storage::disk('public')->put("service/s_2_1_gal_1.webp", file_get_contents(public_path('tmp_data/serv/s_2_1/s_2_1_gal_1.webp')), 'public');
+        Storage::disk('public')->put("service/s_2_1_gal_1.webp", file_get_contents(public_path('tmp_data/serv/s_2_1/s_2_1_gal_1.webp')), 'public');
+        Storage::disk('public')->put("service/s_2_1_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_2_1/s_2_1_gal_2.webp')), 'public');
+        Storage::disk('public')->put("service/s_2_1_gal_3.webp", file_get_contents(public_path('tmp_data/serv/s_2_1/s_2_1_gal_3.webp')), 'public');
+
         Storage::disk('public')->put("service/s3_gal_1.jpg", file_get_contents(public_path('tmp_data/serv/s_3/s3_gal_1.jpg')), 'public');
         Storage::disk('public')->put("service/s3_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_3/s3_gal_2.webp')), 'public');
         Storage::disk('public')->put("service/s3_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_3/s3_gal_3.jpg')), 'public');
@@ -126,19 +131,17 @@ class ServiceSeeder extends Seeder
             ],
 
             [
-                'title' => "Строительство бань в [city|pp]",
+                'title' => "Укладка тротуарной плитки в [city|pp]",
                 'group' => 'Строительные работы',
                 'template' => null,
-                'img' => 'service/banya.webp',
-                'slug'=> Str::slug("Строительство бань"),
-                'short_description' => file_get_contents(public_path('tmp_data/serv/s_2/short.html')),
-                'description' => file_get_contents(public_path('tmp_data/serv/s_2/main.html')),
+                'img' => 'service/s2_gal_2.webp',
+                'slug'=> Str::slug("Укладка тротуарной плитки"),
+                'short_description' => file_get_contents(public_path('tmp_data/serv/s_2_1/short.html')),
+                'description' => file_get_contents(public_path('tmp_data/serv/s_2_1/main.html')),
                 'gallery' => json_encode([
-                    'service/s2_gal_1.jpg',
-                    'service/s2_gal_2.webp',
-                    'service/s2_gal_3.jpg',
-                    'service/s2_gal_4.jpg',
-                    'service/s2_gal_5.webp',
+                     'service/s_2_1_gal_1.webp',
+                     'service/s_2_1_gal_2.webp',
+                     'service/s_2_1_gal_3.webp',
                 ]),
                 'sections' => null,
             ],
@@ -317,7 +320,7 @@ class ServiceSeeder extends Seeder
 
             [
                 'title' => "Строительство навесов в [city|pp]",
-                'group' => 'Строительные работы',
+                'group' => 'Навесы',
                 'template' => null,
                 'img' => 'service/naves.webp',
                 'slug'=> Str::slug("Строительство навесов"),
@@ -360,6 +363,10 @@ class ServiceSeeder extends Seeder
             [
                 'seo_title' => 'Строительство бань под ключ в [city|pp], Надежные и современные решения',
                 'seo_description' => 'Возводим бани любой сложности с учетом ваших пожеланий. Используем экологичные материалы и современные технологии строительства.',
+            ],
+            [
+                'seo_title' => 'Укладка тротуарной плитки в [city|pp], Качественные и долговечные решения',
+                'seo_description' => 'Предлагаем услуги по укладке тротуарной плитки: от проектирования до реализации. Гарантия качества и долговечности.',
             ],
             [
                 'seo_title' => 'Шлифовка бань и домов из сруба в [city|pp], Идеальная гладкость и долговечность',
