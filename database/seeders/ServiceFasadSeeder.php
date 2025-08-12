@@ -32,7 +32,7 @@ class ServiceFasadSeeder extends Seeder
         Storage::disk('public')->put("service/s_1_3_gal_3.webp", file_get_contents(public_path('tmp_data/serv/s_1_3/s_1_3_gal_3.webp')), 'public');
         Storage::disk('public')->put("service/s_1_3_gal_4.webp", file_get_contents(public_path('tmp_data/serv/s_1_3/s_1_3_gal_4.webp')), 'public');
 
-        Storage::disk('public')->put("service/s_1_4_gal_1.jpg", file_get_contents(public_path('tmp_data/serv/s_1_3/s_1_3_gal_1.webp')), 'public');
+        Storage::disk('public')->put("service/s_1_4_gal_1.jpg", file_get_contents(public_path('tmp_data/serv/s_1_4/s_1_4_gal_1.jpg')), 'public');
         Storage::disk('public')->put("service/s_1_4_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_1_4/s_1_4_gal_2.webp')), 'public');
         Storage::disk('public')->put("service/s_1_4_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_1_4/s_1_4_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s_1_4_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_1_4/s_1_4_gal_4.jpg')), 'public');
@@ -70,7 +70,7 @@ class ServiceFasadSeeder extends Seeder
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_1_2/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_1_2/main.html')),
                 'gallery' => json_encode([
-                    'service/s_1_2_gal_2.jpg',
+                    'service/s_1_2_gal_2.webp',
                     'service/s_1_2_gal_3.jpg',
                     'service/s_1_2_gal_4.webp',
                 ]),
@@ -102,7 +102,7 @@ class ServiceFasadSeeder extends Seeder
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_1_4/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_1_4/main.html')),
                 'gallery' => json_encode([
-                    'service/s_1_4_gal_2.jpg',
+                    'service/s_1_4_gal_2.webp',
                     'service/s_1_4_gal_3.jpg',
                     'service/s_1_4_gal_4.jpg',
                 ]),
@@ -113,7 +113,7 @@ class ServiceFasadSeeder extends Seeder
                 'title' => "Отделка фасадными панелями в [city|pp]",
                 'group' => 'Фасадные работы',
                 'template' => null,
-                'img' => 'service/s_1_4_gal_1.jpg',
+                'img' => 'service/s_1_5_gal_1.webp',
                 'slug'=> Str::slug("Отделка фасадными панелями"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_1_5/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_1_5/main.html')),

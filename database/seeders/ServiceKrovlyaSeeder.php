@@ -60,7 +60,7 @@ class ServiceKrovlyaSeeder extends Seeder
         $data = [
 
             [
-                'title' => "Односкатная кровля  в [city|pp]",
+                'title' => "Односкатная кровля в [city|pp]",
                 'group' => 'Кровельные работы',
                 'template' => null,
                 'img' => 'service/s_4_1_main.jpg',
@@ -76,7 +76,7 @@ class ServiceKrovlyaSeeder extends Seeder
             ],
 
             [
-                'title' => "Двухскатная кровля  в [city|pp]",
+                'title' => "Двухскатная кровля в [city|pp]",
                 'group' => 'Кровельные работы',
                 'template' => null,
                 'img' => 'service/s_4_2_gal_1.jpg',

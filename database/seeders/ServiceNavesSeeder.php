@@ -115,11 +115,11 @@ class ServiceNavesSeeder extends Seeder
             ],
 
             [
-                'title' => "Навесы из металочерепицы в [city|pp]",
+                'title' => "Навесы из металлочерепицы в [city|pp]",
                 'group' => 'Навесы',
                 'template' => null,
                 'img' => 'service/s_13_5_gal_1.jpg',
-                'slug'=> Str::slug("Навесы из металочерепицы"),
+                'slug'=> Str::slug("Навесы из металлочерепицы"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_13_5/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_13_5/main.html')),
                 'gallery' => json_encode([

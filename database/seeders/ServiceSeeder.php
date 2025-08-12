@@ -134,7 +134,7 @@ class ServiceSeeder extends Seeder
                 'title' => "Укладка тротуарной плитки в [city|pp]",
                 'group' => 'Строительные работы',
                 'template' => null,
-                'img' => 'service/s2_gal_2.webp',
+                'img' => 'service/s_2_1_gal_1.webp',
                 'slug'=> Str::slug("Укладка тротуарной плитки"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_2_1/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_2_1/main.html')),
@@ -303,7 +303,7 @@ class ServiceSeeder extends Seeder
 
             [
                 'title' => "Установка откатных и распашных ворот в [city|pp]",
-                'group' => 'Ворота',
+                'group' => 'Строительные работы',
                 'template' => null,
                 'img' => 'service/vorota.webp',
                 'slug'=> Str::slug("Установка откатных и распашных ворот"),

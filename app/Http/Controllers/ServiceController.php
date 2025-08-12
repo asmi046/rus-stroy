@@ -10,7 +10,8 @@ class ServiceController extends Controller
 {
     public function index()
     {
-        $services = Service::all();
+        $services = Service::all()->groupBy('group')->toArray();
+
         return view('services.index', ['services' => $services]);
     }
 
