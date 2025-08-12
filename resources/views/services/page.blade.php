@@ -21,7 +21,7 @@
 
             <!-- Центральный блок с описанием -->
             <div class="service-description text_styles">
-                {!! $service->description !!}
+                {!! get_city_text($service->description) !!}
             </div>
 
             @if ($service->gallery)
