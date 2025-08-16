@@ -39,7 +39,27 @@
                </select>
            </div>
 
+
+       </div>
+       <div class="filter-form__row filter-form__row_full">
            <div class="filter-form__group">
+               <label for="size" class="filter-form__label">Размер</label>
+               <div class="filter-form__radio-group" id="size">
+                   <label for="size-all">
+                       <input type="radio" checked name="size" id="size-all" value="%" {{ request('size') == '%' ? 'checked' : '' }}>
+                       <span>Все размеры</span>
+                   </label>
+                   @foreach ($sizes as $size)
+                       <label for="size-{{ Str::slug($size->plan_dimensions) }}">
+                           <input type="radio" name="size" id="size-{{ Str::slug($size->plan_dimensions) }}" value="{{ $size->plan_dimensions }}" {{ request('size') == $size->plan_dimensions ? 'checked' : '' }}>
+                           <span>{{ $size->plan_dimensions }}</span>
+                       </label>
+                   @endforeach
+               </div>
+           </div>
+        </div>
+        <div class="filter-form__row filter-form__row_full">
+            <div class="filter-form__group">
                <div class="filter-form__buttons">
                    <button
                     type="submit"
@@ -53,6 +73,6 @@
                     >X</a>
                </div>
            </div>
-       </div>
+        </div>
    </form>
 </div>

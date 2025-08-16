@@ -10,11 +10,14 @@ class ProjectFilter extends Component
 {
     public $wall_materials;
     public $floors;
+    public $sizes;
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct($sizes = [])
     {
+        $this->sizes = $sizes;
+
         $this->wall_materials = [
             'СИП-панели',
             'Пеноблок',

@@ -10,11 +10,20 @@
 }
 
 .filter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     &__row {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 18%));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 23%));
         gap: 20px;
         align-items: end;
+    }
+
+    &__row_full {
+
+        grid-template-columns: repeat(auto-fit, 100%);
+
     }
 
     &__group {
@@ -153,6 +162,42 @@
 
         &:active {
             transform: translateY(1px);
+        }
+    }
+
+    &__radio-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: start;
+
+        label {
+
+
+            span {
+                background: $gray_bg_color;
+                border-radius: 16px;
+                padding: 5px 20px;
+                cursor: pointer;
+                text-align: center;
+                transition: background 0.2s, color 0.2s;
+                color: #222;
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            input[type="radio"] {
+                display: none;
+            }
+
+            // Выбранный radio
+            input:checked ~ span,
+            &.active {
+                background: $main_color;
+                color: #fff;
+            }
         }
     }
 

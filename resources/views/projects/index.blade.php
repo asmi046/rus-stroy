@@ -3,7 +3,7 @@
 @section('main')
     <section class="section section--portfolio">
         <div class="container">
-            <x-breadcrumbs.main title="Услуги нашей компании"></x-breadcrumbs.main>
+            <x-breadcrumbs.main title="Проекты домов для строителства"></x-breadcrumbs.main>
             <div class="section__header">
                 <h2 class="section__title __left">Проекты домов
                     @if(request()->has('page') && request()->get('page') > 1)
@@ -13,7 +13,7 @@
                 <p class="section__subtitle __left">Представляем Вашему вниманию каталог проектов домов доступных для заказа</p>
             </div>
 
-            <x-project-filter />
+            <x-project-filter :sizes="$sizes" />
 
             <div class="projects-section__grid">
                 @foreach ($projects as $item)

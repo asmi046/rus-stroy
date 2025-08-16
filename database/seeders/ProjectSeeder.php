@@ -40,7 +40,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,4 x 8,7 м',
+                'plan_dimensions' => '9x9',
                 'extension' => null,
 
             ],
@@ -69,7 +69,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '11 x 9,9 м',
+                'plan_dimensions' => '11x9',
                 'extension' => null,
             ],
 
@@ -98,7 +98,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => true,
-                'plan_dimensions' => '8,8 x 6,8 м',
+                'plan_dimensions' => '9x7',
                 'extension' => 'Терасса',
             ],
 
@@ -128,7 +128,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => "Деревянные перекрытия",
                 'mansard' => true,
-                'plan_dimensions' => '7,6 x 7,9 м',
+                'plan_dimensions' => '7x7',
                 'extension' => null,
             ],
 
@@ -153,7 +153,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => 'Деревянные балки',
                 'mansard' => false,
-                'plan_dimensions' => '6,9 x 7,2 м',
+                'plan_dimensions' => '7x7',
                 'extension' => null,
             ],
             [
@@ -179,7 +179,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '10,5 x 8,5 м',
+                'plan_dimensions' => '11x9',
                 'extension' => "Терасса",
             ],
             [
@@ -203,7 +203,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '12,2 x 9,2 м',
+                'plan_dimensions' => '11x9',
                 'extension' => "Терасса",
             ],
             [
@@ -227,7 +227,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,9 x 11,02 м',
+                'plan_dimensions' => '10x11',
                 'extension' => null,
             ],
             [
@@ -251,7 +251,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,4 x 8,7 м',
+                'plan_dimensions' => '9x9',
                 'extension' => null,
             ],
             [
@@ -277,7 +277,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '10 x 6 м',
+                'plan_dimensions' => '10x6',
                 'extension' => "Терасса",
             ],
             [
@@ -302,7 +302,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => "Перекрытия",
                 'mansard' => false,
-                'plan_dimensions' => '9,0 x 7,9 м',
+                'plan_dimensions' => '9x8',
                 'extension' => "Терасса",
             ],
             [
@@ -325,7 +325,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '13,6 x 11,4 м',
+                'plan_dimensions' => '14x11',
                 'extension' => "Терасса",
             ],
             [
@@ -350,7 +350,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '10,9 x 7,8 м',
+                'plan_dimensions' => '11x9',
                 'extension' => null,
             ],
             [
@@ -372,7 +372,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '7,8 x 5,6 м',
+                'plan_dimensions' => '8x6',
                 'extension' => "Терасса",
             ],
             [
@@ -393,7 +393,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '10,3 x 8,3 м',
+                'plan_dimensions' => '11x9',
                 'extension' => null,
             ],
             [
@@ -416,7 +416,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '8,035 x 13,7 м',
+                'plan_dimensions' => '8x14',
                 'extension' => "Терасса",
             ],
             [
@@ -438,7 +438,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,7 x 10,8 м',
+                'plan_dimensions' => '10x11',
                 'extension' => "Терасса",
             ],
             [
@@ -460,7 +460,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,0 x 15,0 м',
+                'plan_dimensions' => '9x15',
                 'extension' => "Терасса",
             ],
             [
@@ -483,7 +483,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '5,8 x 8,8 м',
+                'plan_dimensions' => '6x9',
                 'extension' => null,
             ],
             [
@@ -507,7 +507,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '10,3 x 12,5 м',
+                'plan_dimensions' => '10x13',
                 'extension' => "Терасса",
             ],
             [
@@ -532,7 +532,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,2 x 11,9 м',
+                'plan_dimensions' => '9x12',
                 'extension' => "Терасса",
             ],
             [
@@ -556,7 +556,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '8,8 x 7,8 м',
+                'plan_dimensions' => '9x8',
                 'extension' => "Терасса",
             ],
             [
@@ -579,7 +579,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '7,8 x 12,7 м',
+                'plan_dimensions' => '8x13',
                 'extension' => "Терасса",
             ],
             [
@@ -601,7 +601,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '7,8 x 6,8 м',
+                'plan_dimensions' => '8x7',
                 'extension' => null,
             ],
             [
@@ -623,7 +623,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => "Деревянное перекрытие",
                 'mansard' => false,
-                'plan_dimensions' => '10,8 x 8,8 м',
+                'plan_dimensions' => '11x9',
                 'extension' => "Терасса",
             ],
             [
@@ -646,7 +646,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,9 x 9,8 м',
+                'plan_dimensions' => '10x10',
                 'extension' => null,
             ],
             [
@@ -669,7 +669,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,4 x 12,6 м',
+                'plan_dimensions' => '9x13',
                 'extension' => null,
             ],
             [
@@ -691,7 +691,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '17,8 x 10,9 м',
+                'plan_dimensions' => '18x11',
                 'extension' => null,
             ],
             [
@@ -713,7 +713,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => "Деревянное перекрытие с шумоизоляцией",
                 'mansard' => false,
-                'plan_dimensions' => '9,3 x 8,9 м',
+                'plan_dimensions' => '9x9',
                 'extension' => "Терасса",
             ],
             [
@@ -734,7 +734,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9 x 12 м',
+                'plan_dimensions' => '9x12',
                 'extension' => "Терасса",
             ],
             [
@@ -758,7 +758,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '7 x 6 м',
+                'plan_dimensions' => '7x6',
                 'extension' => null,
             ],
             [
@@ -786,7 +786,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '5 x 5 м',
+                'plan_dimensions' => '5x5',
                 'extension' => "Терасса",
             ],
             [
@@ -809,7 +809,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,6 x 11,9 м',
+                'plan_dimensions' => '10x12',
                 'extension' => null,
             ],
             [
@@ -835,7 +835,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '13,5 x 9,6 м',
+                'plan_dimensions' => '14x10',
                 'extension' => null,
             ],
             [
@@ -857,7 +857,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '6 x 5 м',
+                'plan_dimensions' => '6x5',
                 'extension' => null,
             ],
             [
@@ -885,7 +885,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '7,1 x 8,9 м',
+                'plan_dimensions' => '7x9',
                 'extension' => "Терасса",
             ],
             [
@@ -912,7 +912,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,2 x 6, м',
+                'plan_dimensions' => '9x6',
                 'extension' => null,
             ],
             [
@@ -939,7 +939,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '7,7 x 11,8 м',
+                'plan_dimensions' => '8x12',
                 'extension' => "Терасса",
             ],
             [
@@ -966,7 +966,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '7,1 x 11 м',
+                'plan_dimensions' => '7x11',
                 'extension' => "Терасса",
             ],
             [
@@ -990,7 +990,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '16 x 13,6 м',
+                'plan_dimensions' => '16x14',
                 'extension' => null,
             ],
             [
@@ -1012,7 +1012,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,8 x 10,8 м',
+                'plan_dimensions' => '10x11',
                 'extension' => null,
             ],
             [
@@ -1040,7 +1040,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '12,8 x 9,5 м',
+                'plan_dimensions' => '13x10',
                 'extension' => null,
             ],
             [
@@ -1063,7 +1063,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,6 x 12,4 м',
+                'plan_dimensions' => '10x12',
                 'extension' => null,
             ],
             [
@@ -1093,7 +1093,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '13,9 x 17,2 м',
+                'plan_dimensions' => '14x17',
                 'extension' => null,
             ],
             [
@@ -1119,7 +1119,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '18,6 x 8,0 м',
+                'plan_dimensions' => '19x8',
                 'extension' => "Терасса",
             ],
             [
@@ -1140,7 +1140,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,6 x 11,3 м',
+                'plan_dimensions' => '10x11',
                 'extension' => null,
             ],
             [
@@ -1170,7 +1170,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '11,4 x 19,8 м',
+                'plan_dimensions' => '11x20',
                 'extension' => "Терасса",
             ],
             [
@@ -1194,7 +1194,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '7 x 8,5 м',
+                'plan_dimensions' => '7x9',
                 'extension' => null,
             ],
             [
@@ -1216,7 +1216,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9 x 12 м',
+                'plan_dimensions' => '9x12',
                 'extension' => "Терасса",
             ],
             [
@@ -1237,7 +1237,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '8,8 x 6,8 м',
+                'plan_dimensions' => '9x7',
                 'extension' => null,
             ],
             [
@@ -1265,7 +1265,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '11,9 x 19,9 м',
+                'plan_dimensions' => '12x20',
                 'extension' => null,
             ],
             [
@@ -1288,7 +1288,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '13,6 x 11,5 м',
+                'plan_dimensions' => '14x12',
                 'extension' => "Терасса",
             ],
             [
@@ -1311,7 +1311,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '12,7 x 7,8 м',
+                'plan_dimensions' => '13x8',
                 'extension' => "Терасса",
             ],
             [
@@ -1335,7 +1335,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '7 x 6 м',
+                'plan_dimensions' => '7x6',
                 'extension' => null,
             ],
             [
@@ -1358,7 +1358,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,6 x 11,9 м',
+                'plan_dimensions' => '10x12',
                 'extension' => null,
             ],
             [
@@ -1384,7 +1384,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '13,5 x 9,6 м',
+                'plan_dimensions' => '14x10',
                 'extension' => null,
             ],
             [
@@ -1412,7 +1412,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '7,2 x 8,9 м',
+                'plan_dimensions' => '7x9',
                 'extension' => null,
             ],
             [
@@ -1439,7 +1439,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '11,8 x 7,7 м',
+                'plan_dimensions' => '12x8',
                 'extension' => null,
             ],
             [
@@ -1466,7 +1466,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '11 x 7,1 м',
+                'plan_dimensions' => '11x7',
                 'extension' => null,
             ],
             [
@@ -1494,7 +1494,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '12,8 x 9,6 м',
+                'plan_dimensions' => '13x10',
                 'extension' => null,
             ],
             [
@@ -1517,7 +1517,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,6 x 12,4 м',
+                'plan_dimensions' => '10x12',
                 'extension' => null,
             ],
             [
@@ -1547,7 +1547,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '6,9 x 9,2 м',
+                'plan_dimensions' => '7x9',
                 'extension' => null,
             ],
             [
@@ -1572,7 +1572,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '18,6 x 8 м',
+                'plan_dimensions' => '19x8',
                 'extension' => null,
             ],
             [
@@ -1593,7 +1593,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '11,3 x 9,6 м',
+                'plan_dimensions' => '11x9',
                 'extension' => null,
             ],
             [
@@ -1623,7 +1623,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '19,8 x 11,4 м',
+                'plan_dimensions' => '20x11',
                 'extension' => null,
             ],
             [
@@ -1647,7 +1647,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '8,5 x 7 м',
+                'plan_dimensions' => '9x7',
                 'extension' => null,
             ],
             [
@@ -1668,7 +1668,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '5,8 x 10 м',
+                'plan_dimensions' => '6x10',
                 'extension' => null,
             ],
             [
@@ -1690,7 +1690,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '7,1 x 8,6 м',
+                'plan_dimensions' => '7x9',
                 'extension' => null,
             ],
             [
@@ -1712,7 +1712,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '10,2 x 7,3 м',
+                'plan_dimensions' => '10x7',
                 'extension' => "Терасса",
             ],
             [
@@ -1734,7 +1734,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '8,5 x 8,3 м',
+                'plan_dimensions' => '9x8',
                 'extension' => null,
             ],
             [
@@ -1755,7 +1755,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '12,2 x 11,9 м',
+                'plan_dimensions' => '12x12',
                 'extension' => null,
             ],
             [
@@ -1776,7 +1776,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '8 x 4,5 м',
+                'plan_dimensions' => '8x5',
                 'extension' => null,
             ],
             [
@@ -1797,7 +1797,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9 x 12 м',
+                'plan_dimensions' => '9x12',
                 'extension' => "Терасса",
             ],
             [
@@ -1821,7 +1821,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '14 x 16 м',
+                'plan_dimensions' => '14x16',
                 'extension' => null,
             ],
             [
@@ -1843,7 +1843,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9 x 12 м',
+                'plan_dimensions' => '9x12',
                 'extension' => "Терасса",
             ],
             [
@@ -1865,7 +1865,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '10 x 14 м',
+                'plan_dimensions' => '10x14',
                 'extension' => "Терасса",
             ],
             [
@@ -1886,7 +1886,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '6,9 x 7,8 м',
+                'plan_dimensions' => '7x8',
                 'extension' => null,
             ],
             [
@@ -1910,7 +1910,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '6 x 5 м',
+                'plan_dimensions' => '6x5',
                 'extension' => null,
             ],
             [
@@ -1932,7 +1932,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '11,5 x 9,5 м',
+                'plan_dimensions' => '12x10',
                 'extension' => "Терасса",
             ],
             [
@@ -1957,7 +1957,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '6,5 x 4,5 м',
+                'plan_dimensions' => '7x5',
                 'extension' => "Терасса",
             ],
             [
@@ -1979,7 +1979,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '13,5 x 8,1 м',
+                'plan_dimensions' => '13x7',
                 'extension' => "Терасса",
             ],
             [
@@ -2001,7 +2001,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '10 x 6 м',
+                'plan_dimensions' => '10x6',
                 'extension' => "Терасса",
             ],
             [
@@ -2023,7 +2023,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '14,2 x 13,1 м',
+                'plan_dimensions' => '14x13',
                 'extension' => "Терасса",
             ],
             [
@@ -2047,7 +2047,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '20,4 x 11,3 м',
+                'plan_dimensions' => '20x11',
                 'extension' => "Терасса",
             ],
             [
@@ -2072,7 +2072,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '17,6 x 17,4 м',
+                'plan_dimensions' => '18x17',
                 'extension' => "Терасса",
             ],
             [
@@ -2093,7 +2093,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '14 x 15 м',
+                'plan_dimensions' => '14x15',
                 'extension' => "Терасса",
             ],
             [
@@ -2120,7 +2120,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '12 x 9,5 м',
+                'plan_dimensions' => '12x10',
                 'extension' => "Терасса",
             ],
             [
@@ -2142,7 +2142,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '8,1 x 10,4 м',
+                'plan_dimensions' => '8x10',
                 'extension' => "Терасса",
             ],
             [
@@ -2163,7 +2163,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9 x 12 м',
+                'plan_dimensions' => '9x12',
                 'extension' => "Терасса",
             ],
             [
@@ -2185,7 +2185,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '8,5 x 6,2 м',
+                'plan_dimensions' => '9x6',
                 'extension' => null,
             ],
             [
@@ -2212,7 +2212,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '12,5 x 6,8 м',
+                'plan_dimensions' => '13x7',
                 'extension' => "Терасса",
             ],
             [
@@ -2236,7 +2236,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '13,6 x 16 м',
+                'plan_dimensions' => '14x16',
                 'extension' => null,
             ],
             [
@@ -2258,7 +2258,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9 x 12 м',
+                'plan_dimensions' => '9x12',
                 'extension' => "Терасса",
             ],
             [
@@ -2280,7 +2280,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '10 x 14 м',
+                'plan_dimensions' => '10x14',
                 'extension' => "Терасса",
             ],
             [
@@ -2302,7 +2302,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '11,4 x 9,5 м',
+                'plan_dimensions' => '11x9',
                 'extension' => "Терасса",
             ],
             [
@@ -2324,7 +2324,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '13,5 x 8 м',
+                'plan_dimensions' => '14x8',
                 'extension' => "Терасса",
             ],
             [
@@ -2348,7 +2348,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '20,4 x 11,3 м',
+                'plan_dimensions' => '20x11',
                 'extension' => "Терасса",
             ],
             [
@@ -2373,7 +2373,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '17,6 x 17,4 м',
+                'plan_dimensions' => '18x17',
                 'extension' => "Терасса",
             ],
             [
@@ -2394,7 +2394,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '14 x 15 м',
+                'plan_dimensions' => '14x15',
                 'extension' => "Терасса",
             ],
             [
@@ -2419,7 +2419,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '13,3 x 14,2 м',
+                'plan_dimensions' => '13x14',
                 'extension' => "Терасса",
             ],
             [
@@ -2447,7 +2447,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '13,2 x 10 м',
+                'plan_dimensions' => '13x10',
                 'extension' => "Терасса",
             ],
             [
@@ -2469,7 +2469,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9,7 x 6,7 м',
+                'plan_dimensions' => '10x7',
                 'extension' => "Терасса",
             ],
             [
@@ -2491,7 +2491,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '14,7 x 8,5 м',
+                'plan_dimensions' => '13x7',
                 'extension' => "Терасса",
             ],
             [
@@ -2512,7 +2512,7 @@ class ProjectSeeder extends Seeder
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '8 x 4,5 м',
+                'plan_dimensions' => '8x5',
                 'extension' => "Терасса",
             ]
         ];

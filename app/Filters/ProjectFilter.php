@@ -30,4 +30,9 @@ class ProjectFilter extends QueryFilter {
             $this->builder->where("total_area", "<=", $area_to);
     }
 
+    public function size($size) {
+        if  (!empty($size))
+            $this->builder->where("plan_dimensions", $size);
+    }
+
 }

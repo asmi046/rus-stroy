@@ -11,7 +11,19 @@ class ProjectController extends Controller
     public function index(ProjectFilter $request)
     {
         $projects = Project::select()->filter($request)->paginate(15)->withQueryString();
-        return view('projects.index', ['projects' => $projects]);
+
+        $sizes = Project::selectRaw('plan_dimensions, COUNT(*) as count')
+            ->groupBy('plan_dimensions')
+            ->orderByDesc('count')
+            ->take(10)
+            ->get();
+
+            // dd($sizes);
+
+        return view('projects.index', [
+            'projects' => $projects,
+            'sizes' => $sizes
+        ]);
     }
 
     public function page(string $slug)
@@ -23,7 +35,6 @@ class ProjectController extends Controller
         $dop_project = Project::where('floors', $project->floors)
             ->where('type', $project->type)
             ->inRandomOrder()
-            ->take(3)
             ->get();
 
         return view('projects.page', ['project' => $project, 'dop_project' => $dop_project]);
