@@ -71,7 +71,7 @@
                         href="{{ url()->current() }}"
                         class="filter-form__reset button button-outline"
                         title="Сбросить фильтр"
-                        >X</a>
+                        >Сбросить фильтр</a>
                 </div>
             </div>
             </div>
