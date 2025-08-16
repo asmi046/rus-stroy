@@ -12,6 +12,8 @@ import Quiz from './components/Quiz/Quiz.vue'
 import Like from './components/Like.vue'
 import Compare from './components/Compare.vue'
 
+import ToggleWrapper from './components/ToggleWrapper.vue'
+
 import ProjectPrice from './components/projects/ProjectPrice.vue'
 import { VMaskDirective } from 'v-slim-mask'
 
@@ -127,4 +129,15 @@ if (document.getElementById('compare_app')) {
 }
 
 
+if (document.getElementById('toggle_app')) {
+    const toggle_app = createApp({
+        components:{
+            ToggleWrapper,
+        },
+        setup() {}
+    })
 
+    toggle_app.use(VueAxios, axios)
+    toggle_app.directive('mask', VMaskDirective)
+    toggle_app.mount("#toggle_app");
+}

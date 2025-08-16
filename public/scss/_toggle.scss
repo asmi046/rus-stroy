@@ -1,0 +1,48 @@
+@use 'vars' as *;
+
+.toggle-wrapper {
+  border-radius: 8px;
+  padding: 1rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+
+  .button{
+        width:100%;
+        padding-left: 0;
+        padding-right: 0;
+        &:hover {
+            background-color: $main_color;
+            border-color: $main_color;
+            color:white;
+        }
+        &.active {
+            color:black;
+            background-color: $sub_color;
+            border-color: $sub_color;
+        }
+    }
+}
+
+
+
+.content-container {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+    &.active {
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 769px) {
+  .toggle-button {
+    display: none;
+  }
+
+  .content-container {
+    max-height: none;
+    opacity: 1;
+  }
+}
