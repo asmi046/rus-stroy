@@ -165,12 +165,12 @@ class GetHousData extends Command
                 'type' => 'Дом',
                 'floors' => $floors,
                 'total_area' => $totalArea,
-                'wall_material' => '',
+                'wall_material' => 'Газобетон',
                 'foundation' => '',
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '8,8 x 6,8 м',
+                'plan_dimensions' => '9x9',
                 'extension' => null,
             ];
 
@@ -231,7 +231,7 @@ class GetHousData extends Command
             $output .= ",\n";
         }
 
-        $output .= "]";
+        $output .= "],";
 
         return $output;
     }
