@@ -170,7 +170,7 @@ class GetHousData extends Command
                 'ceiling_height' => 2.5,
                 'flooring' => null,
                 'mansard' => false,
-                'plan_dimensions' => '9x9',
+                'plan_dimensions' => '10x13',
                 'extension' => null,
             ];
 
