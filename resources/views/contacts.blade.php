@@ -35,7 +35,7 @@
                             <p class="param">тел. <a class="phone" href="tel:+7{{ phone_format( $contacts['phone_2'] ) }}">{{ $contacts['phone_2'] }}</a></p>
                             <p class="param">e-mail: <a class="email" href="mailto:{{ $contacts['email']}}">{{ $contacts['email'] }}</a></p>
                             <h2>Главный офис</h2>
-                            <p class="param">Адрес: {{ $contacts['adress'] }}</p>
+                            <p class="param">Адрес: {{ get_city_text('[city|address]') }}</p>
                             <p class="param">Режим работы: {{ $contacts['work_time'] }}</p>
                         </div>
                     </div>

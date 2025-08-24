@@ -15,6 +15,9 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->string('name')->comment('Название города');
+            $table->string('address')->nullable()->comment('Адрес города');
+            $table->string('phone')->nullable()->comment('Телефон в городе');
+            $table->string('ul')->nullable()->comment('Юридическое лицо');
             $table->boolean('is_default')->default(false)->comment('Название города');
             $table->string('slug')->unique()->comment('Slug города');
             $table->integer('order')->default(0)->comment('Порядок вывода');

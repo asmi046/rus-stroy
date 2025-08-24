@@ -10,6 +10,7 @@ if (!function_exists("header_seo")) {
 if (!function_exists("get_city_text")) {
     function get_city_text($text):string {
         $replacements = [
+            '[city|address]' => app('current_city_address'),
             '[city|name]' => app('current_city_name'),
             '[city|pp]'   => app('current_city_pp'),
             '[city|rp]'   => app('current_city_rp'),
