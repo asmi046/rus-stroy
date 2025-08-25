@@ -9,12 +9,12 @@
             </div>
 
             <div class="projects-section__grid">
-                @foreach ($material->projects as $item)
+                @foreach ($projects as $item)
                     <x-cards.project :item="$item" />
                 @endforeach
             </div>
 
-            <x-pagination :tovars="$material->projects()->paginate(15)"></x-pagination>
+            <x-pagination :tovars="$projects"></x-pagination>
 
         </div>
     </section>
