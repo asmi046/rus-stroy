@@ -49,6 +49,7 @@ class DatabaseSeeder extends Seeder
             ProjectSeeder9x11::class,
             ProjectSeeder9x13::class,
             ProjectSeeder10x13::class,
+            ProjectSeederBanya::class,
             MaterialSeeder::class,
             WorkStepsSeeder::class,
 

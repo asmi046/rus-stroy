@@ -130,6 +130,25 @@ class ProjectSeeder9x11 extends Seeder
             ],
         ];
 
+        $seo_data = [
+            [
+                'seo_title' => 'Красивый одноэтажный дом с террасой КС-04/1 – строительство в [city|pp]',
+                'seo_description' => 'Проект одноэтажного дома из Газобетон площадью 1162 м². Удобное и современное решение для жизни в [city|pp].',
+            ],
+            [
+                'seo_title' => 'Одноэтажный дом в традиционном стиле SD-043 – строительство в [city|pp]',
+                'seo_description' => 'Проект одноэтажного дома из Газобетон площадью 882 м². Удобное и современное решение для жизни в [city|pp].',
+            ],
+            [
+                'seo_title' => 'Двухэтажный дом с кукушкой SD-250 – строительство в [city|pp]',
+                'seo_description' => 'Проект двухэтажного дома из Газобетон площадью 1162 м². Удобное и современное решение для жизни в [city|pp].',
+            ],
+            [
+                'seo_title' => 'Двухэтажный дом в классическом стиле SD-288 – строительство в [city|pp]',
+                'seo_description' => 'Проект двухэтажного дома из Газобетон площадью 1772 м². Удобное и современное решение для жизни в [city|pp].',
+            ],
+        ];
+
         $i = 0;
         foreach ($data as $item) {
 
@@ -159,10 +178,9 @@ class ProjectSeeder9x11 extends Seeder
             DB::table("seo_data")->insert(
                 [
                     'url' => 'projects/'.$item['slug'],
-                    // 'seo_title' => $seo_data[$i]['seo_title'],
-                    // 'seo_description' => $seo_data[$i]['seo_description'],
-                    'seo_title' => $item['title'],
-                    'seo_description' => $item['title'],
+                    'seo_title' => $seo_data[$i]['seo_title'],
+                    'seo_description' => $seo_data[$i]['seo_description'],
+
                 ]
             );
 

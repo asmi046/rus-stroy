@@ -96,6 +96,21 @@ class ProjectSeeder6x6 extends Seeder
 
         ];
 
+        $seo_data = [
+    [
+        'seo_title' => 'Двухэтажный дом для небольшого участка SD-297 – проект в [city|pp]',
+        'seo_description' => 'Проект SD-297 – компактный двухэтажный дом из газобетона площадью 612 м². Идеален для небольшого участка: современная планировка, комфортное пространство и доступное строительство в [city|pp].',
+    ],
+    [
+        'seo_title' => 'Маленький двухэтажный дом из бревна SD-264 – стильное решение для семьи',
+        'seo_description' => 'SD-264 – уютный двухэтажный дом из клеёного бруса площадью 492 м². Теплый, экологичный и функциональный проект, который станет отличным выбором для комфортного проживания в [city|pp].',
+    ],
+    [
+        'seo_title' => 'Двухэтажный дом с мансардой SD-298 – проект для строительства в [city|pp]',
+        'seo_description' => 'Проект SD-298 – современный двухэтажный дом из газобетона площадью 722 м² с удобной мансардой. Отличный вариант для семьи, объединяющий простор и рациональное использование участка в [city|pp].',
+    ],
+];
+
         $i = 0;
         foreach ($data as $item) {
 
@@ -125,10 +140,9 @@ class ProjectSeeder6x6 extends Seeder
             DB::table("seo_data")->insert(
                 [
                     'url' => 'projects/'.$item['slug'],
-                    // 'seo_title' => $seo_data[$i]['seo_title'],
-                    // 'seo_description' => $seo_data[$i]['seo_description'],
-                    'seo_title' => $item['title'],
-                    'seo_description' => $item['title'],
+                    'seo_title' => $seo_data[$i]['seo_title'],
+                    'seo_description' => $seo_data[$i]['seo_description'],
+
                 ]
             );
 
