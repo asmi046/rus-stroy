@@ -70,7 +70,7 @@ class ServiceBaniSeeder extends Seeder
                 'title' => "Строительство бань из пеноблока в [city|pp]",
                 'group' => 'Бани',
                 'template' => null,
-                'img' => 'service/s_18_gal_1.webp',
+                'img' => 'service/s_18_gal_1.jpg',
                 'slug'=> Str::slug("Строительство бань из пеноблока"),
                 'short_description' => file_get_contents(public_path('tmp_data/serv/s_18/short.html')),
                 'description' => file_get_contents(public_path('tmp_data/serv/s_18/main.html')),
