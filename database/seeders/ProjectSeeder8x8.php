@@ -21,7 +21,7 @@ class ProjectSeeder8x8 extends Seeder
                 'title' => 'Уютный каркасный дом для большой семьи SD-358',
                 'img' => '/tmp_data/projects/pr_118/p118_photo_1.JPG',
                 'slug' => 'uiutnyi-karkasnyi-dom-dlia-bolsoi-semi-sd-358',
-                'start_price' => ' 6206450 ',
+                'start_price' => ' 5896128 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_118/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_118/p118_photo_1.JPG',
@@ -46,7 +46,7 @@ class ProjectSeeder8x8 extends Seeder
                 'title' => 'Двухэтажный каркасный коттедж с балконом SD-368',
                 'img' => '/tmp_data/projects/pr_120/p120_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-karkasnyi-kottedz-s-balkonom-sd-368',
-                'start_price' => ' 7865600 ',
+                'start_price' => ' 7472320 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_120/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_120/p120_photo_1.JPG',
@@ -73,7 +73,7 @@ class ProjectSeeder8x8 extends Seeder
                 'title' => 'Аккуратный классический дом с двухскатной крышей SD-047',
                 'img' => '/tmp_data/projects/pr_122/p122_photo_1.JPG',
                 'slug' => 'akkuratnyi-klassiceskii-dom-s-dvuxskatnoi-krysei-sd-047',
-                'start_price' => ' 8250000 ',
+                'start_price' => ' 7837500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_122/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_122/p122_photo_1.JPG',
@@ -102,7 +102,7 @@ class ProjectSeeder8x8 extends Seeder
                 'title' => 'Двухэтажный каркасный дом с камином SD-369',
                 'img' => '/tmp_data/projects/pr_123/p123_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-karkasnyi-dom-s-kaminom-sd-369',
-                'start_price' => ' 7865600 ',
+                'start_price' => ' 7472320 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_123/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_123/p123_photo_1.JPG',
@@ -127,7 +127,7 @@ class ProjectSeeder8x8 extends Seeder
                 'title' => 'Коттедж с мансардой и террасой SD-157',
                 'img' => '/tmp_data/projects/pr_124/p124_photo_1.JPG',
                 'slug' => 'kottedz-s-mansardoi-i-terrasoisd-157',
-                'start_price' => ' 6900000 ',
+                'start_price' => ' 6555000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_124/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_124/p124_photo_1.JPG',

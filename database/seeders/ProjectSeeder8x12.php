@@ -21,7 +21,7 @@ class ProjectSeeder8x12 extends Seeder
                 'title' => 'Уютный одноэтажный домик с двумя спальнями SD-093',
                 'img' => '/tmp_data/projects/pr_191/p191_photo_1.JPG',
                 'slug' => 'uiutnyi-odnoetaznyi-domik-s-dvumia-spalniami-sd-093',
-                'start_price' => ' 5550000 ',
+                'start_price' => ' 4717500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_191/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_191/p191_photo_1.JPG',
@@ -50,7 +50,7 @@ class ProjectSeeder8x12 extends Seeder
                 'title' => 'Одноэтажный дом с террасой SD-347',
                 'img' => '/tmp_data/projects/pr_192/p192_photo_1.JPG',
                 'slug' => 'odnoetaznyi-dom-s-terrasoi-sd-347',
-                'start_price' => ' 6900000 ',
+                'start_price' => ' 5865000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_192/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_192/p192_photo_1.JPG',
@@ -74,7 +74,7 @@ class ProjectSeeder8x12 extends Seeder
                 'title' => 'Уютный домик в стиле прованс SD-346',
                 'img' => '/tmp_data/projects/pr_193/p193_photo_1.JPG',
                 'slug' => 'uiutnyi-domik-v-stile-provans-sd-346',
-                'start_price' => ' 5038900 ',
+                'start_price' => ' 4283065 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_193/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_193/p193_photo_1.JPG',
@@ -98,7 +98,7 @@ class ProjectSeeder8x12 extends Seeder
                 'title' => 'Двухэтажный дом с баней SD-252',
                 'img' => '/tmp_data/projects/pr_194/p194_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-s-banei-sd-252',
-                'start_price' => ' 10800000 ',
+                'start_price' => ' 9180000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_194/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_194/p194_photo_1.JPG',
@@ -125,7 +125,7 @@ class ProjectSeeder8x12 extends Seeder
                 'title' => 'Классический коттедж с комнатой на первом этаже SD-051',
                 'img' => '/tmp_data/projects/pr_195/p195_photo_1.JPG',
                 'slug' => 'klassiceskii-kottedz-s-komnatoi-na-pervom-etaze-sd-051',
-                'start_price' => ' 10350000 ',
+                'start_price' => ' 8797500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_195/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_195/p195_photo_1.JPG',

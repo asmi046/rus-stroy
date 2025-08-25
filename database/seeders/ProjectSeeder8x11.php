@@ -21,7 +21,7 @@ class ProjectSeeder8x11 extends Seeder
                 'title' => 'Двухэтажный дом с гардеробной и постирочной комнатой  SD-257',
                 'img' => '/tmp_data/projects/pr_185/p185_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-s-garderobnoi-i-postirocnoi-komnatoi-sd-257',
-                'start_price' => ' 14175000 ',
+                'start_price' => ' 12048750 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_185/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_185/p185_photo_1.JPG',
@@ -48,7 +48,7 @@ class ProjectSeeder8x11 extends Seeder
                 'title' => 'Одноэтажный компактный дом из газобетона SD-375',
                 'img' => '/tmp_data/projects/pr_186/p186_photo_1.JPG',
                 'slug' => 'odnoetaznyi-kompaktnyi-dom-iz-gazobetona-sd-375',
-                'start_price' => ' 4670200 ',
+                'start_price' => ' 3969670 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_186/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_186/p186_photo_1.JPG',
@@ -72,7 +72,7 @@ class ProjectSeeder8x11 extends Seeder
                 'title' => 'Одноэтажный коттедж из газобетона SD-376',
                 'img' => '/tmp_data/projects/pr_187/p187_photo_1.JPG',
                 'slug' => 'odnoetaznyi-kottedz-iz-gazobetona-sd-376',
-                'start_price' => ' 4670200 ',
+                'start_price' => ' 3969670 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_187/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_187/p187_photo_1.JPG',
@@ -96,7 +96,7 @@ class ProjectSeeder8x11 extends Seeder
                 'title' => 'Одноэтажный дачный дом из газобетона SD-374',
                 'img' => '/tmp_data/projects/pr_188/p188_photo_1.JPG',
                 'slug' => 'odnoetaznyi-dacnyi-dom-iz-gazobetona-sd-374',
-                'start_price' => ' 5407600 ',
+                'start_price' => ' 4596460 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_188/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_188/p188_photo_1.JPG',
@@ -120,7 +120,7 @@ class ProjectSeeder8x11 extends Seeder
                 'title' => 'Дом из газобетона с мансардой и эркером SD-377',
                 'img' => '/tmp_data/projects/pr_189/p189_photo_1.JPG',
                 'slug' => 'dom-iz-gazobetona-s-mansardoi-i-erkerom-sd-377',
-                'start_price' => ' 7558350 ',
+                'start_price' => ' 6424600 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_189/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_189/p189_photo_1.JPG',
@@ -145,7 +145,7 @@ class ProjectSeeder8x11 extends Seeder
                 'title' => 'двухэтажный дом из газобетона с гаражом SD-378',
                 'img' => '/tmp_data/projects/pr_190/p190_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-gazobetona-s-garazom-sd-378',
-                'start_price' => ' 8357200 ',
+                'start_price' => ' 7103620 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_190/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_190/p190_photo_1.JPG',

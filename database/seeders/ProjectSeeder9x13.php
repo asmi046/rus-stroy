@@ -21,7 +21,7 @@ class ProjectSeeder9x13 extends Seeder
                 'title' => 'Симпатичный дом в два этажа площадью 150 м2 SD-290',
                 'img' => '/tmp_data/projects/pr_204/p204_photo_1.JPG',
                 'slug' => 'simpaticnyi-dom-v-dva-etaza-ploshhadiu-150-m2-sd-290',
-                'start_price' => ' 10950000 ',
+                'start_price' => ' 9307500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_204/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_204/p204_photo_1.JPG',
@@ -51,7 +51,7 @@ class ProjectSeeder9x13 extends Seeder
                 'title' => 'Восхитительный двухэтажный дом на 3 спальни SD-173',
                 'img' => '/tmp_data/projects/pr_205/p205_photo_1.JPG',
                 'slug' => 'vosxititelnyi-dvuxetaznyi-dom-na-3-spalni-sd-173',
-                'start_price' => ' 10500000 ',
+                'start_price' => ' 8925000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_205/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_205/p205_photo_1.JPG',
@@ -77,7 +77,7 @@ class ProjectSeeder9x13 extends Seeder
                 'title' => 'Небольшой одноэтажный дом с 2-я спальнями SD-008',
                 'img' => '/tmp_data/projects/pr_206/p206_photo_1.JPG',
                 'slug' => 'nebolsoi-odnoetaznyi-dom-s-2-ia-spalniami-sd-008',
-                'start_price' => ' 5925000 ',
+                'start_price' => ' 5036250 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_206/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_206/p206_photo_1.JPG',
@@ -101,7 +101,7 @@ class ProjectSeeder9x13 extends Seeder
                 'title' => 'Загородный коттедж с мансардой и балконом SD-023',
                 'img' => '/tmp_data/projects/pr_207/p207_photo_1.JPG',
                 'slug' => 'zagorodnyi-kottedz-s-mansardoi-i-balkonom-sd-023',
-                'start_price' => ' 8400000 ',
+                'start_price' => ' 7140000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_207/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_207/p207_photo_1.JPG',
@@ -134,7 +134,7 @@ class ProjectSeeder9x13 extends Seeder
                 'title' => 'Небольшой мансардный коттедж для узкого участка SD-237',
                 'img' => '/tmp_data/projects/pr_208/p208_photo_1.JPG',
                 'slug' => 'nebolsoi-mansardnyi-kottedz-dlia-uzkogo-ucastka-sd-237',
-                'start_price' => ' 11700000 ',
+                'start_price' => ' 9945000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_208/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_208/p208_photo_1.JPG',
@@ -167,7 +167,7 @@ class ProjectSeeder9x13 extends Seeder
                 'title' => 'Небольшой  дом с мансардой и гаражом SD-061',
                 'img' => '/tmp_data/projects/pr_209/p209_photo_1.JPG',
                 'slug' => 'nebolsoi-dom-s-mansardoi-i-garazom-sd-061',
-                'start_price' => ' 11550000 ',
+                'start_price' => ' 9817500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_209/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_209/p209_photo_1.JPG',
@@ -199,7 +199,7 @@ class ProjectSeeder9x13 extends Seeder
                 'title' => 'Современный стильный коттедж с гаражом SD-123',
                 'img' => '/tmp_data/projects/pr_210/p210_photo_1.JPG',
                 'slug' => 'sovremennyi-stilnyi-kottedz-s-garazom-sd-123',
-                'start_price' => ' 12675000 ',
+                'start_price' => ' 10773750 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_210/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_210/p210_photo_1.JPG',

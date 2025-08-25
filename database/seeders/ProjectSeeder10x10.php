@@ -21,7 +21,7 @@ class ProjectSeeder10x10 extends Seeder
                 'title' => 'Современный одноэтажный каркасный дом SD-364',
                 'img' => '/tmp_data/projects/pr_136/p136_photo_1.JPG',
                 'slug' => 'sovremennyi-odnoetaznyi-karkasnyi-dom-sd-364',
-                'start_price' => ' 6145000 ',
+                'start_price' => ' 5223250 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_136/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_136/p136_photo_1.JPG',
@@ -44,7 +44,7 @@ class ProjectSeeder10x10 extends Seeder
                 'title' => 'Одноэтажный каркасный дом с террасой SD-357',
                 'img' => '/tmp_data/projects/pr_137/p137_photo_1.JPG',
                 'slug' => 'odnoetaznyi-karkasnyi-dom-s-terrasoi-sd-357',
-                'start_price' => ' 6022100 ',
+                'start_price' => ' 5128785 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_137/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_137/p137_photo_1.JPG',
@@ -68,7 +68,7 @@ class ProjectSeeder10x10 extends Seeder
                 'title' => 'Компактный мансардный коттедж с фасадом приятного вида SD-100',
                 'img' => '/tmp_data/projects/pr_138/p138_photo_1.JPG',
                 'slug' => 'kompaktnyi-mansardnyi-kottedz-s-fasadom-priiatnogo-vida-sd-100',
-                'start_price' => ' 10050000 ',
+                'start_price' => ' 8542500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_138/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_138/p138_photo_1.JPG',
@@ -98,7 +98,7 @@ class ProjectSeeder10x10 extends Seeder
                 'title' => 'Дом из бревна с мансардным этажом SD-266',
                 'img' => '/tmp_data/projects/pr_139/p139_photo_1.JPG',
                 'slug' => 'dom-iz-brevna-s-mansardnym-etazom-sd-266',
-                'start_price' => ' 9000000 ',
+                'start_price' => ' 7650000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_139/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_139/p139_photo_1.JPG',
@@ -125,7 +125,7 @@ class ProjectSeeder10x10 extends Seeder
                 'title' => 'Двухэтажный каркасный дом в стиле хай-тек SD-366',
                 'img' => '/tmp_data/projects/pr_140/p140_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-karkasnyi-dom-v-stile-xai-tek-sd-366',
-                'start_price' => ' 10077800 ',
+                'start_price' => ' 8566130 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_140/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_140/p140_photo_1.JPG',
@@ -150,7 +150,7 @@ class ProjectSeeder10x10 extends Seeder
                 'title' => 'Стильный коттедж с жилой мансардой SD-200',
                 'img' => '/tmp_data/projects/pr_141/p141_photo_1.JPG',
                 'slug' => 'stilnyi-kottedz-s-ziloi-mansardoi-sd-200',
-                'start_price' => ' 10725000 ',
+                'start_price' => ' 9116250 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_141/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_141/p141_photo_1.JPG',

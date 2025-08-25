@@ -21,7 +21,7 @@ class ProjectSeeder8x14 extends Seeder
                 'title' => 'Двухэтажный дом из бруса с сауной SD-273',
                 'img' => '/tmp_data/projects/pr_196/p196_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-brusa-s-saunoi-sd-273',
-                'start_price' => ' 11700000 ',
+                'start_price' => ' 9945000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_196/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_196/p196_photo_1.JPG',
@@ -45,7 +45,7 @@ class ProjectSeeder8x14 extends Seeder
                 'title' => 'Двухэтажный дом из бревна с тремя спальнями SD-270',
                 'img' => '/tmp_data/projects/pr_197/p197_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-brevna-s-tremia-spalniami-sd-270',
-                'start_price' => ' 9810000 ',
+                'start_price' => ' 8338500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_197/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_197/p197_photo_1.JPG',
@@ -69,7 +69,7 @@ class ProjectSeeder8x14 extends Seeder
                 'title' => 'Современный жилой дом с гаражом и тремя спальнями SD-150',
                 'img' => '/tmp_data/projects/pr_198/p198_photo_1.JPG',
                 'slug' => 'sovremennyi-ziloi-dom-s-garazom-i-tremia-spalniami-sd-150',
-                'start_price' => ' 11100000 ',
+                'start_price' => ' 9435000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_198/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_198/p198_photo_1.JPG',
@@ -99,7 +99,7 @@ class ProjectSeeder8x14 extends Seeder
                 'title' => 'Компактный коттедж на две семьи SD-149',
                 'img' => '/tmp_data/projects/pr_199/p199_photo_1.JPG',
                 'slug' => 'kompaktnyi-kottedz-na-dve-semi-sd-149',
-                'start_price' => ' 11850000 ',
+                'start_price' => ' 10072500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_199/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_199/p199_photo_1.JPG',

@@ -21,7 +21,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Проект дома "Маршак"',
                 'img' => '/tmp_data/projects/pr_1/p1_main.jpeg',
                 'slug' => 'proekt-doma-marshak',
-                'start_price' => 5990000,
+                'start_price' => 5091500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_1/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_1/p1_photo_1.jpeg',
@@ -48,7 +48,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Проект дома  "Блок"',
                 'img' => '/tmp_data/projects/pr_2/p2_photo_1.JPG',
                 'slug' => 'proekt-doma-blok',
-                'start_price' => 7300000,
+                'start_price' => 6205000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_2/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_2/p2_photo_1.JPG',
@@ -77,7 +77,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Проект дома "Идилия"',
                 'img' => '/tmp_data/projects/pr_3/p3_photo_1.JPG',
                 'slug' => 'proekt-doma-idiliya',
-                'start_price' => 6500000,
+                'start_price' => 5525000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_3/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_3/p3_photo_1.JPG',
@@ -106,7 +106,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Проект дома "Мечта поэта"',
                 'img' => '/tmp_data/projects/pr_4/p4_photo_1.JPG',
                 'slug' => 'proekt-doma-mechta-poeta',
-                'start_price' => 8500000,
+                'start_price' => 7225000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_4/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_4/p4_photo_1.JPG',
@@ -136,7 +136,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом каркасный серии "Барнэо" ',
                 'img' => '/tmp_data/projects/pr_5/p5_photo_1.JPG',
                 'slug' => 'dom-karkasnyi-serii-barn-ploshhadiu-94-kvm',
-                'start_price' => 8500000,
+                'start_price' => 7225000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_5/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_5/p5_photo_1.JPG',
@@ -160,7 +160,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом каркасный серии "Барнe" ',
                 'img' => '/tmp_data/projects/pr_6/p6_photo_1.JPG',
                 'slug' => 'dom-karkasnyi-serii-barne-ploshhadiu-80-kvm',
-                'start_price' => 8000000,
+                'start_price' => 6800000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_6/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_6/p6_photo_1.JPG',
@@ -186,7 +186,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом каркасный серии "Барне" площадью 100 кв.м.',
                 'img' => '/tmp_data/projects/pr_7/p7_photo_1.JPG',
                 'slug' => 'dom-karkasnyi-serii-barnе-ploshhadiu-100-kvm',
-                'start_price' => 9000000,
+                'start_price' => 7650000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_7/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_7/p7_photo_1.JPG',
@@ -210,7 +210,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом серии «Гармония» площадью 80 кв.м.',
                 'img' => '/tmp_data/projects/pr_8/p8_photo_1.JPG',
                 'slug' => 'dom-serii-garmoniya-ploshhadiu-80-kvm',
-                'start_price' => 7800000,
+                'start_price' => 6630000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_8/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_8/p8_photo_1.JPG',
@@ -234,7 +234,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом серии «Гармония» площадью 68 кв.м.',
                 'img' => '/tmp_data/projects/pr_9/p9_photo_1.JPG',
                 'slug' => 'dom-serii-garmoniya-ploshhadiu-68-kvm',
-                'start_price' => 7400000,
+                'start_price' => 6290000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_9/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_9/p9_photo_1.JPG',
@@ -258,7 +258,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом серии «Гармония» площадью 60 кв.м.',
                 'img' => '/tmp_data/projects/pr_10/p10_photo_1.JPG',
                 'slug' => 'dom-serii-garmoniya-ploshhadiu-60-kvm',
-                'start_price' => 6800000,
+                'start_price' => 5780000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_10/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_10/p10_photo_1.JPG',
@@ -284,7 +284,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом серии «Гармония» площадью 110 кв.м.',
                 'img' => '/tmp_data/projects/pr_11/p11_photo_1.JPG',
                 'slug' => 'dom-serii-garmoniya-ploshhadiu-110-kvm',
-                'start_price' => 9500000,
+                'start_price' => 8075000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_11/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_11/p11_photo_1.JPG',
@@ -309,7 +309,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом "Роща"',
                 'img' => '/tmp_data/projects/pr_12/p12_photo_1.JPG',
                 'slug' => 'dom-rosha',
-                'start_price' => 9450000,
+                'start_price' => 8032500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_12/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_12/p12_photo_1.JPG',
@@ -332,7 +332,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом "Горизонт"',
                 'img' => '/tmp_data/projects/pr_13/p13_photo_1.JPG',
                 'slug' => 'dom-gorizont',
-                'start_price' => 10000000,
+                'start_price' => 8500000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_13/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_13/p13_photo_1.JPG',
@@ -357,7 +357,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Индивидуальный каркасный дом 43 м²',
                 'img' => '/tmp_data/projects/pr_14/p14_photo_1.JPG',
                 'slug' => 'individualnyi-karkasnyi-dom-43-m2',
-                'start_price' => 3870000,
+                'start_price' => 3299500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_14/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_14/p14_photo_1.JPG',
@@ -379,7 +379,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом "Родник"',
                 'img' => '/tmp_data/projects/pr_15/p15_photo_1.JPG',
                 'slug' => 'dom-rodnik',
-                'start_price' => 8300000,
+                'start_price' => 7055000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_15/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_15/p15_photo_1.JPG',
@@ -400,7 +400,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Индивидуальный каркасный дом 91 м²',
                 'img' => '/tmp_data/projects/pr_16/p16_photo_1.JPG',
                 'slug' => 'individualnyi-karkasnyi-dom-91-m2',
-                'start_price' => 8190000,
+                'start_price' => 6961500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_16/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_16/p16_photo_1.JPG',
@@ -423,7 +423,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Индивидуальный каркасный дом 96 м²',
                 'img' => '/tmp_data/projects/pr_17/p17_photo_1.JPG',
                 'slug' => 'individualnyi-karkasnyi-dom-96-m2',
-                'start_price' => 8640000,
+                'start_price' => 7344000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_17/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_17/p17_photo_1.JPG',
@@ -445,7 +445,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Индивидуальный каркасный дом KD-112',
                 'img' => '/tmp_data/projects/pr_18/p18_photo_1.JPG',
                 'slug' => 'individualnyi-karkasnyi-dom-kd-112',
-                'start_price' => 10440000,
+                'start_price' => 8874000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_18/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_18/p18_photo_1.JPG',
@@ -467,7 +467,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Индивидуальный каркасный дом',
                 'img' => '/tmp_data/projects/pr_19/p19_photo_1.JPG',
                 'slug' => 'individualnyi-karkasnyi-dom',
-                'start_price' => 9540000,
+                'start_price' => 8109000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_19/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_19/p19_photo_1.JPG',
@@ -490,7 +490,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом "Луч"',
                 'img' => '/tmp_data/projects/pr_20/p20_photo_1.JPG',
                 'slug' => 'dom-luch',
-                'start_price' => 8500000,
+                'start_price' => 7225000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_20/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_20/p20_photo_1.JPG',
@@ -514,7 +514,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом "Очаг"',
                 'img' => '/tmp_data/projects/pr_21/p21_photo_1.JPG',
                 'slug' => 'dom-ochag',
-                'start_price' => 8500000,
+                'start_price' => 7225000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_21/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_21/p21_photo_1.JPG',
@@ -586,7 +586,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом одноэтажный 103м²',
                 'img' => '/tmp_data/projects/pr_24/p24_photo_1.JPG',
                 'slug' => 'dom-odnoetaznyi-103m2',
-                'start_price' => 9785000,
+                'start_price' => 8317250,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_24/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_24/p24_photo_1.JPG',
@@ -608,7 +608,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом одноэтажный 209м²',
                 'img' => '/tmp_data/projects/pr_25/p25_photo_1.JPG',
                 'slug' => 'dom-odnoetaznyi-209m2',
-                'start_price' => 14475000,
+                'start_price' => 12303750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_25/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_25/p25_photo_1.JPG',
@@ -630,7 +630,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом одноэтажный из газобетона',
                 'img' => '/tmp_data/projects/pr_26/p26_photo_1.JPG',
                 'slug' => 'dom-odnoetaznyi-iz-gazobetona',
-                'start_price' => 7790000,
+                'start_price' => 6621500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_26/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_26/p26_photo_1.JPG',
@@ -653,7 +653,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Индивидуальный одноэтажный жилой дом из газобетона',
                 'img' => '/tmp_data/projects/pr_27/p27_photo_1.JPG',
                 'slug' => 'individualnyi-odnoetaznyi-ziloi-dom-iz-gazobetona',
-                'start_price' => 9595000,
+                'start_price' => 8155750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_27/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_27/p27_photo_1.JPG',
@@ -676,7 +676,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом одноэтажный 149м²',
                 'img' => '/tmp_data/projects/pr_28/p28_photo_1.JPG',
                 'slug' => 'individualnyi-odnoetaznyi-ziloi-dom-iz-gazobetona-149m2',
-                'start_price' => 14155000,
+                'start_price' => 12031750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_28/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_28/p28_photo_1.JPG',
@@ -698,7 +698,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Индивидуальный двухэтажный жилой дом из газобетона',
                 'img' => '/tmp_data/projects/pr_28/p28_photo_1.JPG',
                 'slug' => 'individualnyi-dvuxetaznyi-ziloi-dom-iz-gazobetona',
-                'start_price' => 11685000,
+                'start_price' => 9932250,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_28/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_28/p28_photo_1.JPG',
@@ -720,7 +720,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Одноэтажный дом из бруса с террасой',
                 'img' => '/tmp_data/projects/pr_29/p29_photo_1.JPG',
                 'slug' => 'odnoetaznyi-dom-iz-brusa-s-terrasoi-73-m2',
-                'start_price' => 6570000,
+                'start_price' => 5584500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_29/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_29/p29_photo_1.JPG',
@@ -741,7 +741,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом для небольшого участка',
                 'img' => '/tmp_data/projects/pr_30/p30_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-dlia-nebolsogo-ucastka',
-                'start_price' => 4575000,
+                'start_price' => 3898750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_30/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_30/p30_photo_1.JPG',
@@ -765,7 +765,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Модульный дом площадью',
                 'img' => '/tmp_data/projects/pr_31/p31_photo_1.JPG',
                 'slug' => 'modulnyi-dom-ploshhadiu-30м2',
-                'start_price' => 1990000,
+                'start_price' => 1691500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_31/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_31/p31_photo_1.JPG',
@@ -793,7 +793,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Красивый одноэтажный дом под четырехскатной крышей',
                 'img' => '/tmp_data/projects/pr_32/p32_photo_1.JPG',
                 'slug' => 'krasivyi-odnoetaznyi-dom-pod-cetyrexskatnoi-krysei',
-                'start_price' => 5475000,
+                'start_price' => 4653750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_32/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_32/p32_photo_1.JPG',
@@ -816,7 +816,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Одноэтажный коттедж',
                 'img' => '/tmp_data/projects/pr_33/p33_photo_1.JPG',
                 'slug' => 'odnoetaznyi-kottedz',
-                'start_price' => 7650000,
+                'start_price' => 6502500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_33/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_33/p33_photo_1.JPG',
@@ -842,7 +842,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Модульный дом площадью',
                 'img' => '/tmp_data/projects/pr_34/p34_photo_1.JPG',
                 'slug' => 'modulnyi-dom-ploshhadiu-60m2',
-                'start_price' => 3990000,
+                'start_price' => 3391500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_34/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_34/p34_photo_1.JPG',
@@ -864,7 +864,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Компактный дачный дом в классическом стиле 91 м²',
                 'img' => '/tmp_data/projects/pr_35/p35_photo_1.JPG',
                 'slug' => 'kompaktnyi-dacnyi-dom-v-klassiceskom-stile-91-m2',
-                'start_price' => 6825000,
+                'start_price' => 5801250,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_35/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_35/p35_photo_1.JPG',
@@ -892,7 +892,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Модульный дом',
                 'img' => '/tmp_data/projects/pr_36/p36_photo_1.JPG',
                 'slug' => 'modulnyi-dom',
-                'start_price' => 2990000,
+                'start_price' => 2541500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_36/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_36/p36_photo_1.JPG',
@@ -919,7 +919,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Уютный одноэтажный домик с двумя спальнями',
                 'img' => '/tmp_data/projects/pr_37/p37_photo_1.JPG',
                 'slug' => 'uiutnyi-odnoetaznyi-domik-s-dvumia-spalniami',
-                'start_price' => 5550000,
+                'start_price' => 4717500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_37/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_37/p37_photo_1.JPG',
@@ -946,7 +946,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Современный дачный дом с большими окнами 61 м²',
                 'img' => '/tmp_data/projects/pr_38/p38_photo_1.JPG',
                 'slug' => 'sovremennyi-dacnyi-dom-s-bolsimi-oknami-61-m2',
-                'start_price' => 4575000,
+                'start_price' => 3898750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_38/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_38/p38_photo_1.JPG',
@@ -973,7 +973,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом из бруса 122 м²',
                 'img' => '/tmp_data/projects/pr_39/p39_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-brusa-122-m2',
-                'start_price' => 10980000,
+                'start_price' => 9333000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_39/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_39/p39_photo_1.JPG',
@@ -997,7 +997,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом одноэтажный 149 м²',
                 'img' => '/tmp_data/projects/pr_40/p40_photo_1.JPG',
                 'slug' => 'dom-odnoetaznyi-149-m2',
-                'start_price' => 14155000,
+                'start_price' => 12031750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_40/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_40/p40_photo_1.JPG',
@@ -1019,7 +1019,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Симпатичный дом в два этажа площадью 150 м2',
                 'img' => '/tmp_data/projects/pr_41/p41_photo_1.JPG',
                 'slug' => 'simpaticnyi-dom-v-dva-etaza-ploshhadiu-150-m2',
-                'start_price' => 10950000,
+                'start_price' => 9307500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_41/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_41/p41_photo_1.JPG',
@@ -1047,7 +1047,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Небольшой дом квадратной формы с тремя спальнями 80 м²',
                 'img' => '/tmp_data/projects/pr_42/p42_photo_1.JPG',
                 'slug' => 'nebolsoi-dom-kvadratnoi-formy-s-tremia-spalniami-80-m2',
-                'start_price' => 6000000,
+                'start_price' => 5100000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_42/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_42/p42_photo_1.JPG',
@@ -1070,7 +1070,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный коттедж для узкого участка',
                 'img' => '/tmp_data/projects/pr_43/p43_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-kottedz-dlia-uzkogo-ucastka',
-                'start_price' => 6975000,
+                'start_price' => 5928750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_43/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_43/p43_photo_1.JPG',
@@ -1100,7 +1100,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двух этажный дом',
                 'img' => '/tmp_data/projects/pr_44/p44_photo_1.JPG',
                 'slug' => 'dvuhetazhiy_dom',
-                'start_price' => 11175000,
+                'start_price' => 9508750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_44/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_44/p44_photo_1.JPG',
@@ -1126,7 +1126,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Одноэтажный дом с панорамными окнами для небольшого участка',
                 'img' => '/tmp_data/projects/pr_45/p45_photo_1.JPG',
                 'slug' => 'odnoetaznyi-dom-s-panoramnymi-oknami-dlia-nebolsogo-ucastka',
-                'start_price' => 4731650,
+                'start_price' => 4021903,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_45/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_45/p45_photo_1.JPG',
@@ -1147,7 +1147,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Одноэтажный дом для узкого участка 140 м²',
                 'img' => '/tmp_data/projects/pr_46/p46_photo_1.JPG',
                 'slug' => 'odnoetaznyi-dom-dlia-uzkogo-ucastka-140-m2',
-                'start_price' => 10500000,
+                'start_price' => 8925000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_46/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_46/p46_photo_1.JPG',
@@ -1177,7 +1177,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом',
                 'img' => '/tmp_data/projects/pr_47/p47_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom',
-                'start_price' => 4977450,
+                'start_price' => 4230833,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_47/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_47/p47_photo_1.JPG',
@@ -1201,7 +1201,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом из бруса с балконом',
                 'img' => '/tmp_data/projects/pr_48/p48_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-brusa-s-balkonom',
-                'start_price' => 11610000,
+                'start_price' => 9878500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_48/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_48/p48_photo_1.JPG',
@@ -1223,7 +1223,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Одноэтажный современный каркасный дом',
                 'img' => '/tmp_data/projects/pr_49/p49_photo_1.JPG',
                 'slug' => 'odnoetaznyi-sovremennyi-karkasnyi-dom',
-                'start_price' => 3932800,
+                'start_price' => 3342880,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_49/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_49/p49_photo_1.JPG',
@@ -1295,7 +1295,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом с двумя спальнями и террасой 86 м²',
                 'img' => '/tmp_data/projects/pr_52/p52_photo_1.JPG',
                 'slug' => 'dom-s-dvumia-spalniami-i-terrasoi-86-m2',
-                'start_price' => 8170000,
+                'start_price' => 6944500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_52/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_52/p52_photo_1.JPG',
@@ -1318,7 +1318,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом для небольшого участка 61 м²',
                 'img' => '/tmp_data/projects/pr_53/p53_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-dlia-nebolsogo-ucastka-61-m2',
-                'start_price' => 5795000,
+                'start_price' => 4925750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_53/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_53/p53_photo_1.JPG',
@@ -1342,7 +1342,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Красивый одноэтажный дом под четырехскатной крышей',
                 'img' => '/tmp_data/projects/pr_54/p54_photo_1.JPG',
                 'slug' => 'krasivyi-odnoetaznyi-dom-pod-cetyrexskatnoi-krysei-73-m2',
-                'start_price' => 6935000,
+                'start_price' => 5894750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_54/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_54/p54_photo_1.JPG',
@@ -1365,7 +1365,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Одноэтажный коттедж 102 м²',
                 'img' => '/tmp_data/projects/pr_55/p55_photo_1.JPG',
                 'slug' => 'odnoetaznyi-kottedz-102-m2',
-                'start_price' => 9690000,
+                'start_price' => 8236500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_55/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_55/p55_photo_1.JPG',
@@ -1391,7 +1391,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Компактный дачный дом в классическом стиле',
                 'img' => '/tmp_data/projects/pr_56/p56_photo_1.JPG',
                 'slug' => 'kompaktnyi-dacnyi-dom-v-klassiceskom-stile',
-                'start_price' => 8645000,
+                'start_price' => 7358250,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_56/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_56/p56_photo_1.JPG',
@@ -1419,7 +1419,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Уютный одноэтажный домик с двумя спальнями 74 м²',
                 'img' => '/tmp_data/projects/pr_57/p57_photo_1.JPG',
                 'slug' => 'uiutnyi-odnoetaznyi-domik-s-dvumia-spalniami-74-m2',
-                'start_price' => 7030000,
+                'start_price' => 5975500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_57/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_57/p57_photo_1.JPG',
@@ -1446,7 +1446,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Современный дачный дом с большими окнами',
                 'img' => '/tmp_data/projects/pr_58/p58_photo_1.JPG',
                 'slug' => 'sovremennyi-dacnyi-dom-s-bolsimi-oknami',
-                'start_price' => 5795000,
+                'start_price' => 4925750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_58/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_58/p58_photo_1.JPG',
@@ -1473,7 +1473,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Симпатичный дом в два этажа площадью 150 м2 PD-290',
                 'img' => '/tmp_data/projects/pr_59/p59_photo_1.JPG',
                 'slug' => 'simpaticnyi-dom-v-dva-etaza-ploshhadiu-150-m2-pd-290',
-                'start_price' => 13870000,
+                'start_price' => 11789500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_59/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_59/p59_photo_1.JPG',
@@ -1501,7 +1501,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Небольшой дом квадратной формы с тремя спальнями',
                 'img' => '/tmp_data/projects/pr_60/p60_photo_1.JPG',
                 'slug' => 'nebolsoi-dom-kvadratnoi-formy-s-tremia-spalniami',
-                'start_price' => 7600000,
+                'start_price' => 6460000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_60/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_60/p60_photo_1.JPG',
@@ -1524,7 +1524,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный коттедж для узкого участка 93 м²',
                 'img' => '/tmp_data/projects/pr_61/p61_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-kottedz-dlia-uzkogo-ucastka-93-m2',
-                'start_price' => 8835000,
+                'start_price' => 7519750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_61/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_61/p61_photo_1.JPG',
@@ -1554,7 +1554,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом "Аэр""',
                 'img' => '/tmp_data/projects/pr_62/p62_photo_1.JPG',
                 'slug' => 'dom-air',
-                'start_price' => 14155000,
+                'start_price' => 12031750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_62/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_62/p62_photo_1.JPG',
@@ -1579,7 +1579,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Одноэтажный дом с панорамными окнами для небольшого участка 77 м²',
                 'img' => '/tmp_data/projects/pr_63/p63_photo_1.JPG',
                 'slug' => 'odnoetaznyi-dom-s-panoramnymi-oknami-dlia-nebolsogo-ucastka-77-m2',
-                'start_price' => 7315000,
+                'start_price' => 6217750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_63/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_63/p63_photo_1.JPG',
@@ -1600,7 +1600,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Одноэтажный дом для узкого участка',
                 'img' => '/tmp_data/projects/pr_64/p64_photo_1.JPG',
                 'slug' => 'odnoetaznyi-dom-dlia-uzkogo-ucastka',
-                'start_price' => 13300000,
+                'start_price' => 11305000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_64/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_64/p64_photo_1.JPG',
@@ -1630,7 +1630,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом со вторым светом',
                 'img' => '/tmp_data/projects/pr_65/p65_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-so-vtorym-svetom',
-                'start_price' => 7695000,
+                'start_price' => 6540750,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_65/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_65/p65_photo_1.JPG',
@@ -1654,7 +1654,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Баня "Nord"',
                 'img' => '/tmp_data/projects/pr_66/p66_photo_1.JPG',
                 'slug' => 'bania-nord',
-                'start_price' => 5220000,
+                'start_price' => 4437000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_66/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_66/p66_photo_1.JPG',
@@ -1675,7 +1675,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Баня "Голландия"',
                 'img' => '/tmp_data/projects/pr_67/p67_photo_1.JPG',
                 'slug' => 'bania-gollandiia',
-                'start_price' => 5400000,
+                'start_price' => 4590000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_67/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_67/p67_photo_1.JPG',
@@ -1697,7 +1697,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Баня "Norway"',
                 'img' => '/tmp_data/projects/pr_68/p68_photo_1.JPG',
                 'slug' => 'bania-norway',
-                'start_price' => 6660000,
+                'start_price' => 5661000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_68/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_68/p68_photo_1.JPG',
@@ -1719,7 +1719,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Баня "Sunshine"',
                 'img' => '/tmp_data/projects/pr_69/p69_photo_1.JPG',
                 'slug' => 'bania-sunshine',
-                'start_price' => 6300000,
+                'start_price' => 5355000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_69/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_69/p69_photo_1.JPG',
@@ -1741,7 +1741,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Баня "Hot-n-Cube"',
                 'img' => '/tmp_data/projects/pr_70/p70_photo_1.JPG',
                 'slug' => 'bania-hot-n-cube',
-                'start_price' => 12960000,
+                'start_price' => 11016000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_70/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_70/p70_photo_1.JPG',
@@ -1762,7 +1762,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Баня из бруса',
                 'img' => '/tmp_data/projects/pr_71/p71_photo_1.JPG',
                 'slug' => 'bania-iz-brusa',
-                'start_price' => 7200000,
+                'start_price' => 6120000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_71/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_71/p71_photo_1.JPG',
@@ -1783,7 +1783,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Одноэтажный дом из бруса с террасой',
                 'img' => '/tmp_data/projects/pr_72/p72_photo_1.JPG',
                 'slug' => 'odnoetaznyi-dom-iz-kleenogo-brusa-s-terrasoi',
-                'start_price' => 6570000,
+                'start_price' => 5584500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_72/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_72/p72_photo_1.JPG',
@@ -1804,7 +1804,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом из бруса',
                 'img' => '/tmp_data/projects/pr_73/p73_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-brusa',
-                'start_price' => 10980000,
+                'start_price' => 9333000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_73/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_73/p73_photo_1.JPG',
@@ -1828,7 +1828,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом из бруса с балконом 129 м²',
                 'img' => '/tmp_data/projects/pr_74/p74_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-brusa-s-balkonom-129-m2',
-                'start_price' => 11610000,
+                'start_price' => 9878500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_74/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_74/p74_photo_1.JPG',
@@ -1850,7 +1850,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом из бруса с пятью спальнями',
                 'img' => '/tmp_data/projects/pr_75/p75_photo_1.JPG',
                 'slug' => 'dom-iz-brusa-s-piatiu-spalniami',
-                'start_price' => 12780000,
+                'start_price' => 10863000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_75/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_75/p75_photo_1.JPG',
@@ -1872,7 +1872,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Одноэтажная сауна из бревна',
                 'img' => '/tmp_data/projects/pr_76/p76_photo_1.JPG',
                 'slug' => 'odnoetaznaia-sauna-iz-brevna',
-                'start_price' => 4320000,
+                'start_price' => 3672000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_76/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_76/p76_photo_1.JPG',
@@ -1893,7 +1893,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Маленький двухэтажный дом из бревна',
                 'img' => '/tmp_data/projects/pr_77/p77_photo_1.JPG',
                 'slug' => 'malenkii-dvuxetaznyi-dom-iz-brevna',
-                'start_price' => 4410000,
+                'start_price' => 3748500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_77/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_77/p77_photo_1.JPG',
@@ -1917,7 +1917,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом из бруса с балконом и панорамными окнами',
                 'img' => '/tmp_data/projects/pr_78/p78_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-kleenogo-brusa-s-balkonom-i-panoramnymi-oknami',
-                'start_price' => 14580000,
+                'start_price' => 12393000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_78/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_78/p78_photo_1.JPG',
@@ -1939,7 +1939,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Небольшой двухэтажный дом с парной',
                 'img' => '/tmp_data/projects/pr_79/p79_photo_1.JPG',
                 'slug' => 'nebolsoi-dvuxetaznyi-dom-s-parnoi',
-                'start_price' => 4500000,
+                'start_price' => 3825000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_79/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_79/p79_photo_1.JPG',
@@ -1964,7 +1964,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом из бруса с сауной 130 м²',
                 'img' => '/tmp_data/projects/pr_80/p80_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-brusa-s-saunoi-130-m2',
-                'start_price' => 11700000,
+                'start_price' => 9945000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_80/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_80/p80_photo_1.JPG',
@@ -1986,7 +1986,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом из бревна в финском стиле с сауной',
                 'img' => '/tmp_data/projects/pr_81/p81_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-brevna-v-finskom-stile-s-saunoi',
-                'start_price' => 7380000,
+                'start_price' => 6273000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_81/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_81/p81_photo_1.JPG',
@@ -2008,7 +2008,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Угловой дом из бревна',
                 'img' => '/tmp_data/projects/pr_82/p82_photo_1.JPG',
                 'slug' => 'uglovoi-dom-iz-brevna',
-                'start_price' => 19530000,
+                'start_price' => 16600500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_82/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_82/p82_photo_1.JPG',
@@ -2030,7 +2030,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом из бруса с 4 спальнями',
                 'img' => '/tmp_data/projects/pr_83/p83_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-kleenogo-brusa-s-4-spalniami',
-                'start_price' => 29700000,
+                'start_price' => 25245000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_83/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_83/p83_photo_1.JPG',
@@ -2054,7 +2054,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Шикарный дом из бруса',
                 'img' => '/tmp_data/projects/pr_84/p84_photo_1.JPG',
                 'slug' => 'sikarnyi-dom-iz-brusa',
-                'start_price' => 23220000,
+                'start_price' => 19737000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_84/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_84/p84_photo_1.JPG',
@@ -2079,7 +2079,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Одноэтажный дом из бруса с верандой 231 м²',
                 'img' => '/tmp_data/projects/pr_85/p85_photo_1.JPG',
                 'slug' => 'odnoetaznyi-dom-iz-brusa-s-verandoi-231-m2',
-                'start_price' => 20790000,
+                'start_price' => 17671500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_85/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_85/p85_photo_1.JPG',
@@ -2100,7 +2100,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом из бревна с террасой',
                 'img' => '/tmp_data/projects/pr_86/p86_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-brevna-s-terrasoi',
-                'start_price' => 14490000,
+                'start_price' => 12316500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_86/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_86/p86_photo_1.JPG',
@@ -2127,7 +2127,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом с камином и двумя спальнями',
                 'img' => '/tmp_data/projects/pr_87/p87_photo_1.JPG',
                 'slug' => 'dom-s-kaminom-i-dvumia-spalniami',
-                'start_price' => 8820000,
+                'start_price' => 7497000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_87/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_87/p87_photo_1.JPG',
@@ -2149,7 +2149,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Одноэтажный дом из бруса с террасой 73 м²',
                 'img' => '/tmp_data/projects/pr_88/p88_photo_1.JPG',
                 'slug' => 'odnoetaznyi-dom-iz-prof-brusa-s-terrasoi-73-m2',
-                'start_price' => 6570000,
+                'start_price' => 5584500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_88/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_88/p88_photo_1.JPG',
@@ -2170,7 +2170,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Модульный дом площадью 60 кв.м.',
                 'img' => '/tmp_data/projects/pr_89/p89_photo_1.JPG',
                 'slug' => 'modulnyi-dom-ploshhadiu-60-kvm',
-                'start_price' => 3990000,
+                'start_price' => 3391500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_89/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_89/p89_photo_1.JPG',
@@ -2192,7 +2192,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Модульный дом площадью 45 кв.м.',
                 'img' => '/tmp_data/projects/pr_90/p90_photo_1.JPG',
                 'slug' => 'modulnyi-dom-ploshhadiu-45-kvm',
-                'start_price' => 2990000,
+                'start_price' => 2541500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_90/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_90/p90_photo_1.JPG',
@@ -2219,7 +2219,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом из профильного бруса 122 м²',
                 'img' => '/tmp_data/projects/pr_91/p91_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-profilnogo-brusa-122-m2',
-                'start_price' => 10980000,
+                'start_price' => 9333000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_91/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_91/p91_photo_1.JPG',
@@ -2243,7 +2243,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом из профильного бруса с балконом 129 м²',
                 'img' => '/tmp_data/projects/pr_92/p92_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-profilnogo-brusa-s-balkonom-129-m2',
-                'start_price' => 11610000,
+                'start_price' => 9878500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_92/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_92/p92_photo_1.JPG',
@@ -2265,7 +2265,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Дом из бруса с пятью спальнями 142 м²',
                 'img' => '/tmp_data/projects/pr_93/p93_photo_1.JPG',
                 'slug' => 'dom-iz-brusa-s-piatiu-spalniami-142-m2',
-                'start_price' => 12780000,
+                'start_price' => 10863000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_93/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_93/p93_photo_1.JPG',
@@ -2287,7 +2287,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом из бруса с балконом и панорамными окнами',
                 'img' => '/tmp_data/projects/pr_94/p94_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-brusa-s-balkonom-i-panoramnymi-oknami',
-                'start_price' => 14580000,
+                'start_price' => 12393000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_94/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_94/p94_photo_1.JPG',
@@ -2309,7 +2309,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом из бруса с сауной',
                 'img' => '/tmp_data/projects/pr_95/p95_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-brusa-s-saunoi',
-                'start_price' => 11700000,
+                'start_price' => 9945000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_95/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_95/p95_photo_1.JPG',
@@ -2331,7 +2331,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом из бруса с 4 спальнями',
                 'img' => '/tmp_data/projects/pr_96/p96_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-brusa-s-4-spalniami',
-                'start_price' => 29700000,
+                'start_price' => 25245000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_96/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_96/p96_photo_1.JPG',
@@ -2355,7 +2355,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Шикарный дом из профильного бруса',
                 'img' => '/tmp_data/projects/pr_97/p97_photo_1.JPG',
                 'slug' => 'sikarnyi-dom-iz-profilnogo-brusa',
-                'start_price' => 23220000,
+                'start_price' => 19737000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_97/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_97/p97_photo_1.JPG',
@@ -2380,7 +2380,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Одноэтажный дом из бруса с верандой',
                 'img' => '/tmp_data/projects/pr_98/p98_photo_1.JPG',
                 'slug' => 'odnoetaznyi-dom-iz-brusa-s-verandoi',
-                'start_price' => 20790000,
+                'start_price' => 17671500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_98/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_98/p98_photo_1.JPG',
@@ -2401,7 +2401,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Двухэтажный дом из профильного бруса 265 м²',
                 'img' => '/tmp_data/projects/pr_99/p99_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-profilnogo-brusa-265-m2',
-                'start_price' => 23850000,
+                'start_price' => 20272500,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_99/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_99/p99_photo_1.JPG',
@@ -2426,7 +2426,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Баня "Классическая"',
                 'img' => '/tmp_data/projects/pr_101/p101_photo_1.JPG',
                 'slug' => 'bania-klassiceskaia',
-                'start_price' => 3488550,
+                'start_price' => 2965268,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_101/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_101/p101_photo_1.JPG',
@@ -2448,7 +2448,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Баня "Очарование"',
                 'img' => '/tmp_data/projects/pr_102/p102_photo_1.JPG',
                 'slug' => 'bania-ocarovanie',
-                'start_price' => 6386730,
+                'start_price' => 5428721,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_102/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_102/p102_photo_1.JPG',
@@ -2470,7 +2470,7 @@ class ProjectSeeder extends Seeder
                 'title' => 'Баня КС-80',
                 'img' => '/tmp_data/projects/pr_103/p103_photo_1.JPG',
                 'slug' => 'bania-ks-80',
-                'start_price' => 4293600,
+                'start_price' => 3659560,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_103/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_103/p103_photo_1.JPG',

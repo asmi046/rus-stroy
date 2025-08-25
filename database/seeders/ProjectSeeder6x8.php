@@ -21,7 +21,7 @@ class ProjectSeeder6x8 extends Seeder
                 'title' => 'Одноэтажный дом с панорамными окнами для небольшого участка SD-302',
                 'img' => '/tmp_data/projects/pr_107/p107_photo_1.JPG',
                 'slug' => 'odnoetaznyi-dom-s-panoramnymi-oknami-dlia-nebolsogo-ucastka-Sd-302',
-                'start_price' => ' 4731650 ',
+                'start_price' => ' 4021903 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_107/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_107/p107_photo_1.JPG',
@@ -44,7 +44,7 @@ class ProjectSeeder6x8 extends Seeder
                 'title' => 'Дом с  мансардным этажом и  балконом SD-318',
                 'img' => '/tmp_data/projects/pr_108/p108_photo_1.JPG',
                 'slug' => 'dom-s-mansardnym-etazom-i-balkonom-sd-318',
-                'start_price' => ' 5899200 ',
+                'start_price' => ' 5014320 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_108/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_108/p108_photo_1.JPG',
@@ -68,7 +68,7 @@ class ProjectSeeder6x8 extends Seeder
                 'title' => 'Дом с мансардным этажом и разноуровневой крышей SD-313',
                 'img' => '/tmp_data/projects/pr_109/p109_photo_1.JPG',
                 'slug' => 'dom-s-mansardnym-etazom-i-raznourovnevoi-krysei-sd-313',
-                'start_price' => ' 4362950 ',
+                'start_price' => ' 3708508 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_109/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_109/p109_photo_1.JPG',
@@ -93,7 +93,7 @@ class ProjectSeeder6x8 extends Seeder
                 'title' => 'Двухэтажный дом с эркером и гаражом  SD-300',
                 'img' => '/tmp_data/projects/pr_110/p110_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-s-erkerom-i-garazom-sd-300',
-                'start_price' => ' 9463300 ',
+                'start_price' => ' 8043805 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_110/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_110/p110_photo_1.JPG',
@@ -117,7 +117,7 @@ class ProjectSeeder6x8 extends Seeder
                 'title' => 'Двухэтажный дом с четырьмя спальнями и гаражом  SD-301',
                 'img' => '/tmp_data/projects/pr_111/p111_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-s-cetyrmia-spalniami-i-garazom-sd-301',
-                'start_price' => ' 5960650 ',
+                'start_price' => ' 5066553 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_111/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_111/p111_photo_1.JPG',
@@ -141,7 +141,7 @@ class ProjectSeeder6x8 extends Seeder
                 'title' => 'Двухэтажный дом для небольшого участка с постирочной SD-299',
                 'img' => '/tmp_data/projects/pr_112/p112_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-dlia-nebolsogo-ucastka-s-postirocnoi-Sd-299',
-                'start_price' => ' 6206450 ',
+                'start_price' => ' 5275483 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_112/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_112/p112_photo_1.JPG',

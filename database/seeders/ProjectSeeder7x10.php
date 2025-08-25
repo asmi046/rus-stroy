@@ -21,7 +21,7 @@ class ProjectSeeder7x10 extends Seeder
                 'title' => 'Небольшой двухэтажный дом для большой семьи SD-323',
                 'img' => '/tmp_data/projects/pr_170/p170_photo_1.JPG',
                 'slug' => 'nebolsoi-dvuxetaznyi-dom-dlia-bolsoi-semi-sd-323',
-                'start_price' => ' 4301500 ',
+                'start_price' => ' 3656275 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_170/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_170/p170_photo_1.JPG',
@@ -44,7 +44,7 @@ class ProjectSeeder7x10 extends Seeder
                 'title' => 'Узкий дом с разноуровневой крышей SD-325',
                 'img' => '/tmp_data/projects/pr_171/p171_photo_1.JPG',
                 'slug' => 'uzkii-dom-s-raznourovnevoi-krysei-sd-325',
-                'start_price' => ' 4301500 ',
+                'start_price' => ' 3656275 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_171/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_171/p171_photo_1.JPG',
@@ -68,7 +68,7 @@ class ProjectSeeder7x10 extends Seeder
                 'title' => 'Двухэтажный дом с кукушкой SD-324',
                 'img' => '/tmp_data/projects/pr_172/p172_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-s-kukuskoi-sd-324',
-                'start_price' => ' 4301500 ',
+                'start_price' => ' 3656275 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_172/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_172/p172_photo_1.JPG',
@@ -95,7 +95,7 @@ class ProjectSeeder7x10 extends Seeder
                 'title' => 'Проект дома для всей семьи SD-078',
                 'img' => '/tmp_data/projects/pr_173/p173_photo_1.JPG',
                 'slug' => 'proekt-doma-dlia-vsei-semi-sd-078',
-                'start_price' => ' 8325000 ',
+                'start_price' => ' 7076250 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_173/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_173/p173_photo_1.JPG',
@@ -125,7 +125,7 @@ class ProjectSeeder7x10 extends Seeder
                 'title' => 'Загородный коттедж с мансардой для небольшого участка SD-151',
                 'img' => '/tmp_data/projects/pr_174/p174_photo_1.JPG',
                 'slug' => 'zagorodnyi-kottedz-s-mansardoi-dlia-nebolsogo-ucastka-sd-151',
-                'start_price' => ' 8700000 ',
+                'start_price' => ' 7395000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_174/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_174/p174_photo_1.JPG',
@@ -154,7 +154,7 @@ class ProjectSeeder7x10 extends Seeder
                 'title' => 'Дом из бревна с мансардным этажом и четырьмя спальнями  SD-277',
                 'img' => '/tmp_data/projects/pr_175/p175_photo_1.JPG',
                 'slug' => 'dom-iz-brevna-s-mansardnym-etazom-i-cetyrmia-spalniami-sd-277',
-                'start_price' => ' 9630000 ',
+                'start_price' => ' 8185500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_175/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_175/p175_photo_1.JPG',
@@ -178,7 +178,7 @@ class ProjectSeeder7x10 extends Seeder
                 'title' => 'Малогабаритный коттедж для узкого участка SD-186',
                 'img' => '/tmp_data/projects/pr_176/p176_photo_1.JPG',
                 'slug' => 'malogabaritnyi-kottedz-dlia-uzkogo-ucastka-sd-186',
-                'start_price' => ' 7650000 ',
+                'start_price' => ' 6502500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_176/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_176/p176_photo_1.JPG',

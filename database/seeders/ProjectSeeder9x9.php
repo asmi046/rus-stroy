@@ -21,7 +21,7 @@ class ProjectSeeder9x9 extends Seeder
                 'title' => 'Двухэтажный коттедж с балконом SD-161',
                 'img' => '/tmp_data/projects/pr_148/p148_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-kottedz-s-balkonom-sd-161',
-                'start_price' => ' 9825000 ',
+                'start_price' => ' 8351250 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_148/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_148/p148_photo_1.JPG',
@@ -55,7 +55,7 @@ class ProjectSeeder9x9 extends Seeder
                 'title' => 'Современный каркасный дом с кукушкой SD-363',
                 'img' => '/tmp_data/projects/pr_149/p149_photo_1.JPG',
                 'slug' => 'sovremennyi-karkasnyi-dom-s-kukuskoi-sd-363',
-                'start_price' => ' 8971700 ',
+                'start_price' => ' 7625945 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_149/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_149/p149_photo_1.JPG',
@@ -80,7 +80,7 @@ class ProjectSeeder9x9 extends Seeder
                 'title' => 'Современный двухэтажный каркасный дом SD-362',
                 'img' => '/tmp_data/projects/pr_150/p150_photo_1.JPG',
                 'slug' => 'sovremennyi-dvuxetaznyi-karkasnyi-dom-sd-362',
-                'start_price' => ' 8664450 ',
+                'start_price' => ' 7364783 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_150/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_150/p150_photo_1.JPG',
@@ -104,7 +104,7 @@ class ProjectSeeder9x9 extends Seeder
                 'title' => 'Двухэтажный каркасный дом с котельной SD-367',
                 'img' => '/tmp_data/projects/pr_151/p151_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-karkasnyi-dom-s-kotelnoi-sd-367',
-                'start_price' => ' 9954900 ',
+                'start_price' => ' 8461665 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_151/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_151/p151_photo_1.JPG',
@@ -129,7 +129,7 @@ class ProjectSeeder9x9 extends Seeder
                 'title' => 'Малогабаритный дом с кабинетом на первом этаже SD-045',
                 'img' => '/tmp_data/projects/pr_152/p152_photo_1.JPG',
                 'slug' => 'malogabaritnyi-dom-s-kabinetom-na-pervom-etaze-sd-045',
-                'start_price' => ' 8850000 ',
+                'start_price' => ' 7522500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_152/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_152/p152_photo_1.JPG',
@@ -159,7 +159,7 @@ class ProjectSeeder9x9 extends Seeder
                 'title' => 'Каркасный двухэтажный дом с мансардным этажом SD-365',
                 'img' => '/tmp_data/projects/pr_153/p153_photo_1.JPG',
                 'slug' => 'karkasnyi-dvuxetaznyi-dom-s-mansardnym-etazom-sd-365',
-                'start_price' => ' 10569400 ',
+                'start_price' => ' 8983990 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_153/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_153/p153_photo_1.JPG',

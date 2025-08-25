@@ -21,7 +21,7 @@ class ProjectSeeder8x9 extends Seeder
                 'title' => 'Одноэтажный современный каркасный дом SD-360',
                 'img' => '/tmp_data/projects/pr_181/p181_photo_1.JPG',
                 'slug' => 'odnoetaznyi-sovremennyi-karkasnyi-dom-sd-360',
-                'start_price' => ' 3932800 ',
+                'start_price' => ' 3342880 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_181/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_181/p181_photo_1.JPG',
@@ -44,7 +44,7 @@ class ProjectSeeder8x9 extends Seeder
                 'title' => 'Компактный и современного дом в стиле хай-тек SD-096',
                 'img' => '/tmp_data/projects/pr_182/p182_photo_1.JPG',
                 'slug' => 'kompaktnyi-i-sovremennogo-dom-v-stile-xai-tek-sd-096',
-                'start_price' => ' 7650000 ',
+                'start_price' => ' 6502500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_182/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_182/p182_photo_1.JPG',
@@ -75,7 +75,7 @@ class ProjectSeeder8x9 extends Seeder
                 'title' => 'Небольшой и уютный практичный дом SD-103',
                 'img' => '/tmp_data/projects/pr_183/p183_photo_1.JPG',
                 'slug' => 'nebolsoi-i-uiutnyi-prakticnyi-dom-sd-103',
-                'start_price' => ' 8325000 ',
+                'start_price' => ' 7076250 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_183/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_183/p183_photo_1.JPG',
@@ -105,7 +105,7 @@ class ProjectSeeder8x9 extends Seeder
                 'title' => 'Каркасный двухэтажный дом с гаражом SD-359',
                 'img' => '/tmp_data/projects/pr_184/p184_photo_1.JPG',
                 'slug' => 'karkasnyi-dvuxetaznyi-dom-s-garazom-sd-359',
-                'start_price' => ' 7251100 ',
+                'start_price' => ' 6163435 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_184/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_184/p184_photo_1.JPG',

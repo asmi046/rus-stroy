@@ -21,7 +21,7 @@ class ProjectSeeder10x12 extends Seeder
                 'title' => 'Красивый одноэтажный дом под четырехскатной крышей PD-244',
                 'img' => '/tmp_data/projects/pr_142/p142_photo_1.JPG',
                 'slug' => 'krasivyi-odnoetaznyi-dom-pod-cetyrexskatnoi-krysei-sd-244',
-                'start_price' => ' 5475000 ',
+                'start_price' => ' 4653750 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_142/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_142/p142_photo_1.JPG',
@@ -46,7 +46,7 @@ class ProjectSeeder10x12 extends Seeder
                 'title' => 'Дом с панорамными окнами в столовой PD-209',
                 'img' => '/tmp_data/projects/pr_143/p143_photo_1.JPG',
                 'slug' => 'dom-s-panoramnymi-oknami-v-stolovoi-sd-209',
-                'start_price' => ' 13500000 ',
+                'start_price' => ' 11475000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_143/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_143/p143_photo_1.JPG',
@@ -76,7 +76,7 @@ class ProjectSeeder10x12 extends Seeder
                 'title' => 'Дом со скатной крышей  в скандинавском стиле DS-02',
                 'img' => '/tmp_data/projects/pr_144/p144_photo_1.JPG',
                 'slug' => 'dom-so-skatnoi-krysei-v-skandinavskom-stile-ds-02',
-                'start_price' => ' 6750000 ',
+                'start_price' => ' 5737500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_144/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_144/p144_photo_1.JPG',
@@ -102,7 +102,7 @@ class ProjectSeeder10x12 extends Seeder
                 'title' => 'Двухэтажный дом со вторым светом DС-03/1',
                 'img' => '/tmp_data/projects/pr_145/p145_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-so-vtorym-svetom-ds-031',
-                'start_price' => ' 10500000 ',
+                'start_price' => ' 8925000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_145/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_145/p145_photo_1.JPG',
@@ -129,7 +129,7 @@ class ProjectSeeder10x12 extends Seeder
                 'title' => 'Небольшой одноэтажный дом с тремя спальнями PD-101',
                 'img' => '/tmp_data/projects/pr_146/p146_photo_1.JPG',
                 'slug' => 'nebolsoi-odnoetaznyi-dom-s-tremia-spalniami-sd-101',
-                'start_price' => ' 5700000 ',
+                'start_price' => ' 4845000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_146/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_146/p146_photo_1.JPG',
@@ -157,7 +157,7 @@ class ProjectSeeder10x12 extends Seeder
                 'title' => 'Мансардный проект дома с двухскатной крышей PD-091',
                 'img' => '/tmp_data/projects/pr_147/p147_photo_1.JPG',
                 'slug' => 'mansardnyi-proekt-doma-s-dvuxskatnoi-krysei-sd-091',
-                'start_price' => ' 11475000 ',
+                'start_price' => ' 9753750 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_147/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_147/p147_photo_1.JPG',

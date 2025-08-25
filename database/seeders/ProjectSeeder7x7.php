@@ -21,7 +21,7 @@ class ProjectSeeder7x7 extends Seeder
                 'title' => 'Одноэтажная сауна из бревна  SD-268',
                 'img' => '/tmp_data/projects/pr_154/p154_photo_1.JPG',
                 'slug' => 'odnoetaznaia-sauna-iz-brevna-sd-268',
-                'start_price' => ' 4320000 ',
+                'start_price' => ' 3672000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_154/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_154/p154_photo_1.JPG',
@@ -44,7 +44,7 @@ class ProjectSeeder7x7 extends Seeder
                 'title' => 'Небольшой двухэтажный дом с парной SD-263',
                 'img' => '/tmp_data/projects/pr_155/p155_photo_1.JPG',
                 'slug' => 'nebolsoi-dvuxetaznyi-dom-s-parnoi-sd-263',
-                'start_price' => ' 4500000 ',
+                'start_price' => ' 3825000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_155/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_155/p155_photo_1.JPG',
@@ -71,7 +71,7 @@ class ProjectSeeder7x7 extends Seeder
                 'title' => 'Двухэтажный дом из бревна с мансардным этажом SD-265',
                 'img' => '/tmp_data/projects/pr_156/p156_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-brevna-s-mansardnym-etazom-sd-265',
-                'start_price' => ' 3955800 ',
+                'start_price' => ' 3362430 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_156/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_156/p156_photo_1.JPG',
@@ -97,7 +97,7 @@ class ProjectSeeder7x7 extends Seeder
                 'title' => 'Двухэтажный каркасный дом SD-354',
                 'img' => '/tmp_data/projects/pr_157/p157_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-karkasnyi-dom-sd-354',
-                'start_price' => ' 4793100 ',
+                'start_price' => ' 4074135 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_157/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_157/p157_photo_1.JPG',
@@ -121,7 +121,7 @@ class ProjectSeeder7x7 extends Seeder
                 'title' => 'Дом с мансардным этажом SD-328',
                 'img' => '/tmp_data/projects/pr_158/p158_photo_1.JPG',
                 'slug' => 'dom-s-mansardnym-etazom-sd-328',
-                'start_price' => ' 4424400 ',
+                'start_price' => ' 3760740 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_158/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_158/p158_photo_1.JPG',
@@ -146,7 +146,7 @@ class ProjectSeeder7x7 extends Seeder
                 'title' => 'Двухэтажный дом с мансардой SD-330',
                 'img' => '/tmp_data/projects/pr_159/p159_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-s-mansardoi-sd-330',
-                'start_price' => ' 4362950 ',
+                'start_price' => ' 3718508 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_159/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_159/p159_photo_1.JPG',
@@ -170,7 +170,7 @@ class ProjectSeeder7x7 extends Seeder
                 'title' => 'Красивый двухэтажный дом с балконом SD-329',
                 'img' => '/tmp_data/projects/pr_160/p160_photo_1.JPG',
                 'slug' => 'krasivyi-dvuxetaznyi-dom-s-balkonom-sd-329',
-                'start_price' => ' 5776300 ',
+                'start_price' => ' 4919855 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_160/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_160/p160_photo_1.JPG',
@@ -195,7 +195,7 @@ class ProjectSeeder7x7 extends Seeder
                 'title' => 'Дачный двухэтажный каркасный дом SD-355',
                 'img' => '/tmp_data/projects/pr_161/p161_photo_1.JPG',
                 'slug' => 'dacnyi-dvuxetaznyi-karkasnyi-dom-sd-355',
-                'start_price' => ' 5776300 ',
+                'start_price' => ' 4919855 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_161/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_161/p161_photo_1.JPG',
@@ -220,7 +220,7 @@ class ProjectSeeder7x7 extends Seeder
                 'title' => 'Уютный двухэтажный каркасный дом SD-356',
                 'img' => '/tmp_data/projects/pr_162/p162_photo_1.JPG',
                 'slug' => 'uiutnyi-dvuxetaznyi-karkasnyi-dom-sd-356',
-                'start_price' => ' 6390800 ',
+                'start_price' => ' 5432180 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_162/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_162/p162_photo_1.JPG',

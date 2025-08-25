@@ -22,7 +22,7 @@ class ProjectSeederBanya extends Seeder
                 'img' => '/tmp_data/projects/pr_218/p218_photo_1.webp',
                 'slug' => 'proekt-bn-3570-ocilindrovannoe-brevno-126-kvm',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_218/ds.html')),
-                'start_price' => '1010000',
+                'start_price' => '960000',
                 'gallery' => [
                     '/tmp_data/projects/pr_218/p218_photo_1.webp',
                     '/tmp_data/projects/pr_218/p218_photo_2.webp',
@@ -44,7 +44,7 @@ class ProjectSeederBanya extends Seeder
                 'img' => '/tmp_data/projects/pr_219/p219_photo_1.webp',
                 'slug' => 'proekt-bn-3571-ocilindrovannoe-brevno-178-kvm',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_219/ds.html')),
-                'start_price' => '1013000',
+                'start_price' => '963000',
                 'gallery' => [
                     '/tmp_data/projects/pr_219/p219_photo_1.webp',
                     '/tmp_data/projects/pr_219/p219_photo_2.webp',
@@ -67,7 +67,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3573", оцилиндрованное бревно, 17.21 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_221/p221_photo_1.webp',
                 'slug' => 'proekt-bn-3573-ocilindrovannoe-brevno-1721-kvm',
-                'start_price' => '1027437',
+                'start_price' => '976065',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_221/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_221/p221_photo_1.webp',
@@ -90,7 +90,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3574", оцилиндрованное бревно, 7.65 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_222/p222_photo_1.webp',
                 'slug' => 'proekt-bn-3574-ocilindrovannoe-brevno-765-kvm',
-                'start_price' => '420000',
+                'start_price' => '399000',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_222/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_222/p222_photo_1.webp',
@@ -113,7 +113,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3575", оцилиндрованное бревно, 13.6 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_223/p223_photo_1.webp',
                 'slug' => 'proekt-bn-3575-ocilindrovannoe-brevno-136-kvm',
-                'start_price' => '811920',
+                'start_price' => '771324',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_223/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_223/p223_photo_1.webp',
@@ -159,7 +159,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3577", оцилиндрованное бревно, 20.2 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_225/p225_photo_1.webp',
                 'slug' => 'proekt-bn-3577-ocilindrovannoe-brevno-202-kvm',
-                'start_price' => '1200000',
+                'start_price' => '1140000',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_225/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_225/p225_photo_1.webp',
@@ -183,7 +183,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3578", оцилиндрованное бревно, 21.03 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_226/p226_photo_1.webp',
                 'slug' => 'proekt-bn-3578-ocilindrovannoe-brevno-2103-kvm',
-                'start_price' => '1250000',
+                'start_price' => '1187500',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_226/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_226/p226_photo_1.webp',
@@ -207,7 +207,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3579", оцилиндрованное бревно, 18.77 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_227/p227_photo_1.webp',
                 'slug' => 'proekt-bn-3579-ocilindrovannoe-brevno-1877-kvm',
-                'start_price' => '1120569',
+                'start_price' => '1064541',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_227/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_227/p227_photo_1.webp',
@@ -253,7 +253,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3581", оцилиндрованное бревно, 18.79 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_229/p229_photo_1.webp',
                 'slug' => 'proekt-bn-3581-ocilindrovannoe-brevno-1879-kvm',
-                'start_price' => '1121763',
+                'start_price' => '1065675',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_229/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_229/p229_photo_1.webp',
@@ -276,7 +276,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3582", оцилиндрованное бревно, 17 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_230/p230_photo_1.webp',
                 'slug' => 'proekt-bn-3582-ocilindrovannoe-brevno-17-kvm',
-                'start_price' => '1014000',
+                'start_price' => '964000',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_230/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_230/p230_photo_1.webp',
@@ -300,7 +300,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3583", оцилиндрованное бревно, 16.66 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_231/p231_photo_1.webp',
                 'slug' => 'proekt-bn-3583-ocilindrovannoe-brevno-1666-kvm',
-                'start_price' => '994000',
+                'start_price' => '944300',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_231/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_231/p231_photo_1.webp',
@@ -324,7 +324,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3584", оцилиндрованное бревно, 18.17 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_232/p232_photo_1.webp',
                 'slug' => 'proekt-bn-3584-ocilindrovannoe-brevno-1817-kvm',
-                'start_price' => '1084749',
+                'start_price' => '1030512',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_232/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_232/p232_photo_1.webp',
@@ -348,7 +348,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3585", оцилиндрованное бревно, 10.8 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_233/p233_photo_1.webp',
                 'slug' => 'proekt-bn-3585-ocilindrovannoe-brevno-108-kvm',
-                'start_price' => '630000',
+                'start_price' => '598500',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_233/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_233/p233_photo_1.webp',
@@ -393,7 +393,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3587", оцилиндрованное бревно, 21.5 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_235/p235_photo_1.webp',
                 'slug' => 'proekt-bn-3587-ocilindrovannoe-brevno-215-kvm',
-                'start_price' => '1283550',
+                'start_price' => '1219373',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_235/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_235/p235_photo_1.webp',
@@ -417,7 +417,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3588", оцилиндрованное бревно, 21.6 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_236/p236_photo_1.webp',
                 'slug' => 'proekt-bn-3588-ocilindrovannoe-brevno-216-kvm',
-                'start_price' => '1183000',
+                'start_price' => '1123850',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_236/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_236/p236_photo_1.webp',
@@ -440,7 +440,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3589", оцилиндрованное бревно, 24.8 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_237/p237_photo_1.webp',
                 'slug' => 'proekt-bn-3589-ocilindrovannoe-brevno-248-kvm',
-                'start_price' => '1251000',
+                'start_price' => '1188450',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_237/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_237/p237_photo_1.webp',
@@ -464,7 +464,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3590", оцилиндрованное бревно, 24.6 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_238/p238_photo_1.webp',
                 'slug' => 'proekt-bn-3590-ocilindrovannoe-brevno-246-kvm',
-                'start_price' => '1215000',
+                'start_price' => '1154250',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_238/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_238/p238_photo_1.webp',
@@ -486,7 +486,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3591", оцилиндрованное бревно, 24.8 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_239/p239_photo_1.webp',
                 'slug' => 'proekt-bn-3591-ocilindrovannoe-brevno-248-kvm',
-                'start_price' => '1310000',
+                'start_price' => '1244500',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_239/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_239/p239_photo_1.webp',
@@ -508,7 +508,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3592", оцилиндрованное бревно, 24.8 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_240/p240_photo_1.webp',
                 'slug' => 'proekt-bn-3592-ocilindrovannoe-brevno-248-kvm',
-                'start_price' => '1480560',
+                'start_price' => '1406532',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_240/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_240/p240_photo_1.webp',
@@ -530,7 +530,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3593", оцилиндрованное бревно, 23 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_241/p241_photo_1.webp',
                 'slug' => 'proekt-bn-3593-ocilindrovannoe-brevno-23-kvm',
-                'start_price' => '1290000',
+                'start_price' => '1225500',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_241/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_241/p241_photo_1.webp',
@@ -575,7 +575,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3595", оцилиндрованное бревно, 19.5 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_243/p243_photo_1.webp',
                 'slug' => 'proekt-bn-3595-ocilindrovannoe-brevno-195-kvm',
-                'start_price' => '1164150',
+                'start_price' => '1105943',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_243/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_243/p243_photo_1.webp',
@@ -598,7 +598,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3596", оцилиндрованное бревно, 10.8 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_244/p244_photo_1.webp',
                 'slug' => 'proekt-bn-3596-ocilindrovannoe-brevno-108-kvm',
-                'start_price' => '621200',
+                'start_price' => '590140',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_244/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_244/p244_photo_1.webp',
@@ -621,7 +621,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3597", оцилиндрованное бревно, 23.54 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_245/p245_photo_1.webp',
                 'slug' => 'proekt-bn-3597-ocilindrovannoe-brevno-2354-kvm',
-                'start_price' => '1405338',
+                'start_price' => '1335071',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_245/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_245/p245_photo_1.webp',
@@ -645,7 +645,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3598", оцилиндрованное бревно, 26 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_246/p246_photo_1.webp',
                 'slug' => 'proekt-bn-3598-ocilindrovannoe-brevno-26-kvm',
-                'start_price' => '1453000',
+                'start_price' => '1370350',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_246/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_246/p246_photo_1.webp',
@@ -669,7 +669,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3599", оцилиндрованное бревно, 26 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_247/p247_photo_1.webp',
                 'slug' => 'proekt-bn-3599-ocilindrovannoe-brevno-26-kvm',
-                'start_price' => '1552200',
+                'start_price' => '1474590',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_247/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_247/p247_photo_1.webp',
@@ -691,7 +691,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3600", оцилиндрованное бревно, 24.9 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_248/p248_photo_1.webp',
                 'slug' => 'proekt-bn-3600-ocilindrovannoe-brevno-249-kvm',
-                'start_price' => '1364000',
+                'start_price' => '1295800',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_248/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_248/p248_photo_1.webp',
@@ -714,7 +714,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3601", оцилиндрованное бревно, 25.54 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_249/p249_photo_1.webp',
                 'slug' => 'proekt-bn-3601-ocilindrovannoe-brevno-2554-kvm',
-                'start_price' => '1452000',
+                'start_price' => '1379400',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_249/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_249/p249_photo_1.webp',
@@ -737,7 +737,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3602", оцилиндрованное бревно, 30.77 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_250/p250_photo_1.webp',
                 'slug' => 'proekt-bn-3602-ocilindrovannoe-brevno-3077-kvm',
-                'start_price' => '1754000',
+                'start_price' => '1666300',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_250/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_250/p250_photo_1.webp',
@@ -760,7 +760,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3603", оцилиндрованное бревно, 28.6 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_251/p251_photo_1.webp',
                 'slug' => 'proekt-bn-3603-ocilindrovannoe-brevno-286-kvm',
-                'start_price' => '1590000',
+                'start_price' => '1510500',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_251/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_251/p251_photo_1.webp',
@@ -783,7 +783,7 @@ class ProjectSeederBanya extends Seeder
                 'title' => '"Проект БН-3604", оцилиндрованное бревно, 21.64 кв.м. в [city|pp]',
                 'img' => '/tmp_data/projects/pr_252/p252_photo_1.webp',
                 'slug' => 'proekt-bn-3604-ocilindrovannoe-brevno-2164-kvm',
-                'start_price' => '1220000',
+                'start_price' => '1159000',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_252/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_252/p252_photo_1.webp',

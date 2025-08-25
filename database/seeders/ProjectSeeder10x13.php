@@ -21,7 +21,7 @@ class ProjectSeeder10x13 extends Seeder
                 'title' => 'Одноэтажный коттедж SD-291',
                 'img' => '/tmp_data/projects/pr_211/p211_photo_1.JPG',
                 'slug' => 'odnoetaznyi-kottedz-sd-291',
-                'start_price' => ' 7650000 ',
+                'start_price' => ' 6502500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_211/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_211/p211_photo_1.JPG',
@@ -49,7 +49,7 @@ class ProjectSeeder10x13 extends Seeder
                 'title' => 'Одноэтажный домик с маленьким чердаком SD-062',
                 'img' => '/tmp_data/projects/pr_212/p212_photo_1.JPG',
                 'slug' => 'odnoetaznyi-domik-s-malenkim-cerdakom-sd-062',
-                'start_price' => ' 6450000 ',
+                'start_price' => ' 5482500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_212/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_212/p212_photo_1.JPG',
@@ -77,7 +77,7 @@ class ProjectSeeder10x13 extends Seeder
                 'title' => 'Двухэтажный дом из бревна с парной SD-258',
                 'img' => '/tmp_data/projects/pr_213/p213_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-iz-brevna-s-parnoi-sd-258',
-                'start_price' => ' 14850000 ',
+                'start_price' => ' 12622500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_213/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_213/p213_photo_1.JPG',
@@ -107,7 +107,7 @@ class ProjectSeeder10x13 extends Seeder
                 'title' => 'Коттедж с оригинальной мансардой и кирпичным фасадом SD-082',
                 'img' => '/tmp_data/projects/pr_214/p214_photo_1.JPG',
                 'slug' => 'kottedz-s-originalnoi-mansardoi-i-kirpicnym-fasadom-sd-082',
-                'start_price' => ' 11325000 ',
+                'start_price' => ' 9636250 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_214/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_214/p214_photo_1.JPG',
@@ -138,7 +138,7 @@ class ProjectSeeder10x13 extends Seeder
                 'title' => 'Уютный коттедж в традиционном стиле с двускатной крышей SD-213',
                 'img' => '/tmp_data/projects/pr_215/p215_photo_1.JPG',
                 'slug' => 'uiutnyi-kottedz-v-tradicionnom-stile-s-dvuskatnoi-krysei-sd-213',
-                'start_price' => ' 13650000 ',
+                'start_price' => ' 11602500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_215/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_215/p215_photo_1.JPG',
@@ -168,7 +168,7 @@ class ProjectSeeder10x13 extends Seeder
                 'title' => 'Строгий двухэтажный дом с эркерами и балконами SD-034',
                 'img' => '/tmp_data/projects/pr_216/p216_photo_1.JPG',
                 'slug' => 'strogii-dvuxetaznyi-dom-s-erkerami-i-balkonami-sd-034',
-                'start_price' => ' 15375000 ',
+                'start_price' => ' 13068750 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_216/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_216/p216_photo_1.JPG',
@@ -193,7 +193,7 @@ class ProjectSeeder10x13 extends Seeder
                 'title' => 'Мансардный дом с дополнительной спальней на первом этаже SD-009',
                 'img' => '/tmp_data/projects/pr_217/p217_photo_1.JPG',
                 'slug' => 'mansardnyi-dom-s-dopolnitelnoi-spalnei-na-pervom-etaze-sd-009',
-                'start_price' => ' 14250000 ',
+                'start_price' => ' 12112500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_217/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_217/p217_photo_1.JPG',

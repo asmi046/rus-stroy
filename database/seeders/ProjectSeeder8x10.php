@@ -21,7 +21,7 @@ class ProjectSeeder8x10 extends Seeder
                 'title' => 'Одноэтажный дом с панорамными окнами SD-345',
                 'img' => '/tmp_data/projects/pr_125/p125_photo_1.JPG',
                 'slug' => 'odnoetaznyi-dom-s-panoramnymi-oknami-sd-345',
-                'start_price' => ' 4916000 ',
+                'start_price' => ' 4178600 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_125/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_125/p125_photo_1.JPG',
@@ -44,7 +44,7 @@ class ProjectSeeder8x10 extends Seeder
                 'title' => 'Небольшой дом в прованском стиле SD-344',
                 'img' => '/tmp_data/projects/pr_126/p126_photo_1.JPG',
                 'slug' => 'nebolsoi-dom-v-provanskom-stile-sd-344',
-                'start_price' => ' 5100350 ',
+                'start_price' => ' 4335298 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_126/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_126/p126_photo_1.JPG',
@@ -67,7 +67,7 @@ class ProjectSeeder8x10 extends Seeder
                 'title' => 'Двухэтажный коттедж с 3-мя спальнями для узкого участка SD-148',
                 'img' => '/tmp_data/projects/pr_127/p127_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-kottedz-s-3-mia-spalniami-dlia-uzkogo-ucastka-sd-148',
-                'start_price' => ' 8250000 ',
+                'start_price' => ' 7012500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_127/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_127/p127_photo_1.JPG',
@@ -97,7 +97,7 @@ class ProjectSeeder8x10 extends Seeder
                 'title' => 'Дом с тремя спальнями SD-342',
                 'img' => '/tmp_data/projects/pr_128/p128_photo_1.JPG',
                 'slug' => 'dom-s-tremia-spalniami-sd-342',
-                'start_price' => ' 4916000 ',
+                'start_price' => ' 4178600 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_128/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_128/p128_photo_1.JPG',
@@ -121,7 +121,7 @@ class ProjectSeeder8x10 extends Seeder
                 'title' => 'Великолепный двухэтажный коттедж SD-175',
                 'img' => '/tmp_data/projects/pr_129/p129_photo_1.JPG',
                 'slug' => 'velikolepnyi-dvuxetaznyi-kottedz-sd-175',
-                'start_price' => ' 10050000 ',
+                'start_price' => ' 8542500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_129/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_129/p129_photo_1.JPG',
@@ -155,7 +155,7 @@ class ProjectSeeder8x10 extends Seeder
                 'title' => 'Дом с камином и двумя спальнями SD-002',
                 'img' => '/tmp_data/projects/pr_130/p130_photo_1.JPG',
                 'slug' => 'dom-s-kaminom-i-dvumia-spalniami-sd-002',
-                'start_price' => ' 8820000 ',
+                'start_price' => ' 7497000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_130/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_130/p130_photo_1.JPG',
@@ -179,7 +179,7 @@ class ProjectSeeder8x10 extends Seeder
                 'title' => 'Дом с балконом для узкого участка SD-196',
                 'img' => '/tmp_data/projects/pr_131/p131_photo_1.JPG',
                 'slug' => 'dom-s-balkonom-dlia-uzkogo-ucastka-sd-196',
-                'start_price' => ' 8925000 ',
+                'start_price' => ' 7586250 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_131/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_131/p131_photo_1.JPG',
@@ -209,7 +209,7 @@ class ProjectSeeder8x10 extends Seeder
                 'title' => 'Двухэтажный дом с балконом и террасой SD-348',
                 'img' => '/tmp_data/projects/pr_132/p132_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-s-balkonom-i-terrasoi-sd-348',
-                'start_price' => ' 9832000 ',
+                'start_price' => ' 8357200 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_132/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_132/p132_photo_1.JPG',
@@ -234,7 +234,7 @@ class ProjectSeeder8x10 extends Seeder
                 'title' => 'Современный компактный дом с мансардой SD-058',
                 'img' => '/tmp_data/projects/pr_133/p133_photo_1.JPG',
                 'slug' => 'sovremennyi-kompaktnyi-dom-s-mansardoi-sd-058',
-                'start_price' => ' 8250000 ',
+                'start_price' => ' 7012500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_133/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_133/p133_photo_1.JPG',
@@ -264,7 +264,7 @@ class ProjectSeeder8x10 extends Seeder
                 'title' => 'Двухэтажный дом с террасой и пятью спальнями SD-343',
                 'img' => '/tmp_data/projects/pr_134/p134_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-s-terrasoi-i-piatiu-spalniami-sd-343',
-                'start_price' => ' 9832000 ',
+                'start_price' => ' 8357200 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_134/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_134/p134_photo_1.JPG',
@@ -289,7 +289,7 @@ class ProjectSeeder8x10 extends Seeder
                 'title' => 'Двухэтажный дом в стиле прованс SD-341',
                 'img' => '/tmp_data/projects/pr_135/p135_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-v-stile-provans-sd-341',
-                'start_price' => ' 7066750 ',
+                'start_price' => ' 6006738 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_135/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_135/p135_photo_1.JPG',

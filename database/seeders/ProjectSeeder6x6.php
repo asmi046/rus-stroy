@@ -21,7 +21,7 @@ class ProjectSeeder6x6 extends Seeder
                 'title' => 'Двухэтажный дом для небольшого участка SD-297',
                 'img' => '/tmp_data/projects/pr_104/p104_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-dlia-nebolsogo-ucastka-sd-297',
-                'start_price' => ' 4575000 ',
+                'start_price' => ' 3898750 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_104/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_104/p104_photo_1.JPG',
@@ -47,7 +47,7 @@ class ProjectSeeder6x6 extends Seeder
                 'title' => 'Маленький двухэтажный дом из бревна SD-264',
                 'img' => '/tmp_data/projects/pr_105/p105_photo_1.JPG',
                 'slug' => 'malenkii-dvuxetaznyi-dom-iz-brevna-sd-264',
-                'start_price' => ' 4410000 ',
+                'start_price' => ' 3748500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_105/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_105/p105_photo_1.JPG',
@@ -73,7 +73,7 @@ class ProjectSeeder6x6 extends Seeder
                 'title' => 'Двухэтажный дом для небольшого участка с мансардой SD-298',
                 'img' => '/tmp_data/projects/pr_106/p106_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-dlia-nebolsogo-ucastka-s-mansardoi-sd-298',
-                'start_price' => ' 5400000 ',
+                'start_price' => ' 4590000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_106/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_106/p106_photo_1.JPG',

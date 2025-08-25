@@ -21,7 +21,7 @@ class ProjectSeeder7x8 extends Seeder
                 'title' => 'Компактный дом с мансардой и двухскатной крышей SD-079',
                 'img' => '/tmp_data/projects/pr_163/p163_photo_1.JPG',
                 'slug' => 'kompaktnyi-dom-s-mansardoi-i-dvuxskatnoi-krysei-sd-079',
-                'start_price' => ' 7050000 ',
+                'start_price' => ' 5992500 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_163/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_163/p163_photo_1.JPG',
@@ -51,7 +51,7 @@ class ProjectSeeder7x8 extends Seeder
                 'title' => 'Светлый дом с крыльцом и террасой для всей семьи SD-331',
                 'img' => '/tmp_data/projects/pr_164/p164_photo_1.JPG',
                 'slug' => 'svetlyi-dom-s-krylcom-i-terrasoi-dlia-vsei-semi-sd-331',
-                'start_price' => ' 7374000 ',
+                'start_price' => ' 6267900 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_164/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_164/p164_photo_1.JPG',
@@ -76,7 +76,7 @@ class ProjectSeeder7x8 extends Seeder
                 'title' => 'Светлый дом с кукушкой SD-333',
                 'img' => '/tmp_data/projects/pr_165/p165_photo_1.JPG',
                 'slug' => 'svetlyi-dom-s-kukuskoi-sd-333',
-                'start_price' => ' 6145000 ',
+                'start_price' => ' 5223250 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_165/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_165/p165_photo_1.JPG',
@@ -102,7 +102,7 @@ class ProjectSeeder7x8 extends Seeder
                 'title' => 'Двухэтажный дом с балконом SD-332',
                 'img' => '/tmp_data/projects/pr_166/p166_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-s-balkonom-sd-332',
-                'start_price' => ' 5223250 ',
+                'start_price' => ' 4449763 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_166/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_166/p166_photo_1.JPG',
@@ -128,7 +128,7 @@ class ProjectSeeder7x8 extends Seeder
                 'title' => 'Двухэтажный дом с террасой SD-336',
                 'img' => '/tmp_data/projects/pr_167/p167_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-s-terrasoi-sd-336',
-                'start_price' => ' 4178600 ',
+                'start_price' => ' 3551810 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_167/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_167/p167_photo_1.JPG',
@@ -153,7 +153,7 @@ class ProjectSeeder7x8 extends Seeder
                 'title' => 'Большой дом с эркером SD-334',
                 'img' => '/tmp_data/projects/pr_168/p168_photo_1.JPG',
                 'slug' => 'bolsoi-dom-s-erkerom-sd-334',
-                'start_price' => ' 6329350 ',
+                'start_price' => ' 5389958 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_168/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_168/p168_photo_1.JPG',
@@ -178,7 +178,7 @@ class ProjectSeeder7x8 extends Seeder
                 'title' => 'Двухэтажный дом с сауной SD-335',
                 'img' => '/tmp_data/projects/pr_169/p169_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-s-saunoi-sd-335',
-                'start_price' => ' 5284700 ',
+                'start_price' => ' 4491995 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_169/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_169/p169_photo_1.JPG',

@@ -21,7 +21,7 @@ class ProjectSeeder9x11 extends Seeder
                 'title' => 'Красивый одноэтажный дом с террасой КС-04/1',
                 'img' => '/tmp_data/projects/pr_200/p200_photo_1.JPG',
                 'slug' => 'krasivyi-odnoetaznyi-dom-s-terrasoi-ks-041',
-                'start_price' => ' 8700000 ',
+                'start_price' => ' 7395000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_200/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_200/p200_photo_1.JPG',
@@ -47,7 +47,7 @@ class ProjectSeeder9x11 extends Seeder
                 'title' => 'Одноэтажный дом в традиционном стиле SD-043',
                 'img' => '/tmp_data/projects/pr_201/p201_photo_1.JPG',
                 'slug' => 'odnoetaznyi-dom-v-tradicionnom-stile-sd-043',
-                'start_price' => ' 6600000 ',
+                'start_price' => ' 5610000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_201/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_201/p201_photo_1.JPG',
@@ -81,7 +81,7 @@ class ProjectSeeder9x11 extends Seeder
                 'title' => 'Двухэтажный дом с кукушкой SD-250',
                 'img' => '/tmp_data/projects/pr_202/p202_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-s-kukuskoi-sd-250',
-                'start_price' => ' 8700000 ',
+                'start_price' => ' 7395000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_202/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_202/p202_photo_1.JPG',
@@ -106,7 +106,7 @@ class ProjectSeeder9x11 extends Seeder
                 'title' => 'Двухэтажный дом в классическом стиле SD-288',
                 'img' => '/tmp_data/projects/pr_203/p203_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-v-klassiceskom-stile-sd-288',
-                'start_price' => ' 13275000 ',
+                'start_price' => ' 11283750 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_203/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_203/p203_photo_1.JPG',

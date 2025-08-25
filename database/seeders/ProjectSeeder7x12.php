@@ -21,7 +21,7 @@ class ProjectSeeder7x12 extends Seeder
                 'title' => 'Двухэтажный дом с баней SD-156',
                 'img' => '/tmp_data/projects/pr_177/p177_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-s-banei-sd-156',
-                'start_price' => ' 7125000 ',
+                'start_price' => ' 6056250 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_177/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_177/p177_photo_1.JPG',
@@ -47,7 +47,7 @@ class ProjectSeeder7x12 extends Seeder
                 'title' => 'Мансардный дом с большими стильными окнами SD-217',
                 'img' => '/tmp_data/projects/pr_178/p178_photo_1.JPG',
                 'slug' => 'mansardnyi-dom-s-bolsimi-stilnymi-oknami-sd-217',
-                'start_price' => ' 8325000 ',
+                'start_price' => ' 7076250 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_178/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_178/p178_photo_1.JPG',
@@ -77,7 +77,7 @@ class ProjectSeeder7x12 extends Seeder
                 'title' => 'Коттедж с навесом для 1 автомобиля SD-089',
                 'img' => '/tmp_data/projects/pr_179/p179_photo_1.JPG',
                 'slug' => 'kottedz-s-navesom-dlia-1-avtomobilia-sd-089',
-                'start_price' => ' 7425000 ',
+                'start_price' => ' 6311250 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_179/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_179/p179_photo_1.JPG',
@@ -107,7 +107,7 @@ class ProjectSeeder7x12 extends Seeder
                 'title' => 'Двухэтажный дом, адаптированный под узкий участок SD-095',
                 'img' => '/tmp_data/projects/pr_180/p180_photo_1.JPG',
                 'slug' => 'dvuxetaznyi-dom-adaptirovannyi-pod-uzkii-ucastok-sd-095',
-                'start_price' => ' 8400000 ',
+                'start_price' => ' 7140000 ',
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_180/ds.html')),
                 'gallery' => [
                     '/tmp_data/projects/pr_180/p180_photo_1.JPG',
