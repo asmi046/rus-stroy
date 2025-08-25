@@ -29,6 +29,7 @@ class DatabaseSeeder extends Seeder
             ServiceZaborSeeder::class,
             ServiceNavesSeeder::class,
             ServiceModuleSeeder::class,
+            ServiceBaniSeeder::class,
             ProjectSeeder::class,
             ProjectSeeder6x6::class,
             ProjectSeeder6x8::class,

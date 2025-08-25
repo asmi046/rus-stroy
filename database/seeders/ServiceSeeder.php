@@ -148,7 +148,7 @@ class ServiceSeeder extends Seeder
 
             [
                 'title' => "Шлифовка бань и домов в [city|pp]",
-                'group' => 'Фасадные работы',
+                'group' => 'Бани',
                 'template' => null,
                 'img' => 'service/shlifovka.webp',
                 'slug'=> Str::slug("Шлифовка бань и домов"),
