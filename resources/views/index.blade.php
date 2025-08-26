@@ -50,6 +50,7 @@
 <x-main.stat-section />
 <x-main.material-section />
 <x-main.steps-section />
+<x-main.services />
 <x-main.cases-section />
 <x-main.whay-section />
 

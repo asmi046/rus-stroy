@@ -14,6 +14,11 @@ class ProjectFilter extends QueryFilter {
             $this->builder->where("floors", "=", $floors);
     }
 
+    public function stype($stype) {
+        if  (!empty($stype) && $stype !== "%")
+            $this->builder->where("type", $stype);
+    }
+
     public function extension($extension) {
         if  (!empty($extension) && $extension !== "%" && $extension !== "no")
             $this->builder->whereNotNull("extension");
@@ -31,7 +36,7 @@ class ProjectFilter extends QueryFilter {
     }
 
     public function size($size) {
-        if  (!empty($size))
+        if  (!empty($size)  && $size !== "%")
             $this->builder->where("plan_dimensions", $size);
     }
 

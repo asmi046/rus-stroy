@@ -15,7 +15,7 @@
     gap: 10px;
     &__row {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 23%));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 18%));
         gap: 20px;
         align-items: end;
     }
@@ -166,10 +166,12 @@
     }
 
     &__radio-group {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        justify-content: start;
+        .showed_sizes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: start;
+        }
 
         label {
 
@@ -198,6 +200,30 @@
                 background: $main_color;
                 color: #fff;
             }
+        }
+    }
+
+    .size_all {
+        display: flex;
+        flex-direction: column;
+        summary{
+            padding: 0;
+            background-color: unset;
+            color: $black_color;
+            border: none;
+            margin: 10px 0;
+            font-size: 14px;
+            color:$main_color;
+            cursor: pointer;
+            &:before {
+                display: none;
+            }
+        }
+        .response {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: start;
         }
     }
 

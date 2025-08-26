@@ -15,7 +15,6 @@ class ProjectController extends Controller
         $sizes = Project::selectRaw('plan_dimensions, COUNT(*) as count')
             ->groupBy('plan_dimensions')
             ->orderByDesc('count')
-            ->take(10)
             ->get();
 
             // dd($sizes);

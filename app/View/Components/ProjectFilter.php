@@ -10,6 +10,7 @@ class ProjectFilter extends Component
 {
     public $wall_materials;
     public $floors;
+    public $stype;
     public $sizes;
     /**
      * Create a new component instance.
@@ -35,6 +36,11 @@ class ProjectFilter extends Component
             '1' => '1 этаж',
             '2' => '2 этажа',
             '3' => '3 этажа',
+        ];
+
+        $this->stype = [
+            'Дом',
+            'Баня',
         ];
     }
 

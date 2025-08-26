@@ -3,6 +3,16 @@
         <form class="filter-form" action="{{ url()->current() }}" method="GET">
         <div class="filter-form__row">
             <div class="filter-form__group">
+                <label for="stype" class="filter-form__label">Тип</label>
+                <select name="stype" id="stype" class="filter-form__select">
+                    <option value="%" {{ request('stype') == '%' ? 'selected' : '' }}>Не важно</option>
+                    @foreach ($stype as $type)
+                        <option value="{{ $type }}" {{ request('stype') == $type ? 'selected' : '' }}>{{ $type }}</option>
+                    @endforeach
+                </select>
+            </div>
+
+            <div class="filter-form__group">
                 <label for="material" class="filter-form__label">Материал</label>
                 <select name="wall_material" id="material" class="filter-form__select">
                     <option value="%" {{ request('wall_material', '%') == '%' ? 'selected' : '' }}>Все материалы</option>
@@ -41,21 +51,37 @@
             </div>
 
 
+
+
         </div>
         <div class="filter-form__row filter-form__row_full">
             <div class="filter-form__group">
                 <label for="size" class="filter-form__label">Размер</label>
                 <div class="filter-form__radio-group" id="size">
-                    <label for="size-all">
-                        <input type="radio" checked name="size" id="size-all" value="%" {{ request('size') == '%' ? 'checked' : '' }}>
-                        <span>Все размеры</span>
-                    </label>
-                    @foreach ($sizes as $size)
-                        <label for="size-{{ Str::slug($size->plan_dimensions) }}">
-                            <input type="radio" name="size" id="size-{{ Str::slug($size->plan_dimensions) }}" value="{{ $size->plan_dimensions }}" {{ request('size') == $size->plan_dimensions ? 'checked' : '' }}>
-                            <span>{{ $size->plan_dimensions }}</span>
+                    <div class="showed_sizes">
+                        <label for="size-all">
+                            <input type="radio" checked name="size" id="size-all" value="%" {{ request('size') == '%' ? 'checked' : '' }}>
+                            <span>Все размеры</span>
                         </label>
-                    @endforeach
+                        @for ($i = 0; $i < 10; $i++)
+                            <label for="size-{{ Str::slug($sizes[$i]->plan_dimensions) }}">
+                                <input type="radio" name="size" id="size-{{ Str::slug($sizes[$i]->plan_dimensions) }}" value="{{ $sizes[$i]->plan_dimensions }}" {{ request('size') == $sizes[$i]->plan_dimensions ? 'checked' : '' }}>
+                                <span>{{ $sizes[$i]->plan_dimensions }}</span>
+                            </label>
+                        @endfor
+                    </div>
+
+                    <details class="size_all">
+                        <summary>Другие размеры ...</summary>
+                        <div class="response">
+                            @for ($i = 10; $i < count($sizes); $i++)
+                                <label for="size-{{ Str::slug($sizes[$i]->plan_dimensions) }}">
+                                    <input type="radio" name="size" id="size-{{ Str::slug($sizes[$i]->plan_dimensions) }}" value="{{ $sizes[$i]->plan_dimensions }}" {{ request('size') == $sizes[$i]->plan_dimensions ? 'checked' : '' }}>
+                                    <span>{{ $sizes[$i]->plan_dimensions }}</span>
+                                </label>
+                            @endfor
+                        </div>
+                    </details>
                 </div>
             </div>
             </div>
