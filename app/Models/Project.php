@@ -55,4 +55,11 @@ class Project extends Model
         return $filter->apply($builder);
     }
 
+    public function setSlugAttribute($value)
+    {
+        if (empty($value))
+            $this->attributes['slug'] =  Str::slug($this->title);
+        else
+            $this->attributes['slug'] =  $value;
+    }
 }
