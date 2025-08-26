@@ -650,3 +650,15 @@ ________
 Параметры 'floors', 'total_area', 'wall_material', 'plan_dimensions' Возьми из описаний находящихся в блоке /html/body/div[1]/section[2]/div/div[2]/div[1]/div[3]
 
 Если в ходе работы возникнут вопросы задай из мне.
+________
+
+Для ModelResource админ панели moonshine который находится в файле app\MoonShine\Resources\ProjectResource.php проставь поля опираясь на миграцию database\migrations\2025_07_11_200805_create_projects_table.php
+
+В метод indexFields вынеси поля:
+'img'
+'title'
+'type'
+'total_area'
+
+В методах formFields и detailFields распиши все поля
+Если будут возникать вопросы спроси я отвечу.

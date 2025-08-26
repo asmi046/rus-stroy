@@ -43,6 +43,7 @@ use App\MoonShine\Resources\QuestionResource;
 use App\MoonShine\Resources\ReviewResource;
 use App\MoonShine\Resources\MenuResource;
 use App\MoonShine\Resources\PageResource;
+use App\MoonShine\Resources\ProjectResource;
 
 final class MoonShineLayout extends AppLayout
 {
@@ -69,7 +70,9 @@ final class MoonShineLayout extends AppLayout
             MenuItem::make('Меню', MenuResource::class)->icon('bars-3-bottom-left'),
             MenuItem::make('Контакты', ContactResource::class)->icon('chat-bubble-bottom-center-text'),
             MenuItem::make('Города', CityResource::class)->icon('map-pin'),
+            MenuItem::make('Проекты', ProjectResource::class)->icon('s.building-office-2'),
             ...parent::menu(),
+
         ];
     }
 

@@ -52,6 +52,9 @@ class CityResource extends ModelResource
                 Number::make('Порядок сортировки', 'order'),
                 Text::make('Наименование', 'name'),
                 Text::make('Поддомен', 'slug'),
+                Text::make('Телефон', 'phone'),
+                Text::make('Адрес', 'address'),
+                Text::make('Юридическое лицо', 'ul'),
                 Text::make('Родительный падеж', 'rp'),
                 Text::make('Предложный падеж', 'pp'),
                 Text::make('Дательный падеж', 'dp'),
@@ -71,6 +74,11 @@ class CityResource extends ModelResource
             Number::make('Порядок сортировки', 'order'),
             Text::make('Наименование', 'name'),
             Text::make('Поддомен', 'slug'),
+
+            Text::make('Телефон', 'phone'),
+            Text::make('Адрес', 'address'),
+            Text::make('Юридическое лицо', 'ul'),
+
             Text::make('Родительный падеж', 'rp'),
             Text::make('Предложный падеж', 'pp'),
             Text::make('Дательный падеж', 'dp'),
