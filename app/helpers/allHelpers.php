@@ -7,31 +7,6 @@ if (!function_exists("header_seo")) {
     }
 }
 
-if (!function_exists("get_city_text")) {
-    function get_city_text($text):string {
-        $replacements = [
-            '[city|address]' => app('current_city_address'),
-            '[city|name]' => app('current_city_name'),
-            '[city|pp]'   => app('current_city_pp'),
-            '[city|rp]'   => app('current_city_rp'),
-            '[city|dp]'   => app('current_city_dp'),
-        ];
-
-        return strtr($text, $replacements);
-    }
-}
-
-// Месяц текстом
-if (!function_exists("get_month")) {
-    function get_month($date) {
-        $monthes = array(
-            1 => 'января', 2 => 'февраля', 3 => 'марта', 4 => 'апреля',
-            5 => 'мая', 6 => 'июня', 7 => 'июля', 8 => 'августа',
-            9 => 'сентября', 10 => 'октября', 11 => 'ноября', 12 => 'декабря'
-        );
-        return $monthes[(date('n', strtotime($date)))];
-    }
-}
 
 // Форматирование номера телефона
 
@@ -61,5 +36,34 @@ if (!function_exists("phone_format")) {
         );
 
         return $res;
+    }
+}
+
+
+if (!function_exists("get_city_text")) {
+    function get_city_text($text):string {
+        $replacements = [
+            '[city|phone_f]' => phone_format(app('current_city_phone')),
+            '[city|phone]' => app('current_city_phone'),
+            '[city|address]' => app('current_city_address'),
+            '[city|name]' => app('current_city_name'),
+            '[city|pp]'   => app('current_city_pp'),
+            '[city|rp]'   => app('current_city_rp'),
+            '[city|dp]'   => app('current_city_dp'),
+        ];
+
+        return strtr($text, $replacements);
+    }
+}
+
+// Месяц текстом
+if (!function_exists("get_month")) {
+    function get_month($date) {
+        $monthes = array(
+            1 => 'января', 2 => 'февраля', 3 => 'марта', 4 => 'апреля',
+            5 => 'мая', 6 => 'июня', 7 => 'июля', 8 => 'августа',
+            9 => 'сентября', 10 => 'октября', 11 => 'ноября', 12 => 'декабря'
+        );
+        return $monthes[(date('n', strtotime($date)))];
     }
 }

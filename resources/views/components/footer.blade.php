@@ -8,8 +8,11 @@
                 </a>
 
                 <div class="footer__phones">
-                    <a href="tel:+7{{ phone_format($contacts['phone']->value) }}" class="footer__phone">{{ $contacts['phone']->value }}</a>
-                    <a href="tel:+7{{ phone_format($contacts['phone_2']->value) }}" class="footer__phone">{{ $contacts['phone_2']->value }}</a>
+                    <a href="tel:+7{{ phone_format(get_city_text('[city|phone_f]') ) }}" class="footer__phone">{{ get_city_text('[city|phone]')  }}</a>
+                    @if (app('current_city_name') === 'Сургут')
+                        <a href="tel:+7{{ phone_format($contacts['phone_2']->value) }}" class="footer__phone">{{ $contacts['phone_2']->value }}</a>
+                    @endif
+
                 </div>
 
                 <a href="#coll" class="footer__button button button-orange">Получить консультацию</a>

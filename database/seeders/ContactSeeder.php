@@ -25,7 +25,7 @@ class ContactSeeder extends Seeder
                 [
                     'name' => 'phone',
                     'title' => 'Телефон',
-                    'value' => '+7 (3462) 59-71-71',
+                    'value' => '<a href="[city|phone_f]">[city|phone]</a>',
                 ],
 
                 [

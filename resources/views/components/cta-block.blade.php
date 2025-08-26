@@ -33,7 +33,7 @@
                 <div class="beeper"></div>
             </div>
             <p class="contact-block__text">Отвкечу на все Ваши вопросы, помогу определиться с выбором проекта и бюджетом</p>
-            <a href="tel:+7{{ phone_format($contacts['phone']->value) }}" class="contact-block__phone">{{ $contacts['phone']->value }}</a>
+            <a href="tel:+7{{ phone_format(get_city_text('[city|phone_f]')) }}" class="contact-block__phone">{{ get_city_text('[city|phone]') }}</a>
         </div>
     </div>
 </section>

@@ -27,6 +27,7 @@ class IssetCity
         // dd($defaulCity, $currentCity);
 
         app()->instance('current_city_name', $currentCity->name ?? "Сургут");
+        app()->instance('current_city_phone', $currentCity->phone ?? "+7 (3462) 59-71-71");
         app()->instance('current_city_address', $currentCity->address ?? "628414, г. Сургут, улица Маяковского, 57, ТЦ Гуливер");
         app()->instance('current_city_pp', $currentCity->pp ?? "Сургуте");
         app()->instance('current_city_rp', $currentCity->rp ?? "Сургута");

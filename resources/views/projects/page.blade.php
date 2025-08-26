@@ -3,9 +3,9 @@
 @section('main')
     <section class="section section--page-header">
         <div class="container">
-            <x-breadcrumbs.main :title="$project->title"></x-breadcrumbs.main>
+            <x-breadcrumbs.main :title="get_city_text($project->title)"></x-breadcrumbs.main>
             <div class="section__header">
-                <h2 class="section__title __left">{{$project->title}}</h2>
+                <h2 class="section__title __left">{{get_city_text($project->title)}}</h2>
             </div>
 
         </div>
@@ -129,7 +129,7 @@
 
                     <!-- Блок с описанием -->
                     <div class="description-block text_styles">
-                        {!! $project->description !!}
+                        {!! get_city_text($project->description) !!}
                     </div>
                 </div>
             </div>
