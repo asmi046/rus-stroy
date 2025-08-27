@@ -30,7 +30,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_1/p1_photo_4.jpeg']
                 ],
                 'layout' => [
-                    ['img' => '/tmp_data/projects/pr_1/p1_plan_4.jpeg'],
+                    ['img' => '/tmp_data/projects/pr_1/p1_plan_1.jpeg'],
                 ],
                 'type' => 'Дом',
                 'floors' => 1,
@@ -59,7 +59,7 @@ class ProjectSeeder extends Seeder
 
                 ],
                 'layout' => [
-                    ['img' => '/tmp_data/projects/pr_2/p2_photo_5.JPG'],
+                    ['img' => '/tmp_data/projects/pr_2/p2_photo_6.JPG'],
                 ],
                 'type' => 'Дом',
                 'floors' => 1,
@@ -88,7 +88,7 @@ class ProjectSeeder extends Seeder
 
                 ],
                 'layout' => [
-                    ['img' => '/tmp_data/projects/pr_3/p3_photo_5.JPG'],
+                    ['img' => '/tmp_data/projects/pr_3/p3_photo_6.JPG'],
                 ],
                 'type' => 'Дом',
                 'floors' => 2,
@@ -118,7 +118,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_4/p4_photo_7.JPG'],
                 ],
                 'layout' => [
-                    ['img' => '/tmp_data/projects/pr_4/p4_photo_7.JPG'],
+                    ['img' => '/tmp_data/projects/pr_4/p4_photo_8.JPG'],
                 ],
                 'type' => 'Дом',
                 'floors' => 2,
@@ -143,7 +143,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_5/p5_photo_2.JPG'],
                 ],
                 'layout' => [
-                    ['img' => '/tmp_data/projects/pr_5/p5_photo_2.JPG'],
+                    ['img' => '/tmp_data/projects/pr_5/p5_photo_3.JPG'],
                 ],
                 'type' => 'Дом',
                 'floors' => 2,
@@ -169,7 +169,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_6/p6_photo_4.JPG'],
                 ],
                 'layout' => [
-                    ['img' => '/tmp_data/projects/pr_6/p6_photo_4.JPG'],
+                    ['img' => '/tmp_data/projects/pr_6/p6_photo_5.JPG'],
                 ],
                 'type' => 'Дом',
                 'floors' => 1,
@@ -194,7 +194,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_7/p7_photo_3.JPG'],
                     ['img' => '/tmp_data/projects/pr_7/p7_photo_4.JPG'],
                 ],
-                'layout' => [['img' => '/tmp_data/projects/pr_7/p7_photo_4.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_7/p7_photo_5.JPG']],
                 'type' => 'Дом',
                 'floors' => 1,
                 'total_area' => 100,
@@ -218,7 +218,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_8/p8_photo_3.JPG'],
                     ['img' => '/tmp_data/projects/pr_8/p8_photo_4.JPG'],
                 ],
-                'layout' => [['img' => '/tmp_data/projects/pr_8/p8_photo_4.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_8/p8_photo_5.JPG']],
                 'type' => 'Дом',
                 'floors' => 1,
                 'total_area' => 80,
@@ -242,7 +242,7 @@ class ProjectSeeder extends Seeder
                    ['img' => '/tmp_data/projects/pr_9/p9_photo_3.JPG'],
                    ['img' => '/tmp_data/projects/pr_9/p9_photo_4.JPG'],
                 ],
-                'layout' => [['img' => '/tmp_data/projects/pr_9/p9_photo_4.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_9/p9_photo_5.JPG']],
                 'type' => 'Дом',
                 'floors' => 1,
                 'total_area' => 68,
@@ -293,7 +293,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_11/p11_photo_4.JPG'],
                     ['img' => '/tmp_data/projects/pr_11/p11_photo_5.JPG'],
                 ],
-                'layout' => [['img' => '/tmp_data/projects/pr_11/p11_photo_3.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_11/p11_photo_6.JPG']],
                 'type' => 'Дом',
                 'floors' => 2,
                 'total_area' => 110,
@@ -316,7 +316,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_12/p12_photo_2.JPG'],
                     ['img' => '/tmp_data/projects/pr_12/p12_photo_3.JPG'],
                 ],
-                'layout' => [['img' => '/tmp_data/projects/pr_12/p12_photo_3.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_12/p12_photo_4.JPG']],
                 'type' => 'Дом',
                 'floors' => 1,
                 'total_area' => 126,
@@ -341,7 +341,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_13/p13_photo_4.JPG'],
                     ['img' => '/tmp_data/projects/pr_13/p13_photo_5.JPG'],
                 ],
-                'layout' => [['img' => '/tmp_data/projects/pr_13/p13_photo_5.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_13/p13_photo_6.JPG']],
                 'type' => 'Дом',
                 'floors' => 2,
                 'total_area' => 127,
@@ -363,7 +363,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_14/p14_photo_1.JPG'],
                     ['img' => '/tmp_data/projects/pr_14/p14_photo_2.JPG'],
                 ],
-                'layout' => [['img' => '/tmp_data/projects/pr_14/p14_photo_2.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_14/p14_photo_3.JPG']],
                 'type' => 'Дом',
                 'floors' => 1,
                 'total_area' => 43,
@@ -407,7 +407,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_16/p16_photo_2.JPG'],
                     ['img' => '/tmp_data/projects/pr_16/p16_photo_3.JPG'],
                 ],
-                'layout' => [['img' => '/tmp_data/projects/pr_16/p16_photo_3.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_16/p16_photo_4.JPG']],
                 'type' => 'Дом',
                 'floors' => 1,
                 'total_area' => 91,
@@ -429,7 +429,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_17/p17_photo_1.JPG'],
                     ['img' => '/tmp_data/projects/pr_17/p17_photo_2.JPG'],
                 ],
-                'layout' => [['img' => '/tmp_data/projects/pr_17/p17_photo_2.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_17/p17_photo_3.JPG']],
                 'type' => 'Дом',
                 'floors' => 1,
                 'total_area' => 96,
@@ -451,7 +451,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_18/p18_photo_1.JPG'],
                     ['img' => '/tmp_data/projects/pr_18/p18_photo_2.JPG'],
                 ],
-                'layout' => [['img' => '/tmp_data/projects/pr_18/p18_photo_2.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_18/p18_photo_3.JPG']],
                 'type' => 'Дом',
                 'floors' => 1,
                 'total_area' => 116,
@@ -471,8 +471,8 @@ class ProjectSeeder extends Seeder
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_19/ds.html')),
                 'gallery' => [
                     ['img' => '/tmp_data/projects/pr_19/p19_photo_1.JPG'],
+                    ['img' => '/tmp_data/projects/pr_19/p19_photo_2.JPG'],
                     ['img' => '/tmp_data/projects/pr_19/p19_photo_3.JPG'],
-                    ['img' => '/tmp_data/projects/pr_19/p19_photo_4.JPG'],
                 ],
                 'layout' => [['img' => '/tmp_data/projects/pr_19/p19_photo_4.JPG']],
                 'type' => 'Дом',
@@ -498,7 +498,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_20/p20_photo_3.JPG'],
                     ['img' => '/tmp_data/projects/pr_20/p20_photo_4.JPG'],
                 ],
-                'layout' => [['img' => '/tmp_data/projects/pr_20/p20_photo_4.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_20/p20_photo_5.JPG']],
                 'type' => 'Дом',
                 'floors' => 1,
                 'total_area' => 91,
@@ -1325,8 +1325,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_53/p53_photo_3.JPG'],
                     ['img' => '/tmp_data/projects/pr_53/p53_photo_4.JPG'],
                 ],
-                ],
-                'layout' => [['img' =>'/tmp_data/projects/pr_53/p53_photo_5.JPG'],
+                'layout' => [['img' =>'/tmp_data/projects/pr_53/p53_photo_5.JPG']],
                 'type' => 'Дом',
                 'floors' => 2,
                 'total_area' => 61,
@@ -1375,7 +1374,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_55/p55_photo_6.JPG'],
                     ['img' => '/tmp_data/projects/pr_55/p55_photo_7.JPG'],
                 ],
-                'layout' => ['/tmp_data/projects/pr_55/p55_photo_3.JPG'],
+                'layout' => [['img' => '/tmp_data/projects/pr_55/p55_photo_3.JPG']],
                 'type' => 'Дом',
                 'floors' => 1,
                 'total_area' => 102,
@@ -2496,18 +2495,18 @@ class ProjectSeeder extends Seeder
             Storage::disk('public')->put("projects/".$img_name, file_get_contents(public_path($item['img'])), 'public');
             $item['img'] = "projects/".$img_name;
 
-            foreach($item['gallery'] as $key => $image) {
-                $img_name = basename($image);
-                Storage::disk('public')->put("projects/".$img_name, file_get_contents(public_path($image)), 'public');
-                $item['gallery'][$key] = "projects/".$img_name;
+            foreach($item['gallery'] as $image) {
+                $img_name = basename($image['img']);
+                Storage::disk('public')->put("projects/".$img_name, file_get_contents(public_path($image['img'])), 'public');
+                $item['gallery'][]['img'] = "projects/".$img_name;
             }
 
             $item['gallery'] = json_encode($item['gallery']);
 
             foreach($item['layout'] as $key => $image) {
-                $img_name = basename($image);
-                Storage::disk('public')->put("projects/".$img_name, file_get_contents(public_path($image)), 'public');
-                $item['layout'][$key] = "projects/".$img_name;
+                $img_name = basename($image['img']);
+                Storage::disk('public')->put("projects/".$img_name, file_get_contents(public_path($image['img'])), 'public');
+                $item['layout'][]['img'] = "projects/".$img_name;
             }
 
             $item['layout'] = json_encode($item['layout']);
