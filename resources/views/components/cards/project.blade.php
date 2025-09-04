@@ -14,9 +14,9 @@
                         </button>
                     </div>
 
-                    <img src="{{ Storage::url($item->img) }}" alt="{{ $item->title }}" class="project-card__image">
+                    <img src="{{ Storage::url($item->img) }}" alt="{{ get_city_text($item->title) }}" class="project-card__image">
                     <div class="project-card__overlay">
-                        <h3 class="project-card__name">{{ $item->title }}</h3>
+                        <h3 class="project-card__name">{{ get_city_text($item->title) }}</h3>
                     </div>
                 </div>
 

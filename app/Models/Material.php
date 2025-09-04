@@ -17,9 +17,9 @@ class Material extends Model
         'description',
     ];
 
-    protected $with = [
-        'projects',
-    ];
+    // protected $with = [
+    //     'projects',
+    // ];
 
     public function projects()
     {

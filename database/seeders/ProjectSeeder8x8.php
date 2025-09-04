@@ -186,17 +186,17 @@ class ProjectSeeder8x8 extends Seeder
             $item['img'] = "projects/".$img_name;
 
             foreach($item['gallery'] as $key => $image) {
-                $img_name = basename($image);
-                Storage::disk('public')->put("projects/".$img_name, file_get_contents(public_path($image)), 'public');
-                $item['gallery'][$key] = "projects/".$img_name;
+                $img_name = basename($image['img']);
+                Storage::disk('public')->put("projects/".$img_name, file_get_contents(public_path($image['img'])), 'public');
+                $item['gallery'][$key]['img'] = "projects/".$img_name;
             }
 
             $item['gallery'] = json_encode($item['gallery']);
 
             foreach($item['layout'] as $key => $image) {
-                $img_name = basename($image);
-                Storage::disk('public')->put("projects/".$img_name, file_get_contents(public_path($image)), 'public');
-                $item['layout'][$key] = "projects/".$img_name;
+                $img_name = basename($image['img']);
+                Storage::disk('public')->put("projects/".$img_name, file_get_contents(public_path($image['img'])), 'public');
+                $item['layout'][$key]['img'] = "projects/".$img_name;
             }
 
             $item['layout'] = json_encode($item['layout']);
@@ -209,6 +209,7 @@ class ProjectSeeder8x8 extends Seeder
                     'url' => 'projects/'.$item['slug'],
                     'seo_title' => $seo_data[$i]['seo_title'],
                     'seo_description' => $seo_data[$i]['seo_description'],
+
                 ]
             );
 

@@ -228,7 +228,7 @@ class GetBanyaData extends Command
                 } else {
                     $output .= "[\n";
                     foreach ($value as $item) {
-                        $output .= "        '{$item}',\n";
+                        $output .= "        ['img' => '{$item}'],\n";
                     }
                     $output .= "    ]";
                 }

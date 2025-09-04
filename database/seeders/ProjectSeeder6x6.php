@@ -115,10 +115,10 @@ class ProjectSeeder6x6 extends Seeder
             Storage::disk('public')->put("projects/".$img_name, file_get_contents(public_path($item['img'])), 'public');
             $item['img'] = "projects/".$img_name;
 
-            foreach($item['gallery'] as $image) {
+            foreach($item['gallery'] as $key => $image) {
                 $img_name = basename($image['img']);
                 Storage::disk('public')->put("projects/".$img_name, file_get_contents(public_path($image['img'])), 'public');
-                $item['gallery'][]['img'] = "projects/".$img_name;
+                $item['gallery'][$key]['img'] = "projects/".$img_name;
             }
 
             $item['gallery'] = json_encode($item['gallery']);
@@ -126,7 +126,7 @@ class ProjectSeeder6x6 extends Seeder
             foreach($item['layout'] as $key => $image) {
                 $img_name = basename($image['img']);
                 Storage::disk('public')->put("projects/".$img_name, file_get_contents(public_path($image['img'])), 'public');
-                $item['layout'][]['img'] = "projects/".$img_name;
+                $item['layout'][$key]['img'] = "projects/".$img_name;
             }
 
             $item['layout'] = json_encode($item['layout']);

@@ -184,6 +184,10 @@
     .whay-section {
         padding: 40px 0;
 
+        &__image-wrapper {
+            max-height: 300px;;
+        }
+
         &__content {
             margin-top: 30px;
             gap: 25px;

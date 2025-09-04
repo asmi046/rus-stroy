@@ -28,8 +28,8 @@
                             @if($project->gallery)
                                 @foreach($project->gallery as $image)
                                     <swiper-slide>
-                                        <a data-fslightbox="project-page-gallery" href="{{ Storage::url($image) }}" >
-                                            <img src="{{ Storage::url($image) }}" alt="{{ $project->title }}" class="project-slider__image">
+                                        <a data-fslightbox="project-page-gallery" href="{{ Storage::url($image['img']) }}" >
+                                            <img src="{{ Storage::url($image['img']) }}" alt="{{ get_city_text($project->title) }}" class="project-slider__image">
                                         </a>
 
                                     </swiper-slide>

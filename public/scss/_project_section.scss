@@ -230,10 +230,6 @@
             font-size: 16px;
         }
 
-        &__grid {
-            grid-template-columns: 1fr;
-            gap: 20px;
-        }
     }
 
     .project-card {
@@ -276,26 +272,44 @@
 
     .project-card {
         &__image-wrapper {
-            height: 180px;
+            height: 170px;
         }
 
         &__info {
             padding: 16px 14px 14px;
         }
 
+        &__image {
+            object-fit: contain;
+            object-position: top;
+        }
+
+        &__overlay {
+            padding: 0 10px;
+            height: 60px;
+        }
+
         &__name {
-            font-size: 16px;
+            font-size: 12px;
+            font-weight: normal;
+        }
+
+        &__params {
+            gap: 5px;
         }
 
         &__param {
             &-value {
-                font-size: 13px;
+                font-size: 12px;
             }
         }
 
         &__detail {
             &-label {
                 font-size: 13px;
+            }
+            &:last-child {
+                display: none;
             }
         }
     }
