@@ -5,7 +5,7 @@
         <div class="container">
             <x-breadcrumbs.main :title="get_city_text($project->title)"></x-breadcrumbs.main>
             <div class="section__header">
-                <h2 class="section__title __left">{{get_city_text($project->title)}}</h2>
+                <h1 class="section__title __left">{{get_city_text($project->title)}}</h1>
             </div>
 
         </div>

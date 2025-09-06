@@ -213,7 +213,7 @@ class ProjectSeederBanyaBrus extends Seeder
     'ceiling_height' => 2.5,
     'flooring' => null,
     'mansard' => false,
-    'plan_dimensions' => '',
+    'plan_dimensions' => '5х5',
     'extension' => null,
 ],
 
