@@ -25,5 +25,11 @@
         </div>
     </section>
 
+
+    <x-main.cases-section />
+    <x-main.steps-section />
+    <x-main.whay-section />
+    <x-main.faq-section />
+
 @endsection
 
