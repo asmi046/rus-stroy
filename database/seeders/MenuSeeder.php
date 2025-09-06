@@ -38,7 +38,13 @@ class MenuSeeder extends Seeder
                 'menu_name' => 'Главное меню',
                 'title' => 'Проекты домов',
                 'order' => 4,
-                'lnk' => "/projects",
+                'lnk' => "/projects/doma",
+            ],
+            [
+                'menu_name' => 'Главное меню',
+                'title' => 'Проекты бань',
+                'order' => 4,
+                'lnk' => "/projects/bani",
             ],
             [
                 'menu_name' => 'Главное меню',

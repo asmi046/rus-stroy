@@ -174,7 +174,7 @@ class ProjectSeeder10x13 extends Seeder
                 'type' => 'Дом',
                 'floors' => 2,
                 'total_area' => 205,
-                'wall_material' => 'Газобетон',
+                'wall_material' => 'Кирпич',
                 'foundation' => '',
                 'ceiling_height' => 2.5,
                 'flooring' => null,

@@ -30,7 +30,7 @@ class ProjectSeeder8x10 extends Seeder
                 'type' => 'Дом',
                 'floors' => 1,
                 'total_area' => 80,
-                'wall_material' => 'Газобетон',
+                'wall_material' => 'Брус',
                 'foundation' => '',
                 'ceiling_height' => 2.5,
                 'flooring' => null,

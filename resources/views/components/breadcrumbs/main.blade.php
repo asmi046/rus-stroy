@@ -23,8 +23,8 @@
                 <span class="sep"> / </span>
 
                 <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="finish">
-                    <span title="{{ $title }}" itemprop="item">
-                        <span itemprop="name">{{ $title }}</span>
+                    <span title="{{ get_city_text($title) }}" itemprop="item">
+                        <span itemprop="name">{{ get_city_text($title) }}</span>
                         <meta itemprop="position" content="2">
                     </span>
                 </span>
@@ -40,8 +40,8 @@
                 <span class="sep"> / </span>
 
                 <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="finish">
-                    <span title="{{ $title }}" itemprop="item">
-                        <span itemprop="name">{{ $title }}</span>
+                    <span title="{{ get_city_text($title) }}" itemprop="item">
+                        <span itemprop="name">{{ get_city_text($title) }}</span>
                         <meta itemprop="position" content="2">
                     </span>
                 </span>
@@ -57,8 +57,8 @@
                 <span class="sep"> / </span>
 
                 <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="finish">
-                    <span title="{{ $title }}" itemprop="item">
-                        <span itemprop="name">{{ $title }}</span>
+                    <span title="{{ get_city_text($title) }}" itemprop="item">
+                        <span itemprop="name">{{ get_city_text($title) }}</span>
                         <meta itemprop="position" content="2">
                     </span>
                 </span>
@@ -74,8 +74,8 @@
                 <span class="sep"> / </span>
 
                 <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="finish">
-                    <span title="{{ $title }}" itemprop="item">
-                        <span itemprop="name">{{ $title }}</span>
+                    <span title="{{ get_city_text($title) }}" itemprop="item">
+                        <span itemprop="name">{{  get_city_text($title) }}</span>
                         <meta itemprop="position" content="2">
                     </span>
                 </span>
@@ -84,7 +84,7 @@
                 <span class="sep"> / </span>
                     <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="finish">
                         <span title="{{ $title }}" itemprop="item">
-                            <span itemprop="name">{{ $title }}</span>
+                            <span itemprop="name">{{ get_city_text($title) }}</span>
                             <meta itemprop="position" content="1">
                         </span>
                     </span>

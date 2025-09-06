@@ -6,6 +6,7 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+    padding-bottom: 0;
 
     &__content {
         box-shadow: $box_shadow_big;
@@ -172,8 +173,27 @@
 
 @media (max-width: 768px) {
     .header {
+
+        .header__phone-link {
+            font-size: 14px;
+        }
+
+        &__content {
+            border-radius: 0 0 $border_rad $border_rad;
+            padding: 10px 10px;
+        }
+
         &__contacts {
-            display: none;
+
+            & > *{
+                display: none;
+            }
+
+            .header__phone {
+                display: flex;
+            }
+
+
         }
 
         &__burger {

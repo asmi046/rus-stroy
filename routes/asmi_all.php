@@ -36,8 +36,10 @@ use App\Http\Controllers\Consultation\SenderQuizController;
         Route::get('/materials/{slug}', [MaterialController::class, "page"])->name('materials_page');
 
         Route::get('/projects', [ProjectController::class, "index"])->name('projects');
+        Route::get('/projects/{type}/', [ProjectController::class, "projects_type"])->name('projects_type');
+        Route::get('/projects/{type}/{material}', [ProjectController::class, "projects_type_material"])->name('projects_type_material');
         Route::get('/projects/get_list', [ProjectController::class, "get_list"])->name('projects_list');
-        Route::get('/projects/{slug}', [ProjectController::class, "page"])->name('projects_page');
+        Route::get('/project/{slug}', [ProjectController::class, "page"])->name('projects_page');
 
         Route::get('/services', [ServiceController::class, "index"])->name('services');
         Route::get('/services/{slug}', [ServiceController::class, "page"])->name('services_page');

@@ -199,7 +199,7 @@ class ProjectSeeder7x7 extends Seeder
                 'type' => 'Дом',
                 'floors' => 2,
                 'total_area' => 94,
-                'wall_material' => 'Газобетон',
+                'wall_material' => 'Кирпич',
                 'foundation' => '',
                 'ceiling_height' => 2.5,
                 'flooring' => null,

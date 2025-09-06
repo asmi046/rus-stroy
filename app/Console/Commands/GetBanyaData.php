@@ -149,10 +149,14 @@ class GetBanyaData extends Command
                             $total_area = (float)str_replace([',', 'м²', 'м2', ' '], ['.', '', '', ''], $value);
                         }
                         if ($name === 'Материал стен') {
-                            $wall_material = ucfirst(mb_strtolower($value));
+                            $wall_material = mb_ucfirst($value);
                         }
                         if ($name === 'Габариты для плана') {
                             $plan_dimensions = str_replace(' ', '', $value);
+                        }
+
+                        if ($name === 'Пристройка для плана') {
+                            $plan_extension = $value;
                         }
                     }
                 }
@@ -180,7 +184,7 @@ class GetBanyaData extends Command
                 'description' => "file_get_contents(public_path('/tmp_data/projects/pr_{$projectNumber}/ds.html'))",
                 'gallery' => $gallery,
                 'layout' => [],
-                'type' => 'Баня',
+                'type' => 'Дом',
                 'floors' => $floors,
                 'total_area' => $total_area,
                 'wall_material' => ucfirst($wall_material),
@@ -189,7 +193,7 @@ class GetBanyaData extends Command
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => str_replace('м', '', $plan_dimensions),
-                'extension' => null,
+                'extension' => $plan_extension,
             ];
 
             // Выводим результат
@@ -198,7 +202,7 @@ class GetBanyaData extends Command
             $this->info(str_repeat('=', 50));
 
             $this->line($this->formatArrayOutput($projectData));
-
+// dd($projectData);
             $this->info(str_repeat('=', 50));
             $this->info("Парсинг завершен успешно!");
             $this->info("Скачано изображений: " . count($gallery));
@@ -220,7 +224,7 @@ class GetBanyaData extends Command
         $output = "[\n";
 
         foreach ($data as $key => $value) {
-            $output .= "    '{$key}' => ";
+            $output .= "    '". str_replace(["\r",'"'],"",$key) ."' => ";
 
             if (is_array($value)) {
                 if (empty($value)) {
@@ -236,7 +240,7 @@ class GetBanyaData extends Command
                 if (str_starts_with($value, 'file_get_contents')) {
                     $output .= $value;
                 } else {
-                    $output .= "'{$value}'";
+                    $output .= "'". str_replace(["\r",'"'],"",$value)."'";
                 }
             } elseif (is_numeric($value)) {
                 $output .= $value;

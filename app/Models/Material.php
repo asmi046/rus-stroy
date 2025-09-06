@@ -8,8 +8,9 @@ class Material extends Model
 {
     protected $fillable = [
         'title',
+        'card_title',
         'material_name',
-        'subtitle',
+        'short_description',
         'img',
         'slug',
         'order',

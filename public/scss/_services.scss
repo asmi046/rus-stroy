@@ -97,15 +97,21 @@
 // Баннер услуги
 .service-banner {
     position: relative;
-    height: 350px;
-    border-radius: 60px;
+    height: auto;
+    border-radius: $border_rad;
     overflow: hidden;
-    margin-top: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
 
     &__image {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
     }
 
     &__overlay {
@@ -118,13 +124,14 @@
     }
 
     &__content {
-        position: absolute;
-        top: 50%;
-        left: 60px;
-        transform: translateY(-50%);
+        position: relative;
+        top: 0;
+        left: 0;
         color: white;
-        max-width: 600px;
         z-index: 10;
+        max-width: 95%;
+        z-index: 10;
+        padding: 30px 40px;
     }
 
     &__title {
@@ -363,13 +370,28 @@
     }
 
     .service-banner {
-        height: 300px;
+        height: auto;
+        min-height: unset;
         margin-top: 30px;
+        display: flex;
+
+        &__image,
+        &__overlay {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+        }
 
         &__content {
-            left: 20px;
+            position: relative;
+            left: 0;
             right: 20px;
             max-width: none;
+            display: flex;
+            flex-direction: column;
+            transform: none;
+            padding: 30px;
         }
 
         &__title {

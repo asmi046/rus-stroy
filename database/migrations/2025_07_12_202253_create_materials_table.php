@@ -14,8 +14,9 @@ return new class extends Migration
         Schema::create('materials', function (Blueprint $table) {
             $table->id();
             $table->string('title')->comment('Заголовок');
+            $table->string('card_title')->comment('Заголовок карточки');
             $table->string('material_name')->comment('Заголовок');
-            $table->string('subtitle', 800)->nullable()->comment('Подзаголовок');
+            $table->text('short_description')->nullable()->comment('Подзаголовок');
             $table->string('img', 800)->nullable()->comment('Изображение');
             $table->string('slug')->unique()->comment('Слаг');
             $table->integer('order')->default(100)->comment('Порядок');

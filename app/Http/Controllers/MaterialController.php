@@ -16,7 +16,7 @@ class MaterialController extends Controller
     public function page(string $slug)
     {
         $material = Material::where('slug', $slug)->first();
-        $projects = $material->projects()->paginate(15)->withQueryString();
+        $projects = $material->projects()->where('type', 'Дом')->paginate(15)->withQueryString();
 
         if($material == null) abort('404');
 
