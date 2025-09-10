@@ -149,6 +149,8 @@
         </div>
     </section>
 
+    <x-about-price></x-about-price>
+
     <x-main.cases-section />
     <x-main.steps-section />
     <x-main.whay-section />
