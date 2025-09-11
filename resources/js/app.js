@@ -11,6 +11,7 @@ import Review from './components/Reviews/Review.vue'
 import Quiz from './components/Quiz/Quiz.vue'
 import Like from './components/Like.vue'
 import Compare from './components/Compare.vue'
+import IpotekaCalc from './components/IpotekaCalc.vue'
 
 import ToggleWrapper from './components/ToggleWrapper.vue'
 
@@ -136,8 +137,21 @@ if (document.getElementById('toggle_app')) {
         },
         setup() {}
     })
-
+console.log('mount ipoteka_calc_app')
     toggle_app.use(VueAxios, axios)
     toggle_app.directive('mask', VMaskDirective)
     toggle_app.mount("#toggle_app");
+}
+
+if (document.getElementById('ipoteka_calc_app')) {
+    const ipoteka_calc_app = createApp({
+        components:{
+            IpotekaCalc,
+        },
+        setup() {}
+    })
+    console.log('mount ipoteka_calc_app')
+    ipoteka_calc_app.use(VueAxios, axios)
+    ipoteka_calc_app.directive('mask', VMaskDirective)
+    ipoteka_calc_app.mount("#ipoteka_calc_app");
 }

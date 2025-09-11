@@ -11,39 +11,8 @@
 
             {!! $page->description !!}
 
-            <div class="ipoteka-info-section">
-                <div class="ipoteka-info-section__container">
-                    <div class="ipoteka-info-section__block ipoteka-info-section__block--left">
-                        <div class="ipoteka-info-section__icon">
-                            <svg class="sprite_icon">
-                                <use xlink:href="#calendar"></use>
-                            </svg>
-                        </div>
-                        <div class="ipoteka-info-section__content">
-                            <div class="ipoteka-info-section__period">
-                                До <span class="ipoteka-info-section__number">30</span> лет
-                            </div>
-                            <div class="ipoteka-info-section__text">
-                                Первоначальный взнос от 10%
-                            </div>
-                        </div>
-                    </div>
+            <x-ipoteka></x-ipoteka>
 
-                    <div class="ipoteka-info-section__block ipoteka-info-section__block--right">
-                        <div class="ipoteka-info-section__icon">
-                            <svg class="sprite_icon">
-                                <use xlink:href="#bank"></use>
-                            </svg>
-                        </div>
-                        <div class="ipoteka-info-section__content">
-                            <h3 class="ipoteka-info-section__title">Ипотека до</h3>
-                            <div class="ipoteka-info-section__amount">
-                                5 000 000 ₽
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 
         </div>

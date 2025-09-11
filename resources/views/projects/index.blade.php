@@ -26,6 +26,11 @@
     </section>
 
     <x-main.cases-section />
+    <section class="section-ipoteka">
+        <div class="container">
+            <x-ipoteka></x-ipoteka>
+        </div>
+    </section>
     <x-main.steps-section />
     <x-main.whay-section />
     <x-main.faq-section />

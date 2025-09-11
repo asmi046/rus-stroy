@@ -153,6 +153,11 @@
 
     <x-main.cases-section />
     <x-main.steps-section />
+    <section class="section-ipoteka">
+        <div class="container">
+            <x-ipoteka></x-ipoteka>
+        </div>
+    </section>
     <x-main.whay-section />
     <x-main.faq-section />
 
