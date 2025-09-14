@@ -35,8 +35,8 @@ return [
             'title' => 'Дома из пеноблока в [city|pp]',
             'subtitle' => 'Каталог проектов домов из пеноблока, доступных для заказа',
         ],
-        'kirpich' => [
-            'slug' => 'kirpich',
+        'kirpic' => [
+            'slug' => 'kirpic',
             'name' => 'Кирпич',
             'title' => 'Дома из кирпича в [city|pp]',
             'subtitle' => 'Каталог проектов домов из кирпича, доступных для заказа',
@@ -65,20 +65,20 @@ return [
             'title' => 'Дома из теплокерамики в [city|pp]',
             'subtitle' => 'Каталог проектов домов из теплокерамики, доступных для заказа',
         ],
-        'kleenyy-brus' => [
-            'slug' => 'kleenyy-brus',
+        'kleenyi-brus' => [
+            'slug' => 'kleenyi-brus',
             'name' => 'Клеёный брус',
             'title' => 'Дома из клеёного бруса в [city|pp]',
             'subtitle' => 'Каталог проектов домов из клеёного бруса, доступных для заказа',
         ],
-        'profilovannyy-brus' => [
+        'profilirovannyi-brus' => [
             'slug' => 'profilovannyy-brus',
             'name' => 'Профилированный брус',
             'title' => 'Дома из профилированного бруса в [city|pp]',
             'subtitle' => 'Каталог проектов домов из профилированного бруса, доступных для заказа',
         ],
-        'otsilindrovannoe-brevno' => [
-            'slug' => 'otsilindrovannoe-brevno',
+        'ocilindrovannoe-brevno' => [
+            'slug' => 'ocilindrovannoe-brevno',
             'name' => 'Оцилиндрованное бревно',
             'title' => 'Дома из оцилиндрованного бревна в [city|pp]',
             'subtitle' => 'Каталог проектов домов из оцилиндрованного бревна, доступных для заказа',

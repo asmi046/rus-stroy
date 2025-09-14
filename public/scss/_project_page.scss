@@ -101,6 +101,35 @@
     }
 }
 
+.short-project-selector {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    flex-direction: column;
+
+    .param {
+        display: flex;
+        gap:10px;
+        a {
+            background: $gray_bg_color;
+            border-radius: 16px;
+            padding: 5px 20px;
+            cursor: pointer;
+            text-align: center;
+            transition: background 0.2s, color 0.2s;
+            color: #222;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover {
+                background: $main_color;
+                color: #fff;
+            }
+        }
+    }
+}
+
 // Блок с ценой
 .price-block {
     border: 1px solid $gray_border_color;
@@ -324,6 +353,22 @@
 
         .work-step__text {
             font-size: 12px;
+        }
+    }
+
+    .short-project-selector {
+        .param {
+
+            flex-wrap: wrap;
+            span {
+                font-size: 12px;
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+            a {
+                font-size: 10px;
+                padding: 5px 10px;
+            }
         }
     }
 

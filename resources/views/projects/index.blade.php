@@ -20,7 +20,7 @@
                     <x-cards.project :item="$item" />
                 @endforeach
             </div>
-
+            <x-short-project-selector></x-short-project-selector>
             <x-pagination :tovars="$projects"></x-pagination>
         </div>
     </section>

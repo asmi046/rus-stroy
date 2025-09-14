@@ -21,9 +21,9 @@
             <div class="filter-form__group">
                 <label class="filter-form__label">Площадь, м²</label>
                 <div class="filter-form__range">
-                    <input type="number" name="area_from" placeholder="от" class="filter-form__input" min="0">
+                    <input value="{{ request('area_from') ?? '' }}" type="number" name="area_from" placeholder="от" class="filter-form__input" min="0">
                     <span class="filter-form__separator">—</span>
-                    <input type="number" name="area_to" placeholder="до" class="filter-form__input" min="0">
+                    <input value="{{ request('area_to') ?? '' }}" type="number" name="area_to" placeholder="до" class="filter-form__input" min="0">
                 </div>
             </div>
 

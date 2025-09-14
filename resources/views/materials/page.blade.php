@@ -6,7 +6,7 @@
 
             <x-breadcrumbs.main :title="$material->title"></x-breadcrumbs.main>
             <x-header-mini :item="$material" />
-
+            <x-filter.project-filter :sizes="$sizes" :const-type="$type" :const-material="$wall_material" />
 
 
             <div class="projects-section__grid">
@@ -14,6 +14,8 @@
                     <x-cards.project :item="$item" />
                 @endforeach
             </div>
+
+            <x-short-project-selector></x-short-project-selector>
 
             <x-pagination :tovars="$projects"></x-pagination>
 
