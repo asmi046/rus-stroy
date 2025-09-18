@@ -184,7 +184,7 @@ class GetBanyaData extends Command
                 'description' => "file_get_contents(public_path('/tmp_data/projects/pr_{$projectNumber}/ds.html'))",
                 'gallery' => $gallery,
                 'layout' => [],
-                'type' => 'Дом',
+                'type' => 'Гараж',
                 'floors' => $floors,
                 'total_area' => $total_area,
                 'wall_material' => ucfirst($wall_material),
@@ -193,7 +193,7 @@ class GetBanyaData extends Command
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => str_replace('м', '', $plan_dimensions),
-                'extension' => $plan_extension,
+                'extension' => $plan_extension ?? null,
             ];
 
             // Выводим результат

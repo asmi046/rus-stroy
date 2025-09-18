@@ -59,6 +59,9 @@ class DatabaseSeeder extends Seeder
             ProjectSeederDomKarkas::class,
             MaterialSeeder::class,
             WorkStepsSeeder::class,
+            ProjectSeederBesedka::class,
+            ProjectSeederGarag::class,
+            ProjectSeederGarag2::class,
 
             CitySeeder::class,
             UserSeeder::class,
