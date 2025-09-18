@@ -9,11 +9,12 @@ use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\CompareController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\BuildingController;
 use App\Http\Controllers\ContactsController;
 use App\Http\Controllers\MaterialController;
 use App\Http\Controllers\PortfolioController;
-use App\Http\Controllers\Consultation\SenderConsultController;
 use App\Http\Controllers\Consultation\SenderQuizController;
+use App\Http\Controllers\Consultation\SenderConsultController;
     use Illuminate\Support\Facades\Route;
 
     use App\Http\Controllers\IndexController;
@@ -34,6 +35,9 @@ use App\Http\Controllers\Consultation\SenderQuizController;
 
         Route::get('/materials', [MaterialController::class, "index"])->name('materials');
         Route::get('/materials/{slug}', [MaterialController::class, "page"])->name('materials_page');
+
+        Route::get('/building', [BuildingController::class, "index"])->name('building');
+        Route::get('/building/{slug}', [BuildingController::class, "page"])->name('building_page');
 
         Route::get('/projects', [ProjectController::class, "index"])->name('projects');
         Route::get('/projects/{type}/', [ProjectController::class, "projects_type"])->name('projects_type');

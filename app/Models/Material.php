@@ -27,4 +27,12 @@ class Material extends Model
         return $this->hasMany(Project::class, 'wall_material', 'material_name');
     }
 
+    public function setSlugAttribute($value)
+    {
+        if (empty($value))
+            $this->attributes['slug'] =  Str::slug($this->title);
+        else
+            $this->attributes['slug'] =  $value;
+    }
+
 }

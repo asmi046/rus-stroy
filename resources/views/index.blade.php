@@ -47,6 +47,11 @@
 
 
 <x-main.projects-section />
+<x-building-all
+        title="Строительство под ключ в {!! get_city_text('[city|pp]') !!}"
+        subtitle="Проекты гаражей, беседок домов под ключ в {!! get_city_text('[city|pp]') !!}">
+</x-building-all>
+
 <x-main.stat-section />
 <x-main.material-section />
 <x-main.steps-section />

@@ -30,6 +30,13 @@ class MenuSeeder extends Seeder
 
             [
                 'menu_name' => 'Главное меню',
+                'title' => 'Строительство',
+                'order' => 3,
+                'lnk' => "/building",
+            ],
+
+            [
+                'menu_name' => 'Главное меню',
                 'title' => 'Услуги',
                 'order' => 3,
                 'lnk' => "/services",
