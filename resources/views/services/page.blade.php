@@ -31,5 +31,34 @@
         </div>
     </section>
 
+    <section class="work-step-section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Способы оплаты домов</h2>
+                <p class="section__subtitle">Выберите способ, удобный для Вас</p>
+            </div>
+
+            <x-pay-methods />
+        </div>
+    </section>
+
+    <section class="more_service_section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Дополнительные услуги</h2>
+                <p class="section__subtitle">Смотрите так же другие строительные услуги нашей компани</p>
+            </div>
+
+            <div class="services-grid">
+                @foreach ($more_service as $item)
+                    <x-cards.service :item="(object) $item" />
+                @endforeach
+            </div>
+        </div>
+    </section>
+
+    <x-main.whay-section />
+    <x-main.faq-section />
+
 @endsection
 

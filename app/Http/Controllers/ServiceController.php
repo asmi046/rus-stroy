@@ -18,12 +18,16 @@ class ServiceController extends Controller
     public function page(string $slug)
     {
         $service = Service::where('slug', $slug)->first();
+        $more_service = Service::where('group', $service->group)->inRandomOrder()->take(3)->get();
 
         if($service == null) abort('404');
 
         $template = (View::exists($service->template))?$service->template:'services.page';
 
-        return view($template, ['service' => $service]);
+        return view($template, [
+            'service' => $service,
+            'more_service' => $more_service
+        ]);
     }
 }
 
