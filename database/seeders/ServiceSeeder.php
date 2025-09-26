@@ -75,6 +75,19 @@ class ServiceSeeder extends Seeder
         Storage::disk('public')->put("service/s7_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_7/s7_gal_2.webp')), 'public');
         Storage::disk('public')->put("service/s7_gal_3.webp", file_get_contents(public_path('tmp_data/serv/s_7/s7_gal_3.webp')), 'public');
         Storage::disk('public')->put("service/s7_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_7/s7_gal_4.jpg')), 'public');
+        Storage::disk('public')->put("service/besedki_d_1.webp", file_get_contents(public_path('tmp_data/serv/s_7/besedki_d_1.webp')), 'public');
+        Storage::disk('public')->put("service/besedki_d_2.webp", file_get_contents(public_path('tmp_data/serv/s_7/besedki_d_2.webp')), 'public');
+        Storage::disk('public')->put("service/besedki_d_3.webp", file_get_contents(public_path('tmp_data/serv/s_7/besedki_d_3.webp')), 'public');
+        Storage::disk('public')->put("service/besedki_d_4.webp", file_get_contents(public_path('tmp_data/serv/s_7/besedki_d_4.webp')), 'public');
+        Storage::disk('public')->put("service/besedki_d_5.webp", file_get_contents(public_path('tmp_data/serv/s_7/besedki_d_5.webp')), 'public');
+        Storage::disk('public')->put("service/besedki_d_6.webp", file_get_contents(public_path('tmp_data/serv/s_7/besedki_d_6.webp')), 'public');
+        Storage::disk('public')->put("service/besedki_d_7.webp", file_get_contents(public_path('tmp_data/serv/s_7/besedki_d_7.webp')), 'public');
+        Storage::disk('public')->put("service/besedki_d_8.webp", file_get_contents(public_path('tmp_data/serv/s_7/besedki_d_8.webp')), 'public');
+        Storage::disk('public')->put("service/besedki_d_9.webp", file_get_contents(public_path('tmp_data/serv/s_7/besedki_d_9.webp')), 'public');
+        Storage::disk('public')->put("service/besedki_d_10.webp", file_get_contents(public_path('tmp_data/serv/s_7/besedki_d_10.webp')), 'public');
+        Storage::disk('public')->put("service/besedki_d_11.webp", file_get_contents(public_path('tmp_data/serv/s_7/besedki_d_11.webp')), 'public');
+        Storage::disk('public')->put("service/besedki_d_12.webp", file_get_contents(public_path('tmp_data/serv/s_7/besedki_d_12.webp')), 'public');
+        Storage::disk('public')->put("service/besedki_d_13.webp", file_get_contents(public_path('tmp_data/serv/s_7/besedki_d_13.webp')), 'public');
 
         Storage::disk('public')->put("service/s8_gal_1.webp", file_get_contents(public_path('tmp_data/serv/s_8/s8_gal_1.webp')), 'public');
         Storage::disk('public')->put("service/s8_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_8/s8_gal_2.webp')), 'public');
@@ -86,6 +99,10 @@ class ServiceSeeder extends Seeder
         Storage::disk('public')->put("service/s9_gal_3.webp", file_get_contents(public_path('tmp_data/serv/s_9/s9_gal_3.webp')), 'public');
         Storage::disk('public')->put("service/s9_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_9/s9_gal_4.jpg')), 'public');
         Storage::disk('public')->put("service/s9_gal_5.webp", file_get_contents(public_path('tmp_data/serv/s_9/s9_gal_5.webp')), 'public');
+
+        Storage::disk('public')->put("service/fundament_d_9_1.webp", file_get_contents(public_path('tmp_data/serv/s_9/fundament_d_9_1.webp')), 'public');
+        Storage::disk('public')->put("service/fundament_d_9_2.webp", file_get_contents(public_path('tmp_data/serv/s_9/fundament_d_9_2.webp')), 'public');
+        Storage::disk('public')->put("service/fundament_d_9_3.webp", file_get_contents(public_path('tmp_data/serv/s_9/fundament_d_9_3.webp')), 'public');
 
         Storage::disk('public')->put("service/s10_gal_1.webp", file_get_contents(public_path('tmp_data/serv/s_10/s10_gal_1.webp')), 'public');
         Storage::disk('public')->put("service/s10_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_10/s10_gal_2.webp')), 'public');
@@ -103,6 +120,12 @@ class ServiceSeeder extends Seeder
         Storage::disk('public')->put("service/s12_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_12/s12_gal_2.webp')), 'public');
         Storage::disk('public')->put("service/s12_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_12/s12_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s12_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_12/s12_gal_4.jpg')), 'public');
+        Storage::disk('public')->put("service/vorota_d_1.webp", file_get_contents(public_path('tmp_data/serv/s_12/vorota_d_1.webp')), 'public');
+        Storage::disk('public')->put("service/vorota_d_2.webp", file_get_contents(public_path('tmp_data/serv/s_12/vorota_d_2.webp')), 'public');
+        Storage::disk('public')->put("service/vorota_d_3.webp", file_get_contents(public_path('tmp_data/serv/s_12/vorota_d_3.webp')), 'public');
+        Storage::disk('public')->put("service/vorota_d_4.webp", file_get_contents(public_path('tmp_data/serv/s_12/vorota_d_4.webp')), 'public');
+        Storage::disk('public')->put("service/vorota_d_5.webp", file_get_contents(public_path('tmp_data/serv/s_12/vorota_d_5.webp')), 'public');
+        Storage::disk('public')->put("service/vorota_d_6.webp", file_get_contents(public_path('tmp_data/serv/s_12/vorota_d_6.webp')), 'public');
 
         Storage::disk('public')->put("service/s13_gal_1.jpg", file_get_contents(public_path('tmp_data/serv/s_13/s13_gal_1.jpg')), 'public');
         Storage::disk('public')->put("service/s13_gal_2.jpg", file_get_contents(public_path('tmp_data/serv/s_13/s13_gal_2.jpg')), 'public');
@@ -233,6 +256,19 @@ class ServiceSeeder extends Seeder
                     'service/s7_gal_2.webp',
                     'service/s7_gal_3.webp',
                     'service/s7_gal_4.jpg',
+                    'service/besedki_d_1.webp',
+                    'service/besedki_d_2.webp',
+                    'service/besedki_d_3.webp',
+                    'service/besedki_d_4.webp',
+                    'service/besedki_d_5.webp',
+                    'service/besedki_d_6.webp',
+                    'service/besedki_d_7.webp',
+                    'service/besedki_d_8.webp',
+                    'service/besedki_d_9.webp',
+                    'service/besedki_d_10.webp',
+                    'service/besedki_d_11.webp',
+                    'service/besedki_d_12.webp',
+                    'service/besedki_d_13.webp',
                 ]),
                 'sections' => null,
             ],
@@ -270,6 +306,9 @@ class ServiceSeeder extends Seeder
                     'service/s9_gal_3.webp',
                     'service/s9_gal_4.jpg',
                     'service/s9_gal_5.webp',
+                    "service/fundament_d_9_1.webp",
+                    "service/fundament_d_9_2.webp",
+                    "service/fundament_d_9_3.webp",
                 ]),
                 'sections' => null,
             ],
@@ -326,6 +365,12 @@ class ServiceSeeder extends Seeder
                     'service/s12_gal_2.webp',
                     'service/s12_gal_3.jpg',
                     'service/s12_gal_4.jpg',
+                    'service/vorota_d_1.webp',
+                    'service/vorota_d_2.webp',
+                    'service/vorota_d_3.webp',
+                    'service/vorota_d_4.webp',
+                    'service/vorota_d_5.webp',
+                    'service/vorota_d_6.webp',
                 ]),
                 'sections' => null,
             ],

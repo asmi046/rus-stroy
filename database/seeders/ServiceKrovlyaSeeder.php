@@ -27,6 +27,19 @@ class ServiceKrovlyaSeeder extends Seeder
         Storage::disk('public')->put("service/s_4_2_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_4_2/s_4_2_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s_4_2_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_4_2/s_4_2_gal_4.jpg')), 'public');
 
+        Storage::disk('public')->put("service/krovlya_d_4_2_1.webp", file_get_contents(public_path('tmp_data/serv/s_4_2/krovlya_d_4_2_1.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_2_2.webp", file_get_contents(public_path('tmp_data/serv/s_4_2/krovlya_d_4_2_2.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_2_3.webp", file_get_contents(public_path('tmp_data/serv/s_4_2/krovlya_d_4_2_3.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_2_4.webp", file_get_contents(public_path('tmp_data/serv/s_4_2/krovlya_d_4_2_4.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_2_5.webp", file_get_contents(public_path('tmp_data/serv/s_4_2/krovlya_d_4_2_5.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_2_6.webp", file_get_contents(public_path('tmp_data/serv/s_4_2/krovlya_d_4_2_6.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_2_7.webp", file_get_contents(public_path('tmp_data/serv/s_4_2/krovlya_d_4_2_7.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_2_8.webp", file_get_contents(public_path('tmp_data/serv/s_4_2/krovlya_d_4_2_8.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_2_9.webp", file_get_contents(public_path('tmp_data/serv/s_4_2/krovlya_d_4_2_9.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_2_10.webp", file_get_contents(public_path('tmp_data/serv/s_4_2/krovlya_d_4_2_10.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_2_11.webp", file_get_contents(public_path('tmp_data/serv/s_4_2/krovlya_d_4_2_11.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_2_12.webp", file_get_contents(public_path('tmp_data/serv/s_4_2/krovlya_d_4_2_12.webp')), 'public');
+
         Storage::disk('public')->put("service/s_4_3_gal_1.jpg", file_get_contents(public_path('tmp_data/serv/s_4_3/s_4_3_gal_1.jpg')), 'public');
         Storage::disk('public')->put("service/s_4_3_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_4_3/s_4_3_gal_2.webp')), 'public');
         Storage::disk('public')->put("service/s_4_3_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_4_3/s_4_3_gal_3.jpg')), 'public');
@@ -42,10 +55,19 @@ class ServiceKrovlyaSeeder extends Seeder
         Storage::disk('public')->put("service/s_4_5_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_4_5/s_4_5_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s_4_5_gal_4.webp", file_get_contents(public_path('tmp_data/serv/s_4_5/s_4_5_gal_4.webp')), 'public');
 
+        Storage::disk('public')->put("service/krovlya_d_4_5_3.webp", file_get_contents(public_path('tmp_data/serv/s_4_5/krovlya_d_4_5_3.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_5_11.webp", file_get_contents(public_path('tmp_data/serv/s_4_5/krovlya_d_4_5_11.webp')), 'public');
+
         Storage::disk('public')->put("service/s_4_6_gal_1.jpg", file_get_contents(public_path('tmp_data/serv/s_4_6/s_4_6_gal_1.jpg')), 'public');
         Storage::disk('public')->put("service/s_4_6_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_4_6/s_4_6_gal_2.webp')), 'public');
         Storage::disk('public')->put("service/s_4_6_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_4_6/s_4_6_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s_4_6_gal_4.webp", file_get_contents(public_path('tmp_data/serv/s_4_6/s_4_6_gal_4.webp')), 'public');
+
+        Storage::disk('public')->put("service/krovlya_d_4_6_5.webp", file_get_contents(public_path('tmp_data/serv/s_4_6/krovlya_d_4_6_5.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_6_3.webp", file_get_contents(public_path('tmp_data/serv/s_4_6/krovlya_d_4_6_3.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_6_2.webp", file_get_contents(public_path('tmp_data/serv/s_4_6/krovlya_d_4_6_2.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_6_1.webp", file_get_contents(public_path('tmp_data/serv/s_4_6/krovlya_d_4_6_1.webp')), 'public');
+        Storage::disk('public')->put("service/krovlya_d_4_6_12.webp", file_get_contents(public_path('tmp_data/serv/s_4_6/krovlya_d_4_6_12.webp')), 'public');
 
         Storage::disk('public')->put("service/s_4_7_gal_1.webp", file_get_contents(public_path('tmp_data/serv/s_4_7/s_4_7_gal_1.webp')), 'public');
         Storage::disk('public')->put("service/s_4_7_gal_2.jpeg", file_get_contents(public_path('tmp_data/serv/s_4_7/s_4_7_gal_2.jpeg')), 'public');
@@ -89,6 +111,18 @@ class ServiceKrovlyaSeeder extends Seeder
                     'service/s_4_2_gal_2.webp',
                     'service/s_4_2_gal_3.jpg',
                     'service/s_4_2_gal_4.jpg',
+                    'service/krovlya_d_4_2_1.webp',
+                    'service/krovlya_d_4_2_2.webp',
+                    'service/krovlya_d_4_2_3.webp',
+                    'service/krovlya_d_4_2_4.webp',
+                    'service/krovlya_d_4_2_5.webp',
+                    'service/krovlya_d_4_2_6.webp',
+                    'service/krovlya_d_4_2_7.webp',
+                    'service/krovlya_d_4_2_8.webp',
+                    'service/krovlya_d_4_2_9.webp',
+                    'service/krovlya_d_4_2_10.webp',
+                    'service/krovlya_d_4_2_11.webp',
+                    'service/krovlya_d_4_2_12.webp',
                 ]),
                 'sections' => null,
             ],
@@ -106,6 +140,7 @@ class ServiceKrovlyaSeeder extends Seeder
                     'service/s_4_3_gal_2.webp',
                     'service/s_4_3_gal_3.jpg',
                     'service/s_4_3_gal_4.webp',
+
                 ]),
                 'sections' => null,
             ],
@@ -140,6 +175,9 @@ class ServiceKrovlyaSeeder extends Seeder
                     'service/s_4_5_gal_2.webp',
                     'service/s_4_5_gal_3.jpg',
                     'service/s_4_5_gal_4.webp',
+                    'service/krovlya_d_4_5_3.webp',
+                    'service/krovlya_d_4_5_11.webp',
+
                 ]),
                 'sections' => null,
             ],
@@ -157,6 +195,11 @@ class ServiceKrovlyaSeeder extends Seeder
                     'service/s_4_6_gal_2.webp',
                     'service/s_4_6_gal_3.jpg',
                     'service/s_4_6_gal_4.webp',
+                    "service/krovlya_d_4_6_5.webp",
+                    "service/krovlya_d_4_6_3.webp",
+                    "service/krovlya_d_4_6_2.webp",
+                    "service/krovlya_d_4_6_1.webp",
+                    "service/krovlya_d_4_6_12.webp",
                 ]),
                 'sections' => null,
             ],

@@ -36,6 +36,10 @@ class ServiceNavesSeeder extends Seeder
         Storage::disk('public')->put("service/s_13_4_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_13_4/s_13_4_gal_2.webp')), 'public');
         Storage::disk('public')->put("service/s_13_4_gal_3.webp", file_get_contents(public_path('tmp_data/serv/s_13_4/s_13_4_gal_3.webp')), 'public');
         Storage::disk('public')->put("service/s_13_4_gal_4.webp", file_get_contents(public_path('tmp_data/serv/s_13_4/s_13_4_gal_4.webp')), 'public');
+        Storage::disk('public')->put("service/naves_poli_d_1.webp", file_get_contents(public_path('tmp_data/serv/s_13_4/naves_poli_d_1.webp')), 'public');
+        Storage::disk('public')->put("service/naves_poli_d_2.webp", file_get_contents(public_path('tmp_data/serv/s_13_4/naves_poli_d_2.webp')), 'public');
+        Storage::disk('public')->put("service/naves_poli_d_3.webp", file_get_contents(public_path('tmp_data/serv/s_13_4/naves_poli_d_3.webp')), 'public');
+        Storage::disk('public')->put("service/naves_poli_d_4.webp", file_get_contents(public_path('tmp_data/serv/s_13_4/naves_poli_d_4.webp')), 'public');
 
         Storage::disk('public')->put("service/s_13_5_gal_1.jpg", file_get_contents(public_path('tmp_data/serv/s_13_5/s_13_5_gal_1.jpg')), 'public');
         Storage::disk('public')->put("service/s_13_5_gal_2.jpg", file_get_contents(public_path('tmp_data/serv/s_13_5/s_13_5_gal_2.jpg')), 'public');
@@ -46,6 +50,9 @@ class ServiceNavesSeeder extends Seeder
         Storage::disk('public')->put("service/s_13_6_gal_2.jpg", file_get_contents(public_path('tmp_data/serv/s_13_6/s_13_6_gal_2.jpg')), 'public');
         Storage::disk('public')->put("service/s_13_6_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_13_6/s_13_6_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s_13_6_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_13_6/s_13_6_gal_4.jpg')), 'public');
+        Storage::disk('public')->put("service/naves_prof_d_1.webp", file_get_contents(public_path('tmp_data/serv/s_13_6/naves_prof_d_1.webp')), 'public');
+        Storage::disk('public')->put("service/naves_prof_d_2.webp", file_get_contents(public_path('tmp_data/serv/s_13_6/naves_prof_d_2.webp')), 'public');
+        Storage::disk('public')->put("service/naves_prof_d_3.webp", file_get_contents(public_path('tmp_data/serv/s_13_6/naves_prof_d_3.webp')), 'public');
 
 
         $data = [
@@ -110,6 +117,10 @@ class ServiceNavesSeeder extends Seeder
                     'service/s_13_4_gal_2.webp',
                     'service/s_13_4_gal_3.webp',
                     'service/s_13_4_gal_4.webp',
+                    'service/naves_poli_d_1.webp',
+                    'service/naves_poli_d_2.webp',
+                    'service/naves_poli_d_3.webp',
+                    'service/naves_poli_d_4.webp',
                 ]),
                 'sections' => null,
             ],
@@ -142,6 +153,9 @@ class ServiceNavesSeeder extends Seeder
                     'service/s_13_6_gal_2.jpg',
                     'service/s_13_6_gal_3.jpg',
                     'service/s_13_6_gal_4.jpg',
+                    'service/naves_prof_d_1.webp',
+                    'service/naves_prof_d_2.webp',
+                    'service/naves_prof_d_3.webp',
                 ]),
                 'sections' => null,
             ],

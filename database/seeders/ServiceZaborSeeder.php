@@ -21,6 +21,8 @@ class ServiceZaborSeeder extends Seeder
         Storage::disk('public')->put("service/s_11_1_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_11_1/s_11_1_gal_2.webp')), 'public');
         Storage::disk('public')->put("service/s_11_1_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_11_1/s_11_1_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s_11_1_gal_4.webp", file_get_contents(public_path('tmp_data/serv/s_11_1/s_11_1_gal_4.webp')), 'public');
+        Storage::disk('public')->put("service/zabor_d_1.webp", file_get_contents(public_path('tmp_data/serv/s_11_1/zabor_d_1.webp')), 'public');
+        Storage::disk('public')->put("service/zabor_d_2.webp", file_get_contents(public_path('tmp_data/serv/s_11_1/zabor_d_2.webp')), 'public');
 
         Storage::disk('public')->put("service/s_11_2_gal_1.jpg", file_get_contents(public_path('tmp_data/serv/s_11_2/s_11_2_gal_1.jpg')), 'public');
         Storage::disk('public')->put("service/s_11_2_gal_2.jpg", file_get_contents(public_path('tmp_data/serv/s_11_2/s_11_2_gal_2.jpg')), 'public');
@@ -46,6 +48,8 @@ class ServiceZaborSeeder extends Seeder
                     'service/s_11_1_gal_2.webp',
                     'service/s_11_1_gal_3.jpg',
                     'service/s_11_1_gal_4.webp',
+                    'service/zabor_d_1.webp',
+                    'service/zabor_d_2.webp',
                 ]),
                 'sections' => null,
             ],

@@ -21,6 +21,10 @@ class ServiceOtdelkaSeeder extends Seeder
         Storage::disk('public')->put("service/s_5_1_gal_2.jpg", file_get_contents(public_path('tmp_data/serv/s_5_1/s_5_1_gal_2.jpg')), 'public');
         Storage::disk('public')->put("service/s_5_1_gal_3.webp", file_get_contents(public_path('tmp_data/serv/s_5_1/s_5_1_gal_3.webp')), 'public');
         Storage::disk('public')->put("service/s_5_1_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_5_1/s_5_1_gal_4.jpg')), 'public');
+        Storage::disk('public')->put("service/ob_d_5_1_1.webp", file_get_contents(public_path('tmp_data/serv/s_5_1/ob_d_5_1_1.webp')), 'public');
+        Storage::disk('public')->put("service/ob_d_5_1_2.webp", file_get_contents(public_path('tmp_data/serv/s_5_1/ob_d_5_1_2.webp')), 'public');
+        Storage::disk('public')->put("service/ob_d_5_1_3.webp", file_get_contents(public_path('tmp_data/serv/s_5_1/ob_d_5_1_3.webp')), 'public');
+        Storage::disk('public')->put("service/ob_d_5_1_4.webp", file_get_contents(public_path('tmp_data/serv/s_5_1/ob_d_5_1_4.webp')), 'public');
 
         Storage::disk('public')->put("service/s_5_2_gal_1.webp", file_get_contents(public_path('tmp_data/serv/s_5_2/s_5_2_gal_1.webp')), 'public');
         Storage::disk('public')->put("service/s_5_2_gal_2.jpg", file_get_contents(public_path('tmp_data/serv/s_5_2/s_5_2_gal_2.jpg')), 'public');
@@ -31,11 +35,18 @@ class ServiceOtdelkaSeeder extends Seeder
         Storage::disk('public')->put("service/s_5_3_gal_2.jpg", file_get_contents(public_path('tmp_data/serv/s_5_3/s_5_3_gal_2.jpg')), 'public');
         Storage::disk('public')->put("service/s_5_3_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_5_3/s_5_3_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s_5_3_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_5_3/s_5_3_gal_4.jpg')), 'public');
+        Storage::disk('public')->put("service/ob_d_5_3_1.webp", file_get_contents(public_path('tmp_data/serv/s_5_3/ob_d_5_3_1.webp')), 'public');
+        Storage::disk('public')->put("service/ob_d_5_3_2.webp", file_get_contents(public_path('tmp_data/serv/s_5_3/ob_d_5_3_2.webp')), 'public');
+        Storage::disk('public')->put("service/ob_d_5_3_3.webp", file_get_contents(public_path('tmp_data/serv/s_5_3/ob_d_5_3_3.webp')), 'public');
+        Storage::disk('public')->put("service/ob_d_5_3_4.webp", file_get_contents(public_path('tmp_data/serv/s_5_3/ob_d_5_3_4.webp')), 'public');
+        Storage::disk('public')->put("service/ob_d_5_3_5.webp", file_get_contents(public_path('tmp_data/serv/s_5_3/ob_d_5_3_5.webp')), 'public');
 
         Storage::disk('public')->put("service/s_5_4_gal_1.webp", file_get_contents(public_path('tmp_data/serv/s_5_4/s_5_4_gal_1.webp')), 'public');
         Storage::disk('public')->put("service/s_5_4_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_5_4/s_5_4_gal_2.webp')), 'public');
         Storage::disk('public')->put("service/s_5_4_gal_3.webp", file_get_contents(public_path('tmp_data/serv/s_5_4/s_5_4_gal_3.webp')), 'public');
         Storage::disk('public')->put("service/s_5_4_gal_4.webp", file_get_contents(public_path('tmp_data/serv/s_5_4/s_5_4_gal_4.webp')), 'public');
+        Storage::disk('public')->put("service/oib_5_4_d_1.webp", file_get_contents(public_path('tmp_data/serv/s_5_4/oib_5_4_d_1.webp')), 'public');
+        Storage::disk('public')->put("service/oib_5_4_d_2.webp", file_get_contents(public_path('tmp_data/serv/s_5_4/oib_5_4_d_2.webp')), 'public');
 
         Storage::disk('public')->put("service/s_5_5_gal_1.webp", file_get_contents(public_path('tmp_data/serv/s_5_5/s_5_5_gal_1.webp')), 'public');
         Storage::disk('public')->put("service/s_5_5_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_5_5/s_5_5_gal_2.webp')), 'public');
@@ -57,6 +68,10 @@ class ServiceOtdelkaSeeder extends Seeder
                     'service/s_5_1_gal_2.jpg',
                     'service/s_5_1_gal_3.webp',
                     'service/s_5_1_gal_4.jpg',
+                    "service/ob_d_5_1_1.webp",
+                    "service/ob_d_5_1_2.webp",
+                    "service/ob_d_5_1_3.webp",
+                    "service/ob_d_5_1_4.webp",
                 ]),
                 'sections' => null,
             ],
@@ -89,6 +104,11 @@ class ServiceOtdelkaSeeder extends Seeder
                     'service/s_5_3_gal_2.jpg',
                     'service/s_5_3_gal_3.jpg',
                     'service/s_5_3_gal_4.jpg',
+                    "service/ob_d_5_3_1.webp",
+                    "service/ob_d_5_3_2.webp",
+                    "service/ob_d_5_3_3.webp",
+                    "service/ob_d_5_3_4.webp",
+                    "service/ob_d_5_3_5.webp",
                 ]),
                 'sections' => null,
             ],
@@ -105,6 +125,8 @@ class ServiceOtdelkaSeeder extends Seeder
                     'service/s_5_4_gal_1.webp',
                     'service/s_5_4_gal_2.webp',
                     'service/s_5_4_gal_3.webp',
+                    "service/oib_5_4_d_1.webp",
+                    "service/oib_5_4_d_2.webp",
                 ]),
                 'sections' => null,
             ],

@@ -26,21 +26,31 @@ class ServiceFasadSeeder extends Seeder
         Storage::disk('public')->put("service/s_1_2_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_1_2/s_1_2_gal_2.webp')), 'public');
         Storage::disk('public')->put("service/s_1_2_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_1_2/s_1_2_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s_1_2_gal_4.webp", file_get_contents(public_path('tmp_data/serv/s_1_2/s_1_2_gal_4.webp')), 'public');
+        Storage::disk('public')->put("service/fasaf_bloc_d_1.webp", file_get_contents(public_path('tmp_data/serv/s_1_2/fasaf_bloc_d_1.webp')), 'public');
+        Storage::disk('public')->put("service/fasaf_bloc_d_2.webp", file_get_contents(public_path('tmp_data/serv/s_1_2/fasaf_bloc_d_2.webp')), 'public');
+        Storage::disk('public')->put("service/fasaf_bloc_d_3.webp", file_get_contents(public_path('tmp_data/serv/s_1_2/fasaf_bloc_d_3.webp')), 'public');
+        Storage::disk('public')->put("service/fasaf_bloc_d_4.webp", file_get_contents(public_path('tmp_data/serv/s_1_2/fasaf_bloc_d_4.webp')), 'public');
 
         Storage::disk('public')->put("service/s_1_3_gal_1.webp", file_get_contents(public_path('tmp_data/serv/s_1_3/s_1_3_gal_1.webp')), 'public');
         Storage::disk('public')->put("service/s_1_3_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_1_3/s_1_3_gal_2.webp')), 'public');
         Storage::disk('public')->put("service/s_1_3_gal_3.webp", file_get_contents(public_path('tmp_data/serv/s_1_3/s_1_3_gal_3.webp')), 'public');
         Storage::disk('public')->put("service/s_1_3_gal_4.webp", file_get_contents(public_path('tmp_data/serv/s_1_3/s_1_3_gal_4.webp')), 'public');
+        Storage::disk('public')->put("service/facad_saiding_d_1.webp", file_get_contents(public_path('tmp_data/serv/s_1_3/facad_saiding_d_1.webp')), 'public');
 
         Storage::disk('public')->put("service/s_1_4_gal_1.jpg", file_get_contents(public_path('tmp_data/serv/s_1_4/s_1_4_gal_1.jpg')), 'public');
         Storage::disk('public')->put("service/s_1_4_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_1_4/s_1_4_gal_2.webp')), 'public');
         Storage::disk('public')->put("service/s_1_4_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_1_4/s_1_4_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s_1_4_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_1_4/s_1_4_gal_4.jpg')), 'public');
+        Storage::disk('public')->put("service/facad_ib_d_1.webp", file_get_contents(public_path('tmp_data/serv/s_1_4/facad_ib_d_1.webp')), 'public');
 
         Storage::disk('public')->put("service/s_1_5_gal_1.webp", file_get_contents(public_path('tmp_data/serv/s_1_5/s_1_5_gal_1.webp')), 'public');
         Storage::disk('public')->put("service/s_1_5_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_1_5/s_1_5_gal_2.webp')), 'public');
         Storage::disk('public')->put("service/s_1_5_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_1_5/s_1_5_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s_1_5_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_1_5/s_1_5_gal_4.jpg')), 'public');
+        Storage::disk('public')->put("service/fasaf_plita_d_1.webp", file_get_contents(public_path('tmp_data/serv/s_1_5/fasaf_plita_d_1.webp')), 'public');
+        Storage::disk('public')->put("service/fasaf_plita_d_2.webp", file_get_contents(public_path('tmp_data/serv/s_1_5/fasaf_plita_d_2.webp')), 'public');
+        Storage::disk('public')->put("service/fasaf_plita_d_3.webp", file_get_contents(public_path('tmp_data/serv/s_1_5/fasaf_plita_d_3.webp')), 'public');
+        Storage::disk('public')->put("service/fasaf_plita_d_4.webp", file_get_contents(public_path('tmp_data/serv/s_1_5/fasaf_plita_d_4.webp')), 'public');
 
 
         $data = [
@@ -73,6 +83,10 @@ class ServiceFasadSeeder extends Seeder
                     'service/s_1_2_gal_2.webp',
                     'service/s_1_2_gal_3.jpg',
                     'service/s_1_2_gal_4.webp',
+                    'service/fasaf_bloc_d_1.webp',
+                    'service/fasaf_bloc_d_2.webp',
+                    'service/fasaf_bloc_d_3.webp',
+                    'service/fasaf_bloc_d_4.webp',
                 ]),
                 'sections' => null,
             ],
@@ -89,6 +103,7 @@ class ServiceFasadSeeder extends Seeder
                     'service/s_1_3_gal_2.webp',
                     'service/s_1_3_gal_3.webp',
                     'service/s_1_3_gal_4.webp',
+                    'service/facad_saiding_d_1.webp',
                 ]),
                 'sections' => null,
             ],
@@ -105,6 +120,8 @@ class ServiceFasadSeeder extends Seeder
                     'service/s_1_4_gal_2.webp',
                     'service/s_1_4_gal_3.jpg',
                     'service/s_1_4_gal_4.jpg',
+                    'service/facad_ib_d_1.webp',
+
                 ]),
                 'sections' => null,
             ],
@@ -121,6 +138,10 @@ class ServiceFasadSeeder extends Seeder
                     'service/s_1_5_gal_2.webp',
                     'service/s_1_5_gal_3.jpg',
                     'service/s_1_5_gal_4.jpg',
+                    'service/fasaf_plita_d_1.webp',
+                    'service/fasaf_plita_d_2.webp',
+                    'service/fasaf_plita_d_3.webp',
+                    'service/fasaf_plita_d_4.webp',
                 ]),
                 'sections' => null,
             ],

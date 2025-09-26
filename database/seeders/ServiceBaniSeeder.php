@@ -21,16 +21,29 @@ class ServiceBaniSeeder extends Seeder
         Storage::disk('public')->put("service/s_16_gal_2.jpg", file_get_contents(public_path('tmp_data/serv/s_16/s_16_gal_2.jpg')), 'public');
         Storage::disk('public')->put("service/s_16_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_16/s_16_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s_16_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_16/s_16_gal_4.jpg')), 'public');
+        Storage::disk('public')->put("service/bani_d_16_2.webp", file_get_contents(public_path('tmp_data/serv/s_16/bani_d_16_2.webp')), 'public');
+        Storage::disk('public')->put("service/bani_d_16_3.webp", file_get_contents(public_path('tmp_data/serv/s_16/bani_d_16_3.webp')), 'public');
+        Storage::disk('public')->put("service/bani_d_16_4.webp", file_get_contents(public_path('tmp_data/serv/s_16/bani_d_16_4.webp')), 'public');
+        Storage::disk('public')->put("service/bani_d_16_5.webp", file_get_contents(public_path('tmp_data/serv/s_16/bani_d_16_5.webp')), 'public');
 
         Storage::disk('public')->put("service/s_17_gal_1.webp", file_get_contents(public_path('tmp_data/serv/s_17/s_17_gal_1.webp')), 'public');
         Storage::disk('public')->put("service/s_17_gal_2.jpg", file_get_contents(public_path('tmp_data/serv/s_17/s_17_gal_2.jpg')), 'public');
         Storage::disk('public')->put("service/s_17_gal_3.webp", file_get_contents(public_path('tmp_data/serv/s_17/s_17_gal_3.webp')), 'public');
         Storage::disk('public')->put("service/s_17_gal_4.webp", file_get_contents(public_path('tmp_data/serv/s_17/s_17_gal_4.webp')), 'public');
+        Storage::disk('public')->put("service/bani_d_17_1.webp", file_get_contents(public_path('tmp_data/serv/s_17/bani_d_17_1.webp')), 'public');
+        Storage::disk('public')->put("service/bani_d_17_2.webp", file_get_contents(public_path('tmp_data/serv/s_17/bani_d_17_2.webp')), 'public');
+        Storage::disk('public')->put("service/bani_d_17_3.webp", file_get_contents(public_path('tmp_data/serv/s_17/bani_d_17_3.webp')), 'public');
+        Storage::disk('public')->put("service/bani_d_17_4.webp", file_get_contents(public_path('tmp_data/serv/s_17/bani_d_17_4.webp')), 'public');
+        Storage::disk('public')->put("service/bani_d_17_5.webp", file_get_contents(public_path('tmp_data/serv/s_17/bani_d_17_5.webp')), 'public');
 
         Storage::disk('public')->put("service/s_18_gal_1.jpg", file_get_contents(public_path('tmp_data/serv/s_18/s_18_gal_1.jpg')), 'public');
         Storage::disk('public')->put("service/s_18_gal_2.webp", file_get_contents(public_path('tmp_data/serv/s_18/s_18_gal_2.webp')), 'public');
         Storage::disk('public')->put("service/s_18_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_18/s_18_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s_18_gal_4.webp", file_get_contents(public_path('tmp_data/serv/s_18/s_18_gal_4.webp')), 'public');
+        Storage::disk('public')->put("service/bani_d_18_2.webp", file_get_contents(public_path('tmp_data/serv/s_18/bani_d_18_2.webp')), 'public');
+        Storage::disk('public')->put("service/bani_d_18_3.webp", file_get_contents(public_path('tmp_data/serv/s_18/bani_d_18_3.webp')), 'public');
+        Storage::disk('public')->put("service/bani_d_18_4.webp", file_get_contents(public_path('tmp_data/serv/s_18/bani_d_18_4.webp')), 'public');
+        Storage::disk('public')->put("service/bani_d_18_5.webp", file_get_contents(public_path('tmp_data/serv/s_18/bani_d_18_5.webp')), 'public');
 
         $data = [
 
@@ -47,6 +60,10 @@ class ServiceBaniSeeder extends Seeder
                     'service/s_16_gal_2.jpg',
                     'service/s_16_gal_3.jpg',
                     'service/s_16_gal_4.jpg',
+                    "service/bani_d_16_2.webp",
+                    "service/bani_d_16_3.webp",
+                    "service/bani_d_16_4.webp",
+                    "service/bani_d_16_5.webp",
                 ]),
                 'sections' => null,
             ],
@@ -64,6 +81,11 @@ class ServiceBaniSeeder extends Seeder
                     'service/s_17_gal_2.jpg',
                     'service/s_17_gal_3.webp',
                     'service/s_17_gal_4.webp',
+                    "service/bani_d_17_1.webp",
+                    "service/bani_d_17_2.webp",
+                    "service/bani_d_17_3.webp",
+                    "service/bani_d_17_4.webp",
+                    "service/bani_d_17_5.webp",
                 ]),
                 'sections' => null,
             ],
@@ -81,6 +103,10 @@ class ServiceBaniSeeder extends Seeder
                     'service/s_18_gal_2.webp',
                     'service/s_18_gal_3.jpg',
                     'service/s_18_gal_4.webp',
+                    "service/bani_d_18_2.webp",
+                    "service/bani_d_18_3.webp",
+                    "service/bani_d_18_4.webp",
+                    "service/bani_d_18_5.webp",
                 ]),
                 'sections' => null,
             ],

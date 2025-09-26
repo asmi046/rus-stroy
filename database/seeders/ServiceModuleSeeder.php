@@ -22,10 +22,22 @@ class ServiceModuleSeeder extends Seeder
         Storage::disk('public')->put("service/s_14_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_14/s_14_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s_14_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_14/s_14_gal_4.jpg')), 'public');
 
+        Storage::disk('public')->put("service/modul_d_14_4.webp", file_get_contents(public_path('tmp_data/serv/s_14/modul_d_14_4.webp')), 'public');
+        Storage::disk('public')->put("service/modul_d_14_3.webp", file_get_contents(public_path('tmp_data/serv/s_14/modul_d_14_3.webp')), 'public');
+        Storage::disk('public')->put("service/modul_d_14_2.webp", file_get_contents(public_path('tmp_data/serv/s_14/modul_d_14_2.webp')), 'public');
+        Storage::disk('public')->put("service/modul_d_14_1.webp", file_get_contents(public_path('tmp_data/serv/s_14/modul_d_14_1.webp')), 'public');
+
+        // ------------------------------
+
         Storage::disk('public')->put("service/s_15_gal_1.jpg", file_get_contents(public_path('tmp_data/serv/s_15/s_15_gal_1.jpg')), 'public');
         Storage::disk('public')->put("service/s_15_gal_2.jpg", file_get_contents(public_path('tmp_data/serv/s_15/s_15_gal_2.jpg')), 'public');
         Storage::disk('public')->put("service/s_15_gal_3.jpg", file_get_contents(public_path('tmp_data/serv/s_15/s_15_gal_3.jpg')), 'public');
         Storage::disk('public')->put("service/s_15_gal_4.jpg", file_get_contents(public_path('tmp_data/serv/s_15/s_15_gal_4.jpg')), 'public');
+
+        Storage::disk('public')->put("service/modul_d_4.webp", file_get_contents(public_path('tmp_data/serv/s_15/modul_d_4.webp')), 'public');
+        Storage::disk('public')->put("service/modul_d_3.webp", file_get_contents(public_path('tmp_data/serv/s_15/modul_d_3.webp')), 'public');
+        Storage::disk('public')->put("service/modul_d_2.webp", file_get_contents(public_path('tmp_data/serv/s_15/modul_d_2.webp')), 'public');
+        Storage::disk('public')->put("service/modul_d_1.webp", file_get_contents(public_path('tmp_data/serv/s_15/modul_d_1.webp')), 'public');
 
 
         $data = [
@@ -42,6 +54,10 @@ class ServiceModuleSeeder extends Seeder
                     'service/s_14_gal_2.jpg',
                     'service/s_14_gal_3.jpg',
                     'service/s_14_gal_4.jpg',
+                    'service/modul_d_14_4.webp',
+                    'service/modul_d_14_3.webp',
+                    'service/modul_d_14_2.webp',
+                    'service/modul_d_14_1.webp',
                 ]),
                 'sections' => null,
             ],
@@ -57,6 +73,10 @@ class ServiceModuleSeeder extends Seeder
                     'service/s_15_gal_2.jpg',
                     'service/s_15_gal_3.jpg',
                     'service/s_15_gal_4.jpg',
+                    'service/modul_d_4.webp',
+                    'service/modul_d_3.webp',
+                    'service/modul_d_2.webp',
+                    'service/modul_d_1.webp',
                 ]),
                 'sections' => null,
             ],
