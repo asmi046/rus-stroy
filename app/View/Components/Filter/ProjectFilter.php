@@ -23,7 +23,13 @@ class ProjectFilter extends Component
         $this->const_type = $constType;
         $this->const_material = $constMaterial;
 
-        $this->wall_materials = config('filter.wall_materials');
+        // dd($this->const_type);
+
+        if ($this->const_type && $this->const_type['name'] === "Баня") {
+            $this->wall_materials = config('filter.wall_materials_bani');
+        } else {
+            $this->wall_materials = config('filter.wall_materials');
+        }
 
         $this->floors = config('filter.floors');
 

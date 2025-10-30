@@ -11,8 +11,8 @@
                     <li>Технологическая сложность выполнения монтажных и общестроительных работ.</li>
                 </ul>
                 <div class="about_price-links">
-                    <a href="#" class="button">Рассчитать стоимость</a>
-                    <a href="#" class="button button-orange">Получить консультацию</a>
+                    <a href="{{ route('quiz') }}" class="button">Рассчитать стоимость</a>
+                    <a href="#coll" class="button button-orange">Получить консультацию</a>
                 </div>
             </div>
             <div class="about_price-right">

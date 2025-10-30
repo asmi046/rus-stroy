@@ -31,6 +31,8 @@ return [
     ],
 
     'wall_materials' => [
+
+
         'sip-paneli' => [
             'slug' => 'sip-paneli',
             'name' => 'СИП-панели',
@@ -97,6 +99,37 @@ return [
             'title' => 'Дома из оцилиндрованного бревна в [city|pp]',
             'subtitle' => 'Каталог проектов домов из оцилиндрованного бревна, доступных для заказа',
         ],
+    ],
+
+    'wall_materials_bani' => [
+                'karkasnye-doma' => [
+            'slug' => 'karkasnye-doma',
+            'name' => 'Каркасные дома',
+            'title' => 'Каркасные дома в [city|pp]',
+            'subtitle' => 'Каталог проектов каркасных домов, доступных для заказа',
+        ],
+
+        'teplokeramika' => [
+            'slug' => 'teplokeramika',
+            'name' => 'Пеноблок',
+            'title' => 'Дома из теплокерамики в [city|pp]',
+            'subtitle' => 'Каталог проектов домов из теплокерамики, доступных для заказа',
+        ],
+
+        'profilirovannyi-brus' => [
+            'slug' => 'profilovannyy-brus',
+            'name' => 'Профилированный брус',
+            'title' => 'Дома из профилированного бруса в [city|pp]',
+            'subtitle' => 'Каталог проектов домов из профилированного бруса, доступных для заказа',
+        ],
+        'ocilindrovannoe-brevno' => [
+            'slug' => 'ocilindrovannoe-brevno',
+            'name' => 'Оцилиндрованное бревно',
+            'title' => 'Дома из оцилиндрованного бревна в [city|pp]',
+            'subtitle' => 'Каталог проектов домов из оцилиндрованного бревна, доступных для заказа',
+        ],
+
+
     ],
 
     'floors' => [
