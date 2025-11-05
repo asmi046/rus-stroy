@@ -78,6 +78,7 @@ class GetBanyaData extends Command
             }
 
             $html = $response->body();
+            $html = mb_convert_encoding($html, 'HTML-ENTITIES', 'UTF-8');
 
             // Парсим HTML
             $dom = new DOMDocument();
@@ -136,12 +137,18 @@ class GetBanyaData extends Command
             $floors = $total_area = $wall_material = $plan_dimensions = '';
             if ($paramsNode->length) {
                 $specItems = $xpath->query('.//div[contains(@class,"specifications-item")]', $paramsNode->item(0));
+
                 foreach ($specItems as $item) {
+
                     $nameNode = $xpath->query('.//div[contains(@class,"specifications-item__name")]', $item);
                     $valueNode = $xpath->query('.//div[contains(@class,"specifications-item__value")]', $item);
+
                     if ($nameNode->length && $valueNode->length) {
                         $name = trim($nameNode->item(0)->textContent);
                         $value = trim($valueNode->item(0)->textContent);
+
+                        // dd(mb_convert_encoding($name, 'UTF-8'), mb_convert_encoding($value, 'UTF-8'));
+
                         if ($name === 'Кол-во этажей') {
                             $floors = (int)preg_replace('/[^\d]/', '', $value);
                         }
@@ -184,7 +191,7 @@ class GetBanyaData extends Command
                 'description' => "file_get_contents(public_path('/tmp_data/projects/pr_{$projectNumber}/ds.html'))",
                 'gallery' => $gallery,
                 'layout' => [],
-                'type' => 'Гараж',
+                'type' => 'Баня',
                 'floors' => $floors,
                 'total_area' => $total_area,
                 'wall_material' => ucfirst($wall_material),

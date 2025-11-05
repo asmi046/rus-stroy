@@ -57,6 +57,10 @@ class DatabaseSeeder extends Seeder
             ProjectSeederBanyaBrus4::class,
             ProjectSeederBanyaBrus5::class,
             ProjectSeederBanyaBrus6::class,
+            ProjectSeederBanya6x6::class,
+            ProjectSeederBanya6x8::class,
+            ProjectSeederBanya5x8::class,
+
             ProjectSeederDomKarkas::class,
             MaterialSeeder::class,
             WorkStepsSeeder::class,
