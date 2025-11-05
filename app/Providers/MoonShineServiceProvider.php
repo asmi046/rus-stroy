@@ -20,6 +20,12 @@ use MoonShine\Contracts\Core\DependencyInjection\CoreContract;
 use MoonShine\Laravel\DependencyInjection\MoonShineConfigurator;
 use MoonShine\Contracts\Core\DependencyInjection\ConfiguratorContract;
 use App\MoonShine\Resources\ProjectResource;
+use App\MoonShine\Resources\BuildingResource;
+use App\MoonShine\Resources\MaterialResource;
+use App\MoonShine\Resources\WorkStepsResource;
+use App\MoonShine\Resources\ServiceResource;
+use App\MoonShine\Resources\PortfolioResource;
+use App\MoonShine\Resources\PriceResource;
 
 class MoonShineServiceProvider extends ServiceProvider
 {
@@ -43,6 +49,12 @@ class MoonShineServiceProvider extends ServiceProvider
                 MenuResource::class,
                 PageResource::class,
                 ProjectResource::class,
+                BuildingResource::class,
+                MaterialResource::class,
+                WorkStepsResource::class,
+                ServiceResource::class,
+                PortfolioResource::class,
+                PriceResource::class,
             ])
             ->pages([
                 ...$config->getPages(),

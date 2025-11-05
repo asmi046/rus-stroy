@@ -44,6 +44,12 @@ use App\MoonShine\Resources\ReviewResource;
 use App\MoonShine\Resources\MenuResource;
 use App\MoonShine\Resources\PageResource;
 use App\MoonShine\Resources\ProjectResource;
+use App\MoonShine\Resources\BuildingResource;
+use App\MoonShine\Resources\MaterialResource;
+use App\MoonShine\Resources\WorkStepsResource;
+use App\MoonShine\Resources\ServiceResource;
+use App\MoonShine\Resources\PortfolioResource;
+use App\MoonShine\Resources\PriceResource;
 
 final class MoonShineLayout extends AppLayout
 {
@@ -64,13 +70,23 @@ final class MoonShineLayout extends AppLayout
                 MenuItem::make('FAQ', QuestionResource::class)->icon('fire'),
                 MenuItem::make('Отзывы', ReviewResource::class)->icon('identification'),
                 MenuItem::make('SEO', SeoDataResource::class,)->icon('chart-bar-square'),
+                MenuItem::make('Как мы работаем', WorkStepsResource::class)->icon('s.chart-bar'),
             ])->icon('folder-open'),
+
+            MenuGroup::make('Строительство', [
+                MenuItem::make('Проекты', ProjectResource::class)->icon('s.building-office-2'),
+                MenuItem::make('Строительство', BuildingResource::class)->icon('s.cog-8-tooth'),
+                MenuItem::make('Материалы', MaterialResource::class)->icon('s.arrow-down-on-square'),
+                MenuItem::make('Услуги', ServiceResource::class)->icon('s.shopping-cart'),
+                MenuItem::make('Портфолио', PortfolioResource::class)->icon('s.wallet'),
+                MenuItem::make('Цены', PriceResource::class)->icon('currency-dollar'),
+            ])->icon('s.building-office-2'),
 
             MenuItem::make("Страницы", PageResource::class)->icon('document-text'),
             MenuItem::make('Меню', MenuResource::class)->icon('bars-3-bottom-left'),
             MenuItem::make('Контакты', ContactResource::class)->icon('chat-bubble-bottom-center-text'),
             MenuItem::make('Города', CityResource::class)->icon('map-pin'),
-            MenuItem::make('Проекты', ProjectResource::class)->icon('s.building-office-2'),
+
             ...parent::menu(),
 
         ];

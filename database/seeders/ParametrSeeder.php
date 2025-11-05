@@ -81,6 +81,42 @@ class ParametrSeeder extends Seeder
                 'img' => null,
             ],
 
+            [
+                'str_id' => 'ch_1',
+                'section' => "Статистика",
+
+                'title' => "построенных<br>объектов",
+                'value' => "40+",
+                'img' => null,
+            ],
+
+            [
+                'str_id' => 'ch_2',
+                'section' => "Статистика",
+
+                'title' => "лет <br>в строительной <br>сфере",
+                'value' => "5",
+                'img' => null,
+            ],
+
+            [
+                'str_id' => 'ch_3',
+                'section' => "Статистика",
+
+                'title' => "лет <br>гарантия на<br>услуги",
+                'value' => "5",
+                'img' => null,
+            ],
+
+            [
+                'str_id' => 'ch_4',
+                'section' => "Статистика",
+
+                'title' => "м<sup>2</sup> <br>введено<br>жилья",
+                'value' => "1700+",
+                'img' => null,
+            ],
+
 
         ];
 

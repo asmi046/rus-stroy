@@ -94,13 +94,25 @@
 
     .dotted-item {
         font-size: 13px;
-
+        flex-wrap: wrap;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        justify-content: space-between;
         &__name {
             font-size: 13px;
+            width: 50%;
+            min-width: unset;
+        }
+
+        &__dots {
+            display: none;
         }
 
         &__value {
             font-size: 13px;
+            width: 40%;
+            min-width: unset;
+            text-align: left;
         }
     }
 }

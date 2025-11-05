@@ -31,10 +31,10 @@
                         <summary>{{ $key }}</summary>
                             <div class="response">
                                 @foreach ($item as $sub_item)
-                                    <div class="price-item">
-                                        <span class="price-item__name">{{ $sub_item->name }}</span>
-                                        <span class="price-item__dots"></span>
-                                        <span class="price-item__value">
+                                    <div class="dotted-item">
+                                        <span class="dotted-item__name">{{ $sub_item->name }}</span>
+                                        <span class="dotted-item__dots"></span>
+                                        <span class="dotted-item__value">
                                             от <strong>{{ $sub_item->price }}</strong> ₽/{{ $sub_item->unit }}
                                         </span>
                                     </div>
