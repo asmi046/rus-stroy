@@ -90,8 +90,6 @@ final class MoonShineLayout extends AppLayout
             MenuItem::make('Города', CityResource::class)->icon('map-pin'),
 
             ...parent::menu(),
-
-            MenuItem::make('PriceOfMaterials', PriceOfMaterialResource::class),
         ];
     }
 
