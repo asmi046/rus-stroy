@@ -109,13 +109,6 @@ return [
             'subtitle' => 'Каталог проектов каркасных домов, доступных для заказа',
         ],
 
-        'teplokeramika' => [
-            'slug' => 'teplokeramika',
-            'name' => 'Пеноблок',
-            'title' => 'Дома из теплокерамики в [city|pp]',
-            'subtitle' => 'Каталог проектов домов из теплокерамики, доступных для заказа',
-        ],
-
         'profilirovannyi-brus' => [
             'slug' => 'profilovannyy-brus',
             'name' => 'Профилированный брус',
