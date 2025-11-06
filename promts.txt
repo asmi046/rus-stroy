@@ -762,17 +762,17 @@ database\migrations\2025_09_18_132234_create_buildings_table.php
 
 ________
 
-Для ModelResource админ панели moonshine который находится в файле app\MoonShine\Resources\PriceResource.php проставь поля опираясь на миграцию database\migrations\2025_07_08_145856_create_prices_table.php.
+Для ModelResource админ панели moonshine который находится в файле app\MoonShine\Resources\PriceOfMaterialResource.php проставь поля опираясь на миграцию database\migrations\2025_08_11_100230_create_price_of_materials_table.php.
 
 В класс ресурса добавь следующие поля:
 
-protected string $title = 'Портфолио';
-protected string $column = 'title';
+protected string $title = 'Цены по материалам';
+protected string $column = 'material';
 
 В метод indexFields вынеси поля:
-'name'
-'section'
-'price'
+'type'
+'material'
+'price_per_meter'
 
 
 В методах formFields и detailFields распиши все поля кроме created_at и updated_at
@@ -799,4 +799,5 @@ Json::make('Галерея', 'images')->fields([
     }
 
 В этом методе должны быть следующие поля:
- 'name'
+'type'
+'material'

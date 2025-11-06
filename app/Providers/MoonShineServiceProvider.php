@@ -26,6 +26,7 @@ use App\MoonShine\Resources\WorkStepsResource;
 use App\MoonShine\Resources\ServiceResource;
 use App\MoonShine\Resources\PortfolioResource;
 use App\MoonShine\Resources\PriceResource;
+use App\MoonShine\Resources\PriceOfMaterialResource;
 
 class MoonShineServiceProvider extends ServiceProvider
 {
@@ -55,6 +56,7 @@ class MoonShineServiceProvider extends ServiceProvider
                 ServiceResource::class,
                 PortfolioResource::class,
                 PriceResource::class,
+                PriceOfMaterialResource::class,
             ])
             ->pages([
                 ...$config->getPages(),

@@ -50,6 +50,7 @@ use App\MoonShine\Resources\WorkStepsResource;
 use App\MoonShine\Resources\ServiceResource;
 use App\MoonShine\Resources\PortfolioResource;
 use App\MoonShine\Resources\PriceResource;
+use App\MoonShine\Resources\PriceOfMaterialResource;
 
 final class MoonShineLayout extends AppLayout
 {
@@ -80,6 +81,7 @@ final class MoonShineLayout extends AppLayout
                 MenuItem::make('Услуги', ServiceResource::class)->icon('s.shopping-cart'),
                 MenuItem::make('Портфолио', PortfolioResource::class)->icon('s.wallet'),
                 MenuItem::make('Цены', PriceResource::class)->icon('currency-dollar'),
+                MenuItem::make('Цены за материалы', PriceOfMaterialResource::class)->icon('receipt-percent'),
             ])->icon('s.building-office-2'),
 
             MenuItem::make("Страницы", PageResource::class)->icon('document-text'),
@@ -89,6 +91,7 @@ final class MoonShineLayout extends AppLayout
 
             ...parent::menu(),
 
+            MenuItem::make('PriceOfMaterials', PriceOfMaterialResource::class),
         ];
     }
 

@@ -67,9 +67,8 @@ class PortfolioResource extends ModelResource
                 Text::make('Фундамент', 'foundation'),
                 Text::make('Кровля', 'roofing'),
                 Text::make('Перекрытия', 'flooring'),
-                Json::make('Галерея', 'gallery')->fields([
-                    Position::make(),
-                ]),
+                Json::make('Галерея', 'gallery')
+                ->onlyValue('Изображение', Image::make('Изображение'))
             ])
         ];
     }
@@ -95,9 +94,7 @@ class PortfolioResource extends ModelResource
             Text::make('Фундамент', 'foundation'),
             Text::make('Кровля', 'roofing'),
             Text::make('Перекрытия', 'flooring'),
-            Json::make('Галерея', 'gallery')->fields([
-                Position::make(),
-            ]),
+            Json::make('Галерея', 'gallery')->onlyValue('Изображение', Image::make('Изображение'))
         ];
     }
 

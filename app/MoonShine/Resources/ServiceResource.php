@@ -62,9 +62,7 @@ class ServiceResource extends ModelResource
                 Slug::make('Слаг', 'slug'),
                 TinyMce::make('Короткое описание', 'short_description'),
                 TinyMce::make('Описание', 'description'),
-                Json::make('Галерея', 'gallery')->fields([
-                    Position::make(),
-                ]),
+                Json::make('Галерея', 'gallery')->onlyValue('Изображение', Image::make('Изображение')),
                 Json::make('Секции', 'sections')->fields([
                     Position::make(),
                 ]),
@@ -87,9 +85,7 @@ class ServiceResource extends ModelResource
             Slug::make('Слаг', 'slug'),
             TinyMce::make('Короткое описание', 'short_description'),
             TinyMce::make('Описание', 'description'),
-            Json::make('Галерея', 'gallery')->fields([
-                Position::make(),
-            ]),
+            Json::make('Галерея', 'gallery')->onlyValue('Изображение', Image::make('Изображение')),
             Json::make('Секции', 'sections')->fields([
                 Position::make(),
             ]),
