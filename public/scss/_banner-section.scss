@@ -1,7 +1,7 @@
 @use 'vars' as *;
 
 .main-section {
-
+    padding-top: 30px;
     &__container {
         display: grid;
         grid-template-columns: 1fr 400px;
@@ -29,6 +29,11 @@
             background: rgba(0, 0, 0, 0.6);
             z-index: 1;
         }
+    }
+
+    &__buttons {
+        display: flex;
+        gap:20px
     }
 
     &__content {
@@ -210,6 +215,15 @@
             min-height: unset;
             height: auto;
             display: flex;
+        }
+
+        &__buttons {
+            flex-direction: column;
+
+            .button {
+                width: 100%;
+                box-sizing: border-box;
+            }
         }
 
         &__title {

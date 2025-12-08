@@ -17,7 +17,7 @@ class ServiceController extends Controller
 
     public function page(string $slug)
     {
-        $service = Service::where('slug', $slug)->first();
+        $service = Service::where('slug', $slug)->firstOrFail();
         $more_service = Service::where('group', $service->group)->inRandomOrder()->take(3)->get();
 
         if($service == null) abort('404');

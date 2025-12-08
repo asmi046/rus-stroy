@@ -173,7 +173,7 @@ class ProjectSeeder9x11 extends Seeder
 
             DB::table("seo_data")->insert(
                 [
-                    'url' => 'projects/'.$item['slug'],
+                    'url' => 'project/'.$item['slug'],
                     'seo_title' => $seo_data[$i]['seo_title'],
                     'seo_description' => $seo_data[$i]['seo_description'],
 

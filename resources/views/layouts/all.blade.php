@@ -48,6 +48,7 @@
     @include("allicon")
     <main id="main">
         <x-top-header/>
+        <x-top-menue/>
         @yield('main')
 
     </main>

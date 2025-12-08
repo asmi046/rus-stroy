@@ -24,7 +24,11 @@
                     <li class="main-section__list-item">Качественные дома под ключ от 1,5 млн руб.</li>
                     <li class="main-section__list-item">Строительство домов с гарантией<br>и с оплатой по факту завершения</li>
                 </ul>
-                <a href="{{ route('projects') }}" class="main-section__button button">Посмотреть проекты</a>
+                <div class="main-section__buttons">
+                    <a href="{{ route('projects') }}" class="main-section__button button">Посмотреть проекты</a>
+                    <a href="{{ route('quiz') }}" class="main-section__button button button-orange">Рассчитать проект</a>
+                </div>
+
             </div>
         </div>
         <div class="main-section__right">

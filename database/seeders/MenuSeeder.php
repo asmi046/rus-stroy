@@ -100,6 +100,63 @@ class MenuSeeder extends Seeder
 
         DB::table("menus")->insert($data);
 
+        $data = [
+            [
+                'menu_name' => 'Главное меню в шапке',
+                'title' => 'О компании',
+                'order' => 1,
+                'lnk' => "/page/o-kompanii-russtroi",
+            ],
+
+
+            [
+                'menu_name' => 'Главное меню в шапке',
+                'title' => 'Строительство',
+                'order' => 3,
+                'lnk' => "/building",
+            ],
+
+            [
+                'menu_name' => 'Главное меню в шапке',
+                'title' => 'Услуги',
+                'order' => 3,
+                'lnk' => "/services",
+            ],
+            [
+                'menu_name' => 'Главное меню в шапке',
+                'title' => 'Проекты домов',
+                'order' => 4,
+                'lnk' => "/projects/doma",
+            ],
+            [
+                'menu_name' => 'Главное меню в шапке',
+                'title' => 'Проекты бань',
+                'order' => 4,
+                'lnk' => "/projects/bani",
+            ],
+            [
+                'menu_name' => 'Главное меню в шапке',
+                'title' => 'Портфолио',
+                'order' => 5,
+                'lnk' => "/portfolio",
+            ],
+            [
+                'menu_name' => 'Главное меню в шапке',
+                'title' => 'Цены',
+                'order' => 6,
+                'lnk' => "/prices",
+            ],
+
+            [
+                'menu_name' => 'Главное меню в шапке',
+                'title' => 'Контакты',
+                'order' => 9,
+                'lnk' => "/contacts",
+            ],
+        ];
+
+        DB::table("menus")->insert($data);
+
         $footer_menu = [
             [
                 'menu_name' => 'Услуги в подвале',
@@ -111,7 +168,7 @@ class MenuSeeder extends Seeder
                 'menu_name' => 'Услуги в подвале',
                 'title' => 'Строительство бань',
                 'order' => 2,
-                'lnk' => "/services/stroitelstvo-ban",
+                'lnk' => "/services/stroitelstvo-ban-iz-brevna",
             ],
             [
                 'menu_name' => 'Услуги в подвале',
