@@ -1,4 +1,4 @@
-@use 'vars' as *;
+@use "vars" as *;
 
 .header {
     background: transparent;
@@ -7,6 +7,7 @@
     top: 0;
     z-index: 1000;
     padding-bottom: 0;
+    background-color: white;
 
     &__content {
         box-shadow: $box_shadow_big;
@@ -97,7 +98,7 @@
         gap: 10px;
     }
 
- &__icon-btn {
+    &__icon-btn {
         width: 35px;
         height: 35px;
         border: none;
@@ -133,7 +134,6 @@
         }
     }
 
-
     &__burger {
         display: flex;
         flex-direction: column;
@@ -156,7 +156,6 @@
 // Адаптивность
 @media (max-width: 1024px) {
     .header {
-
         &__menu {
             gap: 20px;
         }
@@ -173,7 +172,6 @@
 
 @media (max-width: 768px) {
     .header {
-
         .header__phone-link {
             font-size: 12px;
         }
@@ -187,16 +185,13 @@
         }
 
         &__contacts {
-
-            & > *{
+            & > * {
                 display: none;
             }
 
             .header__phone {
                 display: flex;
             }
-
-
         }
 
         &__burger {

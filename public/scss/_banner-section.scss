@@ -1,7 +1,7 @@
-@use 'vars' as *;
+@use "vars" as *;
 
 .main-section {
-    padding-top: 30px;
+    padding-top: 5px;
     &__container {
         display: grid;
         grid-template-columns: 1fr 400px;
@@ -10,7 +10,7 @@
 
     &__left {
         position: relative;
-        background-image: url('../img/mb.webp');
+        background-image: url("../img/mb.webp");
         background-size: cover;
         background-position: center;
         border-radius: $border_rad;
@@ -20,7 +20,7 @@
 
         // Оверлей для затемнения
         &::before {
-            content: '';
+            content: "";
             position: absolute;
             top: 0;
             left: 0;
@@ -33,7 +33,7 @@
 
     &__buttons {
         display: flex;
-        gap:20px
+        gap: 20px;
     }
 
     &__content {
@@ -70,7 +70,7 @@
             color: #fff;
 
             &::before {
-                content: '•';
+                content: "•";
                 position: absolute;
                 left: 0;
                 color: $main_color;
@@ -102,7 +102,7 @@
         justify-content: space-between;
         position: relative;
         overflow: hidden;
-        flex:1;
+        flex: 1;
 
         &--credit {
             background: $main_color;
@@ -110,14 +110,14 @@
         }
 
         &--gift {
-            background-image: url('../img/mb_2.webp');
+            background-image: url("../img/mb_2.webp");
             background-size: cover;
             background-position: center;
             color: #fff;
 
             // Оверлей для затемнения
             &::before {
-                content: '';
+                content: "";
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -167,12 +167,10 @@
 
 @media (max-width: 1024px) {
     .main-section {
-
         &__container {
             grid-template-columns: 1fr;
             gap: 30px;
         }
-
 
         &__title {
             font-size: 36px;
@@ -203,13 +201,11 @@
 
 @media (max-width: 768px) {
     .main-section {
-
         &__content {
             margin-top: 40px;
             margin-bottom: 40px;
             height: unset;
         }
-
 
         &__left {
             min-height: unset;
@@ -240,8 +236,6 @@
             }
         }
 
-
-
         &__offer {
             min-height: 180px;
             padding: 20px;
@@ -255,7 +249,6 @@
 
 @media (max-width: 480px) {
     .main-section {
-
         &__title {
             font-size: 24px;
             margin-bottom: 20px;
