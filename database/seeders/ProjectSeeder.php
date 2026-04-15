@@ -3,11 +3,8 @@
 namespace Database\Seeders;
 
 use DB;
-use Illuminate\Support\Str;
-
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Storage;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class ProjectSeeder extends Seeder
 {
@@ -27,7 +24,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_1/p1_photo_1.jpeg'],
                     ['img' => '/tmp_data/projects/pr_1/p1_photo_2.jpeg'],
                     ['img' => '/tmp_data/projects/pr_1/p1_photo_3.jpeg'],
-                    ['img' => '/tmp_data/projects/pr_1/p1_photo_4.jpeg']
+                    ['img' => '/tmp_data/projects/pr_1/p1_photo_4.jpeg'],
                 ],
                 'layout' => [
                     ['img' => '/tmp_data/projects/pr_1/p1_plan_1.jpeg'],
@@ -126,7 +123,7 @@ class ProjectSeeder extends Seeder
                 'wall_material' => 'Пеноблок',
                 'foundation' => '',
                 'ceiling_height' => 2.5,
-                'flooring' => "Деревянные перекрытия",
+                'flooring' => 'Деревянные перекрытия',
                 'mansard' => true,
                 'plan_dimensions' => '7x7',
                 'extension' => null,
@@ -157,7 +154,7 @@ class ProjectSeeder extends Seeder
                 'extension' => null,
             ],
             [
-                'title' => 'Дом каркасный серии "Барнe" ',
+                'title' => 'Дом каркасный серии "Барнe"',
                 'img' => '/tmp_data/projects/pr_6/p6_photo_1.JPG',
                 'slug' => 'dom-karkasnyi-serii-barne-ploshhadiu-80-kvm',
                 'start_price' => 6800000,
@@ -180,7 +177,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '11x9',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Дом каркасный серии "Барне" площадью 100 кв.м.',
@@ -204,7 +201,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '11x9',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Дом серии «Гармония» площадью 80 кв.м.',
@@ -237,10 +234,10 @@ class ProjectSeeder extends Seeder
                 'start_price' => 6290000,
                 'description' => file_get_contents(public_path('/tmp_data/projects/pr_9/ds.html')),
                 'gallery' => [
-                   ['img' => '/tmp_data/projects/pr_9/p9_photo_1.JPG'],
-                   ['img' => '/tmp_data/projects/pr_9/p9_photo_2.JPG'],
-                   ['img' => '/tmp_data/projects/pr_9/p9_photo_3.JPG'],
-                   ['img' => '/tmp_data/projects/pr_9/p9_photo_4.JPG'],
+                    ['img' => '/tmp_data/projects/pr_9/p9_photo_1.JPG'],
+                    ['img' => '/tmp_data/projects/pr_9/p9_photo_2.JPG'],
+                    ['img' => '/tmp_data/projects/pr_9/p9_photo_3.JPG'],
+                    ['img' => '/tmp_data/projects/pr_9/p9_photo_4.JPG'],
                 ],
                 'layout' => [['img' => '/tmp_data/projects/pr_9/p9_photo_5.JPG']],
                 'type' => 'Дом',
@@ -278,7 +275,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '10x6',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Дом серии «Гармония» площадью 110 кв.м.',
@@ -300,10 +297,10 @@ class ProjectSeeder extends Seeder
                 'wall_material' => 'Пеноблок',
                 'foundation' => 'Ленточный',
                 'ceiling_height' => 2.5,
-                'flooring' => "Перекрытия",
+                'flooring' => 'Перекрытия',
                 'mansard' => false,
                 'plan_dimensions' => '9x8',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Дом "Роща"',
@@ -326,7 +323,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '14x11',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Дом "Горизонт"',
@@ -373,7 +370,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '8x6',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Дом "Родник"',
@@ -417,7 +414,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '8x14',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Индивидуальный каркасный дом 96 м²',
@@ -439,7 +436,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '10x11',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Индивидуальный каркасный дом KD-112',
@@ -461,7 +458,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '9x15',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Индивидуальный каркасный дом',
@@ -508,7 +505,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '10x13',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Дом "Очаг"',
@@ -533,7 +530,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '9x12',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Дом из газобетона "Гавань"',
@@ -557,7 +554,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '9x8',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Дом с двумя спальнями и террасой',
@@ -580,7 +577,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '8x13',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Дом одноэтажный 103м²',
@@ -614,17 +611,17 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_25/p25_photo_1.JPG'],
                     ['img' => '/tmp_data/projects/pr_25/p25_photo_2.JPG'],
                 ],
-                'layout' => [['img' => '/tmp_data/projects/pr_25/p25_photo_3.JPG',]],
+                'layout' => [['img' => '/tmp_data/projects/pr_25/p25_photo_3.JPG']],
                 'type' => 'Дом',
                 'floors' => 2,
                 'total_area' => 209,
                 'wall_material' => 'Газобетон',
                 'foundation' => 'Ленточный',
                 'ceiling_height' => 2.5,
-                'flooring' => "Деревянное перекрытие",
+                'flooring' => 'Деревянное перекрытие',
                 'mansard' => false,
                 'plan_dimensions' => '11x9',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Дом одноэтажный из газобетона',
@@ -711,10 +708,10 @@ class ProjectSeeder extends Seeder
                 'wall_material' => 'Газобетон',
                 'foundation' => 'Монолитный',
                 'ceiling_height' => 2.5,
-                'flooring' => "Деревянное перекрытие с шумоизоляцией",
+                'flooring' => 'Деревянное перекрытие с шумоизоляцией',
                 'mansard' => false,
                 'plan_dimensions' => '9x9',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Одноэтажный дом из бруса с террасой',
@@ -735,7 +732,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '9x12',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Двухэтажный дом для небольшого участка',
@@ -787,7 +784,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '5x5',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Красивый одноэтажный дом под четырехскатной крышей',
@@ -886,7 +883,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '7x9',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Модульный дом',
@@ -940,7 +937,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '8x12',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Современный дачный дом с большими окнами 61 м²',
@@ -967,7 +964,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '7x11',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Двухэтажный дом из бруса 122 м²',
@@ -1120,7 +1117,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '19x8',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Одноэтажный дом с панорамными окнами для небольшого участка',
@@ -1171,7 +1168,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '11x20',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Двухэтажный дом',
@@ -1217,7 +1214,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '9x12',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Одноэтажный современный каркасный дом',
@@ -1288,7 +1285,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '14x12',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Дом с двумя спальнями и террасой 86 м²',
@@ -1301,7 +1298,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_52/p52_photo_2.JPG'],
                     ['img' => '/tmp_data/projects/pr_52/p52_photo_3.JPG'],
                 ],
-                'layout' => [['img' =>'/tmp_data/projects/pr_52/p52_photo_4.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_52/p52_photo_4.JPG']],
                 'type' => 'Дом',
                 'floors' => 1,
                 'total_area' => 86,
@@ -1311,7 +1308,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '13x8',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Двухэтажный дом для небольшого участка 61 м²',
@@ -1325,7 +1322,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_53/p53_photo_3.JPG'],
                     ['img' => '/tmp_data/projects/pr_53/p53_photo_4.JPG'],
                 ],
-                'layout' => [['img' =>'/tmp_data/projects/pr_53/p53_photo_5.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_53/p53_photo_5.JPG']],
                 'type' => 'Дом',
                 'floors' => 2,
                 'total_area' => 61,
@@ -1402,7 +1399,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_56/p56_photo_8.JPG'],
                     ['img' => '/tmp_data/projects/pr_56/p56_photo_9.JPG'],
                 ],
-                'layout' => [['img' =>'/tmp_data/projects/pr_56/p56_photo_5.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_56/p56_photo_5.JPG']],
                 'type' => 'Дом',
                 'floors' => 2,
                 'total_area' => 91,
@@ -1429,7 +1426,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_57/p57_photo_7.JPG'],
                     ['img' => '/tmp_data/projects/pr_57/p57_photo_8.JPG'],
                 ],
-                'layout' => [['img' =>'/tmp_data/projects/pr_57/p57_photo_4.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_57/p57_photo_4.JPG']],
                 'type' => 'Дом',
                 'floors' => 1,
                 'total_area' => 74,
@@ -1537,7 +1534,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_61/p61_photo_10.JPG'],
                     ['img' => '/tmp_data/projects/pr_61/p61_photo_11.JPG'],
                 ],
-                'layout' => [['img' =>'/tmp_data/projects/pr_61/p61_photo_7.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_61/p61_photo_7.JPG']],
                 'type' => 'Дом',
                 'floors' => 2,
                 'total_area' => 93,
@@ -1712,7 +1709,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '10x7',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Баня "Sunshine"',
@@ -1797,7 +1794,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '9x12',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Двухэтажный дом из бруса',
@@ -1843,7 +1840,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '9x12',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Дом из бруса с пятью спальнями',
@@ -1865,7 +1862,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '10x14',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Одноэтажная сауна из бревна',
@@ -1932,7 +1929,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '12x10',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Небольшой двухэтажный дом с парной',
@@ -1957,7 +1954,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '7x5',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Двухэтажный дом из бруса с сауной 130 м²',
@@ -1979,7 +1976,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '13x7',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Двухэтажный дом из бревна в финском стиле с сауной',
@@ -2001,7 +1998,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '10x6',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Угловой дом из бревна',
@@ -2023,7 +2020,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '14x13',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Двухэтажный дом из бруса с 4 спальнями',
@@ -2047,7 +2044,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '20x11',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Шикарный дом из бруса',
@@ -2062,7 +2059,7 @@ class ProjectSeeder extends Seeder
                     ['img' => '/tmp_data/projects/pr_84/p84_photo_5.JPG'],
                     ['img' => '/tmp_data/projects/pr_84/p84_photo_6.JPG'],
                 ],
-                'layout' => [['img' =>'/tmp_data/projects/pr_84/p84_photo_2.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_84/p84_photo_2.JPG']],
                 'type' => 'Дом',
                 'floors' => 2,
                 'total_area' => 258,
@@ -2072,7 +2069,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '18x17',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Одноэтажный дом из бруса с верандой 231 м²',
@@ -2083,7 +2080,7 @@ class ProjectSeeder extends Seeder
                 'gallery' => [
                     ['img' => '/tmp_data/projects/pr_85/p85_photo_1.JPG'],
                 ],
-                'layout' => [['img' =>'/tmp_data/projects/pr_85/p85_photo_2.JPG']],
+                'layout' => [['img' => '/tmp_data/projects/pr_85/p85_photo_2.JPG']],
                 'type' => 'Дом',
                 'floors' => 2,
                 'total_area' => 231,
@@ -2093,7 +2090,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '14x15',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Двухэтажный дом из бревна с террасой',
@@ -2120,7 +2117,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '12x10',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Дом с камином и двумя спальнями',
@@ -2142,7 +2139,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '8x10',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Одноэтажный дом из бруса с террасой 73 м²',
@@ -2163,7 +2160,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '9x12',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Модульный дом площадью 60 кв.м.',
@@ -2212,7 +2209,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '13x7',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Двухэтажный дом из профильного бруса 122 м²',
@@ -2258,7 +2255,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '9x12',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Дом из бруса с пятью спальнями 142 м²',
@@ -2280,7 +2277,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '10x14',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Двухэтажный дом из бруса с балконом и панорамными окнами',
@@ -2302,7 +2299,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '11x9',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Двухэтажный дом из бруса с сауной',
@@ -2324,7 +2321,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '14x8',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Двухэтажный дом из бруса с 4 спальнями',
@@ -2348,7 +2345,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '20x11',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Шикарный дом из профильного бруса',
@@ -2373,7 +2370,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '18x17',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Одноэтажный дом из бруса с верандой',
@@ -2394,7 +2391,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '14x15',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Двухэтажный дом из профильного бруса 265 м²',
@@ -2419,7 +2416,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '13x14',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Баня "Классическая"',
@@ -2441,7 +2438,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '10x7',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Баня "Очарование"',
@@ -2463,7 +2460,7 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '13x7',
-                'extension' => "Терасса",
+                'extension' => 'Терасса',
             ],
             [
                 'title' => 'Баня КС-80',
@@ -2484,37 +2481,36 @@ class ProjectSeeder extends Seeder
                 'flooring' => null,
                 'mansard' => false,
                 'plan_dimensions' => '8x5',
-                'extension' => "Терасса",
-            ]
+                'extension' => 'Терасса',
+            ],
         ];
 
         $i = 0;
         foreach ($data as $item) {
 
             $img_name = basename($item['img']);
-            Storage::disk('public')->put("projects/".$img_name, file_get_contents(public_path($item['img'])), 'public');
-            $item['img'] = "projects/".$img_name;
+            Storage::disk('public')->put('projects/'.$img_name, file_get_contents(public_path($item['img'])), 'public');
+            $item['img'] = 'projects/'.$img_name;
 
-            foreach($item['gallery'] as $key => $image) {
+            foreach ($item['gallery'] as $key => $image) {
                 $img_name = basename($image['img']);
-                Storage::disk('public')->put("projects/".$img_name, file_get_contents(public_path($image['img'])), 'public');
-                $item['gallery'][$key]['img'] = "projects/".$img_name;
+                Storage::disk('public')->put('projects/'.$img_name, file_get_contents(public_path($image['img'])), 'public');
+                $item['gallery'][$key]['img'] = 'projects/'.$img_name;
             }
 
             $item['gallery'] = json_encode($item['gallery']);
 
-            foreach($item['layout'] as $key => $image) {
+            foreach ($item['layout'] as $key => $image) {
                 $img_name = basename($image['img']);
-                Storage::disk('public')->put("projects/".$img_name, file_get_contents(public_path($image['img'])), 'public');
-                $item['layout'][$key]['img'] = "projects/".$img_name;
+                Storage::disk('public')->put('projects/'.$img_name, file_get_contents(public_path($image['img'])), 'public');
+                $item['layout'][$key]['img'] = 'projects/'.$img_name;
             }
 
             $item['layout'] = json_encode($item['layout']);
 
-            DB::table("projects")->insert($item);
+            DB::table('projects')->insert($item);
 
-
-            DB::table("seo_data")->insert(
+            DB::table('seo_data')->insert(
                 [
                     'url' => 'project/'.$item['slug'],
                     // 'seo_title' => $seo_data[$i]['seo_title'],
@@ -2526,7 +2522,6 @@ class ProjectSeeder extends Seeder
 
             $i++;
         }
-
 
     }
 }
