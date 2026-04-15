@@ -17,11 +17,12 @@
                     <h2 class="service-gallery__title">Галерея выполненных работ</h2>
                     <div class="service-gallery">
                         @foreach ($service->gallery as $image)
-                            <a data-fslightbox="service-gallery" href="{{ Storage::url($image) }}" class="service-gallery__item">
+                            <a data-fslightbox="service-gallery" data-type="image" href="{{ Storage::url($image) }}"
+                                class="service-gallery__item">
                                 <img src="{{ Storage::url($image) }}"
-                                alt="Портфолио - {{ get_city_text($service->title)  }}  ( фото {{ $loop->index + 1 }})"
-                                title="Портфолио - {{ get_city_text($service->title)  }}  ( фото {{ $loop->index + 1 }})"
-                                class="service-gallery__image">
+                                    alt="Портфолио - {{ get_city_text($service->title) }}  ( фото {{ $loop->index + 1 }})"
+                                    title="Портфолио - {{ get_city_text($service->title) }}  ( фото {{ $loop->index + 1 }})"
+                                    class="service-gallery__image">
                             </a>
                         @endforeach
                     </div>
@@ -61,4 +62,3 @@
     <x-main.faq-section />
 
 @endsection
-
